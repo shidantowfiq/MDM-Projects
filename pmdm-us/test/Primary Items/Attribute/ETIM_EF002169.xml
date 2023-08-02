@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ETIM_EF002169" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Material</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="ETIM_Change_Code">Unchanged</Value>
+                <Value QualifierID="en-US" AttributeID="ETIM_Description">Material</Value>
+                <Value AttributeID="ETIM_Feature_ID">EF002169</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ETIM_Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ETIM_Global_Attributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Case"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level1"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
