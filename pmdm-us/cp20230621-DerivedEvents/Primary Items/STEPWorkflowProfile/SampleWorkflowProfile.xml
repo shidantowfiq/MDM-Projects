@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <STEPWorkflowProfiles>
+        <STEPWorkflowProfile ID="SampleWorkflowProfile">
+            <SetupGroupLink SetupGroupID="Workflow Profiles"></SetupGroupLink>
+            <Name>Sample Workflow Profile</Name>
+            <Configuration>H4sIAAAAAAAAAG2QW2vCQBCF3/MrFnwWEq2FSlNQE6mgUEheCr5ss8c4dLMruxMv/765tDSCj3PmzMx3prDmQGU8CkZ5DbHGlwhnIprOn2bz8FmkWS4mYfQSZEd7Sa8FFFQCqTQZ+JhdjeCdPFtHhdQrq+vK5FThA46sym8nxMniM+umF95TaSoYbh39bKvv5PVeaKuNyVjyQFzZ2nBfbqXnVBFDLW/xt6vkQOk2tcDjcDLuguybJPsmyoABeEze34h65xlOlrgn65jW2l42ZtechPtv/T3loTkBS9K//3r1J0389gMRHFGbeAEAAA==</Configuration>
+        </STEPWorkflowProfile>
+    </STEPWorkflowProfiles>
+</STEP-ProductInformation>

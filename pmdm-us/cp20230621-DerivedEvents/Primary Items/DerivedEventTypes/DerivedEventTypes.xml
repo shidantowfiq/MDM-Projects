@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <DerivedEventTypes>
+        <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>
+        <DerivedEventType>SHTO-Event</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>
+        <DerivedEventType>AssetDownloadTrigger</DerivedEventType>
+        <DerivedEventType>ThisIsAReallyLongIDThatShouldNotBeAllowed</DerivedEventType>
+        <DerivedEventType>Asset Keywords Event</DerivedEventType>
+        <DerivedEventType>VendorAssignment</DerivedEventType>
+    </DerivedEventTypes>
+</STEP-ProductInformation>

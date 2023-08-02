@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="PETB">
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name QualifierID="std.lang.all">Simple Workflow</Name>
+            <ValidUserTypeLink UserTypeID="Item"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAI1V227bMAx931doeld8yWVpYWfo1m4osKHFsm7PssykwmzZk+Qm2dePkpw0bdIgL1Fkk4fk4SHNO9vcKmklt3CnPmvAM1/wykBm2kraGaxBdBbmQsvWfpO1tFDea/kkK1iCya3utpaVNBbUnbqt20Zb0A9t+RrMiHVd5Zk/iPRhq5ze3/z8lFCieA3hQskTaCMbldN4cEEJWiuT00dr28soWq1Wg9Vw0OhllMbxOIo/RB6QzrL3jBFCVFMCM/IfMK5K1jYG4zSKrPN4EJON/13lk8kIz8d8fDHBkzA2e0cyTJjX6F3hJdwIt1bLAhnI6ZUxcqkAKJHl3m2WRc5y9i6cvT+i8d7Cm8+tLBpK7KZFpKVuutY5bk28vbHIFymlEY2yUnWAbp69EPAFTaFnZ9ScJqHqZBzqTuLY152Od2WTrFGwlpYUnZEKjOHCObuYXCiGCONhEQ8ZLMqEjWI+YsW0SFiSFLFI08niQ5y4WgKIq4RkVnPVp2C5XoIN6afUhSNZjUly2+jN1ZZd418cexPYe0RJXYPxKkRUF+/Q1LXgKHQWPSfkbp7pczlPt5zfKC3F4/mUp8MTlL/B0NBVtp/sCdvkmO0L0f0AgyQIHNkHgxN1Qn77nCyk4tVpToZbTq6x6+czMoxPi1BZvXlDhdMpTC6E4IzH4ykbLdILVkA5ZqIYjeMJ/g7Taa9Ch+Iq8nX40tx6mPU76EnCKs8+ug202zLJIKYElGhKqZY5ffj5hU0pQUZQSxUi5nQDhn5ELGXSy1Wj/yyqZvULkUxYTpf4/MWCMm7cB6KpaS9sF9bT931DnCMlJSx4V9k5KvtzU3W123aUcFzINbdSuOdb3gOGx+GmBWE9kixptPdGeJC+L5TgKi/vVLXZ9W43GYeo3r+tuqVUJBy31zn93df5vOleOAQnrjEebnuf0c26xSBfnbxQbE+86mAbLHrLmbnvhvcOGj20exWoh73+dHUM9Lix/6qcbT3/+uNovtFzwq+4iwJre92IQjv67keu/f1/3Q+lGw2pRNWVMO8KP5Nm1yycvrbimzn87VCX4KSxB17ztkWlEj+zrlX9t8FFcddnjR3CRNuU9vJwQ3KgbHwYJuY/DnR7riQIAAA=</Configuration>
+            <LocalBusinessRule ID="acn-21053b03-efd1-40a4-b8b1-11b0c226f701" Scope="Local" Type="Action" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAAKWSsW7CMBRFd77C8t6k3TrYQUEtEksVlZSOkQkv1iuObdkOpX9fQxoUBtoi1nPtYz+9a1UnUVfCWoXgK2yq2ugGJfMRhMz2cc84m+5bRXbgPBrN6UNyTwno2mxQS07fyvndI51mEzbrPGrw/rVTkE0IOYHiqCPjvEeLJ06XEN6N2zbKfK6EQ7FWMBzM6xBfpAdXtBXCiRZC/EYPxogcTHNn2jwEh+suACXllwVOP8ROJEpomSxjoiXNcu9RagCWnq7/Ihz+dtl3nWeY8SXmtzhL2IeVUN1tEvP3eMVzObvG9L8BLy5hBI57Zul5i2LP0vOi/XT2GxH99o7TAgAA</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+            <LocalBusinessRule ID="acn-88e69cca-a058-4f29-bed5-cb4506cb4328" Scope="Local" Type="Action" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAAHWRy27CMBBF93zFyHuSsqsqO6gVILFoQZSqy8iEiWvwS7YT2r+vSSgKqtie0Zy5vnaqEdKU3DklMZSyLitrailoSCAWrh/3jNHpt1bQog/SGkYm2QMBNJXdSyMY+dguxo9kWozoSxOkwRA2jcJiBHAF604Hw3mPljNGNqhti6vdAau48FZ/Wn+slT09VzGdI2dRUq255xpjytCDIYKz5m+NwPbHISMH3vJMcSOy9+hTUFLQ/Lpxx/GawnGB9xWz1dv8CZYRNXzxADtEA77Lv4c6ZYfTJUX279gAdE+g+W07qb/8tsDLX/wCpoPtpqsBAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

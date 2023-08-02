@@ -1,0 +1,235 @@
+{
+  "id" : "cp20230621-DerivedEvents",
+  "name" : "cp20230621-DerivedEvents",
+  "metadata" : { },
+  "uniqueId" : "cpk-c9b5f085-e6fd-4c2a-9d37-566ce5889795",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflow+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://stepworkflowprofile?id=SampleWorkflowProfile",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ActionSet?id=DeleteAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=acn-21053b03-efd1-40a4-b8b1-11b0c226f701",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=acn-88e69cca-a058-4f29-bed5-cb4506cb4328",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=AssetsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=RestrictedUsers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ShortDescription",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Workflow+Profiles",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Assignee",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=AttributeGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=Edit+product+attribute+values",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ApproveProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValues?id=stibo.derivedEventType",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Matching+Algorithm+Linked+Match+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflowProfile+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://stepworkflow?id=PETB",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=WorkflowProfileSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Match+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=WorkflowSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=BasicInformation",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewTasks",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=PETB",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=DescriptionAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewUserActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-06-22 16:19:58\"    UseContextLocale=\"false\">\n\n  <DerivedEventTypes>\n    <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>\n    <DerivedEventType>SHTO-Event</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>\n    <DerivedEventType>AssetDownloadTrigger</DerivedEventType>\n    <DerivedEventType>ThisIsAReallyLongIDThatShouldNotBeAllowed</DerivedEventType>\n    <DerivedEventType>Asset Keywords Event</DerivedEventType>\n    <DerivedEventType>VendorAssignment</DerivedEventType>\n  </DerivedEventTypes>\n\n  <SetupGroups>\n    <SetupGroup ID=\"MatchCodesAndMatchingAlgorithms\" UserTypeID=\"MatchCodesAndMatchingAlgorithms\">\n      <Name QualifierID=\"Qualifier root\">Match Codes and Matching Algorithms</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"PETB\">\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"std.lang.all\">Simple Workflow</Name>\n      <ValidUserTypeLink UserTypeID=\"Item\"/>\n      <Configuration>H4sIAAAAAAAAAI1V227bMAx931doeld8yWVpYWfo1m4osKHFsm7PssykwmzZk+Qm2dePkpw0bdIgL1Fkk4fk4SHNO9vcKmklt3CnPmvAM1/wykBm2kraGaxBdBbmQsvWfpO1tFDea/kkK1iCya3utpaVNBbUnbqt20Zb0A9t+RrMiHVd5Zk/iPRhq5ze3/z8lFCieA3hQskTaCMbldN4cEEJWiuT00dr28soWq1Wg9Vw0OhllMbxOIo/RB6QzrL3jBFCVFMCM/IfMK5K1jYG4zSKrPN4EJON/13lk8kIz8d8fDHBkzA2e0cyTJjX6F3hJdwIt1bLAhnI6ZUxcqkAKJHl3m2WRc5y9i6cvT+i8d7Cm8+tLBpK7KZFpKVuutY5bk28vbHIFymlEY2yUnWAbp69EPAFTaFnZ9ScJqHqZBzqTuLY152Od2WTrFGwlpYUnZEKjOHCObuYXCiGCONhEQ8ZLMqEjWI+YsW0SFiSFLFI08niQ5y4WgKIq4RkVnPVp2C5XoIN6afUhSNZjUly2+jN1ZZd418cexPYe0RJXYPxKkRUF+/Q1LXgKHQWPSfkbp7pczlPt5zfKC3F4/mUp8MTlL/B0NBVtp/sCdvkmO0L0f0AgyQIHNkHgxN1Qn77nCyk4tVpToZbTq6x6+czMoxPi1BZvXlDhdMpTC6E4IzH4ykbLdILVkA5ZqIYjeMJ/g7Taa9Ch+Iq8nX40tx6mPU76EnCKs8+ug202zLJIKYElGhKqZY5ffj5hU0pQUZQSxUi5nQDhn5ELGXSy1Wj/yyqZvULkUxYTpf4/MWCMm7cB6KpaS9sF9bT931DnCMlJSx4V9k5KvtzU3W123aUcFzINbdSuOdb3gOGx+GmBWE9kixptPdGeJC+L5TgKi/vVLXZ9W43GYeo3r+tuqVUJBy31zn93df5vOleOAQnrjEebnuf0c26xSBfnbxQbE+86mAbLHrLmbnvhvcOGj20exWoh73+dHUM9Lix/6qcbT3/+uNovtFzwq+4iwJre92IQjv67keu/f1/3Q+lGw2pRNWVMO8KP5Nm1yycvrbimzn87VCX4KSxB17ztkWlEj+zrlX9t8FFcddnjR3CRNuU9vJwQ3KgbHwYJuY/DnR7riQIAAA=</Configuration>\n      <LocalBusinessRule ID=\"acn-21053b03-efd1-40a4-b8b1-11b0c226f701\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAAAKWSsW7CMBRFd77C8t6k3TrYQUEtEksVlZSOkQkv1iuObdkOpX9fQxoUBtoi1nPtYz+9a1UnUVfCWoXgK2yq2ugGJfMRhMz2cc84m+5bRXbgPBrN6UNyTwno2mxQS07fyvndI51mEzbrPGrw/rVTkE0IOYHiqCPjvEeLJ06XEN6N2zbKfK6EQ7FWMBzM6xBfpAdXtBXCiRZC/EYPxogcTHNn2jwEh+suACXllwVOP8ROJEpomSxjoiXNcu9RagCWnq7/Ihz+dtl3nWeY8SXmtzhL2IeVUN1tEvP3eMVzObvG9L8BLy5hBI57Zul5i2LP0vOi/XT2GxH99o7TAgAA</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-88e69cca-a058-4f29-bed5-cb4506cb4328\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAAAHWRy27CMBBF93zFyHuSsqsqO6gVILFoQZSqy8iEiWvwS7YT2r+vSSgKqtie0Zy5vnaqEdKU3DklMZSyLitrailoSCAWrh/3jNHpt1bQog/SGkYm2QMBNJXdSyMY+dguxo9kWozoSxOkwRA2jcJiBHAF604Hw3mPljNGNqhti6vdAau48FZ/Wn+slT09VzGdI2dRUq255xpjytCDIYKz5m+NwPbHISMH3vJMcSOy9+hTUFLQ/Lpxx/GawnGB9xWz1dv8CZYRNXzxADtEA77Lv4c6ZYfTJUX279gAdE+g+W07qb/8tsDLX/wCpoPtpqsBAAA=</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n    </STEPWorkflow>\n  </STEPWorkflows>\n\n  <STEPWorkflowProfiles>\n    <STEPWorkflowProfile ID=\"SampleWorkflowProfile\">\n      <SetupGroupLink SetupGroupID=\"Workflow Profiles\"/>\n      <Name>Sample Workflow Profile</Name>\n      <Configuration>H4sIAAAAAAAAAG2QW2vCQBCF3/MrFnwWEq2FSlNQE6mgUEheCr5ss8c4dLMruxMv/765tDSCj3PmzMx3prDmQGU8CkZ5DbHGlwhnIprOn2bz8FmkWS4mYfQSZEd7Sa8FFFQCqTQZ+JhdjeCdPFtHhdQrq+vK5FThA46sym8nxMniM+umF95TaSoYbh39bKvv5PVeaKuNyVjyQFzZ2nBfbqXnVBFDLW/xt6vkQOk2tcDjcDLuguybJPsmyoABeEze34h65xlOlrgn65jW2l42ZtechPtv/T3loTkBS9K//3r1J0389gMRHFGbeAEAAA==</Configuration>\n    </STEPWorkflowProfile>\n  </STEPWorkflowProfiles>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
