@@ -1,0 +1,167 @@
+{
+  "id" : "cp20230724-EP",
+  "name" : "cp20230724-EP+User",
+  "metadata" : { },
+  "uniqueId" : "cpk-aebaa839-9cc4-40b9-acff-bec687e78448",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=Edit+product+attribute+values",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ApproveProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ElasticSearchConfiguration",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://eventprocessor?id=ewrg",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=DeleteAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=AssetsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://termslist?id=TermsList",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewTasks",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=RestrictedUsers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=Impersonate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewUserActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=AttributeGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://user?id=USERK",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-07-24 16:30:20\"    UseContextLocale=\"false\">\n\n  <EventProcessors>\n    <EventProcessor ID=\"ewrg\" UserTypeID=\"Event Processor user-type root\">\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">ewrg</Name>\n      <Configuration>H4sIAAAAAAAAAKVTXW/aMBR951dEVsXbCFWlrRoQxEfYpELJAmx7m9zkkl7VsTNfG5X9+jkQWKENk7Y3X+uce46v7xkpucbMam5QyV63/5wLbwOayopdt9rMA5moFGXWY6vl5N0t6weNbiFshtLDtMfCDUgTaZUAkdJDTjB62ZIFDc/rEuaFgB0+BiqUJHwQsCLQLCADxUfft67oO8BqEcZ3XX/POCcPuUkeF/gLWHDdbrfrYGO+paWKwXCUO3/EglpwpFFpNFvXsg7yxYJ1kuHXKJ6P6kAz/jwXaTUJoJ3DOuxnZfXR4Rnr/W0da4oSKAI9/BRdfv+Eo3C99TaU3M05ZYHRFv6Kdq1ROfBNO63DzguDOZLBZKqSp1ONNRdUK/IGsZLzpBWix0qHzD+nLZJHSK2A77Ppj3EYxeFosAzHLGgK0znZ1eZPq0zHLez+0G9mptMoUe73NQLtas873Gy9RHCiipaovOWsPaiWNShaVImmsEaJ5Ra3Dj7Gx6urw9U9OA/7Pv5R1X8p+2cmXX+fHHeiQqAJQq2VjqFQ2oD+l/g5Q9wKc5rCk67lUCu1aMcb/W/kY9hgiZ5xyTPInfKp/F7mVfIHiVZE35R+ooIn5a5f3BiXJ8xtPshc8j7c1O76AZYrK83F0FXIyqZ73hJzKLe9jnAHUExQkznPz6tv/A11fL5pRgUAAA==</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : "Anything?"
+}
