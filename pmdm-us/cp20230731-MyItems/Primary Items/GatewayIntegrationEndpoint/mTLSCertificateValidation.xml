@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <IntegrationEndpoints>
+        <GatewayIntegrationEndpoint ID="mTLSCertificateValidation" Description="RD-20356 test case for OLH support" UserTypeID="GatewayEndpoint user-type root" Enabled="true">
+            <SetupGroupLink SetupGroupID="GatewayEndpoints"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">mTLS Certificate Validation</Name>
+            <Configuration>H4sIAAAAAAAAAJ1TwW7iMBC98xWRD6g9QAgrpG0TgrqB9lAqIQjnygpD6q1jZ+1xWv5+nTjdtKwKVU/xeN68efMyTqTYs9woikyKaTR7LbhXgdJ1RILhiHggMrljIp+SbXo7+ElmcS8qucmZ8NhuSu4owgs9JO95SNzzvEizouTQgJInyJ4tRECGrGJ4WFKNG5NloDWJx6PxeDC6GgQTL5hc/wiuJ0Hku+qzRCslc0ULEldUeRXlBryplztNw1JqvLgcMlHJZ7i4DHu9z3jbKVbNXI/zxWq9SG7SxZzEfY7hB1f6f4zE0FrjDp0/Lm5MalMaqdhRLgW0SSHdd9bPMayZOyNdYr3YpE6Ei2uclVpDO7UutQFlJW3Xyw4Z1Lh2whOVc9hTw9HaiCAwPZTQUdCy5Cxr/qL/W0txipEzje/0oK3SyDJ9p6Qptbv1T02wWabK2EVAqWApXdfWOmE4b2GoDJwnS0Ah29fS4R4ODeX5Irs9rx9X97vttxqUoMUR8nPwSgEUpd1huDH41Pm/p1zD137jL6OZsA/o1oisk95sFi3K8Pt7O2vq68ZvRMetGt/+oay8Fvdg18dSav8/Bv80xfHETeweRx13zzZqb+1J203F+C8tLyLZwQQAAA==</Configuration>
+        </GatewayIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

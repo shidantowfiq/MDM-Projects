@@ -1,0 +1,191 @@
+{
+  "id" : "cp20230731-MyItems",
+  "name" : "cp20230731-MyItems",
+  "metadata" : { },
+  "uniqueId" : "cpk-e76eb882-6646-4adb-bf7e-8af4ab5a725d",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://GatewayIntegrationEndpoint?id=mTLSCertificateValidation",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ActionSet?id=Edit+product+attribute+values",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ApproveProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=GatewayEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=GatewayEndpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://assetpushqueue?id=DTPConfiguration",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Asset+Push+Configuration",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=DeleteAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://assetpushconfiguration?id=raw-approved",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://backgroundprocess?id=BGP_396905",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Event+Queue+object-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=AssetsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://termslist?id=TermsList",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=ProductImageRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewTasks",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GatewayEndpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=RestrictedUsers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=Impersonate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=ViewUserActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=AttributeGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Asset+Push+EventQueue",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://user?id=SHTO",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-02 17:30:57\"    UseContextLocale=\"false\">\n\n  <IntegrationEndpoints>\n    <GatewayIntegrationEndpoint ID=\"mTLSCertificateValidation\" Description=\"RD-20356 test case for OLH support\" UserTypeID=\"GatewayEndpoint user-type root\" Enabled=\"true\">\n      <SetupGroupLink SetupGroupID=\"GatewayEndpoints\"/>\n      <Name QualifierID=\"Qualifier root\">mTLS Certificate Validation</Name>\n      <Configuration>H4sIAAAAAAAAAJ1TwW7iMBC98xWRD6g9QAgrpG0TgrqB9lAqIQjnygpD6q1jZ+1xWv5+nTjdtKwKVU/xeN68efMyTqTYs9woikyKaTR7LbhXgdJ1RILhiHggMrljIp+SbXo7+ElmcS8qucmZ8NhuSu4owgs9JO95SNzzvEizouTQgJInyJ4tRECGrGJ4WFKNG5NloDWJx6PxeDC6GgQTL5hc/wiuJ0Hku+qzRCslc0ULEldUeRXlBryplztNw1JqvLgcMlHJZ7i4DHu9z3jbKVbNXI/zxWq9SG7SxZzEfY7hB1f6f4zE0FrjDp0/Lm5MalMaqdhRLgW0SSHdd9bPMayZOyNdYr3YpE6Ei2uclVpDO7UutQFlJW3Xyw4Z1Lh2whOVc9hTw9HaiCAwPZTQUdCy5Cxr/qL/W0txipEzje/0oK3SyDJ9p6Qptbv1T02wWabK2EVAqWApXdfWOmE4b2GoDJwnS0Ah29fS4R4ODeX5Irs9rx9X97vttxqUoMUR8nPwSgEUpd1huDH41Pm/p1zD137jL6OZsA/o1oisk95sFi3K8Pt7O2vq68ZvRMetGt/+oay8Fvdg18dSav8/Bv80xfHETeweRx13zzZqb+1J203F+C8tLyLZwQQAAA==</Configuration>\n    </GatewayIntegrationEndpoint>\n  </IntegrationEndpoints>\n\n  <AssetPushConfigurations>\n    <AssetPushConfiguration ID=\"raw-approved\" AssetPushEventQueueID=\"DTPConfiguration\" WorkspaceID=\"Approved\" RelativePathTemplate=\"$configID$/$contentdimensionpointsID$/$IDpath$/$assetID$.$autodetected-extension$\" AutoCleanup=\"true\" ImageConversion=\"AssetPush_highres\" ImageConversionType=\"Pipeline\">\n      <Name QualifierID=\"Qualifier root\">raw-approved</Name>\n      <AssetPushMIMETypes>\n        <AssetPushMIMEType>image/*</AssetPushMIMEType>\n      </AssetPushMIMETypes>\n      <AssetPushAttributes/>\n      <AssetPushClassifications>\n        <AssetPushClassification>ProductImageRoot</AssetPushClassification>\n      </AssetPushClassifications>\n    </AssetPushConfiguration>\n  </AssetPushConfigurations>\n\n  <ScheduledProcesses>\n    <ScheduledProcess ID=\"BGP_396905\">\n      <Configuration>H4sIAAAAAAAAAJVTTW+jMBS891dYaI9bPkIaFRSnognbHtomwkR7RA68Zq0QQLbZln+/NgHSw9I2SJbQY2be+L1BSLYrTZL+gazOwSTLx+QpIHESbV/wxJ64vn3r247vqJeZb9tzUeVMLsQIi8RBFIer5P5hg9VJvJvp5DPSJlovQ0KC6IFg663kB8qBWjuaHva8rIvsuuJlCkK05Z5paWXXm3n2zVDLNieg+X7Mv2y3CskSD0x0X+cHtK0yKgEN1RiE/FLoJXgOsaaf2N/CJ233Dz2/2VIthGDHGweoE662TyGe36khoL/ABSsLbDimbdwtruZQSM5ALK4Qat8blOZUCGyk5dE86dWS5abo/cArK5hUGkOf1VD60Zd+AxzyxlCi3SMk5TKQ2LBdy5laOkOoT49ycgZmtBHrV81PbGy4hqU8WoPJT+6pM5YEv+IwOif09v8J3e27AJmpSpAEPe+O5PrO1HdmLdsbIWUgUs4qfeGL83JWgXdIa60hgKut4OqYHa9r0c1cTX+Ep2ctlPwH0+P/4pnGoV1Bqv4ficdA/ZIxKEcNimsYloQ2JP55WiMr9u2nZ8qRM0Xaw5iehlN5wUJaxoVXazmQ7RpMHuP1OEjWAr9Rpv13oH//bmwv5wQAAA==</Configuration>\n    </ScheduledProcess>\n  </ScheduledProcesses>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
