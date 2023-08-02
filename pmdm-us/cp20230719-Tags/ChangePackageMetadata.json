@@ -1,0 +1,19 @@
+{
+  "id" : "cp20230719-Tags",
+  "name" : "cp20230719-Tags",
+  "metadata" : { },
+  "uniqueId" : "cpk-0b27bba1-119b-4f32-8556-ce31223f4f8b",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://taggroup?id=UserCreatedTags",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-07-27 13:35:02\"    UseContextLocale=\"false\">\n\n  <TagGroupList>\n    <StyleTagGroup ID=\"Style tag root\">\n      <StyleTagGroup ID=\"UserCreatedTags\">\n        <Name QualifierID=\"Qualifier root\">User Created Tags</Name>\n      </StyleTagGroup>\n    </StyleTagGroup>\n  </TagGroupList>\n  <TagList>\n    <Tag Start=\"&lt;bread&gt;\" Stop=\"&lt;/bread&gt;\"/>\n    <StyleTag ID=\"bread\" ParentID=\"UserCreatedTags\" Tag=\"bread\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;bread&gt;</FormattingStart>\n        <FormattingStop>&lt;/bread&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n  </TagList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
