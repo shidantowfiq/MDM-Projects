@@ -1,0 +1,39 @@
+{
+  "id" : "cp20230802-Lookup Tables",
+  "name" : "cp20230802-Lookup Tables",
+  "metadata" : { },
+  "uniqueId" : "cpk-772bd705-f3d2-4e31-b363-2fffddb62784",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=stibo.ValueSubstitutionTransConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://asset?id=TestLookupTable",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=LookupTablesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:24:31\"    UseContextLocale=\"false\">\n\n<ImportConfigurations/>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations/>\n<TransformationLookupTableConfigurations>\n  <TransformationLookupTableConfiguration ID=\"TestLookupTable\">\n    <Name>TestLookupTable</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">txt</Value>\n      <Value AttributeID=\"asset.filename\">ValueSubstitutionTransformationConfiguration.xml</Value>\n      <Value AttributeID=\"asset.format\">Text (Plain ASCII text)</Value>\n      <Value AttributeID=\"asset.mime-type\">text/plain; charset=us-ascii</Value>\n      <Value AttributeID=\"asset.size\">249</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-05-03 08:47:08</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"LookupTablesRoot\"/>\n    <Configuration>H4sIAAAAAAAAALNxzs9Ly0wvLUosyczPU/BMz8svSnVOLE61VUpLzClOVVIISi3ISUxOdc0tKKkMzyzJ8E6ttFUqKSpNVbLjUlCwCUvMKU0NSMwsAvGAfLei/FywmF2aoY0+ggeRDcmH8EqAcjA2yBR9FGPwGWqEx1Aj3Iba6KN41I4LALFR2ab5AAAA</Configuration>\n  </TransformationLookupTableConfiguration>\n</TransformationLookupTableConfigurations>\n<ImageConversionConfigurations/>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

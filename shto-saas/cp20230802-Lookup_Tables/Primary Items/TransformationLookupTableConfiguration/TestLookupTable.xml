@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="TestLookupTable">
+            <Name>TestLookupTable</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">249</Value>
+                <Value AttributeID="asset.uploaded">2023-05-03 08:47:08</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="LookupTablesRoot"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAALNxzs9Ly0wvLUosyczPU/BMz8svSnVOLE61VUpLzClOVVIISi3ISUxOdc0tKKkMzyzJ8E6ttFUqKSpNVbLjUlCwCUvMKU0NSMwsAvGAfLei/FywmF2aoY0+ggeRDcmH8EqAcjA2yBR9FGPwGWqEx1Aj3Iba6KN41I4LALFR2ab5AAAA</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>
