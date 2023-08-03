@@ -1,0 +1,39 @@
+{
+  "id" : "cp20230802-XSLT Stylesheets",
+  "name" : "cp20230802-XSLT Stylesheets",
+  "metadata" : { },
+  "uniqueId" : "cpk-8e21505c-7da9-494c-a3e6-703cc761465f",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://SetupEntity?id=My+XSLT",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=XSLTStylesheet",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=XSLTStylesheets",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=XSLTStylesheets",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:13:28\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"My XSLT\" UserTypeID=\"XSLTStylesheet\">\n      <SetupGroupLink SetupGroupID=\"XSLTStylesheets\"/>\n      <Name QualifierID=\"Qualifier root\">My XSLT</Name>\n      <Configuration>H4sIAAAAAAAAAHPOz0vLTC8tSizJzM+zLfI3cHSKCHR0NsjISXKvKPN0SylLzq3ItikuyMkssQMAjAg1Xi0AAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
