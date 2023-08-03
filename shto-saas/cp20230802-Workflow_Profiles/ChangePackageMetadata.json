@@ -1,0 +1,35 @@
+{
+  "id" : "cp20230802-Workflow Profiles",
+  "name" : "cp20230802-Workflow Profiles",
+  "metadata" : { },
+  "uniqueId" : "cpk-1f91eb11-c92f-4037-9346-64ed13bd0f2a",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://stepworkflowprofile?id=MaintainItemProfile",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Workflow+Profiles",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflowProfile+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=WorkflowProfileSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:16:19\"    UseContextLocale=\"false\">\n\n  <STEPWorkflowProfiles>\n    <STEPWorkflowProfile ID=\"MaintainItemProfile\">\n      <SetupGroupLink SetupGroupID=\"Workflow Profiles\"/>\n      <Name>Maintain Item Profile</Name>\n      <Configuration>H4sIAAAAAAAAAG1QTWvDMAy9+1cYei40DVtZmQtdstKODQrJZdCLqbVEzJFCLDP671enhcDYUdL70jszfWFjZmr2waTfotd5prN8nT+tHx71saz1crHMVdXyT8GRxMgQQe0xCA94tr5gHzu6nTL1boO8OhRwLxdTtegsjdRKrMSw87a58dNu0qht+C646z0IMtXYwYRK04ESH/63ToAjDMiuvvRgyu1n9Ve+HTg2bR/v4UvuLJLZhoANAYQRXoJ1HuluMv0xpkkVzBer+VjN6drN6VqOeg69R9n8Aj+LtBFCAQAA</Configuration>\n    </STEPWorkflowProfile>\n  </STEPWorkflowProfiles>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <STEPWorkflowProfiles>
+        <STEPWorkflowProfile ID="MaintainItemProfile">
+            <SetupGroupLink SetupGroupID="Workflow Profiles"></SetupGroupLink>
+            <Name>Maintain Item Profile</Name>
+            <Configuration>H4sIAAAAAAAAAG1QTWvDMAy9+1cYei40DVtZmQtdstKODQrJZdCLqbVEzJFCLDP671enhcDYUdL70jszfWFjZmr2waTfotd5prN8nT+tHx71saz1crHMVdXyT8GRxMgQQe0xCA94tr5gHzu6nTL1boO8OhRwLxdTtegsjdRKrMSw87a58dNu0qht+C646z0IMtXYwYRK04ESH/63ToAjDMiuvvRgyu1n9Ve+HTg2bR/v4UvuLJLZhoANAYQRXoJ1HuluMv0xpkkVzBer+VjN6drN6VqOeg69R9n8Aj+LtBFCAQAA</Configuration>
+        </STEPWorkflowProfile>
+    </STEPWorkflowProfiles>
+</STEP-ProductInformation>
