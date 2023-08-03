@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="MaintainItem">
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Maintain Item</Name>
+            <Configuration>H4sIAAAAAAAAAJWST2/bMAzF7/kUmrCrY+dPsWSwfBkQIMCGFC2KnVWbSYjZlCHScbJPP1lJ1mFA2/Qg8+D3+H6kZDtxa0JBK7Chbx5CNVtbM+Tc1igFHKHsBB5Lj618xwYFqnuPB6xhB2zEd1dljSxAG1o3rfMC/qmt/m/G5bGpTR6LwhhbG33Or7Ui24DRPyyShLMWaLQ6gGd0ZHQ2XmoVfMRG70Xar2na9/24n42d36XTLLtLsy9pbK2L/FOSKKXIVZAw/obEUpW0jkOQI3U02ThTp/jtzWQ+1L2ZzhahqiQpRiq3zLgjAIWV0Z/Lznsg0UpObSDsGHzISK+iYhQcLGFaVSGXjgSpg2CMs+vY4zrku2jTM9t8dobLLnB3f9lULt7SRS/W70BeljZgvfwuRnkauW4h/KfFbYiTyeJDjCukuIBXAbeD4HXAq/9GuuUbG3QUrtOf1HPHSMBsy8E8hDxA4w6w8q756fyvbe36gfiiH3AjZOQenlpxedl/AMTX1UBIAwAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

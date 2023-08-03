@@ -1,0 +1,103 @@
+{
+  "id" : "cp20230802-Workflows",
+  "name" : "cp20230802-Workflows",
+  "metadata" : { },
+  "uniqueId" : "cpk-6241c43e-3f71-42b4-b16e-ae25dfc16950",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://SetupGroup?id=ELFRBRGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValues?id=YesNoExternal",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=RemoveFromWorkflow",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=WorkflowSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://stepworkflow?id=CreateItem",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Global",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=IsActive",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=con-7b96603d-4e10-4ea0-9f2e-2d264a78ca97",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=LAALBRGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflow+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://stepworkflow?id=MaintainItem",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=ELFRLog",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:15:50\"    UseContextLocale=\"false\">\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"CreateItem\">\n      <BusinessRuleLink ID=\"ELFRLog\"/>\n      <BusinessRuleLink ID=\"RemoveFromWorkflow\"/>\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"Qualifier root\">Create Item</Name>\n      <ValidUserTypeLink UserTypeID=\"Item\"/>\n      <Configuration>H4sIAAAAAAAAAM1VwVLbMBC98xWqplfHTgKEMHaYDm1mMgNDBwo9K/bGaCpLriQnpF/flWSbAA3QnnqJInv3vX1P2jVrrFpIbjmzcCXPNeCarZgwkJpacDuDB8gbCze55rW94BW3UHzVfM0FlGAyq5suUnBjQV7JRVUrbUHf1sVzMJM/VCJL/UK4pxUZDfyCEskqyGgoYmGhomQN2nAlM5oMppRgljQZvbe2Po3jzWYz2IwHSpfxKEmO4mQSe2A6Sz9EESFEqgIiw39BxGQR1cogjZLkIUsGCdn63002PHTrfTYan+BKomh2QFIsnFWYLXATdoQXGb1plqj/EoxhJSBN7N7MDvoYZq3mS3QLNZlPueVroD6x3/U5YW05kJEZw0sJ4MM/5o3WIC0ldlsjWGNAu9QuyGcYiy6RgptcSctlA5jovW4pW1PfNGMU3DgcBzuS1o6j3g2SKonF6C1ZNoZLpz53uY7ly8X8+kKVrrg2KNhhNZMtQ5eEZRa8y8NNNFlOj4+TcREdwjDBH5ZE09UIolExOj5kk5OcTSfoANMlWGSSmuf3jugR29nobXiPIT3AG36Mgx/hXuwxZEdeV9+cS+/23vJWLmB/eV3++05rOP2n47qGSq1hrlX1XekfK6E2T04ujX2Rvm7XSbO2bdccNll65pq2b8jhIKEEZK4KLsuM3n6bRyeUoFxZMIGIGd2CoWeIJc3odNPS3SGSCX18is+f9LKxfKkGuaqoU4E6HK335pJx6TIpKWDFGmFvcMCcK9FUbjJQwnCIVczy3D3vXA0gHoiZGnLroXhB4z+/ccPnybvcE7RD6bGfcToVV1Js+9OrnGSr9PYls8epRVNyScKy+JzRzvs7pjlbiucJIYlp5MUp6mvrI8maiWa3nPgZWRxodmTEQcc+Yd00+z90PZ2wfykujd2Naf9rMDiM/c3HL00umgIQvNSqqU0vEbuxFmx7Az8bvMrgLtMOeMXqGi838T3sBLYjhDgat9+5ly+B4teQ+k/eO6CGr0OFwfEeoFEHlMY77rhuf9Gi+DC0/m+oGgzvIAgAAA==</Configuration>\n      <LocalBusinessRule ID=\"con-7b96603d-4e10-4ea0-9f2e-2d264a78ca97\" Scope=\"Local\" Type=\"Condition\" RunPrivileged=\"false\">\n        <Name QualifierID=\"Qualifier root\">CheckTransitionMessage</Name>\n        <Configuration>H4sIAAAAAAAAALVTwY7TMBA9k68YcqharUjggLRSkla0gATalVZsVxwQqkw69Ro5trHHFSzi33FiN21BK3Hhkjhvnt+8ecoY6blQG2aMFOg2YrdptdoJXrsA0NzEcsSaevG9k7BH64RWTf6ieJ4DqlZvheJNfrd+++wyX8yzeumdUOjcBy9xngGMwM0gB6f1CL173eTv2Z7dtlYYOtRXWm0FhV4fBd0vhdq6vJcLgjfMsg4pOInAKQS9WGTD+ofBJv8alAvJFC9uyQav+XwiqTobZvLNa6rCRPFwHCt+D7PF42LCqcp6gb7HNTPDN8ABgRAWWdZSsBFvrLy1qGhtmXLDOD1tlVip3yspmEt8GompOI62kswdWMpLGU/l6Kg8tVSX471HQnpjrbbXIWjG8X+HdaVbJsUD+yIxdVxjZyQjXHq1lVj+o+fjX/K44T2z0MUm0MAxzoIjpebTWZWJHUwT7WnTxwkT1plqeBzuFxIVp/vprLf3cgY/sycWyVsFccAkB6Q1SK04XA38lMTFnyoXKbF07dM5LVU/x1eV/cpSL7Ieq7+yOQGGNajL8z0Lm1ier2La6t+RnRWj9QMAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n    </STEPWorkflow>\n    <STEPWorkflow ID=\"MaintainItem\">\n      <BusinessRuleLink ID=\"RemoveFromWorkflow\"/>\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"Qualifier root\">Maintain Item</Name>\n      <Configuration>H4sIAAAAAAAAAJWST2/bMAzF7/kUmrCrY+dPsWSwfBkQIMCGFC2KnVWbSYjZlCHScbJPP1lJ1mFA2/Qg8+D3+H6kZDtxa0JBK7Chbx5CNVtbM+Tc1igFHKHsBB5Lj618xwYFqnuPB6xhB2zEd1dljSxAG1o3rfMC/qmt/m/G5bGpTR6LwhhbG33Or7Ui24DRPyyShLMWaLQ6gGd0ZHQ2XmoVfMRG70Xar2na9/24n42d36XTLLtLsy9pbK2L/FOSKKXIVZAw/obEUpW0jkOQI3U02ThTp/jtzWQ+1L2ZzhahqiQpRiq3zLgjAIWV0Z/Lznsg0UpObSDsGHzISK+iYhQcLGFaVSGXjgSpg2CMs+vY4zrku2jTM9t8dobLLnB3f9lULt7SRS/W70BeljZgvfwuRnkauW4h/KfFbYiTyeJDjCukuIBXAbeD4HXAq/9GuuUbG3QUrtOf1HPHSMBsy8E8hDxA4w6w8q756fyvbe36gfiiH3AjZOQenlpxedl/AMTX1UBIAwAA</Configuration>\n    </STEPWorkflow>\n  </STEPWorkflows>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
