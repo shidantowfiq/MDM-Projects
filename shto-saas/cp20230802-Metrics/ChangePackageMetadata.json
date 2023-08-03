@@ -1,0 +1,43 @@
+{
+  "id" : "cp20230802-Metrics",
+  "name" : "cp20230802-Metrics",
+  "metadata" : { },
+  "uniqueId" : "cpk-bdf1496c-21d1-4aa4-8b70-130766676a46",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://SetupEntity?id=MarketingMetric",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Metrics",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=CompletenessMetric",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=CompletenessMetrics",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Metrics",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:21:55\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"MarketingMetric\" UserTypeID=\"CompletenessMetric\">\n      <SetupGroupLink SetupGroupID=\"Metrics\"/>\n      <Name QualifierID=\"Qualifier root\">MarketingMetric</Name>\n      <Configuration>H4sIAAAAAAAAAKVTy2rDMBC85yuEDr61TvqAUjs2iePcDKFNzsU4qhAosiqtSvz3tSQjJzUUSm47uzOzYhkVrfhk1KgaWCuWaX4+cfRNlLYIL+7nGBHRtEcm6BIf9tu7F5xns1RyQ5lA7LjERVVcWuBshlCq2Uly4uY7R/3YlLu3sljtyw3OIg7J1aLoy7SQ9Nt8Ma702O31ZR5RSGbWYHyCn6woVYTW0KqKgGJNUfPGcIv93AkRslL/Os40jHIv0ldczyYCVGc7Goh8jeN3AkaWAhh0eS9fG84JzBeWGgfuP9UPN6kfb1I/3aR+nqhdYzzx5O7jzddGM0G03hrR2OyMx4/qk0wmKbHNkJQALtISej4xAeaudMkZjH+v3qn23AVW/9yBV9VS9tY6njjEf1tcXCFENvaZdTgdhv1nGtp9pSVnkP0AtapyBZMDAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
