@@ -1,0 +1,67 @@
+{
+  "id" : "cp20230803-BusinessRules",
+  "name" : "cp20230803-BusinessRules",
+  "metadata" : { },
+  "uniqueId" : "cpk-ee4222a3-6053-4f35-9b68-7a5e02fe42e8",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://asset?id=80481502",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.BulkUpdateConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.InDesign",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=LAALBRGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=LAAL_LotsOfGarbage",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.Quark",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 11:28:11\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"LAAL_LotsOfGarbage\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"LAALBRGroup\"/>\n      <Name QualifierID=\"Qualifier root\">LAAL_LotsOfGarbage</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVVW2+bMBR+Tn6FxUNFxArJniYRUuWyS6ZGrdp0e6wcMMyVsZltorVT//uObSBkVdT1YQ9I9jnfOd+54orVBeX3uKoYJeqe5vep4DktpgoEelY5tZMl04tfJUN7IhUVPPEm4dhDhKcio7xIvLvtp/MP3sVsOF3UinKi1E3NyGyIUCe4tu5QX+9E61XifcV7fJtKWulWP081EH2n+seC8kx5xhd4u8YSl0RDGE7QFyHjyaHR9rEiifcAbkOGeRHeagmBerMzpuOjTM5+1kLHkI47HHJyd5uYO16cFToeGgeGY4Mre0eolSColJY41RCGs1jWUhKur3YPJNUGsmwQDdecUawaLBcZacRdQkuGVaevGXOn6FXeDea4IPIVxtKh3kJqKKN+9tOoszvRj49SCrmBhgLX/+7LpUgxo094x0jDuCVlxbAmi5pnjET/GPNhGk8HvMcS8brcEXmV35A9NUErlKD343g4NEqlsdRbWhIQ9swflSZlmLrJMOoNZYwqfxRbK0n2C5ILaazMSIQF0Z17fxQq+kRabCpqrhPgAzzyrTXckDSlmIzH5hgEI/R7OKA58k97M/gXqVi7QRQxUcCQhJTnwnf1lk0LAglxDAYdOU0mMaLGWTIx5LQhHwyMFmst1yvIyhl/xnIH/TlvXNG4jwNUM5wm4DlI6K7W5IsoIdoj0eJxvfKdaxvMXwEbjcFvqWZg6iC2EIroWwqzQb5hVhMLfOfaVGvKwru79SqUmGeiNEdg1cJ1vvHyDJ+tfxCYq/UJP1Ip9rY9oH8emqpbjBm7sa2FyZDw7E1jMXjZgkuh1VXe1BB1ex+0PTYRB83idBPVgnozFqADaJ7D+HeY09MSwL4crJaSwHplrZ0rSavXkEer8f0m7/NuMUaRmVJTz+eXS9kT2F/9NDp+SOCpiY7fmubZ+gOq25i71gYAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Item\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n\n<ImportConfigurations/>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations>\n  <BulkUpdateConfiguration ID=\"80481502\">\n    <Name>Populate Garbage Data</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">BulkUpdateConfig.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">418</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-08-01 15:00:38</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"ConfigurationsRoot\"/>\n    <Configuration>H4sIAAAAAAAAAI1Qy27CMBC85yusvZPQGwcnyBS1QooEotArWsgSpTW25UdE/x4jBPUBAcedncfu8PHxIFlP1nValfCWD4GR2ummU20J69XHYATjKuOTIH/XpkFP7PtGBiaC18IYq3sqYY/SEVQZY3xuyKKPLHceI/CvXwY1Ca5T5NwySLrsI2OBFg/ko/kVSkE2m5awTXRid7afTYGt/kwM/8Eec4mqzb+8jcdDVQtRb2rt3Xz/iXaLLfHi5vdSxrtWTfcs5o5pAl3/Lx4WwIu0sJRcZSfb4xwlogEAAA==</Configuration>\n  </BulkUpdateConfiguration>\n</BulkUpdateConfigurations>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations/>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
