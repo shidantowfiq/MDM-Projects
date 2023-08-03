@@ -1,0 +1,39 @@
+{
+  "id" : "cp20230802-Sufficiencies",
+  "name" : "cp20230802-Sufficiencies",
+  "metadata" : { },
+  "uniqueId" : "cpk-b424da69-a00c-4adc-a95e-a901ae3e594f",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=SufficiencyConfigurationType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Sufficiencies",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Sufficiencies",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupEntity?id=Marketing",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:17:09\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"Marketing\" UserTypeID=\"SufficiencyConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"Sufficiencies\"/>\n      <Name QualifierID=\"Qualifier root\">Marketing</Name>\n      <Configuration>H4sIAAAAAAAAAH2QwU7DMAyG38XnHNoLqBUgbWVUSGxIrRAHtEOWmigidUrioqGq707KhmgvO9n+/dn+5cLRu9G9l2wc3Q6gXNtZZCQMYYvsjQqQvw1gGshhK/0HsiF96oAAj9Sgx2YV1s5ZlAQ5+x5HcZ4opT9IjfeSZZJe4PcCDn0w09XCUWMmN5BTb60AqbVHLdn59Rl56EnNiWhGa/SlZJzcxmUBv9Ab/n6K0UZtgPqlKDZ1PaWtoV8d8jRJBLTy+F+OAjZV9VwtuQV1lUXodVXtHnflErtecFk2RrDBoLzp5nYDfvZICv9q5YjxyLNHFyclhXE/3oTOGr77AQrQCQupAQAA</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
