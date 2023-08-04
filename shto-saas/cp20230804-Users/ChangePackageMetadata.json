@@ -1,0 +1,43 @@
+{
+  "id" : "cp20230804-Users",
+  "name" : "cp20230804-Users",
+  "metadata" : { },
+  "uniqueId" : "cpk-181dda38-62d4-4e86-80d2-0dc5a3b89ed8",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://group?id=Marketing",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Operator+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://user?id=CP20230804",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=UserInformation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=UserGroupMetadata",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ConfigurationEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-04 13:41:53\"    UseContextLocale=\"false\">\n\n  <UserGroupList>\n    <UserGroup ID=\"Marketing\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">Marketing</Name>\n    </UserGroup>\n  </UserGroupList>\n\n  <UserList>\n    <User ID=\"CP20230804\" ForceAuthentication=\"false\">\n      <Name QualifierID=\"Qualifier root\">cp20230804-Users</Name>\n      <UserGroupLink UserGroupID=\"Marketing\"/>\n      <SystemSetup/>\n    </User>\n  </UserList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

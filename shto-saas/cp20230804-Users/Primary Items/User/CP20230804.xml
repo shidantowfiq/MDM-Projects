@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <UserList>
+        <User ID="CP20230804" ForceAuthentication="false">
+            <Name QualifierID="Qualifier root">cp20230804-Users</Name>
+            <UserGroupLink UserGroupID="Marketing"></UserGroupLink>
+            <SystemSetup></SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>
