@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <DimensionList>
+        <Dimension ID="Language">
+            <Name QualifierID="Qualifier root">Language</Name>
+            <DimensionPoint ID="en-US" DictionaryID="en_US" GDSNLanguageID="en">
+                <Name QualifierID="Qualifier root">English</Name>
+                <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            </DimensionPoint>
+            <DimensionPoint ID="fr-French" DictionaryID="en_US">
+                <Name QualifierID="Qualifier root">French</Name>
+                <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            </DimensionPoint>
+            <DimensionPoint ID="std.lang.all" DictionaryID="en_US">
+                <Name QualifierID="Qualifier root">Language Root</Name>
+            </DimensionPoint>
+        </Dimension>
+    </DimensionList>
+</STEP-ProductInformation>

@@ -1,0 +1,111 @@
+{
+  "id" : "cp20230807-ContextsDimensions",
+  "name" : "cp20230807-ContextsDimensions",
+  "metadata" : { },
+  "uniqueId" : "cpk-90c25e77-56d9-4779-80d4-8ac3fe8ed2f9",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://dimensionpoint?id=CA",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=da-Danish",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Context+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=de-DE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=fr-FR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=DK",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=FR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=NL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=DE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=nl-NL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=Belgium",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=Context6",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=Context5",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Dimension+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Real+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=fr-French",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-07 17:51:02\"    UseContextLocale=\"false\">\n\n  <DimensionList>\n    <Dimension ID=\"Language\">\n      <Name QualifierID=\"Qualifier root\">Language</Name>\n      <DimensionPoint ID=\"std.lang.all\" DictionaryID=\"en_US\">\n        <Name QualifierID=\"Qualifier root\">Language Root</Name>\n      </DimensionPoint>\n      <DimensionPoint ID=\"fr-French\" DictionaryID=\"en_US\">\n        <Name QualifierID=\"Qualifier root\">French</Name>\n        <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n      </DimensionPoint>\n      <DimensionPoint ID=\"en-US\" DictionaryID=\"en_US\" GDSNLanguageID=\"en\">\n        <Name QualifierID=\"Qualifier root\">English</Name>\n        <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n      </DimensionPoint>\n    </Dimension>\n    <Dimension ID=\"Country\">\n      <Name QualifierID=\"Qualifier root\">Country</Name>\n      <DimensionPoint ID=\"AllCountries\">\n        <Name QualifierID=\"Qualifier root\">Country Root</Name>\n      </DimensionPoint>\n      <DimensionPoint ID=\"CA\">\n        <Name QualifierID=\"Qualifier root\">Canada</Name>\n        <DimensionPointLink DimensionPointID=\"AllCountries\"/>\n      </DimensionPoint>\n    </Dimension>\n  </DimensionList>\n\n  <ContextList>\n    <Context ID=\"Context6\">\n      <Name QualifierID=\"Qualifier root\">English CA</Name>\n      <DimensionPointLink DimensionPointID=\"CA\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n    <Context ID=\"Context5\">\n      <Name QualifierID=\"Qualifier root\">French CA</Name>\n      <DimensionPointLink DimensionPointID=\"fr-French\"/>\n      <DimensionPointLink DimensionPointID=\"CA\"/>\n    </Context>\n  </ContextList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
