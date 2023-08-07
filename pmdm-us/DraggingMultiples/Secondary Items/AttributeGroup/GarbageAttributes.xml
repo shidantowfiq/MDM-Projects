@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="_LAAL Attributes" ShowInWorkbench="true" ManuallySorted="false">
+            <AttributeGroup ID="GarbageAttributes" ShowInWorkbench="true" ManuallySorted="false">
+                <Name QualifierID="en-US">GarbageAttributes</Name>
+            </AttributeGroup>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

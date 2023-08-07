@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="fr-FR">
+            <DimensionPointLink DimensionPointID="fr-FR"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="de-DE">
+            <DimensionPointLink DimensionPointID="de-DE"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PMDM.AT.AttributeHelpText" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
+            <Name QualifierID="de-DE">Hilfetext Attribut</Name>
+            <Name QualifierID="en-US">Attribute Help Text</Name>
+            <Name QualifierID="fr-FR">Texte d'aide attribut</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2000" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.Metadata"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.TranslatedInformation"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="DataContainerType user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
