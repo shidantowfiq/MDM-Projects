@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="Asset Download" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="EventProcessors"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Asset Download</Name>
+            <Configuration>H4sIAAAAAAAAALVUTW/aQBC98yssq+JWm1zaqICJAdNWyodLoOmtWuzBrLredWZ2CfTXd22DGxKZHqLePOP33nzvRMk1zwwyzZUcDka7XDhbQCot98LruQ7IRKVcZkN3uZi9v3RHQWdQCJNx6fB06EZbkDpGlQCRwjEjmDyXdIOO4wyI54WACj8HKpQkvhKwJEA3IA3FJ9831hhZwHQcDvwa/5I6ZjrZ3PPf4AYXvV6vDTZle1qoOWjGZZUducHHNnCMXCHXeyvZBvlmwNiQ0fd4fjdpA92w3Z1ID30AqjJsw35RBpsMX7A+XLaxrrkEigHHn+Pz9d8nG0iNgB831z+nUTyPJuEimrpBV+j+yXy7j0bpvh1y/THqZrrfKVG2Z8iBKttxjp69kwhGdKAlKvdI85XyjObCo0PQFNZc8nLy3jGPaeN6d3Tdgs2h1vGbqP7zsH+LG/j1ttkvKgTXQYSocA6FQg349pWNcsbFiearnZ0xzUSFC9MULctu7Uarq6p+2tsNzsmzDek7tOEpk1o9rfnjVVYySn/bpP6D5FeZCJPCA0NpG2BVNRo408y4MidvfQXGhsr1pDApFU4bXId41dRTSvMOrA5utGtSvgeWYIcS2vPQM1T5EkVb6bYIDTvdKCW1XYocfrWe+IPCX1SwBBry09FT0m/snbZREyUE03Cr0vJ+10wQ/DPKAnmWAdp2ukGpHco0LApUW0jPjOoPA/1QaqsFAAA=</Configuration>
+            <EventQueue QueueStatus="Read" DaysRetained="7">
+                <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys8vlPDjYMdJpDQeqaUTGLoWbE3QUWWVK2UJv31XTtSXGJ3SG9ws/b7Pb/dMSLYAmotmIUsvd7WItqAQa5kFl9+uogjkKWquFxn8WNxd34VX4/O0kUxnZ3PjKpcaXO5UqZmljKiOaASG8il4BLmsMIsXjGBEEd3Sgj164FKG17Bwi19dhcx3Wpl7AQM30A1ttYcXKOzKErHzaDooxb8N2TxPZe8dnUcTZS0+wa3giHyFS/beQrVZtEgYAgGpVjj9vVCxaQtnuyrE7LkH9BGKWrB7agZjC+dha9cvmBh+HpNE8v1sftDUNphwYaIN8EfsfsBIL6eeFg+Xg6vQ6NclsJVMGOkHOuF48VyVPQU4lStDWDLT1PpYJboajALhxpkBZW35/S9/a5M9YWDYaZ83vWE9o3V0DM+LH9AaYudhs9GOU0OzNLOOHcCsIVwZItokIo3A+eTLOZ4A8T6omGKSkx/Oq5rIiEQ1SVH3WeTmFuoA0e9rn2TH3rPcA+LJ/PdiywN0f97mnze0HEKNQdF6P9CI4AkXLK/j1IyqOdDm+Du4w0e/7w1CrGX1h7KYdcTEw4wvCbMMpKVZUS3wbe6pol/7tUTOD1htTrh0MK8oGbE5D01HctqrLVRm8NWPUr+/uVE6Js5T73ITx7ApX+zoIT2AGQ3vNyVtGuD3ossp06c2PBu1S6opQXNmlX21j/U51s1IggAAA==</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

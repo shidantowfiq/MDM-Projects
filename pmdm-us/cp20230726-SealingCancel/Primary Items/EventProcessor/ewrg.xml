@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="ewrg" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="EventProcessors"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ewrg</Name>
+            <Configuration>H4sIAAAAAAAAAKVTXY/aMBB851dEVsVbCaeT2lOBID5CKxWONHD9eKp8yZJbnWOnXhsd/fV1INAL11CpffNaMzvj9c5EyQ1mVnODSg76w6dceFvQVFbsqtNlHshEpSizAbtbz17fsGHQ6hfCZig9TAcs3II0kVYJECk95gST5y1Z0PK8PmFeCNjjY6BCScJ7AXcEmgVkoHjn+9YVQwdYrcNo9W3V9w+cc/qYm+RhhT+BBVfdbrcJNuU7WqsYDEe5d0gsaARHGpVGs3MtmyCfLFgnGX6O4uWkCbTgT0uRVrMA2jtswn5QVp8cnrHe3DSx5iiBItDj99Hl9884Ctdb70LJ3aRTFhht4a9o1xqVA1930ybssjCYIxlM5ip5rGtsuKBGkT8QKzlPWiEGrHTI/HPaKnmA1Ar4uph/n4ZRHE5G63DKgrYwvdq2tn9YZXpuZQ+HYTszvVaJcr+vEWhfe97xZuclghNVtETlHWftXnWsQdGhSjSFDUos97hz9DE9Xb06Xt2C83Do459U/eeyv2fS9w/ZcScqBJog1FrpGAqlDeh/CaAzxK0w9RzWupZDrdSiPW/yv6GPYYslesElzyB3ynX5g8yL7I8SrYi+KP1IBU/KXb+4MS5PmNt8lLnkvb1u3PUjLFdWmouhq5CVTfe8NeZQbnsT4SNAMUNN5jw/L77xF0HdcS9IBQAA</Configuration>
+            <EventQueue QueueStatus="Read" DaysRetained="0">
+                <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgRZcYPRiqeQ7tgNE0yuwmiv960TUFpHfEmt272I++9vG6fCEwKhRbMQBKfrwoRLAGJK5mEJ0fHYQAyUzmXiyR8TIeHZ+F57yCepJfjwzGq3GZmJOcKC2ZcR/AApMQSRlJwCQ8wpyScM0EQBkMlhHq7d6OR5zCxM9+9qbhcaYVmAMiXkPeNwXWqdxAEcb8ESr5qwj8gCW+55IUtwmCgpKkvuBCMiM95VuFJVdXlgAA6Gq7FoK3nNROjanhUT3fMoh+o9WLSgpteCYzPrIEbLl8pRb5YOMRysZ3eC0k3XKgU4lfyW+ruAcXviLvt4+3wvTQYyUzYHMbMOcd443izbA3dRThVaASq9CknrY8l2QJwYkmDzCH35yP3vXpSmF9zQIbZ83vLaHesgNbh/ewFMpO+a7hCZbVLkM/UNFoNHvG/f8m4qf7r/+/7ujZAM7Pzpb0nSpWjZl18/fOjTtOsr2nSbb5NxocXqIhabdU26k5NmbBATTRghjkTGebkRvrt1jjyYW3jRtMd/LsxjnPlK2nmlOxrjWq59uyj5P/fR452iXPXfTf1BE59/AmcTCifLQcAAA==</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>
