@@ -1,0 +1,52 @@
+/*===== export metadata =====
+{
+  "contextId" : null,
+  "workspaceId" : null
+}
+*/
+/*===== business rule definition =====
+{
+  "id" : "setName",
+  "type" : "BusinessAction",
+  "setupGroups" : [ "Actions" ],
+  "name" : "setName",
+  "description" : null,
+  "scope" : "Global",
+  "validObjectTypes" : [ ],
+  "allObjectTypesValid" : true,
+  "runPrivileged" : false,
+  "onApprove" : "Never",
+  "dependencies" : [ ]
+}
+*/
+/*===== business rule plugin definition =====
+{
+  "pluginId" : "JavaScriptBusinessActionWithBinds",
+  "binds" : [ {
+    "contract" : "CurrentObjectBindContract",
+    "alias" : "node",
+    "parameterClass" : "null",
+    "value" : null,
+    "description" : null
+  } ],
+  "messages" : [ ],
+  "pluginType" : "Operation"
+}
+*/
+exports.operation0 = function (node) {
+var brand = node.getValue("Brand").getSimpleValue();
+var model = node.getValue("Model").getSimpleValue();
+var wheelSize = node.getValue("WheelSize").getSimpleValue();
+
+if(brand != null || model  != null || wheelSize != null){
+	node.setName(node.getID() + " "
+			+ node.getValue("Brand").getSimpleValue() + " " 
+				+ node.getValue("Model").getSimpleValue() + " " 
+					+ node.getValue("WheelSize").getSimpleValue() + " Bike");
+
+	node.approve();
+} else {
+	//do nothing
+}
+
+}

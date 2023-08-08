@@ -1,0 +1,75 @@
+{
+  "id" : "cp20230808-BusinessRules",
+  "name" : "cp20230808-BusinessRules",
+  "metadata" : { },
+  "uniqueId" : "cpk-d075dd4c-dade-4925-ac45-d5bd67dc4dc7",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=ImportUtilities",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=getDateCode",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Functions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=setName",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Conditions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=ReturnTrue",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=functionCallExample",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-08 10:56:54\"    UseContextLocale=\"false\">\n\n  <BusinessLibraries>\n    <BusinessRule ID=\"ImportUtilities\" Type=\"Library\">\n      <SetupGroupLink SetupGroupID=\"Libraries\"/>\n      <Name QualifierID=\"Qualifier root\">ImportUtilities</Name>\n      <Configuration>H4sIAAAAAAAAAG1SXWvCMBR9tr/ikofRMtdubwPbCkMGDhky3V4latplxiQmqUym/323tpZWfCn0nMv5uLlaFDmXC6q14MwueLZYKZnxPLYIuFRXdIUl8fB3K2DPjOVKJuQpfCTA5EqtucwT8jl/fXgmw9SLXwrLJbP2oxAs9QAaYHqWgzZfQeNRQt7ons5Whmt34Sd8aag5kFIDVabU0C1zaF8BbQi6CgTmB80S8oNIKKjMw5kzmJKkWSFXDuODZY3PO2r4Uq1ZH4TKA/jzentqQFDrSgoSKMkwZ+6LioL5d7tCucGkpqu/oKRnfKsFq4aCgdfjWT1bfUO2K6iw/kU4gOOx5YI2hRBn+14UjRS6um8Mjb8YK+QyU1fWwC0ssd6mD1aB3XCtcR4M7hWcKivCsu4IspzPlIFKAu6bUuORH5RpT8CEZWf7W33b27p0tt3OTTFUK9/nps713q402gs7p/JOcdS8c30KUfcW4qh7YXiDUfcI63v+B0tppKDvAgAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\"/>\n    </BusinessRule>\n  </BusinessLibraries>\n\n  <BusinessRules>\n    <BusinessRule ID=\"setName\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">setName</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVUTXPTMBA9x79C+JBJpkMMN2ZiJ1OnMFOG0A5J22NGsTeOiiIbSQ7Qj//OypIdh9YFDpwsv919+/ZJswUvMyZWtCg4A7Vim1WSiw3LQoWAnhQ2bLEonP7YcbIHqVguIv/t6I1PQCR5ykQW+VfLD6/f+dOJF8alYgKU+lJymHiENMBlRUfacQudn0X+R7qni0SyQtfx00RjoxumtzETqfINF7JdUkl3oFGGBdoQMUw2myx/FhD5t0g74lRko4WWKNSf9LkeH03S/1bmeozj2MNhJvtfDWaP036mx54hMD3mtKj+CakRgk5pSRONMmzFrJQShL5Y30KiTcrMZbhep5xR5XJFnoKDm4FmnKomXnJuT0GjI2gLCYOmrsOa91Lmco7e0gz+t0Wf8oRydkfXHFzHJewKTjXEpUg5BH+p+fAwugXvqSRrSfEGImJsHGWgrykvYWBVxSZmj0MTWzBUAjZjOPZM+Q7LeEf53MReLv++BeALdgcdFDd1vJvGY5uBHeIVcuBlk4cHJ6uNHDo5cHjv9aqWCvRnNG5Q9z8/GwzJCXF3Zj9er9c7+XePfqchhqeD6EW3nifqYPqjaQe2mH2ts9BJ6weuNZnvK28fCXAFBJ0KgjTHZnqLD8d7fPr+WkC1YMLgeH3hgguON5xblr8AZw1rCUwFAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"functionCallExample\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">functionCallExample</Name>\n      <FunctionDependency FunctionID=\"getDateCode\"/>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVUy27cIBRd11+BvLCSRXG7q2R7RsmkkVIpapSHuhwxzLVLhIECHrWq+u/FgImnI3d23HOPz7kPg+JDx8SWKMUZmC1rt1SKlnW1cYBdqZAOWFOvf/YcHUAbJkWTf8QfcgSCyj0TXZO/PN++/5SvV1l9PRgmwJjHgcMqQygBD14OzfMBurtp8i/kQJ6oZspO+StqndE3Zr9fM7E3+ajl1B6IJj1YV0YA5hAalQIbPf9S0OSvThZzIjr8ZLUrNF8V3FZHnRQ/Bmkr1044vPUUYt9YOK6LzlbZKDB63BPlY4QmBLlJWU2odWWELzaD1iDs190rUDtSNpERva44IyZyhdxDhFNDG05Myg+ch1N51nea4e0g/BTPWHdgb4iFzZkKqOyxsWwnMZUa8F72hAnMesXxLhpqt1TcRlc8Tt/4pWINLbhRUMD/1vY4Ze6cUDAa+ytIr6qTXY1g2lcKZjtLWNhbCtf+6PcXhRfrSEw34QXuRJkPLlLLJW62yDh1LjzNLa04iqZfri7TfhYuwWetpb53HqSD/1yG80Jv93JZ5UA0UuNXBjXo958qe5dx2WEmWnkxmxCGA+GDCy4C+fKyOvGfAf5+1+Xx6+Hel/L4gYlv1V/dT0tfywQAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"ReturnTrue\" Scope=\"Global\" Type=\"Condition\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Conditions\"/>\n      <Name QualifierID=\"Qualifier root\">ReturnTrue</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIWST0sDMRDF7/spQg57c1dvwv6DWgWFQrEVj0vYTeOUNInJpOi3N7vRdhep3pI34TfvzcRIL0C1zBgJ3LWwazutdiBKFwSsTSxHrSqbj4MkR24daFXRm+yaEq463YMSFX3ZPlzd0qZOyoV3oLhzz17yOiHkJKxHHJnWo/S4rOgTO7JNZ8HgT/1Oqx4w9HoFfFuA6h0dcAG4ZpYdOAYnUZhKZIDF12T7aXhF94GcSaZEtkEbvNI6lVjMwqTvXmMREsXDOVa8j9nisUkFFskAGHqsmMlHocxPBi5YurdW21WIxQT/w9r/oPOgLlMsR28VQet58Ys4Ecb5lfl8QWGF+XyH39/hCw6vf2ouAgAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"getDateCode\" Scope=\"Global\" Type=\"Function\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Functions\"/>\n      <Name QualifierID=\"Qualifier root\">getDateCode</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAL1VXW/aMBR951dYfkBU2pLtbVI+UNsUialMVUtV7QlZwck8GTtzrmn37+fYDU4CEWIPfSI555577rGxU3FdMrEhVcUZrTes2ORSFKyMawNAWjnaYUk8f9txtKeqZlIk+GvwBSMqcrllokzw83rx+Ruep/GNrpmgdf2oOU0nCB2AB9sNdXkHLbMEfyd78pQrVkHLL7TIwTi9MPh1w8S2xmn8SEErsf5b0fS3EQSciDJ4AmUmiMMOaWyN8QNRZEfBDOyALoQaU9cWNZIEDxvidMoh6mWe/tESIhPcPfj07t0ugXucT0uIJk2DxmNFqtACcXgYYGSkO6WkWpn4pKTjo4Uj6nbNDuhHJDxpekHkVu/374MG9oaWQqgh++BwgqYiHOgsNtLzfHr/xx9PvScKCfmKEiToK7K8BsaDjACdXUWThs+1UlTAvcwJp6bSVzkoKClktCCaQyvZGvlCqh2Bth7oG9iuDrYa87YUNRCR09nJouxucf18v/7UH6Hj4WIYD28YFPZnZlKZQi7LgIlCznz1VXS0dB3AHujY3R4evLX3lFak2Yh0SPdYxLZHZ40JBgnOfv64Xi1vzRE73+D9dF0u7G765epTB+b/uwzviqNO4Zl1DvsXfDrxiP0GvH9M/gEDAlSGbAYAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
