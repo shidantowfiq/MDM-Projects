@@ -1,0 +1,23 @@
+{
+  "id" : "cp20230811-EventQueues",
+  "name" : "cp20230811-EventQueues",
+  "metadata" : { },
+  "uniqueId" : "cpk-096eee5d-8c40-4e0f-81c1-5becf73a0b23",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://eventqueue?id=PDX",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=MarketingDescription",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:25:52\"    UseContextLocale=\"false\">\n\n  <EventQueues>\n    <EventQueue ID=\"PDX\" QueueStatus=\"Read\" DaysRetained=\"0\">\n      <Name QualifierID=\"Qualifier root\">PDX</Name>\n      <Configuration>H4sIAAAAAAAAANVUTU/jMBC98yui3Nmw4rKHpKhqYam0LBUNcHaTaXeoY1szTin8epzGptBkRbnBcTIffu/NmwyZweZQGSksZOnZppLRGohRqyz++eMkjkAVukS1zOLb/OL4V3w2OEpn+fn0eEq6rAs7UQtNlbCuI7oB1nINEyVRwQ0sOIsXQjLE0YWWUj9eu9GEJczque/eVZxvjCY7BsI1lENr6TU1OIqidNgAZV81w2fI4itUWNVVHI21su0DIymYcYHFFk+ut10OCJCj4Vos1e28MDHZDk/a6Y5Z8h9qg5SNRDtogOG8tvAH1YpzwuXSIVbL/fS3kHTHhRshPiS/p+43oPgecb99vB3el0YTVci6hKlwzrHeON4se0MPEG6iStjcayovEUhQ8e+p45y/ooLOx+v5AxQ2fzLwm3RtXIJ9psXVafAQvvxq0lD92YP2fX0nHWb2rs4vuVE5Cff/9pSTXhe8PhPSXb4h48MRaeZO2/b30p+6E7IGDtFYWDFy5IWTm/ijV9PEh60vg6YHGHJnHOfKFRvhlBwaQ9qtypfcKvz6PnK0G5yH/sDuPIFTH4tggexK0AqsYzMGLghN0+WLXgAqAA1OIwcAAA==</Configuration>\n    </EventQueue>\n  </EventQueues>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
