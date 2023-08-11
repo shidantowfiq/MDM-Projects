@@ -1,0 +1,33 @@
+{
+  "id" : "cp20230808-Classifications",
+  "name" : "cp20230808-Classifications",
+  "metadata" : {
+    "ChangePackageDescription" : "This was a test to see if the Object Type was in the IRfT"
+  },
+  "uniqueId" : "cpk-32b1bd85-8ca8-427b-aab1-1ef4ecb32d97",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://classification?id=TransferAssets",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://classification?id=AssetsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=AssetRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=TransferAssets",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:24:34\"    UseContextLocale=\"false\">\n\n  <UserTypes>\n    <UserType ID=\"TransferAssets\" ClassificationOwnsProductLinks=\"false\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"TransferAssets\" NamePattern=\"TransferAssets\">\n      <Name QualifierID=\"Qualifier root\">TransferAssets</Name>\n      <UserTypeLink UserTypeID=\"AssetRoot\"/>\n    </UserType>\n  </UserTypes>\n\n  <Classifications>\n    <Classification ID=\"TransferAssets\" UserTypeID=\"TransferAssets\" ParentID=\"AssetsRoot\">\n      <Name>TransferAssets</Name>\n    </Classification>\n  </Classifications>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
