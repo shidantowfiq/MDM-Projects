@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <CollectionList>
+        <CollectionGroup ID="CollectionGroup root">
+            <CollectionGroup ID="80593256" ParentID="CollectionGroup root">
+                <Collection ID="80593262" ParentID="80593256" QueryURL="step://search?args0.0=nodetype%3dproduct%2cobjecttype%3dItem&amp;args0.1=IncludeDataContainers%3dno%2csearchString%3dID%253D*1%2cRegExp%3dno%2cMatchCase%3dno%2cIncludeInheritedValues%3dno%2cRecycleBinOnly%3dno&amp;search0.0=ObjectTypeCriteria&amp;search0.1=ValueCriteria">
+                    <Name>Ends in 1</Name>
+                </Collection>
+            </CollectionGroup>
+        </CollectionGroup>
+    </CollectionList>
+</STEP-ProductInformation>

@@ -1,0 +1,27 @@
+{
+  "id" : "cp20230811-CollectionGroups",
+  "name" : "cp20230811-CollectionGroups",
+  "metadata" : { },
+  "uniqueId" : "cpk-07a940a3-1b0f-4d6b-9e70-a032dad19f28",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://collectiongroup?id=80593257",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://collection?id=80593262",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://collectiongroup?id=80593256",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:20:57\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <CollectionGroup ID=\"CollectionGroup root\">\n      <Name>Collections</Name>\n      <CollectionGroup ID=\"80593256\" ParentID=\"CollectionGroup root\">\n        <Name>Support</Name>\n        <Collection ID=\"80593262\" ParentID=\"80593256\" QueryURL=\"step://search?args0.0=nodetype%3dproduct%2cobjecttype%3dItem&amp;args0.1=IncludeDataContainers%3dno%2csearchString%3dID%253D*1%2cRegExp%3dno%2cMatchCase%3dno%2cIncludeInheritedValues%3dno%2cRecycleBinOnly%3dno&amp;search0.0=ObjectTypeCriteria&amp;search0.1=ValueCriteria\">\n          <Name>Ends in 1</Name>\n        </Collection>\n      </CollectionGroup>\n      <CollectionGroup ID=\"80593257\" ParentID=\"CollectionGroup root\">\n        <Name>Website</Name>\n      </CollectionGroup>\n    </CollectionGroup>\n  </CollectionList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
