@@ -1,0 +1,87 @@
+{
+  "id" : "cp20230811-MatchCodes",
+  "name" : "cp20230811-MatchCodes",
+  "metadata" : { },
+  "uniqueId" : "cpk-be70771b-1a6b-4304-9598-eda3bee5fa2b",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://matchcode?id=ParentIDMatchCode",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:43:36\"    UseContextLocale=\"false\">\n\n  <MatchCodes>\n    <MatchCode ID=\"ParentIDMatchCode\" ContextID=\"Context1\" WorkspaceID=\"Main\">\n      <SetupGroupLink SetupGroupID=\"MatchCodesAndMatchingAlgorithms\"/>\n      <Name QualifierID=\"Qualifier root\">ParentIDMatchCode</Name>\n      <ValidObjectType ID=\"Item\"/>\n      <ValidForProductHierarchy ID=\"ProductsRoot\"/>\n      <Template>H4sIAAAAAAAAAD2NQWrDMBBF19UpJrOyF02arAqxHBqHQAqlhaYHUOVpUJBlMRqHltK7xyomu8//b95sXWiTrjbfnYcLcXJ90LicPyBQsH3rwknjx3F//4ibWlXbkX4xsVYA/xlsH4SNlcNOYzMwU5DXzzNZyWszjQhP3pmkMfQtIbwZNh0JceNNyu3gPS5G++Kmr1L0TuojddEbIe2+oMjHM53hEn7VHZMMHCC38xPJKB1/F2XOh11RrtWfmhDE9U34E0k/m4t5t+yirKb6CmUwpu0FAQAA</Template>\n    </MatchCode>\n  </MatchCodes>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
