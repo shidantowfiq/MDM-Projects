@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <BulkUpdateConfigurations>
+        <BulkUpdateConfiguration ID="102918">
+            <Name>Republish-EventModeTesting</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">BulkUpdateConfig.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">354</Value>
+                <Value AttributeID="asset.uploaded">2022-09-23 07:29:29</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="ConfigurationsRoot"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAIWQy04DMQxF9/MVkfdMYIeqZEZFFNEVjz72Zsa0gTSJ4mQEf9+0VacVG5a+Oro+tmp/dlYMFNl4p+GuvgVBrvO9cRsNq+XTzT20TaUesv1ehR4TifUIg5jm5KchRD+Qhk+0TNBUQqiXQBFTofgwluCdQv6whrezgVx6y5RpZE5IgV4x4o5S6T9H16GYP2p4Rr40gFj+hrL4CwesLbpNvUixiEPDicJESjqgxa4jZh9b0+s+B2u6csaxhZUc60cL+VdDyf/slbw+WMnLt5pqDzC9ew9iAQAA</Configuration>
+        </BulkUpdateConfiguration>
+    </BulkUpdateConfigurations>
+</STEP-ProductInformation>

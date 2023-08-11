@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <BulkUpdateConfigurations>
+        <BulkUpdateConfiguration ID="80481502">
+            <Name>Populate Garbage Data</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">BulkUpdateConfig.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">418</Value>
+                <Value AttributeID="asset.uploaded">2023-08-01 15:00:38</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="ConfigurationsRoot"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAI1Qy27CMBC85yusvZPQGwcnyBS1QooEotArWsgSpTW25UdE/x4jBPUBAcedncfu8PHxIFlP1nValfCWD4GR2ummU20J69XHYATjKuOTIH/XpkFP7PtGBiaC18IYq3sqYY/SEVQZY3xuyKKPLHceI/CvXwY1Ca5T5NwySLrsI2OBFg/ko/kVSkE2m5awTXRid7afTYGt/kwM/8Eec4mqzb+8jcdDVQtRb2rt3Xz/iXaLLfHi5vdSxrtWTfcs5o5pAl3/Lx4WwIu0sJRcZSfb4xwlogEAAA==</Configuration>
+        </BulkUpdateConfiguration>
+    </BulkUpdateConfigurations>
+</STEP-ProductInformation>

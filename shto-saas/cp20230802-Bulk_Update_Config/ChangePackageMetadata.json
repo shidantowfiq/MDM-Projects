@@ -1,0 +1,27 @@
+{
+  "id" : "cp20230802-Bulk Update Config",
+  "name" : "cp20230802-Bulk Update Config",
+  "metadata" : { },
+  "uniqueId" : "cpk-6d578da1-1e23-402e-9212-f751d48b3920",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://asset?id=80481502",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://asset?id=102918",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:39:02\"    UseContextLocale=\"false\">\n\n<ImportConfigurations/>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations>\n  <BulkUpdateConfiguration ID=\"80481502\">\n    <Name>Populate Garbage Data</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">BulkUpdateConfig.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">418</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-08-01 15:00:38</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"ConfigurationsRoot\"/>\n    <Configuration>H4sIAAAAAAAAAI1Qy27CMBC85yusvZPQGwcnyBS1QooEotArWsgSpTW25UdE/x4jBPUBAcedncfu8PHxIFlP1nValfCWD4GR2ummU20J69XHYATjKuOTIH/XpkFP7PtGBiaC18IYq3sqYY/SEVQZY3xuyKKPLHceI/CvXwY1Ca5T5NwySLrsI2OBFg/ko/kVSkE2m5awTXRid7afTYGt/kwM/8Eec4mqzb+8jcdDVQtRb2rt3Xz/iXaLLfHi5vdSxrtWTfcs5o5pAl3/Lx4WwIu0sJRcZSfb4xwlogEAAA==</Configuration>\n  </BulkUpdateConfiguration>\n  <BulkUpdateConfiguration ID=\"102918\">\n    <Name>Republish-EventModeTesting</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">BulkUpdateConfig.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">354</Value>\n      <Value AttributeID=\"asset.uploaded\">2022-09-23 07:29:29</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"ConfigurationsRoot\"/>\n    <Configuration>H4sIAAAAAAAAAIWQy04DMQxF9/MVkfdMYIeqZEZFFNEVjz72Zsa0gTSJ4mQEf9+0VacVG5a+Oro+tmp/dlYMFNl4p+GuvgVBrvO9cRsNq+XTzT20TaUesv1ehR4TifUIg5jm5KchRD+Qhk+0TNBUQqiXQBFTofgwluCdQv6whrezgVx6y5RpZE5IgV4x4o5S6T9H16GYP2p4Rr40gFj+hrL4CwesLbpNvUixiEPDicJESjqgxa4jZh9b0+s+B2u6csaxhZUc60cL+VdDyf/slbw+WMnLt5pqDzC9ew9iAQAA</Configuration>\n  </BulkUpdateConfiguration>\n</BulkUpdateConfigurations>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations/>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
