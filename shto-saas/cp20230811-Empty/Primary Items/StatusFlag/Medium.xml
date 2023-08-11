@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <StatusFlags>
+        <StatusFlag ID="Medium">
+            <SetupGroupLink SetupGroupID="StatusFlags"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Medium</Name>
+        </StatusFlag>
+    </StatusFlags>
+</STEP-ProductInformation>
