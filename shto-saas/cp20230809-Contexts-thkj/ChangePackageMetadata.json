@@ -1,0 +1,43 @@
+{
+  "id" : "cp20230809-Contexts-thkj",
+  "name" : "cp20230809-Contexts-thkj",
+  "metadata" : { },
+  "uniqueId" : "cpk-da022e54-e38c-4ea7-91ed-ca50e4ea7feb",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=thkj",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=Danish",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:23:59\"    UseContextLocale=\"false\">\n\n  <ContextList>\n    <Context ID=\"thkj\">\n      <Name QualifierID=\"Qualifier root\">thkj</Name>\n      <DimensionPointLink DimensionPointID=\"US\"/>\n      <DimensionPointLink DimensionPointID=\"Danish\"/>\n    </Context>\n  </ContextList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
