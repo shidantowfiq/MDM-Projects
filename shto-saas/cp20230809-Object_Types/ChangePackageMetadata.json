@@ -1,0 +1,41 @@
+{
+  "id" : "cp20230809-Object Types",
+  "name" : "cp20230809-Object Types",
+  "metadata" : {
+    "Purpose" : "Testing the ability to promote a non-promotable item (Alt Class) along with an object type that is below it in the OT hierarchy"
+  },
+  "uniqueId" : "cpk-90d8dde0-fc25-4096-85d4-b8b9daa39df1",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=ConfigurationsRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=TestClassifications",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=TestClassification",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=AssetRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Classification+1+user-type+root",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=GPC+Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:16:42\"    UseContextLocale=\"false\">\n\n  <UserTypes>\n    <UserType ID=\"TestClassifications\" ClassificationOwnsProductLinks=\"true\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"TestClassifications\" NamePattern=\"TestClassifications\">\n      <Name QualifierID=\"Qualifier root\">TestClassifications</Name>\n      <UserTypeLink UserTypeID=\"Classification 1 user-type root\"/>\n    </UserType>\n    <UserType ID=\"Classification 1 user-type root\" ClassificationOwnsProductLinks=\"false\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Alternate-Classifications</Name>\n      <Icon>H4sIAAAAAAAAAF1UPW/bMBDd+ysEdS7N++SxiDNUReHBWTNkK2o3NuDaQeLG+fm9oyQH6SLyHXnvvh518/L62F32m/Nu2SP33W67f9ydx/3rfnv5dnpb9rnLHXIXtt/7w2HZH0/Hbd+9/TkcX5b97nx++rpYXC6XdKF0en5cYM554cT97aebp5/nXfP68vz3sF3229ft8bTZ9N2vw/7pf9tm2d8BpELacRJngRVikgEpERrPxkhGEhSQGltNOaz3CENkCcni7uwTBO+fFThdTuq+hUZzvrrE7p5GtsHBFOJ6Habwvs77VR1qEi0Sp1wL1w5yylbihoHGmhMxOhshZ1h7fWjVS8GAg0MqZI6pEri3E7PatdSP7Xi4A0kq2IElIqbBoWm2wMCmneNK6G4lmYS7n1NuWMxwDZxKzp4sp6pig68qAoGdp9m1BI/fo8JtldqwitoaNJUaxWJSDH9N1QwCs4BEnCzYMBRy7OciEmVUyiXum1grU83iWBGpVU1YA5PyiJlWHjUzeJPIvXWydo6MMwZki1jkOY1OZEprjy0G2JmXpCBD5KY1sHLM0zGy+1ka86pUYx+jKCw62wVM3n08VlaZOdc+VBwDFh4cgDCMCRE2BYhNVbi9eg8IdMarkpR8CEPx0WMdZ05OXhJ4AS245xs4M7GNzWMdvJcjfzRXS5wDKo3NJ3KMmVnG4Whd14QkhvPwXKmeBcI03OJ5EVWt0/DRMVbJMotj7ZrS6lqcxDNYyloKXsVlkW/kP4nPNcml1Ks4vZGi0rC0cYhrpyHxWdcEOVcIzKAcD6MV7wqhYjENr7ZJpNTcFJVDqO8QWm/G6yFsq1ZntngYwGDXaI6ZCadcPr6ih/m/9pl+8HfBfuE/rviB3X76B+EB+bYgBQAA</Icon>\n      <UserTypeLink UserTypeID=\"Classification 1 user-type root\"/>\n    </UserType>\n  </UserTypes>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Classification 1 user-type root" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict">
+            <Name QualifierID="Qualifier root">Alternate-Classifications</Name>
+            <Icon>H4sIAAAAAAAAAF1UPW/bMBDd+ysEdS7N++SxiDNUReHBWTNkK2o3NuDaQeLG+fm9oyQH6SLyHXnvvh518/L62F32m/Nu2SP33W67f9ydx/3rfnv5dnpb9rnLHXIXtt/7w2HZH0/Hbd+9/TkcX5b97nx++rpYXC6XdKF0en5cYM554cT97aebp5/nXfP68vz3sF3229ft8bTZ9N2vw/7pf9tm2d8BpELacRJngRVikgEpERrPxkhGEhSQGltNOaz3CENkCcni7uwTBO+fFThdTuq+hUZzvrrE7p5GtsHBFOJ6Habwvs77VR1qEi0Sp1wL1w5yylbihoHGmhMxOhshZ1h7fWjVS8GAg0MqZI6pEri3E7PatdSP7Xi4A0kq2IElIqbBoWm2wMCmneNK6G4lmYS7n1NuWMxwDZxKzp4sp6pig68qAoGdp9m1BI/fo8JtldqwitoaNJUaxWJSDH9N1QwCs4BEnCzYMBRy7OciEmVUyiXum1grU83iWBGpVU1YA5PyiJlWHjUzeJPIvXWydo6MMwZki1jkOY1OZEprjy0G2JmXpCBD5KY1sHLM0zGy+1ka86pUYx+jKCw62wVM3n08VlaZOdc+VBwDFh4cgDCMCRE2BYhNVbi9eg8IdMarkpR8CEPx0WMdZ05OXhJ4AS245xs4M7GNzWMdvJcjfzRXS5wDKo3NJ3KMmVnG4Whd14QkhvPwXKmeBcI03OJ5EVWt0/DRMVbJMotj7ZrS6lqcxDNYyloKXsVlkW/kP4nPNcml1Ks4vZGi0rC0cYhrpyHxWdcEOVcIzKAcD6MV7wqhYjENr7ZJpNTcFJVDqO8QWm/G6yFsq1ZntngYwGDXaI6ZCadcPr6ih/m/9pl+8HfBfuE/rviB3X76B+EB+bYgBQAA</Icon>
+            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
