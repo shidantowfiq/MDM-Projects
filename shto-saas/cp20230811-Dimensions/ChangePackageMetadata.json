@@ -1,0 +1,31 @@
+{
+  "id" : "cp20230811-Dimensions",
+  "name" : "cp20230811-Dimensions",
+  "metadata" : { },
+  "uniqueId" : "41353b3b-abd7-4b5f-b4a4-867ea7c7024f",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:23:52\"    UseContextLocale=\"false\">\n\n  <DimensionList>\n    <Dimension ID=\"Language\">\n      <Name QualifierID=\"Qualifier root\">Language</Name>\n    </Dimension>\n    <Dimension ID=\"Country\">\n      <Name QualifierID=\"Qualifier root\">Country</Name>\n    </Dimension>\n  </DimensionList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
