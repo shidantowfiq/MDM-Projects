@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="Power">
+            <Unit ID="unece.unit.C31">
+                <Name QualifierID="en-US">mW</Name>
+                <UnitConversion BaseUnitID="unece.unit.WTT" Factor=".001" Offset="0"></UnitConversion>
+                <MetaData>
+                    <ValueGroup AttributeID="UnitDescription">
+                        <Value QualifierID="en-US">milliwatt</Value>
+                        <Value QualifierID="std.lang.all">milliwatt</Value>
+                    </ValueGroup>
+                </MetaData>
+            </Unit>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

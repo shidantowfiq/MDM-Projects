@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="Power">
+            <Unit ID="unece.unit.WTT">
+                <Name QualifierID="en-US">W</Name>
+                <MetaData>
+                    <ValueGroup AttributeID="UnitDescription">
+                        <Value QualifierID="en-US">watt</Value>
+                        <Value QualifierID="std.lang.all">watt</Value>
+                    </ValueGroup>
+                </MetaData>
+            </Unit>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>
