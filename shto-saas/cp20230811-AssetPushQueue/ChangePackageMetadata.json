@@ -1,0 +1,27 @@
+{
+  "id" : "cp20230811-AssetPushQueue",
+  "name" : "cp20230811-AssetPushQueue",
+  "metadata" : { },
+  "uniqueId" : "cpk-101cd4d5-6e4b-4952-9871-942e81059b0f",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://classification?id=ProductImageRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://assetpushqueue?id=newAssetPush42",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://assetpushconfiguration?id=changeTo42",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:11:19\"    UseContextLocale=\"false\">\n\n  <AssetPushEventQueues>\n    <AssetPushEventQueue ID=\"newAssetPush42\" QueueStatus=\"Read\" DaysRetained=\"0\">\n      <Name>newAssetPush42</Name>\n    </AssetPushEventQueue>\n  </AssetPushEventQueues>\n\n  <AssetPushConfigurations>\n    <AssetPushConfiguration ID=\"changeTo42\" AssetPushEventQueueID=\"newAssetPush42\" WorkspaceID=\"Approved\" RelativePathTemplate=\"$configID$/$contentdimensionpointsID$/$IDpath$/$assetID$.$autodetected-extension$\" AutoCleanup=\"true\" ImageConversion=\"42percent\" ImageConversionType=\"Conversion\">\n      <Name QualifierID=\"Qualifier root\">changeTo42</Name>\n      <AssetPushMIMETypes/>\n      <AssetPushAttributes/>\n      <AssetPushClassifications>\n        <AssetPushClassification>ProductImageRoot</AssetPushClassification>\n      </AssetPushClassifications>\n    </AssetPushConfiguration>\n  </AssetPushConfigurations>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
