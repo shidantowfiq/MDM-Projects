@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="duplicateEvents" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="EventProcessors"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">duplicateEvents</Name>
+            <Configuration>H4sIAAAAAAAAAKVUS3PaMBC+51d4PB1uxaSHNlPAlIdpOsPDBdL01hHyYjTIkquVE+ivr/zADVCRQ27e9fd9u9rXUIoNizNFNJOi2+ntE+48gcLccm+bLdcBQWXERNx1H1bj93duz7/ppDyLmXBY1HWDJxA6VJIColQDgjB8Ken6N47TQZakHAr8AjCVAtmawwOCcn3UkH72vMwYPQNY3q/mHa8knHMHRNPtkv0B179t2UAjcsCVXIAmTBTJoet/soFDxaRi+mAEbZDvGWQmYPAjXMyHNtCU7Oc8qsoAmOdnTfBeZqrO8Iz18c7GmjABGIIafA0Ldav8mDButNUhEMQUOXL9DeEIr8KNNpMGbQPOU80ShprRiaS70whaZdYA/+EdQ31oJTbWkm4hyjj8nE5+jYJwEQz7q2Dk+g2u2ydD2vidSd02k1p+9Bqxbt/kKNN5xQAL23GOnoNDOUGsaFQmTZPZWjYzzXgTq6ARbJhg+fg2j3mMate7o2sGJodSx6ujei/D/ntcxytXxnxhypn2A6WkWkAqlQb19r0LEtPGE82LxRsTTXiB60eRMiyzelstv5TvN5WwtcLGwYNZ3QSvUb8JyrMIHokS5iV4PigXVQkLc/jWmzTIMN8W7NNc4bRSZYiL6pxS6qu0rtzK9Du/Tgh6RhLrrJvMNex1TaelnTOrX9Yz8yjVDlNCoSY/Hz05fWpuhY1KJedEw0xG+Q25uu11lJVicWzWUMSuf017uWPpCDhoiCr9V1r4FysCqi1RBgAA</Configuration>
+            <EventQueue QueueStatus="Discard" DaysRetained="7">
+                <Configuration>H4sIAAAAAAAAANVUTXObMBC951dodE9oJ5ccwBmPSVpm8uGxSXqWYe2qERKjlVy7v74CpFAbOnFuyQ3talfvPd7uFBFMDlUtmIEkvt5VgmxBI1cyoV8vvlACslAll5uEPuW351f0enIWL/Ob+flcq9IWJpNrpStmXAVZACqxhUwKLmEBa0zomgkESm6VEOr3o2uteQlLu/LV/Y2bXa20SUHzLZRTY/RranJGSDxtgKK/teR/IKH3XPLKVpSkSprugZlgiHzNixZPrtoqBwS0o+FKjLZdv9AxaptHXXfHLPoPtUmMteBm0gDjK2vgjssXzDXfbBxiuTlOfwpJey7YCPEm+SN1PwHFQ8Tj9vF2OLxKMlkIW8KcOecYbxxvlqOmpwinqloDtvo0nXw4kyXsfihdfuegmS5+7geGemAVDIKPq19QmHxfwzetbO0SmMR9cGEFYAt1JHYQJf1nliY0M1AFkoPSYcij6SQagPRqfHiXxOH2e3eLrxvbLqHnqIv8X2j+bBRW0b9bJRo15OszIT3kGzL+ONMKcVDWbrrx1DMTFjCcUmbYzJFnTm6Nb70aR/7YuSdoesJs9MZxk/CCNXNK3rtHffpJ8o/vIUe5wXnqHn32BC79mYXf345zknIXZnufVO3UGTd1STOfPvoXzaf2F7gHAAA=</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

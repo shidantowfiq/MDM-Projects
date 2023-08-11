@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="PurgeRevisions" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="EventProcessors"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">PurgeRevisions</Name>
+            <Configuration>H4sIAAAAAAAAAKVUW2/aMBR+51dEVsXbCFWlrRoQxCV01bhkgXZ7m9zkkB7VsTMfG5X9+jncVkpDpe0ttr6b7e9koOQSM6u5QSU77e5zLrwVaCpX7LLRZB7IRKUosw67W4w+XLNuUGsXwmYoPUw7LFyBNJFWCRAp3ecEg5eSLKh5XpswLwRs8DFQoSThg4A7As0CMlB89n3rFl0HiMP72/ntbDrpTXs34SScLtr+lv5aqc9N8jjH38CCy2azWQUb8jUtVAyGo9yEJRZUgiONSqNZO8kqyDcL1lmG91E8G1SBJvx5JtLdtQBtElZhvyirDwlfsT5eV7HGKIEi0P2b6Pz5RxyF09brUHJ36SkLjLbwLtpJo3Lgq2ZahZ0VBnMkg8lYJU/HHksuqNLkDeLerooyTx4htQJ+TMY/h2EUh4PeIhyyoC5M66i09V9WmZZr7vajW89Mq1ai3MtrBNqsPW+/s/YSwYl2tETlDRfrQTWsQdGgnWkKS5RY1rmxzzE8bF3st6bgMmx1/IOr/9L27+Ha/naE3BcVAk0Qaq10DIXSBvS/zKELxK0wx+N4pMr8g1u04Q3+d/ZjWGGJnnDJM8id87H91ubkF9BLtCL6rvQTFTwpe36ukW6UMLd5L3ND9+mqsuZ7WK6sNGVt3wHuQrrDLTCHc4SvAMUINZmTVp+84h+hWAqmTgUAAA==</Configuration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0">
+                <Configuration>H4sIAAAAAAAAANVUTXObMBC951douKe000sP4IwnTlpm2sZjk+Qsw5qqERKzK7lOf30FSKY2dOLekhv7qfeWtzsnApND3UhuIE2u9rVkO0ASWqXRh3fvIwaq0KVQVRrd57eXn6Kr2UWyzm+Wl0vUpS1MprYaa25cBVsBabmDTEmhYAVbSqMtlwQRu9VS6l93rjWKEtZ246uHjJt9o9EsAMUOyrkxeAjNLhhL5i1Q8llr8RvS6JtQorZ1xBZamf6Ba8mJxFYUHZ5cd1UOCKCj4UoM2r5f6Bh3zeO+u2MW/4PaLKFGCjNrgYmNNfBVqCfKUVSVQ6yq0/CbGOnAhdpBvEj+ZLpvgOIx4mn5eDkcp7JMFdKWsOROOcYLx4vlpOk5g3NptgZcW2pAlVB6f+a+948ayy8CkGPx43mkqO+8hpHzbvMTCpM/N/AZtW1cgNJkcK6sBOqwTviOvGz4zBZplBmoA8tR6djl0fQzGoH043j1MklC9v8eF183dV5Cz0kZ+b/Q/tk43KK/z0o8qcjDMyE85hsi3rxGTTQq607ddOiBSwsUrAU33AnXcDdupJdeTWJv9uoJMz1jOQbhuE14ooa7Sc6bBvXusCf3Srx+HTnaLc5zj+mDJ/DR2zxIoFvp9KAIVrU2Q62Nz9TdGhq3hmm7sN77B87pHS3KBwAA</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>
