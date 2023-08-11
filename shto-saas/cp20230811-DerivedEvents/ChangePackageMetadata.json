@@ -1,0 +1,19 @@
+{
+  "id" : "cp20230811-DerivedEvents",
+  "name" : "cp20230811-DerivedEvents",
+  "metadata" : { },
+  "uniqueId" : "cpk-2b241a75-db03-435f-b7b9-81a52fc361b5",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://ListOfValues?id=stibo.derivedEventType",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:21:21\"    UseContextLocale=\"false\">\n\n  <DerivedEventTypes>\n    <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>\n  </DerivedEventTypes>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
