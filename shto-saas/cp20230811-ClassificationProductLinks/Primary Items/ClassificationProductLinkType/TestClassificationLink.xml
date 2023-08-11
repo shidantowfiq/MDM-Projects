@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="TestClassificationLink" Inherited="true" Accumulated="false" DefinesValidAttributes="true" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="false">
+            <Name QualifierID="Qualifier root">TestClassificationLink</Name>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Tree"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="TestClassification"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>
