@@ -1,0 +1,19 @@
+{
+  "id" : "cp20230809-Tables",
+  "name" : "cp20230809-Tables",
+  "metadata" : { },
+  "uniqueId" : "cpk-eead9e51-e814-4149-b5ae-597602a60a5d",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://tabletypegroup?id=23038020",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:13:26\"    UseContextLocale=\"false\">\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
