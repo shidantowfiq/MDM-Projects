@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ListOfValuesGroupList>
+        <ListOfValuesGroup ID="List Of Values group root">
+            <ListOfValuesGroup ID="CategorySpecific">
+                <Name QualifierID="Qualifier root">CategorySpecific</Name>
+            </ListOfValuesGroup>
+        </ListOfValuesGroup>
+    </ListOfValuesGroupList>
+</STEP-ProductInformation>

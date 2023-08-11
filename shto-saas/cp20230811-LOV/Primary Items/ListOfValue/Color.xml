@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="Color" ParentID="List Of Values group root" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]">
+            <Name QualifierID="en-US">Color</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <ValueGroup ID="32053917">
+                <Value QualifierID="en-US">Dark Green</Value>
+            </ValueGroup>
+            <ValueGroup ID="32053918">
+                <Value QualifierID="en-US">Blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="80280305">
+                <Value QualifierID="std.lang.all">Red</Value>
+            </ValueGroup>
+            <ValueGroup ID="80280306">
+                <Value QualifierID="std.lang.all">Green</Value>
+            </ValueGroup>
+            <ValueGroup ID="80280307">
+                <Value QualifierID="std.lang.all">Black</Value>
+            </ValueGroup>
+            <ValueGroup ID="80280310">
+                <Value QualifierID="std.lang.all">Yellow</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

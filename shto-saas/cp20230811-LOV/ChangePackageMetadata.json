@@ -1,0 +1,71 @@
+{
+  "id" : "cp20230811-LOV",
+  "name" : "cp20230811-LOV",
+  "metadata" : { },
+  "uniqueId" : "cpk-6383a647-0ad4-48d4-97ad-afd355ae7a65",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://ListOfValues?id=YesNoExternal",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=TrashLOV1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValues?id=TrashDefault1",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValues?id=00427905-4967-4b7f-b158-b97a68398b23",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ListOfValues?id=TrashExt1",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=TrashText1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=IsActive",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValues?id=F1+Teams",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ListOfValuesGroup?id=CategorySpecific",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ListOfValues?id=Color",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ListOfValues?id=YesNoRevisable",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashDefault1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:41:56\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <ListOfValuesGroupList>\n    <ListOfValuesGroup ID=\"List Of Values group root\">\n      <Name QualifierID=\"Qualifier root\">Lists of Values / LOVs</Name>\n      <ListOfValuesGroup ID=\"CategorySpecific\">\n        <Name QualifierID=\"Qualifier root\">CategorySpecific</Name>\n      </ListOfValuesGroup>\n    </ListOfValuesGroup>\n  </ListOfValuesGroupList>\n\n  <ListsOfValues>\n    <ListOfValue ID=\"TrashDefault1\" ParentID=\"List Of Values group root\" AllowUserValueAddition=\"false\" UseValueID=\"false\">\n      <Name QualifierID=\"en-US\">TrashDefault</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n    </ListOfValue>\n    <ListOfValue ID=\"TrashExt1\" ParentID=\"List Of Values group root\" AllowUserValueAddition=\"false\" UseValueID=\"false\">\n      <Name QualifierID=\"en-US\">TrashExt</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueGroup>\n        <Value>123</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>black</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>2</Value>\n      </ValueGroup>\n    </ListOfValue>\n    <ListOfValue ID=\"YesNoExternal\" ParentID=\"List Of Values group root\" AllowUserValueAddition=\"false\" UseValueID=\"true\">\n      <Name QualifierID=\"en-US\">YesNo External</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <ValueGroup ID=\"Y\">\n        <Value QualifierID=\"std.lang.all\">Yes</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"N\">\n        <Value QualifierID=\"std.lang.all\">No</Value>\n      </ValueGroup>\n    </ListOfValue>\n    <ListOfValue ID=\"F1 Teams\" ParentID=\"CategorySpecific\" AllowUserValueAddition=\"false\" UseValueID=\"true\" IDPattern=\"[id]\">\n      <Name QualifierID=\"en-US\">F1 Teams</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueGroup ID=\"80280311\">\n        <Value>Haas</Value>\n      </ValueGroup>\n    </ListOfValue>\n    <ListOfValue ID=\"00427905-4967-4b7f-b158-b97a68398b23\" ParentID=\"CategorySpecific\" AllowUserValueAddition=\"false\" UseValueID=\"false\">\n      <Name QualifierID=\"en-US\">Color Family</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueGroup>\n        <Value>Greens</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Multi</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Metallics</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Reds / Pinks</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Grays</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Whites</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Blacks</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Oranges / Peaches</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Yellows / Golds</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Purples / Lavenders</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Beige / Cream</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Blues</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Turquoises / Aquas</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Clear</Value>\n      </ValueGroup>\n      <ValueGroup>\n        <Value>Browns / Tans</Value>\n      </ValueGroup>\n    </ListOfValue>\n    <ListOfValue ID=\"YesNoRevisable\" ParentID=\"List Of Values group root\" AllowUserValueAddition=\"false\" UseValueID=\"true\">\n      <Name QualifierID=\"en-US\">YesNo Revisable</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <ValueGroup ID=\"N\">\n        <Value QualifierID=\"en-US\">No</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"Y\">\n        <Value QualifierID=\"en-US\">Yes</Value>\n      </ValueGroup>\n    </ListOfValue>\n    <ListOfValue ID=\"Color\" ParentID=\"List Of Values group root\" AllowUserValueAddition=\"false\" UseValueID=\"true\" IDPattern=\"[id]\">\n      <Name QualifierID=\"en-US\">Color</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <ValueGroup ID=\"80280307\">\n        <Value QualifierID=\"std.lang.all\">Black</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"80280310\">\n        <Value QualifierID=\"std.lang.all\">Yellow</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"80280305\">\n        <Value QualifierID=\"std.lang.all\">Red</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"32053917\">\n        <Value QualifierID=\"en-US\">Dark Green</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"32053918\">\n        <Value QualifierID=\"en-US\">Blue</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"80280306\">\n        <Value QualifierID=\"std.lang.all\">Green</Value>\n      </ValueGroup>\n    </ListOfValue>\n  </ListsOfValues>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
