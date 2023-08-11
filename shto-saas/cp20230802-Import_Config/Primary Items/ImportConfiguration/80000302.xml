@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="80000302">
+            <Name>ComplexData</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig18363496821199965745.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">1753</Value>
+                <Value AttributeID="asset.uploaded">2023-05-01 06:14:31</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAJ1VwU7jMBC98xWWD9yWwF5pgkJSRKSmjdIWxKky6bR4N7Ej22Hbv9+xnUIptELcnPHMvDczz5PBzaapySsozaUI6dXFJb2JzgZZ00plcibYGlQixYqvycPO6TclY9ZASBPZtDVsUmYYJehlYGOy1Nrd8YqSR6n+6pZVYM0544KSuG2VRMCQjuJ4REkJf6AyY/hXKLnsKqNDKuTO3Nvm7ZIZ6G9yZqqXueBG325tWmtLZCfMXDSsbWHpTRhagdYzQI4YHFJfEyhKZqCN//KucWdkJgx3bh4cYyqYgWoQNBkN43IxGY+eFneTcpHlxaScDdNFUU7SeTKbUpLCinX1jm3BFIi+Ea5BFu/QabZtXVMyAw0lt7amlCssWSpXFSVTqPETlvNyZJ1D2vpIGp0RMpjKTlXQD+KO1+DMeIHoaMM69+4EnmgUzDWOMKgZq4OJgFTxVyC/yNTwZxkUeTBsWrMtodpWNdxykTCtmVgqFuzN+WJT680geANxXAJPxp3vpGqY6bGHmwrqY8Tumb4HtsSBRE+gD3J+4T9TvHl84agDK6hvBmHJtmrPynCxptFYfuLvr925H0+OSkLvPmuWetWFdAvaKlCgHnFQTi1RP4sHVndAYmMUf+6MG+55ba6z9HxtrmkQDYIs7fNZbruMXtL7CUnCxD17hZQ3heTCeFQfisHudQmjv4/7FuHRAwvfn2OtwZSwApQsyskLrcBOM7XtW5E1uATocbq4Lo4S+ZDCUvmId4rESK7lD1Fd6FG0pEZh8xWvmMF19g77Iyj7tD8m9B3/GmMnUt+Vw4rjyi4sRD1RNslxhXBHZAotqhhvcFmcovie1jI7xD5NqV+EDarnh7PYz3AM/8269+oGe4FlV4P2jp+t+Kw+/6yis/92IHRf2QYAAA==</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

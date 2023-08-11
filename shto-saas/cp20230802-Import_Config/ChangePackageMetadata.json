@@ -1,0 +1,23 @@
+{
+  "id" : "cp20230802-Import Config",
+  "name" : "cp20230802-Import Config",
+  "metadata" : { },
+  "uniqueId" : "cpk-4aec3946-10a4-41ba-8a10-438a45c734cb",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://asset?id=80000302",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://asset?id=102902",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:08:55\"    UseContextLocale=\"false\">\n\n<ImportConfigurations>\n  <ImportConfiguration ID=\"102902\">\n    <Name>Import Bicycles</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">ImportConfig6547283682143166431.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">4981</Value>\n      <Value AttributeID=\"asset.uploaded\">2022-09-22 12:40:39</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"stibo.IMConfigFolder\"/>\n    <Configuration>H4sIAAAAAAAAAK2YTW/bOBCG7/kVBA+9pd72uLVdxFa8MRDHhiQ3KGDAYKSJxY0kCiSVtfvrdyjScj6atgx4k4bzzjwajkhRw6/7qiSPIBUX9Yh++vgX/To+G86rRki9YDXbgZyK+p7vyLej02dKblgFI2q9yIRnh6wERQl6atjreTSi7vITJbdCPqiGZWDMC8ZrSi6aRgpMOqLJVbqkJIZ/IdM38N9KirzNtBrRWhzNzrZucqbBjSyYzop1zbWaHExYY5uKttbrumJNA7k1oTQDpVKomhLFR2KQlKSgtL2zrhetFg5rRA/mYWZCZhCJComPjp09BgyWQQqyQprp9eVFvF3eXH/fzpbxdr5YLeP0Mtqu4mW0nqYJJRHcs7Y8PsaKSai7CjkDKThIJrPiQKQQ+qV/emjgqXerQJ5rNDrvialExCUWSsiuFpQkUOIt5Ov42shHtLFiOj4jZJiIFh/MTeGMl9CZcQDR0IbVeTJW4xUdT//erDGv2qhCi82yhkjyRyDnJNH8Tmy2Dm6zAnkvZMXqDDYJw6IDiZhmfYecG/25Ykx93JdqPxz0KTuygUXrrmcmjnYkl/sMyrcwr5i6ApbjpI6/g3oR8yf+qeTVbcGxl0xT/qEIH99UwFJpXu/o+Ea84rfD3bUryQK7Eb1d1HlkO9d1Er5f2NM4bV0Ljt3MfGNlC+RCa8nvWt1N/odSf5lHH3b6Cx2Mh4N55OIZtmNE+1o8DUimrL5ijxDxaiV47frXSlHcvaG1Vr/Ja3L0mXuNzT8wg+7ayt+GeRZ4InHQC8UqfsbQOb8HYiHyvqv+DMIqgkJMRSmkF4RVBIW4LQDKhP8AL5CTKijMSvLMD8QqgkLMZLfweUBYRVgI3Dn9GIwgKEIMTCaFyPw4TqqgMGaZV6C9UI6aoCBJwe9x0fdbTHtR4EbFSBF+QfCyhNZvJXmpDd457+R6IQ273uI+8uDbRL0oKMpEaC0q3NiyB0+e58qw9SnMF7pXcTpFWAimsNrabwHuRWEnSbIHz68mJwm/Q/u2bS8KipLiYcOvIFYRdivAsRLumN/CclKF3Q40VH5bgREERfhH8kZNmExZ4/fWPBOGrQow3Qjl17K9KDhKVuKB1JvFqsLCsDwv/SbJSYJizE2cHHI81nqxPNX9Dmh5Z37gmH8Qb1P9IpWVk04/j7psp4ingzpmP/4deU+WKdOwQ78u/rNw9lD/+iQ/dL+AKnSN2xKUdXxtxaP66x9p47P/AQhKISN1EwAA</Configuration>\n  </ImportConfiguration>\n  <ImportConfiguration ID=\"80000302\">\n    <Name>ComplexData</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">ImportConfig18363496821199965745.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">1753</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-05-01 06:14:31</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"stibo.IMConfigFolder\"/>\n    <Configuration>H4sIAAAAAAAAAJ1VwU7jMBC98xWWD9yWwF5pgkJSRKSmjdIWxKky6bR4N7Ej22Hbv9+xnUIptELcnPHMvDczz5PBzaapySsozaUI6dXFJb2JzgZZ00plcibYGlQixYqvycPO6TclY9ZASBPZtDVsUmYYJehlYGOy1Nrd8YqSR6n+6pZVYM0544KSuG2VRMCQjuJ4REkJf6AyY/hXKLnsKqNDKuTO3Nvm7ZIZ6G9yZqqXueBG325tWmtLZCfMXDSsbWHpTRhagdYzQI4YHFJfEyhKZqCN//KucWdkJgx3bh4cYyqYgWoQNBkN43IxGY+eFneTcpHlxaScDdNFUU7SeTKbUpLCinX1jm3BFIi+Ea5BFu/QabZtXVMyAw0lt7amlCssWSpXFSVTqPETlvNyZJ1D2vpIGp0RMpjKTlXQD+KO1+DMeIHoaMM69+4EnmgUzDWOMKgZq4OJgFTxVyC/yNTwZxkUeTBsWrMtodpWNdxykTCtmVgqFuzN+WJT680geANxXAJPxp3vpGqY6bGHmwrqY8Tumb4HtsSBRE+gD3J+4T9TvHl84agDK6hvBmHJtmrPynCxptFYfuLvr925H0+OSkLvPmuWetWFdAvaKlCgHnFQTi1RP4sHVndAYmMUf+6MG+55ba6z9HxtrmkQDYIs7fNZbruMXtL7CUnCxD17hZQ3heTCeFQfisHudQmjv4/7FuHRAwvfn2OtwZSwApQsyskLrcBOM7XtW5E1uATocbq4Lo4S+ZDCUvmId4rESK7lD1Fd6FG0pEZh8xWvmMF19g77Iyj7tD8m9B3/GmMnUt+Vw4rjyi4sRD1RNslxhXBHZAotqhhvcFmcovie1jI7xD5NqV+EDarnh7PYz3AM/8269+oGe4FlV4P2jp+t+Kw+/6yis/92IHRf2QYAAA==</Configuration>\n  </ImportConfiguration>\n</ImportConfigurations>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations/>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations/>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

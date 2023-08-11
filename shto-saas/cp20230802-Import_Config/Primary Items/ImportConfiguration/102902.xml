@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="102902">
+            <Name>Import Bicycles</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig6547283682143166431.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">4981</Value>
+                <Value AttributeID="asset.uploaded">2022-09-22 12:40:39</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAK2YTW/bOBCG7/kVBA+9pd72uLVdxFa8MRDHhiQ3KGDAYKSJxY0kCiSVtfvrdyjScj6atgx4k4bzzjwajkhRw6/7qiSPIBUX9Yh++vgX/To+G86rRki9YDXbgZyK+p7vyLej02dKblgFI2q9yIRnh6wERQl6atjreTSi7vITJbdCPqiGZWDMC8ZrSi6aRgpMOqLJVbqkJIZ/IdM38N9KirzNtBrRWhzNzrZucqbBjSyYzop1zbWaHExYY5uKttbrumJNA7k1oTQDpVKomhLFR2KQlKSgtL2zrhetFg5rRA/mYWZCZhCJComPjp09BgyWQQqyQprp9eVFvF3eXH/fzpbxdr5YLeP0Mtqu4mW0nqYJJRHcs7Y8PsaKSai7CjkDKThIJrPiQKQQ+qV/emjgqXerQJ5rNDrvialExCUWSsiuFpQkUOIt5Ov42shHtLFiOj4jZJiIFh/MTeGMl9CZcQDR0IbVeTJW4xUdT//erDGv2qhCi82yhkjyRyDnJNH8Tmy2Dm6zAnkvZMXqDDYJw6IDiZhmfYecG/25Ykx93JdqPxz0KTuygUXrrmcmjnYkl/sMyrcwr5i6ApbjpI6/g3oR8yf+qeTVbcGxl0xT/qEIH99UwFJpXu/o+Ea84rfD3bUryQK7Eb1d1HlkO9d1Er5f2NM4bV0Ljt3MfGNlC+RCa8nvWt1N/odSf5lHH3b6Cx2Mh4N55OIZtmNE+1o8DUimrL5ijxDxaiV47frXSlHcvaG1Vr/Ja3L0mXuNzT8wg+7ayt+GeRZ4InHQC8UqfsbQOb8HYiHyvqv+DMIqgkJMRSmkF4RVBIW4LQDKhP8AL5CTKijMSvLMD8QqgkLMZLfweUBYRVgI3Dn9GIwgKEIMTCaFyPw4TqqgMGaZV6C9UI6aoCBJwe9x0fdbTHtR4EbFSBF+QfCyhNZvJXmpDd457+R6IQ273uI+8uDbRL0oKMpEaC0q3NiyB0+e58qw9SnMF7pXcTpFWAimsNrabwHuRWEnSbIHz68mJwm/Q/u2bS8KipLiYcOvIFYRdivAsRLumN/CclKF3Q40VH5bgREERfhH8kZNmExZ4/fWPBOGrQow3Qjl17K9KDhKVuKB1JvFqsLCsDwv/SbJSYJizE2cHHI81nqxPNX9Dmh5Z37gmH8Qb1P9IpWVk04/j7psp4ingzpmP/4deU+WKdOwQ78u/rNw9lD/+iQ/dL+AKnSN2xKUdXxtxaP66x9p47P/AQhKISN1EwAA</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>
