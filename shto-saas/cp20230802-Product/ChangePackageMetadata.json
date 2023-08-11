@@ -1,0 +1,511 @@
+{
+  "id" : "cp20230802-Product",
+  "name" : "cp20230802-Product",
+  "metadata" : { },
+  "uniqueId" : "cpk-0d8acbde-8b98-4c9c-80f8-38ef67ee204b",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://attribute?id=Garbage-59",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-56",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-55",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-58",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=itemID",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-57",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-52",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-51",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-54",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-53",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-50",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=SXIEX-870",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-49",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-48",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-45",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-44",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-47",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=GarbageAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-46",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-41",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-40",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-43",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-42",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=triggeringAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-78",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-77",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Display",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-79",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-74",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-73",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-76",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-75",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-70",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-72",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-71",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-100",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Identifiers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ObjTypeToMove",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Accessory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-67",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-66",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-69",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-68",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-63",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-62",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-65",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-64",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-61",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-60",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-16",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=TestItem",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-15",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-18",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-17",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=MarketingDescription",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-12",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-99",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-11",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-14",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-13",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-96",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-95",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-98",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-10",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-97",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-92",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-91",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-94",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-93",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-19",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-89",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-88",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-85",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-84",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-87",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-86",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-81",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-80",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-83",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-82",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-90",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-38",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-37",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=sku",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-39",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-34",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-33",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-36",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-35",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-30",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-32",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-31",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=DeepHiearchyRoot",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://product?id=ProductsRoot",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-27",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-5",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-26",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-29",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-28",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=TREE-80381328",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-8",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-23",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-9",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-22",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-6",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-25",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-7",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-24",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=TREE-80481653",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-21",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=TREE-80481655",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-20",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-0",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=_LAAL+Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:01:16\"    UseContextLocale=\"false\">\n\n  <Products>\n    <Product ID=\"ProductsRoot\" UserTypeID=\"Products\" ParentID=\"Product hierarchy root\">\n      <Name>Products</Name>\n      <AttributeLink AttributeID=\"Garbage-9\"/>\n      <AttributeLink AttributeID=\"Garbage-23\"/>\n      <AttributeLink AttributeID=\"Garbage-24\"/>\n      <AttributeLink AttributeID=\"Garbage-25\"/>\n      <AttributeLink AttributeID=\"triggeringAttribute\"/>\n      <AttributeLink AttributeID=\"itemID\"/>\n      <AttributeLink AttributeID=\"Garbage-58\"/>\n      <AttributeLink AttributeID=\"Garbage-59\"/>\n      <AttributeLink AttributeID=\"Garbage-60\"/>\n      <AttributeLink AttributeID=\"Garbage-1\"/>\n      <AttributeLink AttributeID=\"Garbage-38\"/>\n      <AttributeLink AttributeID=\"Garbage-39\"/>\n      <AttributeLink AttributeID=\"Garbage-40\"/>\n      <AttributeLink AttributeID=\"Garbage-41\"/>\n      <AttributeLink AttributeID=\"Garbage-34\"/>\n      <AttributeLink AttributeID=\"Garbage-35\"/>\n      <AttributeLink AttributeID=\"Garbage-36\"/>\n      <AttributeLink AttributeID=\"Garbage-37\"/>\n      <AttributeLink AttributeID=\"Garbage-46\"/>\n      <AttributeLink AttributeID=\"Garbage-47\"/>\n      <AttributeLink AttributeID=\"Garbage-48\"/>\n      <AttributeLink AttributeID=\"Garbage-49\"/>\n      <AttributeLink AttributeID=\"Garbage-42\"/>\n      <AttributeLink AttributeID=\"Garbage-43\"/>\n      <AttributeLink AttributeID=\"Garbage-44\"/>\n      <AttributeLink AttributeID=\"Garbage-45\"/>\n      <AttributeLink AttributeID=\"Garbage-86\"/>\n      <AttributeLink AttributeID=\"Garbage-87\"/>\n      <AttributeLink AttributeID=\"Garbage-88\"/>\n      <AttributeLink AttributeID=\"Garbage-89\"/>\n      <AttributeLink AttributeID=\"Garbage-82\"/>\n      <AttributeLink AttributeID=\"Garbage-83\"/>\n      <AttributeLink AttributeID=\"Garbage-84\"/>\n      <AttributeLink AttributeID=\"Garbage-85\"/>\n      <AttributeLink AttributeID=\"Garbage-94\"/>\n      <AttributeLink AttributeID=\"Garbage-95\"/>\n      <AttributeLink AttributeID=\"Garbage-96\"/>\n      <AttributeLink AttributeID=\"Garbage-97\"/>\n      <AttributeLink AttributeID=\"Garbage-19\"/>\n      <AttributeLink AttributeID=\"Garbage-20\"/>\n      <AttributeLink AttributeID=\"Garbage-21\"/>\n      <AttributeLink AttributeID=\"Garbage-22\"/>\n      <AttributeLink AttributeID=\"Garbage-31\"/>\n      <AttributeLink AttributeID=\"Garbage-32\"/>\n      <AttributeLink AttributeID=\"Garbage-33\"/>\n      <AttributeLink AttributeID=\"Garbage-18\"/>\n      <AttributeLink AttributeID=\"Garbage-27\"/>\n      <AttributeLink AttributeID=\"Garbage-28\"/>\n      <AttributeLink AttributeID=\"Garbage-29\"/>\n      <AttributeLink AttributeID=\"Garbage-30\"/>\n      <AttributeLink AttributeID=\"Garbage-15\"/>\n      <AttributeLink AttributeID=\"Garbage-16\"/>\n      <AttributeLink AttributeID=\"Garbage-17\"/>\n      <AttributeLink AttributeID=\"Garbage-26\"/>\n      <AttributeLink AttributeID=\"Garbage-57\"/>\n      <AttributeLink AttributeID=\"Garbage-100\"/>\n      <AttributeLink AttributeID=\"Garbage-13\"/>\n      <AttributeLink AttributeID=\"Garbage-14\"/>\n      <AttributeLink AttributeID=\"Garbage-53\"/>\n      <AttributeLink AttributeID=\"Garbage-54\"/>\n      <AttributeLink AttributeID=\"Garbage-55\"/>\n      <AttributeLink AttributeID=\"Garbage-56\"/>\n      <AttributeLink AttributeID=\"Garbage-65\"/>\n      <AttributeLink AttributeID=\"Garbage-50\"/>\n      <AttributeLink AttributeID=\"Garbage-51\"/>\n      <AttributeLink AttributeID=\"Garbage-52\"/>\n      <AttributeLink AttributeID=\"Garbage-61\"/>\n      <AttributeLink AttributeID=\"Garbage-62\"/>\n      <AttributeLink AttributeID=\"Garbage-63\"/>\n      <AttributeLink AttributeID=\"Garbage-64\"/>\n      <AttributeLink AttributeID=\"MarketingDescription\"/>\n      <AttributeLink AttributeID=\"sku\"/>\n      <AttributeLink AttributeID=\"Garbage-90\"/>\n      <AttributeLink AttributeID=\"Garbage-91\"/>\n      <AttributeLink AttributeID=\"Garbage-92\"/>\n      <AttributeLink AttributeID=\"Garbage-93\"/>\n      <AttributeLink AttributeID=\"Garbage-70\"/>\n      <AttributeLink AttributeID=\"Garbage-71\"/>\n      <AttributeLink AttributeID=\"Garbage-72\"/>\n      <AttributeLink AttributeID=\"Garbage-73\"/>\n      <AttributeLink AttributeID=\"Garbage-66\"/>\n      <AttributeLink AttributeID=\"Garbage-67\"/>\n      <AttributeLink AttributeID=\"Garbage-68\"/>\n      <AttributeLink AttributeID=\"Garbage-69\"/>\n      <AttributeLink AttributeID=\"Garbage-78\"/>\n      <AttributeLink AttributeID=\"Garbage-79\"/>\n      <AttributeLink AttributeID=\"Garbage-80\"/>\n      <AttributeLink AttributeID=\"Garbage-81\"/>\n      <AttributeLink AttributeID=\"Garbage-74\"/>\n      <AttributeLink AttributeID=\"Garbage-75\"/>\n      <AttributeLink AttributeID=\"Garbage-76\"/>\n      <AttributeLink AttributeID=\"Garbage-77\"/>\n      <AttributeLink AttributeID=\"Garbage-10\"/>\n      <AttributeLink AttributeID=\"Garbage-11\"/>\n      <AttributeLink AttributeID=\"Garbage-98\"/>\n      <AttributeLink AttributeID=\"Garbage-99\"/>\n      <AttributeLink AttributeID=\"Garbage-5\"/>\n      <AttributeLink AttributeID=\"Garbage-6\"/>\n      <AttributeLink AttributeID=\"Garbage-7\"/>\n      <AttributeLink AttributeID=\"Garbage-8\"/>\n      <AttributeLink AttributeID=\"Garbage-12\"/>\n      <AttributeLink AttributeID=\"Garbage-2\"/>\n      <AttributeLink AttributeID=\"Garbage-3\"/>\n      <AttributeLink AttributeID=\"Garbage-4\"/>\n      <Product ID=\"DeepHiearchyRoot\" UserTypeID=\"Tree\">\n        <Name>Deep Hierarchy</Name>\n        <AttributeLink AttributeID=\"Garbage-87\"/>\n        <AttributeLink AttributeID=\"Garbage-88\"/>\n        <AttributeLink AttributeID=\"Garbage-89\"/>\n        <AttributeLink AttributeID=\"Garbage-9\"/>\n        <AttributeLink AttributeID=\"Garbage-90\"/>\n        <AttributeLink AttributeID=\"Garbage-91\"/>\n        <AttributeLink AttributeID=\"Garbage-92\"/>\n        <AttributeLink AttributeID=\"Garbage-93\"/>\n        <AttributeLink AttributeID=\"Garbage-94\"/>\n        <AttributeLink AttributeID=\"Garbage-95\"/>\n        <AttributeLink AttributeID=\"Garbage-96\"/>\n        <AttributeLink AttributeID=\"Garbage-97\"/>\n        <AttributeLink AttributeID=\"Garbage-98\"/>\n        <AttributeLink AttributeID=\"Garbage-99\"/>\n        <AttributeLink AttributeID=\"Garbage-58\"/>\n        <AttributeLink AttributeID=\"Garbage-59\"/>\n        <AttributeLink AttributeID=\"Garbage-6\"/>\n        <AttributeLink AttributeID=\"Garbage-60\"/>\n        <AttributeLink AttributeID=\"Garbage-61\"/>\n        <AttributeLink AttributeID=\"Garbage-62\"/>\n        <AttributeLink AttributeID=\"Garbage-63\"/>\n        <AttributeLink AttributeID=\"Garbage-64\"/>\n        <AttributeLink AttributeID=\"Garbage-65\"/>\n        <AttributeLink AttributeID=\"Garbage-66\"/>\n        <AttributeLink AttributeID=\"Garbage-67\"/>\n        <AttributeLink AttributeID=\"Garbage-68\"/>\n        <AttributeLink AttributeID=\"Garbage-69\"/>\n        <AttributeLink AttributeID=\"Garbage-7\"/>\n        <AttributeLink AttributeID=\"Garbage-70\"/>\n        <AttributeLink AttributeID=\"Garbage-71\"/>\n        <AttributeLink AttributeID=\"Garbage-72\"/>\n        <AttributeLink AttributeID=\"Garbage-73\"/>\n        <AttributeLink AttributeID=\"Garbage-74\"/>\n        <AttributeLink AttributeID=\"Garbage-75\"/>\n        <AttributeLink AttributeID=\"Garbage-76\"/>\n        <AttributeLink AttributeID=\"Garbage-77\"/>\n        <AttributeLink AttributeID=\"Garbage-0\"/>\n        <AttributeLink AttributeID=\"Garbage-78\"/>\n        <AttributeLink AttributeID=\"Garbage-79\"/>\n        <AttributeLink AttributeID=\"Garbage-8\"/>\n        <AttributeLink AttributeID=\"Garbage-80\"/>\n        <AttributeLink AttributeID=\"Garbage-81\"/>\n        <AttributeLink AttributeID=\"Garbage-82\"/>\n        <AttributeLink AttributeID=\"Garbage-83\"/>\n        <AttributeLink AttributeID=\"Garbage-84\"/>\n        <AttributeLink AttributeID=\"Garbage-85\"/>\n        <AttributeLink AttributeID=\"Garbage-86\"/>\n        <AttributeLink AttributeID=\"Garbage-29\"/>\n        <AttributeLink AttributeID=\"Garbage-3\"/>\n        <AttributeLink AttributeID=\"Garbage-30\"/>\n        <AttributeLink AttributeID=\"Garbage-31\"/>\n        <AttributeLink AttributeID=\"Garbage-32\"/>\n        <AttributeLink AttributeID=\"Garbage-33\"/>\n        <AttributeLink AttributeID=\"Garbage-34\"/>\n        <AttributeLink AttributeID=\"Garbage-35\"/>\n        <AttributeLink AttributeID=\"Garbage-36\"/>\n        <AttributeLink AttributeID=\"Garbage-37\"/>\n        <AttributeLink AttributeID=\"Garbage-38\"/>\n        <AttributeLink AttributeID=\"Garbage-39\"/>\n        <AttributeLink AttributeID=\"Garbage-4\"/>\n        <AttributeLink AttributeID=\"Garbage-40\"/>\n        <AttributeLink AttributeID=\"Garbage-41\"/>\n        <AttributeLink AttributeID=\"Garbage-42\"/>\n        <AttributeLink AttributeID=\"Garbage-43\"/>\n        <AttributeLink AttributeID=\"Garbage-44\"/>\n        <AttributeLink AttributeID=\"Garbage-45\"/>\n        <AttributeLink AttributeID=\"Garbage-46\"/>\n        <AttributeLink AttributeID=\"Garbage-47\"/>\n        <AttributeLink AttributeID=\"Garbage-48\"/>\n        <AttributeLink AttributeID=\"Garbage-49\"/>\n        <AttributeLink AttributeID=\"Garbage-5\"/>\n        <AttributeLink AttributeID=\"Garbage-50\"/>\n        <AttributeLink AttributeID=\"Garbage-51\"/>\n        <AttributeLink AttributeID=\"Garbage-52\"/>\n        <AttributeLink AttributeID=\"Garbage-53\"/>\n        <AttributeLink AttributeID=\"Garbage-54\"/>\n        <AttributeLink AttributeID=\"Garbage-55\"/>\n        <AttributeLink AttributeID=\"Garbage-56\"/>\n        <AttributeLink AttributeID=\"Garbage-57\"/>\n        <AttributeLink AttributeID=\"Garbage-1\"/>\n        <AttributeLink AttributeID=\"Garbage-10\"/>\n        <AttributeLink AttributeID=\"Garbage-100\"/>\n        <AttributeLink AttributeID=\"Garbage-11\"/>\n        <AttributeLink AttributeID=\"Garbage-12\"/>\n        <AttributeLink AttributeID=\"Garbage-13\"/>\n        <AttributeLink AttributeID=\"Garbage-14\"/>\n        <AttributeLink AttributeID=\"Garbage-15\"/>\n        <AttributeLink AttributeID=\"Garbage-16\"/>\n        <AttributeLink AttributeID=\"Garbage-17\"/>\n        <AttributeLink AttributeID=\"Garbage-18\"/>\n        <AttributeLink AttributeID=\"Garbage-19\"/>\n        <AttributeLink AttributeID=\"Garbage-2\"/>\n        <AttributeLink AttributeID=\"Garbage-20\"/>\n        <AttributeLink AttributeID=\"Garbage-21\"/>\n        <AttributeLink AttributeID=\"Garbage-22\"/>\n        <AttributeLink AttributeID=\"Garbage-23\"/>\n        <AttributeLink AttributeID=\"Garbage-24\"/>\n        <AttributeLink AttributeID=\"Garbage-25\"/>\n        <AttributeLink AttributeID=\"Garbage-26\"/>\n        <AttributeLink AttributeID=\"Garbage-27\"/>\n        <AttributeLink AttributeID=\"Garbage-28\"/>\n      </Product>\n      <Product ID=\"TREE-80481653\" UserTypeID=\"Tree\">\n        <Name>Deep Hierarchy 2</Name>\n      </Product>\n      <Product ID=\"TREE-80481655\" UserTypeID=\"Tree\">\n        <Name>Flat Hierarchy</Name>\n      </Product>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
