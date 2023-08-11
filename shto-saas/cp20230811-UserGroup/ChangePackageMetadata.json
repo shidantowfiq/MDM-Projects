@@ -1,0 +1,35 @@
+{
+  "id" : "cp20230811-UserGroup",
+  "name" : "cp20230811-UserGroup",
+  "metadata" : { },
+  "uniqueId" : "cpk-5aedcb3e-6dbf-44c1-8f90-9340bc8c7160",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://group?id=Marketing",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=ADMINTEMP",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://group?id=NewUserGroup",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:51:42\"    UseContextLocale=\"false\">\n\n  <UserGroupList>\n    <UserGroup ID=\"ADMINTEMP\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">AdminTemp</Name>\n      <PrivilegeRule ActionSetID=\"All user actions\" ClassificationID=\"Classification 1 root\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" EntityID=\"Entity hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"All setup actions\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" ProductID=\"Product hierarchy root\"/>\n    </UserGroup>\n    <UserGroup ID=\"NewUserGroup\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">NewUserGroup</Name>\n    </UserGroup>\n    <UserGroup ID=\"Marketing\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">Marketing</Name>\n    </UserGroup>\n  </UserGroupList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

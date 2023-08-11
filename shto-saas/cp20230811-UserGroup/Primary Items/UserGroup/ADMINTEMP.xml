@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="ADMINTEMP" ReadOnly="false">
+            <Name QualifierID="Qualifier root">AdminTemp</Name>
+            <PrivilegeRule ActionSetID="All setup actions"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" ClassificationID="Classification 1 root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" EntityID="Entity hierarchy root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" ProductID="Product hierarchy root"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>
