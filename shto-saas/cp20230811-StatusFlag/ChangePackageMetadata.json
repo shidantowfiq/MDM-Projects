@@ -1,0 +1,33 @@
+{
+  "id" : "cp20230811-StatusFlag",
+  "name" : "cp20230811-StatusFlag",
+  "metadata" : {
+    "Purpose" : "Confirm you cannot seal a change package when there are no items in it"
+  },
+  "uniqueId" : "cpk-f61bb6b6-eed4-465e-afdb-47e2295b710e",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://statusflag?id=Low",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://statusflag?id=High",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=StatusFlags",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://statusflag?id=Medium",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 12:50:56\"    UseContextLocale=\"false\">\n\n  <StatusFlags>\n    <StatusFlag ID=\"Low\">\n      <SetupGroupLink SetupGroupID=\"StatusFlags\"/>\n      <Name QualifierID=\"Qualifier root\">Low</Name>\n    </StatusFlag>\n    <StatusFlag ID=\"High\">\n      <SetupGroupLink SetupGroupID=\"StatusFlags\"/>\n      <Name QualifierID=\"Qualifier root\">High</Name>\n    </StatusFlag>\n    <StatusFlag ID=\"Medium\">\n      <SetupGroupLink SetupGroupID=\"StatusFlags\"/>\n      <Name QualifierID=\"Qualifier root\">Medium</Name>\n    </StatusFlag>\n  </StatusFlags>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
