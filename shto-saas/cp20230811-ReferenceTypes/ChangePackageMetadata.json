@@ -1,0 +1,183 @@
+{
+  "id" : "cp20230811-ReferenceTypes",
+  "name" : "cp20230811-ReferenceTypes",
+  "metadata" : { },
+  "uniqueId" : "cpk-f0fea07b-8454-4095-a1f9-279aee8532a1",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=PackagingHierarchyRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://matchingalgorithm?id=ItemDeduplication",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Pallet",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Justification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=CustomerToEmail",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=TestClassifications",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ConfirmedDuplicateItems",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=PrimaryProductImage",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=BuySideRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=SellSideRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=TestClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=DEFAULT",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Logo",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attributegroup?id=Metadata",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Replacement",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=Generic+Asset",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=MyEntity",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Item2Item",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=Accessory",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=MyEntities",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ConfirmedNonDuplicateItems",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Logo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=PDF",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ProductImage",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Case",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=OverrideLevel2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=JPEGImage",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=OverrideLevel1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ProductOverrides",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=WebsitesToMarkets",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Pack",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ProductImage",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:48:30\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <CrossReferenceTypes>\n    <AssetCrossReferenceType ID=\"ProductImage\" Inherited=\"true\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">Product Image</Name>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used for the additional product images for a product</Value>\n      </MetaData>\n      <TargetUserTypeLink UserTypeID=\"ProductImage\"/>\n    </AssetCrossReferenceType>\n    <AssetCrossReferenceType ID=\"Generic Asset\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"Qualifier root\">Generic Asset</Name>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"DEFAULT\"/>\n      <TargetUserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <TargetUserTypeLink UserTypeID=\"PDF\"/>\n      <TargetUserTypeLink UserTypeID=\"JPEGImage\"/>\n    </AssetCrossReferenceType>\n    <AssetCrossReferenceType ID=\"Logo\" Inherited=\"true\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"false\">\n      <Name QualifierID=\"en-US\">Logo</Name>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used for the single product image that is the primary image to show in STEP and potentially in downstream systems</Value>\n      </MetaData>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"Logo\"/>\n    </AssetCrossReferenceType>\n    <AssetCrossReferenceType ID=\"PrimaryProductImage\" Inherited=\"true\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"false\">\n      <Name QualifierID=\"en-US\">Primary Product Image</Name>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used for the single product image that is the primary image to show in STEP and potentially in downstream systems</Value>\n      </MetaData>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"ProductImage\"/>\n    </AssetCrossReferenceType>\n    <ProductCrossReferenceType ID=\"ConfirmedNonDuplicateItems\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"Qualifier root\">ConfirmedNonDuplicateItems</Name>\n      <AttributeLink AttributeID=\"Justification\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"Item\"/>\n    </ProductCrossReferenceType>\n    <ProductCrossReferenceType ID=\"SmartsheetTemplateProduct\" Inherited=\"true\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"false\">\n      <Name QualifierID=\"std.lang.all\">Smartsheet Template Product</Name>\n      <TargetUserTypeLink UserTypeID=\"DiscontinuedProducts\"/>\n      <TargetUserTypeLink UserTypeID=\"Pallet\"/>\n      <TargetUserTypeLink UserTypeID=\"Case\"/>\n      <TargetUserTypeLink UserTypeID=\"Product user-type root\"/>\n      <TargetUserTypeLink UserTypeID=\"Pack\"/>\n      <TargetUserTypeLink UserTypeID=\"BusinessUnitRoot\"/>\n      <TargetUserTypeLink UserTypeID=\"std.AdaptorType\"/>\n      <TargetUserTypeLink UserTypeID=\"SellSideRoot\"/>\n      <TargetUserTypeLink UserTypeID=\"BuySideRoot\"/>\n      <TargetUserTypeLink UserTypeID=\"PackagingHierarchyRoot\"/>\n      <TargetUserTypeLink UserTypeID=\"OverrideLevel2\"/>\n      <TargetUserTypeLink UserTypeID=\"Products\"/>\n      <TargetUserTypeLink UserTypeID=\"OverrideLevel1\"/>\n      <TargetUserTypeLink UserTypeID=\"Level3\"/>\n      <TargetUserTypeLink UserTypeID=\"Level4\"/>\n      <TargetUserTypeLink UserTypeID=\"Level2\"/>\n      <TargetUserTypeLink UserTypeID=\"Level1\"/>\n      <TargetUserTypeLink UserTypeID=\"ProductOverrides\"/>\n    </ProductCrossReferenceType>\n    <ProductCrossReferenceType ID=\"Accessory\" Inherited=\"true\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">Accessory</Name>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n      <TargetUserTypeLink UserTypeID=\"Item\"/>\n    </ProductCrossReferenceType>\n    <ProductCrossReferenceType ID=\"Item2Item\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"Qualifier root\">Item2Item</Name>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"Item\"/>\n    </ProductCrossReferenceType>\n    <ProductCrossReferenceType ID=\"Replacement\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"false\">\n      <Name QualifierID=\"en-US\">Replacement</Name>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"Item\"/>\n    </ProductCrossReferenceType>\n    <ProductCrossReferenceType ID=\"ConfirmedDuplicateItems\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"Qualifier root\">ConfirmedDuplicateItems</Name>\n      <AttributeLink AttributeID=\"Justification\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <TargetUserTypeLink UserTypeID=\"Item\"/>\n    </ProductCrossReferenceType>\n    <ClassificationCrossReferenceType ID=\"WebsitesToMarkets\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">WebsitesToMarkets</Name>\n      <UserTypeLink UserTypeID=\"TestClassification\"/>\n      <TargetUserTypeLink UserTypeID=\"TestClassification\"/>\n    </ClassificationCrossReferenceType>\n    <EntityCrossReferenceType ID=\"CustomerToEmail\" Inherited=\"true\" Accumulated=\"true\" Revised=\"true\" Mandatory=\"false\" ParentChildRelation=\"NONE\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">CustomerToEmail</Name>\n      <UserTypeLink UserTypeID=\"MyEntity\"/>\n      <TargetUserTypeLink UserTypeID=\"MyEntity\"/>\n    </EntityCrossReferenceType>\n  </CrossReferenceTypes>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

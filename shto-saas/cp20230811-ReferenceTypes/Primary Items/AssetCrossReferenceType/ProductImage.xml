@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <AssetCrossReferenceType ID="ProductImage" Inherited="true" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="en-US">Product Image</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">Used for the additional product images for a product</Value>
+            </MetaData>
+            <TargetUserTypeLink UserTypeID="ProductImage"></TargetUserTypeLink>
+        </AssetCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

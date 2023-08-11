@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <EntityCrossReferenceType ID="CustomerToEmail" Inherited="true" Accumulated="true" Revised="true" Mandatory="false" ParentChildRelation="NONE" MultiValued="true">
+            <Name QualifierID="en-US">CustomerToEmail</Name>
+            <UserTypeLink UserTypeID="MyEntity"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="MyEntity"></TargetUserTypeLink>
+        </EntityCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

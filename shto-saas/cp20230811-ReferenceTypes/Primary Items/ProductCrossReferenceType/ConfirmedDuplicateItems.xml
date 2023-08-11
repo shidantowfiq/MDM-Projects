@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ProductCrossReferenceType ID="ConfirmedDuplicateItems" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="Qualifier root">ConfirmedDuplicateItems</Name>
+            <AttributeLink AttributeID="Justification"></AttributeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Item"></TargetUserTypeLink>
+        </ProductCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

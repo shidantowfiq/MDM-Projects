@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <ClassificationCrossReferenceType ID="WebsitesToMarkets" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="en-US">WebsitesToMarkets</Name>
+            <UserTypeLink UserTypeID="TestClassification"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="TestClassification"></TargetUserTypeLink>
+        </ClassificationCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>
