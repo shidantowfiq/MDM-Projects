@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Display" ShowInWorkbench="true" ManuallySorted="false">
+            <AttributeGroup ID="Identifiers" ShowInWorkbench="true" ManuallySorted="false">
+                <Name QualifierID="en-US">Identifiers</Name>
+            </AttributeGroup>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>
