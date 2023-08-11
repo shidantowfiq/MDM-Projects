@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <IntegrationEndpoints>
+        <GatewayIntegrationEndpoint ID="LAAL_Localhost" UserTypeID="GatewayEndpoint user-type root" Enabled="true">
+            <SetupGroupLink SetupGroupID="Gateway Integration Endpoints"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_Localhost</Name>
+            <Configuration>H4sIAAAAAAAAAJ1UTW/bMAy991cYOuS2ersNcJwgc9IOmIsGsXMuBIVxtMmSJ1Ft8++rD7dOWswZerIoko/vkZQLJfe8sZoiVzKfzp9bkTyCNt4i366/kgQkUzsum5xs65sv38l8djXthG24TPguJ7cU4Ykei1McMrtKkqnhbScgBBUHYH9ciASG/JHjsaQGK8sYGEMSaYXICWoLJL2Yudaq0bQdz+pJrQPNh+VqvVkVi3q1JLOJwOxM5OSvVZg5pfEwyI120Ny7DFK5o0JJ6J1Sxe980mDmkYe+RMdmVdWRRLR9nKPqQwe20VWBdpS2m3KILO+LRfnzvqp9fBoTRhCWsKdWoGsWgsT62MEARbtOcBaGk/42SmYJO1BtAPMocKSA4AZPaKIDMciZudXKdibepmPCqrLW1o0blYZSRRJ9R8MM49kP8jJYARr53iuBX3AMkJeT3Mo8ny/oZ8tvDWhJ25PGCkrFx+79O32tAdrOrTIsLB4GnD0VBv5vzj+s4dI9nBsr2SAmrCBtu+zzCz4P+b7wK9D7UqGTb1GOXh935/bLQZr0A0I6DvFecbDjK/L2tPe5X05/607GrTLOXgAlWYkUuQQAAA==</Configuration>
+        </GatewayIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>
