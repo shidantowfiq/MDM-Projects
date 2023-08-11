@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <MatchingAlgorithms>
+        <MatchingAlgorithm ID="ItemDeduplication" ContextID="Context1" WorkspaceID="Main">
+            <SetupGroupLink SetupGroupID="MatchCodesAndMatchingAlgorithms"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ItemDeduplication</Name>
+            <MatchingAlgorithmConfiguration>H4sIAAAAAAAAAJVSW0/CMBR+dr+i4YHIgwx80rCNKAuJJiABfDZ1O4xq1872FDXG/267dYoJ8fKynst3vnPZl5qKs4wirF8riCdSbJgqIU/b8BVCqSNtPUxmFLPtQskMtGaiqMGFURSZFB4ylyI9zLif2SddUvEIKoUNE8wRxVHp2lj+O8oLqRhuyyQgJFIW6KIVNwUTpHnunoEVW4w7w0F/0EmC6Jru6CpTrMLTetyJJQDF6KKpmtMS4s7KfmuzUzNPpSoNpwnbkGM7rMa5zKFfADrIcY/EMdGQSZF/j/fegiMFaJQg54PgPYjClsiRXjKRz2iVdDmOxi8lJztQ2u3XfTISR8P+oDEIiEzmdjGfuF1PT84ac9wtcBQ4Ak9W+4S0EWJnQkUzvEp98dRNX+99c/8AGTrUxIN8uwvOqPbwz2V9bkGV3czea8KpbkHCcN5Y4a/9V/WZ/j7A11n/M4HrH+6fJGo9K4DwZwXU/yb8riVXdUh0XqEro3ZsJ5XesmppOBzS/Qeu6kRARwMAAA==</MatchingAlgorithmConfiguration>
+        </MatchingAlgorithm>
+    </MatchingAlgorithms>
+</STEP-ProductInformation>
