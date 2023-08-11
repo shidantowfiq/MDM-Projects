@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <CollectionList>
+        <CollectionGroup ID="CollectionGroup root">
+            <Collection ID="80381210" ParentID="CollectionGroup root">
+                <Name>Collection created from file</Name>
+            </Collection>
+        </CollectionGroup>
+    </CollectionList>
+</STEP-ProductInformation>
