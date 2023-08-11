@@ -1,0 +1,23 @@
+{
+  "id" : "cp20230811-AttributeTransformations",
+  "name" : "cp20230811-AttributeTransformations",
+  "metadata" : { },
+  "uniqueId" : "cpk-2a65b6fb-b763-46c6-842d-16444a49ddbd",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://attributetransformationgroup?id=MyTransformationGroup",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attributetransformation?id=MyTransformation",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:12:20\"    UseContextLocale=\"false\">\n\n  <AttributeTransformationGroups>\n\n  <AttributeTransformationGroup ID=\"MyTransformationGroup\">\n    <Name QualifierID=\"Qualifier root\">MyTransformationGroup</Name>\n    <AttributeTransformation ID=\"MyTransformation\">\n      <Name QualifierID=\"Qualifier root\">MyTransformation</Name>\n      <Configuration>H4sIAAAAAAAAAF2NwQrCMBBE7/2KZT/A6j0JCCIItgotxWukWwk0Sdkk4OcbI4j1OG8eM6Jn7cLk2epovAvQJnsnvkwSdwi35jwQh1zkuNkitNrSsciRWGLkRAinww+a9Bwya9IczaDnRB0txDr63KGqAMT6Ecwocb8s5MZSZ+GqOd/ktXInsadnRPVxjHtA5y3BG4r6q5blej2tqn8SVPUC5ROAJPEAAAA=</Configuration>\n    </AttributeTransformation>\n  </AttributeTransformationGroup>\n  </AttributeTransformationGroups>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
