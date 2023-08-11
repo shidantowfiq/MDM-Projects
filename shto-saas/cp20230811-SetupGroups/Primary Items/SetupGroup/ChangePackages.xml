@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <SetupGroups>
+        <SetupGroup ID="ChangePackages" UserTypeID="ChangePackages">
+            <Name QualifierID="Qualifier root">Change Packages</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

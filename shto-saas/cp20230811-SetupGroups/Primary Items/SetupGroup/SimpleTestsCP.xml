@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <SetupGroups>
+        <SetupGroup ID="ChangePackages" UserTypeID="ChangePackages">
+            <SetupGroup ID="SimpleTestsCP" UserTypeID="ChangePackages">
+                <Name QualifierID="Qualifier root">Support Team</Name>
+            </SetupGroup>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

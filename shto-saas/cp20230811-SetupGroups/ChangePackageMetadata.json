@@ -1,0 +1,63 @@
+{
+  "id" : "cp20230811-SetupGroups",
+  "name" : "cp20230811-SetupGroups",
+  "metadata" : { },
+  "uniqueId" : "cpk-c9dc12aa-74c1-44cd-8785-382f39248844",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://SetupGroup?id=ChangePackages",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=ChangePackages",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=2023+Summer",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Integrations",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=TestPackages",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=CPFeatures",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Phase3",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=CheckDescription",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=SimpleTestsCP",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Archive",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 13:49:22\"    UseContextLocale=\"false\">\n\n  <SetupGroups>\n    <SetupGroup ID=\"ChangePackages\" UserTypeID=\"ChangePackages\">\n      <Name QualifierID=\"Qualifier root\">Change Packages</Name>\n      <SetupGroup ID=\"2023 Summer\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">2023 Summer</Name>\n      </SetupGroup>\n      <SetupGroup ID=\"Archive\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">Archive</Name>\n      </SetupGroup>\n      <SetupGroup ID=\"Integrations\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">Integrations</Name>\n      </SetupGroup>\n      <SetupGroup ID=\"CheckDescription\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">Phase 1</Name>\n      </SetupGroup>\n      <SetupGroup ID=\"CPFeatures\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">Phase 2</Name>\n      </SetupGroup>\n      <SetupGroup ID=\"Phase3\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">Phase 3</Name>\n      </SetupGroup>\n      <SetupGroup ID=\"SimpleTestsCP\" UserTypeID=\"ChangePackages\">\n        <Name QualifierID=\"Qualifier root\">Support Team</Name>\n      </SetupGroup>\n    </SetupGroup>\n    <SetupGroup ID=\"EventProcessors\" UserTypeID=\"EventProcessors\">\n      <Name QualifierID=\"Qualifier root\">Event Processors</Name>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
