@@ -1,0 +1,35 @@
+{
+  "id" : "cp20230802-Entity",
+  "name" : "cp20230802-Entity",
+  "metadata" : { },
+  "uniqueId" : "cpk-6cea05b2-0220-4c93-86ad-542895d9ae2e",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://entity?id=80593229",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=80593228",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=MyEntity",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=MyEntities",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=MyEntities",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-11 10:35:06\"    UseContextLocale=\"false\">\n\n  <Entities>\n    <Entity ID=\"MyEntities\" UserTypeID=\"MyEntities\" ParentID=\"Entity hierarchy root\">\n      <Name>MyEntities</Name>\n      <Entity ID=\"80593228\" UserTypeID=\"MyEntity\">\n        <Name>MyEntity</Name>\n      </Entity>\n      <Entity ID=\"80593229\" UserTypeID=\"MyEntity\">\n        <Name>MyEntity</Name>\n      </Entity>\n    </Entity>\n  </Entities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

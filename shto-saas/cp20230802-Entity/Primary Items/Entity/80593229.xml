@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Entities>
+        <Entity ID="MyEntities" UserTypeID="MyEntities" ParentID="Entity hierarchy root">
+            <Entity ID="80593229" UserTypeID="MyEntity">
+                <Name>MyEntity</Name>
+            </Entity>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>
