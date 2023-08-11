@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ExportConfigurations>
+        <ExportConfiguration ID="80000315">
+            <Name>ComplexData</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ExportConfig14294763178437639288.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">5169</Value>
+                <Value AttributeID="asset.uploaded">2023-05-01 05:42:34</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.EMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAK1YTZPiNhC9z69wufaQHGbI5pgCpgiwO1RghuVjNpvLlrDboIwsuSSZhX+/LVnmY2a34oZwomS97qdWq/tJ7ftdLqItaMOV7MTv736L77s37eGuUNpOmGRr0H0lM76OnutJv8fRI8uhE/dVXgjYDZhlcYSzLOzsaODG/d/3cfRZ6RdTsATc8IRxGUdLA+H7WCVMoJmMCQNxNAOjxBZGUnAJM8jM4UvFZgCabyHtWatPPmUZJBbHkQSaejWw4Dn8o6T33ssRn7DWI3z7+gVp4dQ+Ehdq7b7G0RxE5oghSUjRPWiQCRw9heWHyckG0lIcvE61wrlmARgQP1RRBh3iIu1EpRW/HSSlRUP1wEhukJhFC2mZWBfLTmx1iR7HwLIwXJl7FRBkjEuFNMw5UuVm7pyn9UD3JoraYVYFQv9uEIeXs3HXWCj+aLWKasY9TzthZxdgbLvlpjgLrR+ZaH9QOmc2ZMR8MZz+PRnHwfiUaRzGMITPH4VaMTEHa7lcm7iLJusZP0H0tTIm5Et/o5TBkHYf1X8DRzIRZQrPTPCUObLNYAPIuORuvumh3zzHrTPNoNWmeIc9mfZWBqENneKmP63+xaA2iklYWkgcSNFlCQ1JfsD0xHR84KCZTjZ7UjD/gr25ZBOG0mJIHcUJBjcvcxpy7448X5UW6pV+AdPYhAtufa51wygFaH2w6LwD8iriT1iVNU9TkEceBPJ9wYzhGZY8n830NSzYSjRNq1PIyREigXvGACnWHhDK60laSmjs0pUr16Iyob4tmHkZyUw141z1xFKH0kJIDL7lAtbXRWlams1wi8v+VAJ2CtqiDxaouDqZz6hTs+pg5aNWZfH/mFpoJk3m+xA5nn+W4mVZYIuAsy2lGjFYXYyZleHEEMLaVyK000tTwjVr9FhpDEHF+tZ6uWsP/1Ri18s4tb6elebFvnh9KAhRDOLQHwpniUakVoKN22iNc+6C9lOayvl4golevdB4m64E16MchT1aCMKfjL6eAObNuoIOZVooHmQWwYRTI7Tu9DrDqAVn/PR8FX7CbLLp4yGl8fYwFMw9sVYo+DY5NVIouMviKMLoWF+ryUjLbGlQcK7JyD3eSHLvmS4/rqsji8C2OeCs94yVeikLz+Oq4+GtCg+9ys4So3B5MPCqri9HT7FGMHEV/c+wmuMNh7Yjp6KOnHknWKzrGSf082m5Ety4g0rRgw5USXR/yGj3kyP4Uty8kh7Ee5FgUkI6xR5CFK+lVQ51fF6hySyU6EC8BqE7Lv1SD+KsOd3EorBxhP0T11tou1W9fpw+sExYUWAORPXrzHI2diWpE4fnlfjsLSXM9mMDEKhh9L6+qmPy/ewhxX1z/+oHp7h78hZ3+87yHIxlefHLHn+3k8ltmn59eLjL8ztjfr17h5INpGv8b9ZTc+jetFs/eATs3nwHRZDmXDEUAAA=</Configuration>
+        </ExportConfiguration>
+    </ExportConfigurations>
+</STEP-ProductInformation>

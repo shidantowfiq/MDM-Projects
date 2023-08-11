@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ExportConfigurations>
+        <ExportConfiguration ID="107411">
+            <Name>LAAL_JSON</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ExportConfig.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">3714</Value>
+                <Value AttributeID="asset.uploaded">2023-05-02 14:03:13</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.EMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAM1XbW/jNgz+nl8haMWwDWvcDgMOuEvcZc29ZEiyoklv2A2HQLXoVJtseZLcNTjcfx9ly46TOi/FiuHyIbCph+RDipSp3sVDIsk9aCNU2qfn3TN6EXZ6rx8ype2EpWwJ+lKlsViS9xXoB0qmLIE+HQ8G48Uvs1+nlCDGwoMdDfvUP55T8pvSf5mMReDEEyZSSm4M+PWxiphEIzGTBii5BqPkPYxSKVK4htjUKyWXIWhxD3xgrW4sxTFEFuVDZtHUlmAuEvig0sL7IEH9iAVT+GfxO9JC6CWzTKqlW6VkBjJ2xJAkcHQPGtII1p588B4c3QHPZe31SivEmjkkmSxEJWXQPi+pnShe8nuAKLdoqBKM0jskZtECzyOLBlntcgws9vLSXp9andcJQcYYKnAPWVMVZuac80oQdgjpeVSphP6dEMU31+PQWMheBkFWIi4E75+fvfjx7EUvcKtOOWjT7r1ROmHWl8JbSF2Ci2Lwtq+YxiXMgodU6aHhJwR8/Xeu7Cvv1JRvL8kfheqn4r/CLBZ2lUGFqGQaIqV5+fb9Bl7wbaxlegmWjIZt8BTJ7VCY1kubKvdM5rDFucl7jWRYruI2t1D53vaxaX7LxT6VWuOzf/q4yTHD3YBrli6PI8qj0Y60PWJYCmKtkicpWPW0DBQBPC0DnertY+czFm1VfzvqsazfoYryBDuUhq65trR6QQlqttCEZZlIl6TqP2ySOdZnn/parsofcWRe0O3T0dBLUT7XYomHatgbDWcq1xGQgcnQUoEKwl5QASoFbHeNp4tru506DUzpPUD3LURc5C1UnLg0fIjAJnKf20uVZMoIC03/Zee0MBhUjVLFt26cPv2O1vG+dwYGKb9JhaVr1Fut8qw45ysJWToR0UohbpJLKwrVGWS4wVbpPn31ONsbuWr0Lm3NxbGcUf85mB67x0WO/xvjZ8/yPu5Bs1L2FU/jSGupIPftrL7g2se3IXNd6siPLCRXzpTZFfCOQEq5s9kQf3WgitzB2r4ZG+TaGvsw/atcynJmKCeD3QSPLR53rB9Bd28h1QzfOGP/3yYcG6NVzxbhXH2B8RV98mwhfiEBPjol6qnUf5AL2RAkDv965T/xrxMm5K55dMC580ZDyZj8yVhxq8wKh+HEdCOVHJ4fZvntnxj2HO8yNPRcCMe4CBQD+mELPyu+8uoSmAESi5QTvHhIZYATewfEDczGkqxpnvsgDzv4IDIa4t9UHTEOCQnuaT2mn8QocuPx6YnFq5SxLMm+WeHvdDI55Xzx7l03SbrGfNs9wSAgdRv3aICqdgQvlUHLrTLs/AvJa2Pzgg4AAA==</Configuration>
+        </ExportConfiguration>
+    </ExportConfigurations>
+</STEP-ProductInformation>

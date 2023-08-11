@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ExportConfigurations>
+        <ExportConfiguration ID="80481507">
+            <Name>RD-21743</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ExportConfig17884656075331270328.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">5063</Value>
+                <Value AttributeID="asset.uploaded">2023-08-02 01:35:23</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.EMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAK1Y3W/bNhB/z18hCHnYHhKv3YABhe3As93GmNW4tpxuexlo6WRzoUiBH2783+9IUbbTpphoLU8Odb/74vHuR/bvnksW7UEqKvggfnP7U3w3vOpPnyshdUI42YIcC17QbfTYCL2No4+khEG8nNy8ffPrLz/HEYpoeNazySD2P3Hxs5BPqiIZ2OWEUB5HawX++1xkhKGOgjAFcbQEJdgeZpxRDkso1CDW0uCHaVFApukeJkSj+FcLKS3hL8GdhamRooLeZyIV+YJyY6IJE1v7KY5WwAprGb2AHPWDBJ6BOtr3wXnhbAe5YUeTCylQVqVQVswt1ekB6QPnOhF57dwzZEajomZhxncgqUYNuck0KiRNYHMghV+u1R0jdv+hwxgm5F7k5ClVK2s7bxaGV1HU91I1CM3bRVxeL+dDpaF61+tVtcQdzQdeOBWJ2EO/Z4Wsjt5rSvrvhSyJ9hu+SqeLP5J57NUviMRlzIP//IGJDWEr0JryrYqHqLKR+A5iLIVSviLGOyEU5nT4Ufw3cMYzZnJ4JIzmxDrbDjaBgnJq5dUI7ZYl7p1qB623xRkc8Xy0UQhtaRR3/WHzDya1VU58aL5yIEeTBlo6+R7rE+vxnoIkMtsdgpL5OxzUJZsw5RpTal1MMLmlKcOQh5HWkm6MhibSP0G1VmGT2xxs2TJLHtocrXC/PbKT4w/YdCXNc+AnPwKcHzOiFC1o5qrfYTm0Rqdkw9rW1Dnk7PwEgUdKgW7tpJP2nfWsIAPis43Kjp+CiS8pUU8zXoh2DtfDzkjfVAJKgu4pg223FC2M2k33GPYnAzgLwoI+agjFNWX8leuXqPgghan+Bz2pJFwVbvYEZ/I3w57WFY4FeLGZoUoUdhSllsYflIAoxoL5EXppMeBoqtBiTSxYKNaN08tNO/gng5OuoKE99UU7Tg9Vh5qa4PjbQ+6Og9UU5khD/1qPzgZnzXnCJ2Soz6ezG2jVkYtvyzXA9KxEro4aPJcPRnd3AOtmW0OnPK8E5e07/hkDCRtKnSps/vB4OTghOtuN8XiGeexgSI9HbCuQ3u3KULtIr011olzhWNeig5GaaKOQXm6DkQe8gZTOcjjf6La/qfe2PeDF1JkL8WQq50eng+G0MgftpGeNWbg8GXj1lpejF9gdCOvk/jkn64LF5lzQgKG8MBtGlT1zIXTOgmpu7c5L2MXiBL4Ut6r5Q+CFhhHOIV/gIAjknkYLizo9jIRxJWTYEHh/QXOUu1CPDKu9u5lGdmIdtnTjFWi/Vz9bnL+NJKSqsAai5mFlvZzb7jKI/ctI/OIRxEu7tQkwJCLy0Nyxsfi+9wJiv9lfzVNRPLy2tcpx6eZa0xKUJmX1wwH/bpLkJs//vr+/LctbpX68vUbWBdzO7m+iaTwYXvV7rzzNDa/+BbbqDj7HEwAA</Configuration>
+        </ExportConfiguration>
+    </ExportConfigurations>
+</STEP-ProductInformation>
