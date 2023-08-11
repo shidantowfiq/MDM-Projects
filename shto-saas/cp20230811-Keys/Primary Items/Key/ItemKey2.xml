@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Keys>
+        <Key ID="ItemKey2" State="Active">
+            <Name QualifierID="Qualifier root">ItemKey2</Name>
+            <KeyFormula> concatenate("lars-",  value('ItemUniqueID'))</KeyFormula>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <AttributeLink AttributeID="ItemUniqueID"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>
