@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="ListGenerator" UserTypeID="ValueGeneratorConfigurationType">
+            <SetupGroupLink SetupGroupID="ValueGenerators"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ListGenerator</Name>
+            <Configuration>H4sIAAAAAAAAAI2RSw+CMBCE7/6KnrgJejAxAVFDfBxMNAH1jLTAJqWLfRh/vkA1qAfjbacz3zTtRihyKIxMNaCYBVEnwwEhwSnlhm2YYI2HMnrPhQ7X/vxecXJjUrWgczWo/bE7sgNhIkMKongax2Q9nNpx7hTaH7QFNTcFCAL0GdqB0p+X2vMOIKRFFFQ1Zz1ykCyHex+Lt23Ks7EfXGzyDy7Z/8edUymaVyWlZKpETvuGyX8FqyoFvqS04VUPq1LjQmm4oJth9d3UaftZnQ68X6tp7NcSA1Vz0OEDfB4xSuMBAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

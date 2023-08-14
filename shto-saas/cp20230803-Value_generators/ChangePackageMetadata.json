@@ -5,7 +5,7 @@
   "uniqueId" : "cpk-b2fb9565-3dfe-423c-bca2-bd8a4644773d",
   "origin" : "shto-saas",
   "wasSigned" : "true",
-  "wasExported" : "false",
+  "wasExported" : "true",
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
@@ -13,27 +13,23 @@
     "inclusion" : "Precondition",
     "importing" : "Ignore"
   }, {
-    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://SetupEntity?id=SequenceVG",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
     "itemURL" : "step://SetupGroup?id=ValueGenerators",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
     "inclusion" : "Precondition",
     "importing" : "Ignore"
   }, {
     "itemURL" : "step://objecttype?id=ValueGenerators",
     "inclusion" : "Precondition",
     "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupEntity?id=ListGenerator",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupEntity?id=SequenceVG",
+    "inclusion" : "Change",
+    "importing" : "Force"
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-03 14:21:40\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"SequenceVG\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">SequenceVG</Name>\n      <Configuration>H4sIAAAAAAAAAJWRPQ+CMBCGd39FJzYFBhMTEGOIOuni19zYE5qUFvth+PmWFiM6ENnuzfs+d7m7XPA7LYzEmgq+THMnswlC6QUzAzvgYD0h834uC5hOVk3F0BOkasHgYYRO4lnkCwT8JgjlRWecT9vpwperoNDJpG1QM1NQjijpQkd4GMvB92DvOQihFlO0qhn0MI2l/qTiKIraWOhzA+AeNx/sP+SKJbdbnUoJqhSMjOU3FaZsTYjF1Vj2AI12p+nvGs9/Yaf9aZ1Ow6FHWvv98lTVjOrsBXIl91sRAgAA</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-14 14:07:30\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"SequenceVG\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">SequenceVG</Name>\n      <Configuration>H4sIAAAAAAAAAJWRPQ+CMBCGd39FJzYFBhMTEGOIOuni19zYE5qUFvth+PmWFiM6ENnuzfs+d7m7XPA7LYzEmgq+THMnswlC6QUzAzvgYD0h834uC5hOVk3F0BOkasHgYYRO4lnkCwT8JgjlRWecT9vpwperoNDJpG1QM1NQjijpQkd4GMvB92DvOQihFlO0qhn0MI2l/qTiKIraWOhzA+AeNx/sP+SKJbdbnUoJqhSMjOU3FaZsTYjF1Vj2AI12p+nvGs9/Yaf9aZ1Ow6FHWvv98lTVjOrsBXIl91sRAgAA</Configuration>\n    </SetupEntity>\n    <SetupEntity ID=\"ListGenerator\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">ListGenerator</Name>\n      <Configuration>H4sIAAAAAAAAAI2RSw+CMBCE7/6KnrgJejAxAVFDfBxMNAH1jLTAJqWLfRh/vkA1qAfjbacz3zTtRihyKIxMNaCYBVEnwwEhwSnlhm2YYI2HMnrPhQ7X/vxecXJjUrWgczWo/bE7sgNhIkMKongax2Q9nNpx7hTaH7QFNTcFCAL0GdqB0p+X2vMOIKRFFFQ1Zz1ykCyHex+Lt23Ks7EfXGzyDy7Z/8edUymaVyWlZKpETvuGyX8FqyoFvqS04VUPq1LjQmm4oJth9d3UaftZnQ68X6tp7NcSA1Vz0OEDfB4xSuMBAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
