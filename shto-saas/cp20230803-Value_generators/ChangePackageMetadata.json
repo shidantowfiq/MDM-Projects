@@ -2,7 +2,7 @@
   "id" : "cp20230803-Value generators",
   "name" : "cp20230803-Value generators",
   "metadata" : { },
-  "uniqueId" : "cpk-b2fb9565-3dfe-423c-bca2-bd8a4644773d",
+  "uniqueId" : "489ec8d4-2be8-498f-9b96-0e0fccf055d1",
   "origin" : "shto-saas",
   "wasSigned" : "true",
   "wasExported" : "true",
@@ -21,15 +21,35 @@
     "inclusion" : "Precondition",
     "importing" : "Ignore"
   }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupEntity?id=AlgorithmicValueGenerator",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
     "itemURL" : "step://SetupEntity?id=ListGenerator",
     "inclusion" : "Change",
     "importing" : "Force"
   }, {
+    "itemURL" : "step://businessrule?id=getDateCode",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Functions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
     "itemURL" : "step://SetupEntity?id=SequenceVG",
     "inclusion" : "Change",
     "importing" : "Force"
+  }, {
+    "itemURL" : "step://businessrule?id=functionCallExample",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-14 14:07:30\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"SequenceVG\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">SequenceVG</Name>\n      <Configuration>H4sIAAAAAAAAAJWRPQ+CMBCGd39FJzYFBhMTEGOIOuni19zYE5qUFvth+PmWFiM6ENnuzfs+d7m7XPA7LYzEmgq+THMnswlC6QUzAzvgYD0h834uC5hOVk3F0BOkasHgYYRO4lnkCwT8JgjlRWecT9vpwperoNDJpG1QM1NQjijpQkd4GMvB92DvOQihFlO0qhn0MI2l/qTiKIraWOhzA+AeNx/sP+SKJbdbnUoJqhSMjOU3FaZsTYjF1Vj2AI12p+nvGs9/Yaf9aZ1Ow6FHWvv98lTVjOrsBXIl91sRAgAA</Configuration>\n    </SetupEntity>\n    <SetupEntity ID=\"ListGenerator\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">ListGenerator</Name>\n      <Configuration>H4sIAAAAAAAAAI2RSw+CMBCE7/6KnrgJejAxAVFDfBxMNAH1jLTAJqWLfRh/vkA1qAfjbacz3zTtRihyKIxMNaCYBVEnwwEhwSnlhm2YYI2HMnrPhQ7X/vxecXJjUrWgczWo/bE7sgNhIkMKongax2Q9nNpx7hTaH7QFNTcFCAL0GdqB0p+X2vMOIKRFFFQ1Zz1ykCyHex+Lt23Ks7EfXGzyDy7Z/8edUymaVyWlZKpETvuGyX8FqyoFvqS04VUPq1LjQmm4oJth9d3UaftZnQ68X6tp7NcSA1Vz0OEDfB4xSuMBAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-14 14:37:19\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"AlgorithmicValueGenerator\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">Algorithmic Value Generator</Name>\n      <Configuration>H4sIAAAAAAAAANVTu07EMBDs7ytcpQNDd1JCIsjpEAUSQkBvXRZjybGNH+j4e/xInITorqOg2/XMrMejdSvFO6NOE8ukuKna2NYbhKo3wh3cgwCPSd3OeXXBbdkce46+QJsgLD6dtOX15VUqEIiD7JigA/D6sr/YprIpqC03YYDijjKBWDeQbjmVmtmPfnlzAqMKoaAzrFccJt3AhDtnmABj9k4cgstJWJBelSvL4TDbzs3Mej5L9nPbxDI+Yxj8++onLY/fmeVtn+CNFAp251/Qyg5GKj7FnY17JEp5pwavDK3US0chRpxyPBPsM3Ag5j/k+idBcGbsFMaDsEDDmnXL9TQJxnmtcdrr2Ff43C/y8PjfKqM4s/UPudwz5o4DAAA=</Configuration>\n    </SetupEntity>\n    <SetupEntity ID=\"SequenceVG\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">SequenceVG</Name>\n      <Configuration>H4sIAAAAAAAAAJWRPQ+CMBCGd39FJzYFBhMTEGOIOuni19zYE5qUFvth+PmWFiM6ENnuzfs+d7m7XPA7LYzEmgq+THMnswlC6QUzAzvgYD0h834uC5hOVk3F0BOkasHgYYRO4lnkCwT8JgjlRWecT9vpwperoNDJpG1QM1NQjijpQkd4GMvB92DvOQihFlO0qhn0MI2l/qTiKIraWOhzA+AeNx/sP+SKJbdbnUoJqhSMjOU3FaZsTYjF1Vj2AI12p+nvGs9/Yaf9aZ1Ow6FHWvv98lTVjOrsBXIl91sRAgAA</Configuration>\n    </SetupEntity>\n    <SetupEntity ID=\"ListGenerator\" UserTypeID=\"ValueGeneratorConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"ValueGenerators\"/>\n      <Name QualifierID=\"Qualifier root\">ListGenerator</Name>\n      <Configuration>H4sIAAAAAAAAAI2RSw+CMBCE7/6KnrgJejAxAVFDfBxMNAH1jLTAJqWLfRh/vkA1qAfjbacz3zTtRihyKIxMNaCYBVEnwwEhwSnlhm2YYI2HMnrPhQ7X/vxecXJjUrWgczWo/bE7sgNhIkMKongax2Q9nNpx7hTaH7QFNTcFCAL0GdqB0p+X2vMOIKRFFFQ1Zz1ykCyHex+Lt23Ks7EfXGzyDy7Z/8edUymaVyWlZKpETvuGyX8FqyoFvqS04VUPq1LjQmm4oJth9d3UaftZnQ68X6tp7NcSA1Vz0OEDfB4xSuMBAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n\n  <BusinessRules>\n    <BusinessRule ID=\"getDateCode\" Scope=\"Global\" Type=\"Function\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Functions\"/>\n      <Name QualifierID=\"Qualifier root\">getDateCode</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAL1VXW/aMBR951dYfkBU2pLtbVI+UNsUialMVUtV7QlZwck8GTtzrmn37+fYDU4CEWIPfSI555577rGxU3FdMrEhVcUZrTes2ORSFKyMawNAWjnaYUk8f9txtKeqZlIk+GvwBSMqcrllokzw83rx+Ruep/GNrpmgdf2oOU0nCB2AB9sNdXkHLbMEfyd78pQrVkHLL7TIwTi9MPh1w8S2xmn8SEErsf5b0fS3EQSciDJ4AmUmiMMOaWyN8QNRZEfBDOyALoQaU9cWNZIEDxvidMoh6mWe/tESIhPcPfj07t0ugXucT0uIJk2DxmNFqtACcXgYYGSkO6WkWpn4pKTjo4Uj6nbNDuhHJDxpekHkVu/374MG9oaWQqgh++BwgqYiHOgsNtLzfHr/xx9PvScKCfmKEiToK7K8BsaDjACdXUWThs+1UlTAvcwJp6bSVzkoKClktCCaQyvZGvlCqh2Bth7oG9iuDrYa87YUNRCR09nJouxucf18v/7UH6Hj4WIYD28YFPZnZlKZQi7LgIlCznz1VXS0dB3AHujY3R4evLX3lFak2Yh0SPdYxLZHZ40JBgnOfv64Xi1vzRE73+D9dF0u7G765epTB+b/uwzviqNO4Zl1DvsXfDrxiP0GvH9M/gEDAlSGbAYAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }

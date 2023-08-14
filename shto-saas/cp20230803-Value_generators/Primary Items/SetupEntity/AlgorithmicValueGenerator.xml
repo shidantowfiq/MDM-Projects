@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="AlgorithmicValueGenerator" UserTypeID="ValueGeneratorConfigurationType">
+            <SetupGroupLink SetupGroupID="ValueGenerators"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Algorithmic Value Generator</Name>
+            <Configuration>H4sIAAAAAAAAANVTu07EMBDs7ytcpQNDd1JCIsjpEAUSQkBvXRZjybGNH+j4e/xInITorqOg2/XMrMejdSvFO6NOE8ukuKna2NYbhKo3wh3cgwCPSd3OeXXBbdkce46+QJsgLD6dtOX15VUqEIiD7JigA/D6sr/YprIpqC03YYDijjKBWDeQbjmVmtmPfnlzAqMKoaAzrFccJt3AhDtnmABj9k4cgstJWJBelSvL4TDbzs3Mej5L9nPbxDI+Yxj8++onLY/fmeVtn+CNFAp251/Qyg5GKj7FnY17JEp5pwavDK3US0chRpxyPBPsM3Ag5j/k+idBcGbsFMaDsEDDmnXL9TQJxnmtcdrr2Ff43C/y8PjfKqM4s/UPudwz5o4DAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>
