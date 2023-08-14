@@ -1,0 +1,27 @@
+{
+  "id" : "cp20230803-ValueGeneratorsSetup",
+  "name" : "cp20230803-ValueGeneratorsSetup",
+  "metadata" : { },
+  "uniqueId" : "cpk-b2fb9565-3dfe-423c-bca2-bd8a4644773d",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=ValueGeneratorConfigurationType",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=ValueGenerators",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=ValueGenerators",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-14 14:15:11\"    UseContextLocale=\"false\">\n\n  <UserTypes>\n    <UserType ID=\"ValueGenerators\" IDPattern=\"ValueGenerators\" NamePattern=\"ValueGenerators\">\n      <Name QualifierID=\"Qualifier root\">ValueGenerators</Name>\n      <UserTypeLink UserTypeID=\"Setup Group user-type root\"/>\n    </UserType>\n    <UserType ID=\"ValueGeneratorConfigurationType\">\n      <Name QualifierID=\"Qualifier root\">Value Generator Configuration Type</Name>\n      <UserTypeLink UserTypeID=\"ValueGenerators\"/>\n    </UserType>\n  </UserTypes>\n\n  <SetupGroups>\n    <SetupGroup ID=\"ValueGenerators\" UserTypeID=\"ValueGenerators\">\n      <Name QualifierID=\"Qualifier root\">ValueGenerators</Name>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

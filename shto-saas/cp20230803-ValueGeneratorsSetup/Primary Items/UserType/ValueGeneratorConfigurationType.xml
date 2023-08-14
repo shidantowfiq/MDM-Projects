@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ValueGeneratorConfigurationType">
+            <Name QualifierID="Qualifier root">Value Generator Configuration Type</Name>
+            <UserTypeLink UserTypeID="ValueGenerators"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
