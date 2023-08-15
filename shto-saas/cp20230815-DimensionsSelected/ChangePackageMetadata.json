@@ -1,0 +1,35 @@
+{
+  "id" : "cp20230815-DimensionsSelected",
+  "name" : "cp20230815-DimensionsSelected",
+  "metadata" : { },
+  "uniqueId" : "cpk-304cb718-ee3c-4660-95dc-f664dd72397a",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=Real+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=Danish",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-15 12:07:00\"    UseContextLocale=\"false\">\n\n  <DimensionList>\n    <Dimension ID=\"Language\">\n      <Name QualifierID=\"Qualifier root\">Language</Name>\n      <DimensionPoint ID=\"std.lang.all\" DictionaryID=\"en_US\">\n        <Name QualifierID=\"Qualifier root\">Language Root</Name>\n      </DimensionPoint>\n      <DimensionPoint ID=\"Danish\">\n        <Name QualifierID=\"Qualifier root\">Danish</Name>\n        <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n      </DimensionPoint>\n    </Dimension>\n  </DimensionList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
