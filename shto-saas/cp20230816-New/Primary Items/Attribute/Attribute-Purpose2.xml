@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="Purpose2" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Purpose2</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="EventFiltering"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.editing"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.groupvalidity"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.importing"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.verified"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
