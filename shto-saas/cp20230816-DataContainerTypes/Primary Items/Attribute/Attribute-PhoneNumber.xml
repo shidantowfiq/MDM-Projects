@@ -10,7 +10,7 @@
             <Name QualifierID="en-US">PhoneNumber</Name>
             <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
             <AttributeGroupLink AttributeGroupID="DataContainerTypes"></AttributeGroupLink>
-            <UserTypeLink UserTypeID="MEssage"></UserTypeLink>
+            <UserTypeLink UserTypeID="DataContainerType user-type root"></UserTypeLink>
         </Attribute>
     </AttributeList>
 </STEP-ProductInformation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Entities>
+        <Entity ID="80593423" UserTypeID="Messages" ParentID="Entity hierarchy root">
+            <Entity ID="80593425" UserTypeID="MEssage">
+                <Name>Call me back</Name>
+                <DataContainers>
+                    <MultiDataContainer Type="PhoneNumbers">
+                        <DataContainer ID="12334554">
+                            <Values>
+                                <Value AttributeID="AreaCode">949</Value>
+                                <Value AttributeID="PhoneNumber">5554657</Value>
+                                <Value AttributeID="PhoneType">Home</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="wf433">
+                            <Values>
+                                <Value AttributeID="AreaCode">714</Value>
+                                <Value AttributeID="PhoneNumber">5556867</Value>
+                                <Value AttributeID="PhoneType">Mobile</Value>
+                            </Values>
+                        </DataContainer>
+                    </MultiDataContainer>
+                </DataContainers>
+            </Entity>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>
