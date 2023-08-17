@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <ProductCrossReferenceType ID="Accessory" Inherited="true" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="en-US">Accessory</Name>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Tree"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Item"></TargetUserTypeLink>
+        </ProductCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

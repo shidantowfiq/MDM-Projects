@@ -1,0 +1,779 @@
+{
+  "id" : "cp20230817-RD-22304",
+  "name" : "cp20230817-RD-22304",
+  "metadata" : { },
+  "uniqueId" : "cpk-1d071c39-33fe-4f9a-a113-6d28c6345a95",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://attribute?id=Garbage-59",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-56",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-55",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=itemID",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-58",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-57",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ItemUniqueID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-52",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-51",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-54",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-53",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-50",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Model",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Brakes",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Price",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-49",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-48",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=BottomBracket",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-45",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-44",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-47",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-46",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=GarbageAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-41",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-40",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-43",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-42",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ProductOverrides",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Seatpost",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=triggeringAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-78",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-77",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Display",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-79",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-74",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-73",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-76",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-75",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-70",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=SHTO123454",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-72",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-71",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-100",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=RearShock",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Identifiers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ObjTypeToMove",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Chain",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Accessory",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-67",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-66",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-69",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-68",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-63",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-62",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-65",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-64",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-61",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-60",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=3b8d7d7e-9ff9-4b2b-99ca-57a1ba19eb94",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Seatclamp",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=db7ffb34-7fcf-4167-a8c3-1af4ae8d981a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=fed33381-f352-458d-9732-11e1053008c2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=MarketingDescription",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-99",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-96",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-95",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-98",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-97",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-92",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-91",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-94",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=1905c003-bc16-459c-848d-930ce2db71bb",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-93",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Saddle",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Crankset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Tires",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Item2Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=GripsBarTape",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-89",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-88",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-85",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-84",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ItemKey",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-87",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-86",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Cassette",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-81",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-80",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ItemAttr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-83",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-82",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-90",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Fork",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Stem",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=e78a9b12-e44a-4dd0-9052-e466a3d0249d",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=15271107-6854-40a9-bcd6-b320407d8544",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashLOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=c69c774b-774d-4887-9656-c77807342c64",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Replacement",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-5",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-8",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-9",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-6",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-7",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-0",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=8736c9b6-a1db-4bd9-a9b5-938234b899ec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ConfirmedDuplicateItems",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=SXIEX-870",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://matchcode?id=ParentIDMatchCode",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Brand",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Color",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ConfirmedNonDuplicateItems",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=IntendedUse",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=FrontDerailleur",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Logo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Generic+Asset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashLOV1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Frame",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=PackagingHierarchyRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-16",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-15",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=TestItem",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-18",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-17",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-12",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-11",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-14",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-13",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-10",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashText1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-19",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Headset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=IsActive",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=WheelSize",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=ProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashDefault1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=dc178130-aeed-4c0f-9fc4-39521ded5adf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-38",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-37",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=sku",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-39",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Handlebar",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-34",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-33",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-36",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-35",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-30",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-32",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-31",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=PrimaryProductImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashDefault",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Shifters",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=ProductsRoot",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-27",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-26",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-29",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=3acca797-8968-45f5-9b2c-2bcbbe35341a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-28",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-23",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-22",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-25",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-24",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-21",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-20",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://uniquekey?id=ItemKey2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Reference-Type+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Wheelset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=RearDerailleur",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attributegroup?id=_LAAL+Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-17 11:13:59\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"Products\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"ProductsRoot\" NamePattern=\"Product Root\">\n      <Name QualifierID=\"Qualifier root\">Products</Name>\n      <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n      <UserTypeLink UserTypeID=\"BusinessUnitRoot\"/>\n    </UserType>\n    <UserType ID=\"Item\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Item</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACaTPPzASCM/+BcOb/mWln0v7//5+Wlvb/TNqZmcb/Z878f+YMUAXDf4b/qIBhFIyCIQ4Uf7IwMjDwMeiAOKA8wcARzyDLIeOxYcHBZg52LoEJAQsbGJnFlGI4Nia5tLHIR93pCFzQwMxuxsfAqZDcwKCg2GQTGfTw5GTt+G1ffhgdaJjFmGYlEPA5zXeuTfyvKZECDA2TnXuVTKqCM53Z/eab8XAwWAMAeUXbfYIDAAA=</Icon>\n      <UserTypeLink UserTypeID=\"DiscontinuedProducts\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n      <UserTypeLink UserTypeID=\"Level4\"/>\n      <UserTypeLink UserTypeID=\"Level3\"/>\n    </UserType>\n    <UserType ID=\"Tree\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"TREE-[id]\" NamePattern=\"TREE-[id]\">\n      <Name QualifierID=\"Qualifier root\">Tree</Name>\n      <UserTypeLink UserTypeID=\"Products\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n    </UserType>\n  </UserTypes>\n\n  <CrossReferenceTypes>\n    <ProductCrossReferenceType ID=\"Accessory\" Inherited=\"true\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">Accessory</Name>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n      <TargetUserTypeLink UserTypeID=\"Item\"/>\n    </ProductCrossReferenceType>\n  </CrossReferenceTypes>\n\n  <Products>\n    <Product ID=\"ProductsRoot\" UserTypeID=\"Products\" ParentID=\"Product hierarchy root\">\n      <Name>Products</Name>\n      <AttributeLink AttributeID=\"Garbage-9\"/>\n      <AttributeLink AttributeID=\"Garbage-23\"/>\n      <AttributeLink AttributeID=\"Garbage-24\"/>\n      <AttributeLink AttributeID=\"Garbage-25\"/>\n      <AttributeLink AttributeID=\"triggeringAttribute\"/>\n      <AttributeLink AttributeID=\"itemID\"/>\n      <AttributeLink AttributeID=\"Garbage-58\"/>\n      <AttributeLink AttributeID=\"Garbage-59\"/>\n      <AttributeLink AttributeID=\"Garbage-60\"/>\n      <AttributeLink AttributeID=\"Garbage-1\"/>\n      <AttributeLink AttributeID=\"Garbage-38\"/>\n      <AttributeLink AttributeID=\"Garbage-39\"/>\n      <AttributeLink AttributeID=\"Garbage-40\"/>\n      <AttributeLink AttributeID=\"Garbage-41\"/>\n      <AttributeLink AttributeID=\"Garbage-34\"/>\n      <AttributeLink AttributeID=\"Garbage-35\"/>\n      <AttributeLink AttributeID=\"Garbage-36\"/>\n      <AttributeLink AttributeID=\"Garbage-37\"/>\n      <AttributeLink AttributeID=\"Garbage-46\"/>\n      <AttributeLink AttributeID=\"Garbage-47\"/>\n      <AttributeLink AttributeID=\"Garbage-48\"/>\n      <AttributeLink AttributeID=\"Garbage-49\"/>\n      <AttributeLink AttributeID=\"Garbage-42\"/>\n      <AttributeLink AttributeID=\"Garbage-43\"/>\n      <AttributeLink AttributeID=\"Garbage-44\"/>\n      <AttributeLink AttributeID=\"Garbage-45\"/>\n      <AttributeLink AttributeID=\"Garbage-86\"/>\n      <AttributeLink AttributeID=\"Garbage-87\"/>\n      <AttributeLink AttributeID=\"Garbage-88\"/>\n      <AttributeLink AttributeID=\"Garbage-89\"/>\n      <AttributeLink AttributeID=\"Garbage-82\"/>\n      <AttributeLink AttributeID=\"Garbage-83\"/>\n      <AttributeLink AttributeID=\"Garbage-84\"/>\n      <AttributeLink AttributeID=\"Garbage-85\"/>\n      <AttributeLink AttributeID=\"Garbage-94\"/>\n      <AttributeLink AttributeID=\"Garbage-95\"/>\n      <AttributeLink AttributeID=\"Garbage-96\"/>\n      <AttributeLink AttributeID=\"Garbage-97\"/>\n      <AttributeLink AttributeID=\"Garbage-19\"/>\n      <AttributeLink AttributeID=\"Garbage-20\"/>\n      <AttributeLink AttributeID=\"Garbage-21\"/>\n      <AttributeLink AttributeID=\"Garbage-22\"/>\n      <AttributeLink AttributeID=\"Garbage-31\"/>\n      <AttributeLink AttributeID=\"Garbage-32\"/>\n      <AttributeLink AttributeID=\"Garbage-33\"/>\n      <AttributeLink AttributeID=\"Garbage-18\"/>\n      <AttributeLink AttributeID=\"Garbage-27\"/>\n      <AttributeLink AttributeID=\"Garbage-28\"/>\n      <AttributeLink AttributeID=\"Garbage-29\"/>\n      <AttributeLink AttributeID=\"Garbage-30\"/>\n      <AttributeLink AttributeID=\"Garbage-15\"/>\n      <AttributeLink AttributeID=\"Garbage-16\"/>\n      <AttributeLink AttributeID=\"Garbage-17\"/>\n      <AttributeLink AttributeID=\"Garbage-26\"/>\n      <AttributeLink AttributeID=\"Garbage-57\"/>\n      <AttributeLink AttributeID=\"Garbage-100\"/>\n      <AttributeLink AttributeID=\"Garbage-13\"/>\n      <AttributeLink AttributeID=\"Garbage-14\"/>\n      <AttributeLink AttributeID=\"Garbage-53\"/>\n      <AttributeLink AttributeID=\"Garbage-54\"/>\n      <AttributeLink AttributeID=\"Garbage-55\"/>\n      <AttributeLink AttributeID=\"Garbage-56\"/>\n      <AttributeLink AttributeID=\"Garbage-65\"/>\n      <AttributeLink AttributeID=\"Garbage-50\"/>\n      <AttributeLink AttributeID=\"Garbage-51\"/>\n      <AttributeLink AttributeID=\"Garbage-52\"/>\n      <AttributeLink AttributeID=\"Garbage-61\"/>\n      <AttributeLink AttributeID=\"Garbage-62\"/>\n      <AttributeLink AttributeID=\"Garbage-63\"/>\n      <AttributeLink AttributeID=\"Garbage-64\"/>\n      <AttributeLink AttributeID=\"MarketingDescription\"/>\n      <AttributeLink AttributeID=\"sku\"/>\n      <AttributeLink AttributeID=\"Garbage-90\"/>\n      <AttributeLink AttributeID=\"Garbage-91\"/>\n      <AttributeLink AttributeID=\"Garbage-92\"/>\n      <AttributeLink AttributeID=\"Garbage-93\"/>\n      <AttributeLink AttributeID=\"Garbage-70\"/>\n      <AttributeLink AttributeID=\"Garbage-71\"/>\n      <AttributeLink AttributeID=\"Garbage-72\"/>\n      <AttributeLink AttributeID=\"Garbage-73\"/>\n      <AttributeLink AttributeID=\"Garbage-66\"/>\n      <AttributeLink AttributeID=\"Garbage-67\"/>\n      <AttributeLink AttributeID=\"Garbage-68\"/>\n      <AttributeLink AttributeID=\"Garbage-69\"/>\n      <AttributeLink AttributeID=\"Garbage-78\"/>\n      <AttributeLink AttributeID=\"Garbage-79\"/>\n      <AttributeLink AttributeID=\"Garbage-80\"/>\n      <AttributeLink AttributeID=\"Garbage-81\"/>\n      <AttributeLink AttributeID=\"Garbage-74\"/>\n      <AttributeLink AttributeID=\"Garbage-75\"/>\n      <AttributeLink AttributeID=\"Garbage-76\"/>\n      <AttributeLink AttributeID=\"Garbage-77\"/>\n      <AttributeLink AttributeID=\"Garbage-10\"/>\n      <AttributeLink AttributeID=\"Garbage-11\"/>\n      <AttributeLink AttributeID=\"Garbage-98\"/>\n      <AttributeLink AttributeID=\"Garbage-99\"/>\n      <AttributeLink AttributeID=\"Garbage-5\"/>\n      <AttributeLink AttributeID=\"Garbage-6\"/>\n      <AttributeLink AttributeID=\"Garbage-7\"/>\n      <AttributeLink AttributeID=\"Garbage-8\"/>\n      <AttributeLink AttributeID=\"Garbage-12\"/>\n      <AttributeLink AttributeID=\"Garbage-2\"/>\n      <AttributeLink AttributeID=\"Garbage-3\"/>\n      <AttributeLink AttributeID=\"Garbage-4\"/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Tree" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="TREE-[id]" NamePattern="TREE-[id]">
+            <Name QualifierID="Qualifier root">Tree</Name>
+            <UserTypeLink UserTypeID="Products"></UserTypeLink>
+            <UserTypeLink UserTypeID="Tree"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
