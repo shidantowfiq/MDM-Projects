@@ -1,0 +1,39 @@
+{
+  "id" : "cp20230822-AssetImporter",
+  "name" : "cp20230822-AssetImporter",
+  "metadata" : { },
+  "uniqueId" : "cpk-82b7c952-014b-45b8-8d29-32cb838c3ecb",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=AssetImportConfigurations",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupEntity?id=WebImageImport",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=AssetImporter",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=AssetImporterConfigurationType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-22 14:15:48\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"WebImageImport\" UserTypeID=\"AssetImporterConfigurationType\">\n      <SetupGroupLink SetupGroupID=\"AssetImporter\"/>\n      <Name QualifierID=\"Qualifier root\">Web Image Import</Name>\n      <Configuration>H4sIAAAAAAAAAL1YXW/aMBR9769AbKq2SgPaadokKBXlQ0VqKErpuodJkxdfwKtjZ45N2/362Q75INAmsMELxI3vOfceH1+bdjmbkpkSSBLOzlsXTz6tLECEZlQ9rTWqFWAex4TNzqt3k8GHL9WL9lGrE4Ygh37AhQTRzUK0jyqV7OuviBKMJBftYyqbK/DHvxWXTc0RPaRE0diyRY8XxzPZPDIAAVUzwioELyfdSsQwEjhHFr20UZWKiQuJH1BI4+4JlvMe8YGZVNLpznB0/qnReON0vpnvhomtR8GvoF0Bmc3lC3AWqxyOzb/LKRe3AfIgTIG2iHd0GpPnIBtNfDSD+kk5kN54uFrA5zNbwseyajjoaUAo3JI/kAGyguYB7DhaUztu1Tdax3jqioBAwps/XypCMezJTybxEfIhz1ZoqCTA5VymsycCsXAKwpYVltWPKUQjDVIkKRSUdGOcSg8COU8RzorVXxM52c0Okt58X6rHuzjLdFjFNaXDccavg+F1/8eo4/TLIcS+sUj9p0BAuNoJ3tVO3n+v1UruQQszAf1HJDNJvT0tFz7srceWizQ17M7rKCrJBjH7rnvjltz7sdES5+njRQJLTpv9OLAHU6ST30RYaMQOpfyxK0BLZuN32bMRRkTsgpbfg11ghqbRa5ilNEtBmKJ0OcFC2af6a9mYMm5+/gJPmpNkWxNFyiXH4ZBhCEB/sIw0U0TDtaJesETeAWlTAol6SKL9esNSdRh2QbcVDQCGFmdoCx0yIECxg4JAM2cPdeQHTT09LmNlWt2+TVQpsXHyYhiZxoJj5clrwh72Jc+IZ0iy3mrVV9mTZesEgeCLgxwmMVXxJo4mLsXDu2/kCCdqB7hLkT4HpsSzd+Nd8MZIxEUk/gtfB3rBH4nqdh2U5GMlZodZhISscBn03dGFBTF5dLnKNozT9evnhkLTskyV91w8THVjvdLJ0IOUmmMsrHcEjytxu3bsuwCj2Lb/imVBIsAYSrsQ+dseA8vd/19yWmJtldW6PfJ+MB65VCFh+rbmKgoH8ckGwkKbxDH6JMTEtJJMC3BBKsEmpTtKjNXxckB6mcz1r1jGTZKt/nRb+6dAKwwoke2/GLLcxm4QAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
