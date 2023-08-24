@@ -1,0 +1,83 @@
+{
+  "id" : "cp20230824-BGPs",
+  "name" : "cp20230824-BGPs",
+  "metadata" : { },
+  "uniqueId" : "cpk-5f71b760-c66a-47b0-81a9-07712da6c9a1",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://backgroundprocess?id=BGP_80481504",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://user?id=SHTO",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-24 13:03:58\"    UseContextLocale=\"false\">\n\n  <ScheduledProcesses>\n    <ScheduledProcess ID=\"BGP_80481504\">\n      <Configuration>H4sIAAAAAAAAAKVUbW+iQBD+3l+xIffRgwXB84xrQ5XaD201gulHssAWiRTMvlzrv79ZVLwm0l5TwstkZp5nhnlZIYukNsN0wzJVMjOc3sX3fhjFq/UjcbDTH+HhCN62N8Jw98diVxZyIjpQYeSvomAW38yXBJ54aNu247m/u2HL1WIahKG/mofEEhvKWWa91nwLArUSmm5zXqsq+7njdcqEaNQnAqsJgd2h7WG31WbLg6v59lJ+GncWhFPSItGNKrdovcuoZGhZ71SphTnlCc0Z8qXkRaIkE5/SPvoPAdFkB67/8o+bXL6dATQuJM4HjYInmK3vAzK+hgqhP4yLoq6IYZvYuJ5cjVkFQZiYXCHUyHuUllQIYqT1i3ngU7IoTXGqGnsuqkICRxtn1qp+nFRPjG3LvQGkxyuje7F41up4AMEvWzxi/LpscYjhXrbYxOhftrjEGFy29Inh/WMRknLpS2LgoYVtS+8BOm4AhipdpMDEcAwL6me1BfygB3pPYv82ClbnLXNPW4bfAZP8OPtmCsMvmR6NFoTtBgQL6nSAMiZSXux0M7456GdO9sZSpRkF4zA/xMamNzAHpo29DoSeBwHB3yXfda6cYfDNOQgQoasoYNbdSuGUkKTL6TSrhEG6e/RQVz0UKdZDTywDaaN66JYXPRRSCS9Vtd1GyzDqHeahqHKNQb7KEbaR/omuaNqdyi90tkF8sTYNhmXJnoR30aLbSSpBXmmh8z86/QW+538j9AUAAA==</Configuration>\n    </ScheduledProcess>\n  </ScheduledProcesses>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
