@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <ECatalogs>
+        <ECatalog ID="eCatalog root">
+            <ECatalog ID="PunchoutCatalog-Duke">
+                <Name>PunchoutCatalog-Duke</Name>
+                <Configuration>H4sIAAAAAAAAAM1XS2/bMAy+71f4MATbIXHbyw7BUGR1ugaIu6JJO2CXQrVpV6sseXoUyb8fbUmOkzhDinWDc3FMfiQ/PmRQA6bH56uCBS8gFRX88+CXEXp8Ojqxf84HuR6/GyBquiqF1DHhJAd5IXhG8+B+y+jMPoJrUoATOQnCNaz0LHJi937q1N+FfFYlSaABxIRyp7xT4OBzkRDmPWeEKXCQW1CCvcCMM8rhFjLlMFoaD7HsI5D0BdKJ1lJ1+JlmGSQaERHRPk5ipASuuxBLWsAPwTesJwX6T0g4F+phwnNgoLzdBdGEibyB3hiePAmjnXwYmWfPYgEsqzLGEkCK2QDGT6CLryt/49Q7SJ4gNaydhdPcSIGe1BKKkm2UtjYg283iOhbpjvV0BYnRGHBfNeNPmLpG/6lJNAYm+y2YA8kcwEY81CUsABYZUgfuypyqRUU53VfV8xoE1cQ6e+sOabdU4R90l0IWRLeneLpKgJ1t+XcRiEQUlm4P7VqzsWlLz05OPlkW3v4Yr1Vp7gmj6YSnk0fVDGVley06/dVCm89+XWJSlpTngS/33e18uS59vNKCOpK+EEUpFNWADoIlkTno5lgzU/AdE2u0lDTPLa/qdRYthJEJBBNVYnBnP4vsM/SwsGXWxD8Q9gpI6md4JzjWTuLYuzbbHLjShGvHwr/6oSZFOa5Z1v9yP+YbXtseG2ohcjuGK7bRwJFUjy3VsZTCdv/evLHVxFq+fWlixagHbewqTD9ahh8NaIrY6/NomQa9OJavqVo/+vzt8SeSrD7xXazrY9Krblu+QUU46Mkhfn0J+9H6auGlj0bDVylM6blvCZsl8gtN1slmc93KsK4Vrh93nPqNODZM01q+gBLXDy2kA+816l+N01tlt+nfa7L6j+PXjzb+zUi3d2+3f7Y0ETC8Wsl1e++9pGy3PAd35Apbvfr7zcauul4N32u8sOGXpig/rPE3jONhmj5cXY2KYqTUx9F7vGMCrxM7uEx7is21OOy4F9fK37o6ZA5aDwAA</Configuration>
+                <CommercialList ID="Summer2023-Duke" UserTypeID="Price" Immutable="false" ActAsSelectionList="false">
+                    <Name>Summer2023-Duke</Name>
+                </CommercialList>
+            </ECatalog>
+        </ECatalog>
+    </ECatalogs>
+</STEP-ProductInformation>
