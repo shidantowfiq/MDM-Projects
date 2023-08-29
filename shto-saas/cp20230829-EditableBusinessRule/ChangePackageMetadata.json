@@ -1,0 +1,39 @@
+{
+  "id" : "cp20230829-EditableBusinessRule",
+  "name" : "cp20230829-EditableBusinessRule",
+  "metadata" : { },
+  "uniqueId" : "cpk-410f78c7-4444-4f57-bdf0-58eb13a575cc",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=CreateProducts",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-29 11:52:12\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"CreateProducts\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">CreateProducts</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTUW+bMBB+Lr/ixEOUig3St0pAooZtUqdFi9ZMfYxcY6grx/aMibpN++87Y4cSVZX2Mh7g+O783XcfnBZ9y+WeaC046/a82VMlG94WHQJ2qX3aY2Wxej4IODLTcSXL+CpdxMAkVTWXbRl/3316fx2vllGx7jsuWdd96wVbRgAjsB3oYJr30O2HMv5MjuSOGq7tKX9DLTa65/ZxzWXdxY4L2bbEkAOzKMMDUwgck6+G3U/NyvgJaVNBZJveWYNC4+VM2PxsktmPXtkcx/HBy0z+fRjMh6tZa/PIEbgeG6KHd4ATAuiUNYRalOFPVL0xTNqvD0+MWldShYrQ60Zw0oVaqWoW4HGgSpBuzPdC+CgbdWRTIUU2nnvDmo/GKLNBb0nL/rdFXxQlgv8iD4KFjjt20IJYtu5lLVj2j5pffoy3BWfZkRigj1zUaDeU4LxMW2arAM0v88iV8A15xvT1Aq88apSB+QCXixy4U+0KMEySS/gdXQw01DAUvTWq7qmd+zH9/Z1/3Fp28BF2ueDhm2MbDglcISRUm3LZqHC4Gghr0J4SgqkJjEeTE6aaSRalYYM/rz2bAMNSFNn5yuFSZudbGRb8L9QtuiwABAAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Tree\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
