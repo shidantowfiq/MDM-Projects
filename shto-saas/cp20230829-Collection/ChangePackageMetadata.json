@@ -1,0 +1,31 @@
+{
+  "id" : "cp20230829-Collection",
+  "name" : "cp20230829-Collection",
+  "metadata" : { },
+  "uniqueId" : "cpk-ace545f4-e02f-49f0-80ce-6d1a2ab20d4e",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://collection?id=80381214",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-29 13:06:25\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <Collection ID=\"80381214\" ParentID=\"CollectionGroup root\" QueryURL=\"step://search?args0.0=searchString%3dDEL002-18931%0aDEL002-20955%0aDEL002-16907%0aDEL002-23991%0aDEL002-15895%0aDEL002-22979%0a80001644%0aDEL002-21967%0aDEL002-19943%0aDEL002-17919%0aREACH-00001%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria\">\n      <Name>Collection from List Pasted</Name>\n    </Collection>\n  </CollectionList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
