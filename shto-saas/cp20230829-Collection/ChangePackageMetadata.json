@@ -25,7 +25,7 @@
     "inclusion" : "Precondition",
     "importing" : "Ignore"
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-29 13:06:25\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <Collection ID=\"80381214\" ParentID=\"CollectionGroup root\" QueryURL=\"step://search?args0.0=searchString%3dDEL002-18931%0aDEL002-20955%0aDEL002-16907%0aDEL002-23991%0aDEL002-15895%0aDEL002-22979%0a80001644%0aDEL002-21967%0aDEL002-19943%0aDEL002-17919%0aREACH-00001%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria\">\n      <Name>Collection from List Pasted</Name>\n    </Collection>\n  </CollectionList>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-09-01 07:43:33\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <Collection ID=\"80381214\" ParentID=\"CollectionGroup root\" QueryURL=\"step://search?args0.0=searchString%3dDEL002-18931%0aDEL002-20955%0aDEL002-16907%0aDEL002-23991%0aDEL002-15895%0aDEL002-22979%0a80001644%0aDEL002-21967%0aDEL002-19943%0aDEL002-17919%0aREACH-00001%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria\">\n      <Name>Collection from List Pasted</Name>\n    </Collection>\n  </CollectionList>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
