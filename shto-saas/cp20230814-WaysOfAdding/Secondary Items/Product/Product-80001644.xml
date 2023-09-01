@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ProductsRoot" UserTypeID="Products" ParentID="Product hierarchy root">
+            <Product ID="80001644" UserTypeID="Item" ParentID="80001643">
+                <Name>My Item</Name>
+                <Values>
+                    <Value AttributeID="15271107-6854-40a9-bcd6-b320407d8544">2</Value>
+                    <Value AttributeID="3b8d7d7e-9ff9-4b2b-99ca-57a1ba19eb94">1</Value>
+                    <Value AttributeID="Garbage-1">0d710a4c-c6a6-4740-a04d-4a8c2884fc8f</Value>
+                    <Value AttributeID="Garbage-10">4db23a63-7799-4ecf-893c-f823b5d4c2ca</Value>
+                    <Value AttributeID="Garbage-100">a9183b7e-b906-42c0-b4a2-a81e9648db59</Value>
+                    <Value AttributeID="Garbage-11">ecbcd32c-0b91-4352-8dd9-ec854bef62eb</Value>
+                    <Value AttributeID="Garbage-12">49c9b343-15f4-41d9-b4e5-8cf5e154eb3c</Value>
+                    <Value AttributeID="Garbage-13">18beb7fe-f5ef-4085-a36a-cf4b2897b601</Value>
+                    <Value AttributeID="Garbage-14">72610155-0e54-4ebc-834d-6fd69a2a181a</Value>
+                    <Value AttributeID="Garbage-15">b519484c-8c29-4a0c-8c0e-215a744e1362</Value>
+                    <Value AttributeID="Garbage-16">3c0db0ee-fbf6-4adc-bdb6-1b6481409e32</Value>
+                    <Value AttributeID="Garbage-17">bb2327b2-8798-460f-8df7-cc6debb9efd7</Value>
+                    <Value AttributeID="Garbage-18">5bbfe184-0a74-48f2-a1b6-19890eb1519b</Value>
+                    <Value AttributeID="Garbage-19">7b31c5eb-58b9-4eb2-b630-11ae60f0d3ad</Value>
+                    <Value AttributeID="Garbage-2">144e6d42-a559-4d65-b8d2-2a0e3cd99fcc</Value>
+                    <Value AttributeID="Garbage-20">8cea0a86-b0e8-485b-9db0-bc3e17176bda</Value>
+                    <Value AttributeID="Garbage-21">f31acd66-2f63-487e-8acb-6428b226fcb0</Value>
+                    <Value AttributeID="Garbage-22">5410fd9a-7be1-49c1-87ab-57cf6b617085</Value>
+                    <Value AttributeID="Garbage-23">b6689c99-ab9c-4000-8b66-9867e07a691b</Value>
+                    <Value AttributeID="Garbage-24">60e0f093-d82d-4da3-8272-5ed5ff823d70</Value>
+                    <Value AttributeID="Garbage-25">99287160-c362-4b61-a627-3694dd652e63</Value>
+                    <Value AttributeID="Garbage-26">b9923c9b-03cd-4bd3-ac94-01d194f0c290</Value>
+                    <Value AttributeID="Garbage-27">3878e1ce-c961-44a5-8cad-2336c6ed126e</Value>
+                    <Value AttributeID="Garbage-28">60297989-6877-4988-a38d-5f545b80713e</Value>
+                    <Value AttributeID="Garbage-29">59d31963-82bc-47fc-b5c6-454c364d7437</Value>
+                    <Value AttributeID="Garbage-3">c4eddf83-9bff-4df2-8c06-034cc711ff57</Value>
+                    <Value AttributeID="Garbage-30">d85128cb-8f9a-47a3-9fcc-20820701ff30</Value>
+                    <Value AttributeID="Garbage-31">d6ad498f-09e7-4e77-911e-5a1b327d47da</Value>
+                    <Value AttributeID="Garbage-32">7831ef79-4629-45b6-8af8-ca06b5246715</Value>
+                    <Value AttributeID="Garbage-33">397fad2a-3d59-4575-96c7-35e8c54cd664</Value>
+                    <Value AttributeID="Garbage-34">6f10a645-da0f-46a7-b73e-7bac10afd97f</Value>
+                    <Value AttributeID="Garbage-35">a9233c8b-72c9-45b7-bc7e-569a9c9c34a0</Value>
+                    <Value AttributeID="Garbage-36">2bcf26a0-2712-4498-839d-4be8261ec0e1</Value>
+                    <Value AttributeID="Garbage-37">4cd5ff27-e3e6-486b-a023-74c3472433d1</Value>
+                    <Value AttributeID="Garbage-38">0b28b505-46d6-48f9-81ca-666c590f5bf8</Value>
+                    <Value AttributeID="Garbage-39">c591130a-003b-4a69-a3ee-f3919dc6a5a1</Value>
+                    <Value AttributeID="Garbage-4">292e50c0-4293-4cff-a440-a58e956d26ef</Value>
+                    <Value AttributeID="Garbage-40">d12939c6-b825-41f2-a669-2686ca2d2312</Value>
+                    <Value AttributeID="Garbage-41">f8ad20b0-8289-4b07-a3d0-d87f5ee36185</Value>
+                    <Value AttributeID="Garbage-42">833ef0e0-8ea5-44aa-a23c-e669ffcd99da</Value>
+                    <Value AttributeID="Garbage-43">91392813-ae58-4454-be6c-a08388c1ac4b</Value>
+                    <Value AttributeID="Garbage-44">1db5eff3-143e-485e-a012-a62d13161f90</Value>
+                    <Value AttributeID="Garbage-45">8229c0fe-d6dd-4ee1-9004-508fb178fc51</Value>
+                    <Value AttributeID="Garbage-46">f19992b8-0762-4a14-8609-4f86fd05b534</Value>
+                    <Value AttributeID="Garbage-47">8cc2dcad-7d0d-403b-919f-715b96f67ad9</Value>
+                    <Value AttributeID="Garbage-48">f2f57426-434f-4619-b707-334cc55ef6c6</Value>
+                    <Value AttributeID="Garbage-49">6616ce4f-9ad5-403b-b261-b27d62cedf06</Value>
+                    <Value AttributeID="Garbage-5">e0a78e9d-3119-49b9-866b-264e6ad64f14</Value>
+                    <Value AttributeID="Garbage-50">1056f10e-53b0-4b17-b4b5-f83a1626982f</Value>
+                    <Value AttributeID="Garbage-51">309135ae-11e5-43af-97f5-00a70db7f2be</Value>
+                    <Value AttributeID="Garbage-52">6772e3ec-3bf2-4e15-9a7a-8898f1d2cd91</Value>
+                    <Value AttributeID="Garbage-53">b659bf1a-2146-4dc0-a456-e3e2a3a7184c</Value>
+                    <Value AttributeID="Garbage-54">b0a8488d-a619-47c0-81b0-559c5818ce23</Value>
+                    <Value AttributeID="Garbage-55">1bcec305-4e69-4ce8-bb02-732ec7c40532</Value>
+                    <Value AttributeID="Garbage-56">2014ed5e-e0db-4f5e-bd3e-9318e6023bc2</Value>
+                    <Value AttributeID="Garbage-57">66204c26-4966-4d39-991a-2d5afb5b545b</Value>
+                    <Value AttributeID="Garbage-58">b72e9995-5f24-46e3-a8d5-0bf7458b379c</Value>
+                    <Value AttributeID="Garbage-59">e774788f-4eea-45be-860e-e68f350d24c4</Value>
+                    <Value AttributeID="Garbage-6">57e9597a-6373-44e5-9a99-3671b9e640f5</Value>
+                    <Value AttributeID="Garbage-60">be79d89c-7e8a-4ab9-9b86-f0b3a9447c11</Value>
+                    <Value AttributeID="Garbage-61">ff4538db-908a-4f98-9926-64ac921dec04</Value>
+                    <Value AttributeID="Garbage-62">a0cae1f6-ed7a-47c4-bf2f-9dd59bde437a</Value>
+                    <Value AttributeID="Garbage-63">96003c95-d2ac-4cca-bf2d-56a400de5fed</Value>
+                    <Value AttributeID="Garbage-64">1af23541-2e84-464d-b03b-835a7a734577</Value>
+                    <Value AttributeID="Garbage-65">0c1f951e-0dda-4294-bc6b-91c3a148c851</Value>
+                    <Value AttributeID="Garbage-66">698c10a1-2268-4017-94c9-121ca9e094cd</Value>
+                    <Value AttributeID="Garbage-67">7866bd8d-6961-4b78-9a7f-593d8ce44bff</Value>
+                    <Value AttributeID="Garbage-68">8d329723-6d32-405a-a2a2-8c6fdc81d15a</Value>
+                    <Value AttributeID="Garbage-69">201b25aa-7b25-4913-b732-fad7a4d22c0d</Value>
+                    <Value AttributeID="Garbage-7">6008f7c1-b612-4c7c-976b-a2d5e2738d89</Value>
+                    <Value AttributeID="Garbage-70">8e52fb95-d3ca-4b99-bd0e-55b448447d97</Value>
+                    <Value AttributeID="Garbage-71">0a14a49d-9ac1-49de-aa28-4811ef4b3178</Value>
+                    <Value AttributeID="Garbage-72">a8a1574d-cafc-441c-beea-3a04f3a2138d</Value>
+                    <Value AttributeID="Garbage-73">6221c919-1b82-4ac5-81ea-fc406d6e42e2</Value>
+                    <Value AttributeID="Garbage-74">6cc589b8-13b7-4b7b-9779-47935fa4d5e6</Value>
+                    <Value AttributeID="Garbage-75">0fd6d72d-a436-4cf1-829b-9983009d1f1e</Value>
+                    <Value AttributeID="Garbage-76">c6716ad5-6e46-4d4a-88a6-106c764dc0fa</Value>
+                    <Value AttributeID="Garbage-77">39a75e20-50a9-4f35-944d-2d54973b9477</Value>
+                    <Value AttributeID="Garbage-78">20b4bb38-46de-41f8-8973-59016583b6bc</Value>
+                    <Value AttributeID="Garbage-79">ece98df4-b2b6-40dc-9523-ab75b7cd73d8</Value>
+                    <Value AttributeID="Garbage-8">980db76e-20cc-4e79-adeb-7cb173bca10c</Value>
+                    <Value AttributeID="Garbage-80">fdc93e38-e5ab-4806-b343-fbf8dea36cac</Value>
+                    <Value AttributeID="Garbage-81">e0d1b060-4620-445d-b0ca-023bedae7e3f</Value>
+                    <Value AttributeID="Garbage-82">57ca25e9-c5b3-43eb-bf45-7ca87ccea2e9</Value>
+                    <Value AttributeID="Garbage-83">e8f026c2-515c-454a-859d-057b184e8508</Value>
+                    <Value AttributeID="Garbage-84">2aff5f94-c945-495f-87e5-ed460e36bf0c</Value>
+                    <Value AttributeID="Garbage-85">f27fd3e7-a306-41a9-9469-e5b4b05cf6b9</Value>
+                    <Value AttributeID="Garbage-86">7fe95c26-18ce-4be4-b399-7a4cb88bca46</Value>
+                    <Value AttributeID="Garbage-87">4402da46-cb36-49ae-aa24-0502cc985c6f</Value>
+                    <Value AttributeID="Garbage-88">c8c118ca-8ec9-4170-b25c-bac4bd707c10</Value>
+                    <Value AttributeID="Garbage-89">59961949-1dc5-40f7-a658-d74c918dfcbb</Value>
+                    <Value AttributeID="Garbage-9">c4ef4a5c-7e43-4a2a-b833-d6908e0a4349</Value>
+                    <Value AttributeID="Garbage-90">5e8b9c9d-af69-4532-8c39-5914ecee1c22</Value>
+                    <Value AttributeID="Garbage-91">de3d71c0-d65b-483c-ba33-1f59d1425ff9</Value>
+                    <Value AttributeID="Garbage-92">f143060f-4ea6-45ed-aaf7-04f6ce760101</Value>
+                    <Value AttributeID="Garbage-93">e3e50901-a1f2-4633-835d-6466c37e8f6a</Value>
+                    <Value AttributeID="Garbage-94">afd1a9b8-2f28-4dbb-9cf3-4b2b65b8dc7b</Value>
+                    <Value AttributeID="Garbage-95">273d4ce8-612f-4ab1-9211-cb8798f3bd5e</Value>
+                    <Value AttributeID="Garbage-96">b570be83-c8a4-410d-bdd2-56988367a7fc</Value>
+                    <Value AttributeID="Garbage-97">9bd5daee-9fd9-41d0-98c7-2448a380160f</Value>
+                    <Value AttributeID="Garbage-98">b5a6e1e1-8dcb-4b7a-aa38-8073a75fd227</Value>
+                    <Value AttributeID="Garbage-99">f9ee47c9-2277-4a10-b31d-903231ceaf45</Value>
+                    <Value AttributeID="fed33381-f352-458d-9732-11e1053008c2">4</Value>
+                </Values>
+                <DataContainers>
+                    <MultiDataContainer Type="Marketing">
+                        <DataContainer ID="80001693">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">Marketing</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">60</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="80001694">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">MarketingMetric</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Aggregate</Value>
+                                <Value AttributeID="Data Sufficiency Parent Metric ID">Marketing</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">60</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="80001695">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">Bullet01</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingMetric</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">100</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="80001696">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">Bullet02</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingMetric</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">100</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="80001697">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">Bullet03</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingMetric</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">100</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="80001698">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Messages" QualifierID="en-US">H4sIAAAAAAAAAJWOTQuCQBRF/4q8TRtFzckc6YOiTft24WLGecTAmIPzJhDxv2eB1bbl5R7uPQPcW4XnE5TgCG0Zx7Zrla9pr9W2SJIkzRmDEJQgcentRDoorzMriDotPeGbXmd5zWUeiVTJiEnFI8HlKuJZscyYLDjHGqoQGnRO3PC1M4Bpa2FweodPMYXDvBssjt4YpIQtgocwHgPtAmws9TBWv1Zf//+dxk3jDWmHNt49ATdjhkEQAQAA</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">Bullet04</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingMetric</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">0</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="80001699">
+                            <Values>
+                                <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1686084885035</Value>
+                                <Value AttributeID="Data Sufficiency Messages" QualifierID="en-US">H4sIAAAAAAAAAJWOPQvCMBCG/0q4xcXSqGmSFj9QXNzdxCEmhxRSG8xFEPG/G4eqq8vB3fvw3vOAS+9wt4UGImFoyjJce5csrVq30JzziRQCxuAMmf09ZDJCcxhYQ3RtT4nwTVtZW6XEqcjDFUJrVdSykkU+aq5mYmqlgOMYOozRnPHd8wDfW+Mxf4dPkJf10MtGm+Q9Eq9G7GZ8QtZGhl2gOzyPv1Zf//+dnvMueWojhnL5AjN5eJ8QAQAA</Value>
+                                <Value AttributeID="Data Sufficiency Metric ID">Bullet05</Value>
+                                <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingMetric</Value>
+                                <Value AttributeID="Data Sufficiency Score" QualifierID="en-US">0</Value>
+                            </Values>
+                        </DataContainer>
+                    </MultiDataContainer>
+                </DataContainers>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
