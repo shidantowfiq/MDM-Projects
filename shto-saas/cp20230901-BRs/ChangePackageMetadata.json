@@ -1,0 +1,79 @@
+{
+  "id" : "cp20230901-BRs",
+  "name" : "cp20230901-BRs",
+  "metadata" : { },
+  "uniqueId" : "cpk-db0f4625-7796-40ce-a64b-17b5a6dff420",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=ImportUtilities",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=BOSCHCI-140",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=getDateCode",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Functions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Conditions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=ReturnTrue",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=functionCallExample",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-09-01 14:06:06\"    UseContextLocale=\"false\">\n\n  <BusinessLibraries>\n    <BusinessRule ID=\"ImportUtilities\" Type=\"Library\">\n      <SetupGroupLink SetupGroupID=\"Libraries\"/>\n      <Name QualifierID=\"Qualifier root\">ImportUtilities</Name>\n      <Configuration>H4sIAAAAAAAAAG1SXWvCMBR9tr/ikofRMtdubwPbCkMGDhky3V4latplxiQmqUym/323tpZWfCn0nMv5uLlaFDmXC6q14MwueLZYKZnxPLYIuFRXdIUl8fB3K2DPjOVKJuQpfCTA5EqtucwT8jl/fXgmw9SLXwrLJbP2oxAs9QAaYHqWgzZfQeNRQt7ons5Whmt34Sd8aag5kFIDVabU0C1zaF8BbQi6CgTmB80S8oNIKKjMw5kzmJKkWSFXDuODZY3PO2r4Uq1ZH4TKA/jzentqQFDrSgoSKMkwZ+6LioL5d7tCucGkpqu/oKRnfKsFq4aCgdfjWT1bfUO2K6iw/kU4gOOx5YI2hRBn+14UjRS6um8Mjb8YK+QyU1fWwC0ssd6mD1aB3XCtcR4M7hWcKivCsu4IspzPlIFKAu6bUuORH5RpT8CEZWf7W33b27p0tt3OTTFUK9/nps713q402gs7p/JOcdS8c30KUfcW4qh7YXiDUfcI63v+B0tppKDvAgAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\"/>\n    </BusinessRule>\n  </BusinessLibraries>\n\n  <BusinessRules>\n    <BusinessRule ID=\"BOSCHCI-140\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">BOSCHCI-140</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVSTU/CQBA921+x6YGPg60gB5N+EEBNNCESQT2StQzLkmVbd6dEYvzvbtlSSgx6m31v5s282clEzric0ywTHPScL+dJKpechdoAGGeWtlgU9j83gmxBaZ7KyO14Vy4BmaQLLlnkvszuL2/cfuyEw1xzCVo/5wJih5AKmOzlSJ230MNt5D7SLZ0mimd44AcJmkZvHFdDLhfaLbSM2oQqugE0Y1igDpFCyWaT2S6DyF0bWU9QybwpKjOoGzcEBidOGh95ioGxY4OjJ/veG7Nhv8EwcAqBoseYZvs3IQeEmE2hogmaMWzFKFcKJD69ryHBImVUZpS9BoJTXebKdAElXBkaCaorPhfCRn41h18fJPSrujOruVMqVWOzW8rgjxX9L3T8rfMqqHbky7kobHkM8JWKHFrNZtvTgFO+yQSUUK/Tve5ddzvNduB8k4RisiItaBfFImUMlMflMjWIoX+brAH7iwj903szF+mfnmR53T/ZBj21/QIAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Item\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"ReturnTrue\" Scope=\"Global\" Type=\"Condition\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Conditions\"/>\n      <Name QualifierID=\"Qualifier root\">ReturnTrue</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIWST0sDMRDF7/spQg57c1dvwv6DWgWFQrEVj0vYTeOUNInJpOi3N7vRdhep3pI34TfvzcRIL0C1zBgJ3LWwazutdiBKFwSsTSxHrSqbj4MkR24daFXRm+yaEq463YMSFX3ZPlzd0qZOyoV3oLhzz17yOiHkJKxHHJnWo/S4rOgTO7JNZ8HgT/1Oqx4w9HoFfFuA6h0dcAG4ZpYdOAYnUZhKZIDF12T7aXhF94GcSaZEtkEbvNI6lVjMwqTvXmMREsXDOVa8j9nisUkFFskAGHqsmMlHocxPBi5YurdW21WIxQT/w9r/oPOgLlMsR28VQet58Ys4Ecb5lfl8QWGF+XyH39/hCw6vf2ouAgAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"getDateCode\" Scope=\"Global\" Type=\"Function\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Functions\"/>\n      <Name QualifierID=\"Qualifier root\">getDateCode</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAL1VXW/aMBR951dYfkBU2pLtbVI+UNsUialMVUtV7QlZwck8GTtzrmn37+fYDU4CEWIPfSI555577rGxU3FdMrEhVcUZrTes2ORSFKyMawNAWjnaYUk8f9txtKeqZlIk+GvwBSMqcrllokzw83rx+Ruep/GNrpmgdf2oOU0nCB2AB9sNdXkHLbMEfyd78pQrVkHLL7TIwTi9MPh1w8S2xmn8SEErsf5b0fS3EQSciDJ4AmUmiMMOaWyN8QNRZEfBDOyALoQaU9cWNZIEDxvidMoh6mWe/tESIhPcPfj07t0ugXucT0uIJk2DxmNFqtACcXgYYGSkO6WkWpn4pKTjo4Uj6nbNDuhHJDxpekHkVu/374MG9oaWQqgh++BwgqYiHOgsNtLzfHr/xx9PvScKCfmKEiToK7K8BsaDjACdXUWThs+1UlTAvcwJp6bSVzkoKClktCCaQyvZGvlCqh2Bth7oG9iuDrYa87YUNRCR09nJouxucf18v/7UH6Hj4WIYD28YFPZnZlKZQi7LgIlCznz1VXS0dB3AHujY3R4evLX3lFak2Yh0SPdYxLZHZ40JBgnOfv64Xi1vzRE73+D9dF0u7G765epTB+b/uwzviqNO4Zl1DvsXfDrxiP0GvH9M/gEDAlSGbAYAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
