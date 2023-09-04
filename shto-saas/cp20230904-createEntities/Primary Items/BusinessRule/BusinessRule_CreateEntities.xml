@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="CreateEntities" Scope="Global" Type="Action" RunPrivileged="false">
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Create Entities</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVTwY6bMBA9h68YcYiyooXNrRKQaENTqVWjrrqpeoy8YNhZOTY1Jtpt1X/vGDssUbVSL72A/WbmzZsH04q+QXlgbSuQdwesD6WSNTZZR4BZtS7ssDxbPx0FnLjuUMk8XMbXIXBZqgplk4ff9h/evgvXqyDb9B1K3nVfe8FXAcAI3A50MI076OP7PPzETuyu1Niac/ymNNToO5qHDcqqCy0Xsd0yzY7ckAwHTCGwTC4b9s8tz8NHoo0Fk018ZzQJDVdzYdKLSeY/emVSGscdXmZy92Ewd1zPG5MGlsD22LF2uAOcESCnjGalIRmuoui15tJ8uX/kpbEphc/wvW4Ess7nSlVxD48DFYJ1Y7wXwp2SUUcyFZIlY90r1my1VnpH3rKG/2+LPquSCfzJ7gX3Hff82Apm+KaXleDJP2p++TFeF3xiGsoHFBWZDTlYJ+OGm8JDi6s0sCm4Y08UXi6XaVArDYsBzK9TQKvYhukYRVfwK5gNJKXmJHgrDZrnhZvQPd+41247TOYu1GWG/otTG4QIqNFMqCZGWStfXwyUFXloScE7GsFYGZ0xVU+ipI34f//l1wQYFiJLLteNFjK53Ei/3H8ArsyM/vwDAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="EntityCategory"></ValidObjectType>
+                <ValidObjectType ID="Messages"></ValidObjectType>
+                <ValidObjectType ID="MyEntities"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
