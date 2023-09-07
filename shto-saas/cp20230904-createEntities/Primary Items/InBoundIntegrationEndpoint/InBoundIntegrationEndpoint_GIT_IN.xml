@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation UseContextLocale="false">
     <IntegrationEndpoints>
-        <InBoundIntegrationEndpoint ID="GIT_IN" Description="GIT Inbound" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="ImportConfigurationPreProcessor" ProcessPluginID="Import" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1000" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="10" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="10" TransactionType="NONE" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="rest" MessagesPerBackgroundProcess="1">
+        <InBoundIntegrationEndpoint ID="GIT_IN" Description="GIT Inbound" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="ImportConfigurationPreProcessor" ProcessPluginID="Import" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1000" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="10" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="10" TransactionType="NONE" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="rest" MessagesPerBackgroundProcess="1"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute" every="1"/>
+</entries>
+
+PreProcessorPluginConfiguration:
+<Parameters>
+  <Parameter ID="ImportContext" Type="com.stibo.configurationmanagement.importer.transfer.importcontext.ImportContextTO">Context1</Parameter>
+  <Parameter ID="ReplaceInstructions" Type="com.stibo.configurationmanagement.importer.transfer.replacementrule.ReplacementRulesTO">&lt;?xml version=&quot;1.0&quot;encoding=&quot;UTF-8&quot;standalone=&quot;yes&quot;?&gt;&lt;ReplacementRules&gt;&lt;Assets/&gt;&lt;Attributes/&gt;&lt;Classifications/&gt;&lt;Entities/&gt;&lt;LinkTypes/&gt;&lt;Products/&gt;&lt;UserGroups/&gt;&lt;UserTypes/&gt;&lt;/ReplacementRules&gt;</Parameter>
+  <Parameter ID="RunInSingleUpdateMode" Type="java.lang.Boolean">false</Parameter>
+</Parameters>
+
+PostProcessorPluginConfiguration:
+<Parameters/>
+
+ReceiverPluginConfiguration:
+<Parameters>
+  <Parameter ID="NumberOfFilesToKeep" Type="java.lang.Integer">10</Parameter>
+  <Parameter ID="NumberOfFilesToKeepInFailed" Type="java.lang.Integer">10</Parameter>
+  <Parameter ID="TimeToKeep" Type="java.lang.Integer">14</Parameter>
+  <Parameter ID="keepProcessedFiles" Type="java.lang.Boolean">true</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<ImportManagerConfig Approver="laal" BatchDirectoryID="" ContextID="Context1" CountUnmapped="no" DefaultProductParentID="Product hierarchy root" DefaultProductTypeID="Product user-type root" MatchUnitsByID="no" Name="" ProcessTemplate="Importer" RejectNewProducts="no" RejectProductUpdates="no" ReplaceTerms="CLEAR_ONLY_FOR_IMPORTED_PRODUCTS" SelectedURLType="product" TestImport="no" Version="2" WorkspaceID="Main">
+  <Format Name="STEPXML">
+    <Parameter Name="Validate">No</Parameter>
+  </Format>
+  <ProductMapping/>
+  <ReplacementRules/>
+  <Source Name="File">
+    <Parameter Name="Filename">C:\Users\shto\AppData\Local\Temp\AttributeGroup__LAAL Attributes.xml</Parameter>
+  </Source>
+</ImportManagerConfig>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
             <SetupGroupLink SetupGroupID="Inbound Integration Endpoints"></SetupGroupLink>
             <Name QualifierID="Qualifier root">GIT_IN</Name>
             <ScheduleSpecification>H4sIAAAAAAAAAD2NOw6DQAwFe06xslKbpOfTQJkqJwiLEZaWXQl7Ubg9TkR41dMUM1X7WYLbaBVOsYYH3qFtioqirkzSFM79/u58eIvU4NOCojwkzMoBxc805kAjTRxZzYGvE3UXuv1Rb539yTErgZnP0ZdaGkoLl1f5AOswyiiaAAAA</ScheduleSpecification>
