@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
     <Products>
-        <Product ID="SHTO-0004" UserTypeID="Item" ParentID="127425" Republished="true">
-            <Name Changed="true">IBIS RIPMO AF SLX BIKE 2022 Modify</Name>
-            <ProductCrossReference ProductID="SHTO-C00011" Type="CrossSell" Changed="true">
+        <Product ID="SHTO-0004" UserTypeID="Item" ParentID="127425">
+            <Name>IBIS RIPMO AF SLX BIKE 2022 Modify</Name>
+            <ProductCrossReference ProductID="SHTO-C00011" Type="CrossSell">
                 <MetaData>
-                    <Value AttributeID="EffectiveDate" Changed="true">2022-07-11</Value>
+                    <Value AttributeID="EffectiveDate">2022-07-11</Value>
                 </MetaData>
             </ProductCrossReference>
             <Values>
@@ -16,34 +16,34 @@
                 <Value AttributeID="Category" Derived="true">Full Suspension</Value>
                 <Value AttributeID="DescriptionAttribute">Modify</Value>
                 <Value AttributeID="ParentName" Derived="true">Full Suspension</Value>
-                <Value AttributeID="SHTO-BottomBracket" Changed="true">Shimano SM-BB52</Value>
-                <Value AttributeID="SHTO-Brakes" Changed="true">Shimano SLX M7120 4-Piston</Value>
-                <Value AttributeID="SHTO-Brand" Changed="true">Ibis</Value>
-                <Value AttributeID="SHTO-Cassette" Changed="true">Shimano SLX 10-51T, 12-Speed</Value>
-                <Value AttributeID="SHTO-Chain" Changed="true">Shimano Deore M7100</Value>
-                <Value AttributeID="SHTO-Color" Changed="true">Orange</Value>
-                <Value AttributeID="SHTO-Crankset" Changed="true">Shimano SLX M7100, 30T</Value>
-                <Value AttributeID="SHTO-Fork" Changed="true">DVO Onyx D1, 160mm Travel</Value>
-                <Value AttributeID="SHTO-Frame" Changed="true">Aluminum</Value>
-                <Value AttributeID="SHTO-FrontDerailleur" Changed="true">-</Value>
-                <Value AttributeID="SHTO-GripsBarTape" Changed="true">Lizard Skins Charger</Value>
-                <Value AttributeID="SHTO-Handlebar" Changed="true">Ibis 780mm Alloy</Value>
-                <Value AttributeID="SHTO-Headset" Changed="true">Cane Creek 40 ZS44/ZS56</Value>
-                <Value AttributeID="SHTO-IntendedUse" Changed="true">Enduro, All-Mountain, Trail</Value>
-                <Value AttributeID="SHTO-Model" Changed="true">Ripmo AF</Value>
-                <Value AttributeID="SHTO-Price" Changed="true">4299</Value>
-                <Value AttributeID="SHTO-RearDerailleur" Changed="true">Shimano SLX M7100 Shadow Plus</Value>
-                <Value AttributeID="SHTO-RearShock" Changed="true">DVO Topaz T3 Air, 210 x 55mm</Value>
-                <Value AttributeID="SHTO-Saddle" Changed="true">WTB Silverado 142</Value>
-                <Value AttributeID="SHTO-Seatclamp" Changed="true">Single-Bolt</Value>
-                <Value AttributeID="SHTO-Seatpost" Changed="true">Bike Yoke Revive Dropper, S:125, M:160, L/XL:185mm</Value>
-                <Value AttributeID="SHTO-Shifters" Changed="true">Shimano SLX M7100</Value>
-                <Value AttributeID="SHTO-Stem" Changed="true">Ibis 31.8mm</Value>
-                <Value AttributeID="SHTO-Tires" Changed="true">Maxxis Assegai 29 x 2.5"WT, EXO+ Casing</Value>
-                <Value AttributeID="SHTO-WheelSize" Changed="true">29"</Value>
-                <Value AttributeID="SHTO-Wheelset" Changed="true">Ibis S35 Aluminum, Ibis Hubs</Value>
-                <Value AttributeID="TextAttribute" Changed="true">Full Suspension</Value>
-                <Value AttributeID="Vendor" ID="GDE" Changed="true">Good Enough</Value>
+                <Value AttributeID="SHTO-BottomBracket">Shimano SM-BB52</Value>
+                <Value AttributeID="SHTO-Brakes">Shimano SLX M7120 4-Piston</Value>
+                <Value AttributeID="SHTO-Brand">Ibis</Value>
+                <Value AttributeID="SHTO-Cassette">Shimano SLX 10-51T, 12-Speed</Value>
+                <Value AttributeID="SHTO-Chain">Shimano Deore M7100</Value>
+                <Value AttributeID="SHTO-Color">Orange</Value>
+                <Value AttributeID="SHTO-Crankset">Shimano SLX M7100, 30T</Value>
+                <Value AttributeID="SHTO-Fork">DVO Onyx D1, 160mm Travel</Value>
+                <Value AttributeID="SHTO-Frame">Aluminum</Value>
+                <Value AttributeID="SHTO-FrontDerailleur">-</Value>
+                <Value AttributeID="SHTO-GripsBarTape">Lizard Skins Charger</Value>
+                <Value AttributeID="SHTO-Handlebar">Ibis 780mm Alloy</Value>
+                <Value AttributeID="SHTO-Headset">Cane Creek 40 ZS44/ZS56</Value>
+                <Value AttributeID="SHTO-IntendedUse">Enduro, All-Mountain, Trail</Value>
+                <Value AttributeID="SHTO-Model">Ripmo AF</Value>
+                <Value AttributeID="SHTO-Price">4299</Value>
+                <Value AttributeID="SHTO-RearDerailleur">Shimano SLX M7100 Shadow Plus</Value>
+                <Value AttributeID="SHTO-RearShock">DVO Topaz T3 Air, 210 x 55mm</Value>
+                <Value AttributeID="SHTO-Saddle">WTB Silverado 142</Value>
+                <Value AttributeID="SHTO-Seatclamp">Single-Bolt</Value>
+                <Value AttributeID="SHTO-Seatpost">Bike Yoke Revive Dropper, S:125, M:160, L/XL:185mm</Value>
+                <Value AttributeID="SHTO-Shifters">Shimano SLX M7100</Value>
+                <Value AttributeID="SHTO-Stem">Ibis 31.8mm</Value>
+                <Value AttributeID="SHTO-Tires">Maxxis Assegai 29 x 2.5"WT, EXO+ Casing</Value>
+                <Value AttributeID="SHTO-WheelSize">29"</Value>
+                <Value AttributeID="SHTO-Wheelset">Ibis S35 Aluminum, Ibis Hubs</Value>
+                <Value AttributeID="TextAttribute">Full Suspension</Value>
+                <Value AttributeID="Vendor" ID="GDE">Good Enough</Value>
             </Values>
             <DataContainers>
                 <MultiDataContainer Type="AggregatedSufficiency">

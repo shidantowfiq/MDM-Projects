@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
     <Entities>
-        <Entity ID="376401" UserTypeID="Entity" ParentID="CustomerHierarchy" Republished="true">
-            <Name Changed="true">Alex Towfiq</Name>
+        <Entity ID="376401" UserTypeID="Entity" ParentID="CustomerHierarchy">
+            <Name>Alex Towfiq</Name>
             <Values>
-                <Value AttributeID="Email" Changed="true">alex.towfiq@gmial.com</Value>
-                <Value AttributeID="EntityMarketingDescription" Changed="true">&lt;lt/&gt; good</Value>
-                <Value AttributeID="Name" Changed="true">Alex</Value>
-                <Value AttributeID="PhoneNumber" Changed="true">1018675309</Value>
+                <Value AttributeID="Email">alex.towfiq@gmial.com</Value>
+                <Value AttributeID="EntityMarketingDescription">&lt;lt/&gt; good</Value>
+                <Value AttributeID="Name">Alex</Value>
+                <Value AttributeID="PhoneNumber">1018675309</Value>
             </Values>
             <DataContainers>
                 <MultiDataContainer Type="CustomerSufficiency">

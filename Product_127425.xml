@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="127425" UserTypeID="Level4" ParentID="127423">
+            <Name>Full Suspension</Name>
+            <Values>
+                <Value AttributeID="ChildCount">4</Value>
+                <Value AttributeID="MktDesc1">Full suspension bikes provide the most traction, both uphill and downhill.  Many companies offer different designs of rear suspension.  </Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

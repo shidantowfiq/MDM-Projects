@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
     <Entities>
-        <Entity ID="EXT-4500-01" UserTypeID="Entity" ParentID="CustomerHierarchy" Republished="true">
-            <Name Changed="true">John Smith</Name>
+        <Entity ID="EXT-4500-01" UserTypeID="Entity" ParentID="CustomerHierarchy">
+            <Name>John Smith</Name>
             <Values>
-                <Value AttributeID="CustomerStatus" Changed="true">Active</Value>
+                <Value AttributeID="CustomerStatus">Active</Value>
             </Values>
             <DataContainers>
                 <MultiDataContainer Type="CustomerEmail">
-                    <DataContainer ID="394522" Changed="true">
+                    <DataContainer ID="394522">
                         <Values>
-                            <Value AttributeID="dcEmailAddress" Changed="true">john.smith@stibosystems.com</Value>
-                            <Value AttributeID="dcTypeEmail" Changed="true">Work</Value>
-                            <Value AttributeID="dcUnsubscribe" Changed="true">false</Value>
+                            <Value AttributeID="dcEmailAddress">john.smith@stibosystems.com</Value>
+                            <Value AttributeID="dcTypeEmail">Work</Value>
+                            <Value AttributeID="dcUnsubscribe">false</Value>
                         </Values>
                     </DataContainer>
-                    <DataContainer ID="394523" Changed="true">
+                    <DataContainer ID="394523">
                         <Values>
-                            <Value AttributeID="dcEmailAddress" Changed="true">john.smith@gmail.com</Value>
-                            <Value AttributeID="dcTypeEmail" Changed="true">Personal</Value>
-                            <Value AttributeID="dcUnsubscribe" Changed="true">false</Value>
+                            <Value AttributeID="dcEmailAddress">john.smith@gmail.com</Value>
+                            <Value AttributeID="dcTypeEmail">Personal</Value>
+                            <Value AttributeID="dcUnsubscribe">false</Value>
                         </Values>
                     </DataContainer>
-                    <DataContainer ID="394524" Changed="true">
+                    <DataContainer ID="394524">
                         <Values>
-                            <Value AttributeID="dcEmailAddress" Changed="true">jsmith@yahoo.com</Value>
-                            <Value AttributeID="dcTypeEmail" Changed="true">Other</Value>
-                            <Value AttributeID="dcUnsubscribe" Changed="true">true</Value>
+                            <Value AttributeID="dcEmailAddress">jsmith@yahoo.com</Value>
+                            <Value AttributeID="dcTypeEmail">Other</Value>
+                            <Value AttributeID="dcUnsubscribe">true</Value>
                         </Values>
                     </DataContainer>
                 </MultiDataContainer>
                 <MultiDataContainer Type="CustomerPhone">
-                    <DataContainer ID="394520" Changed="true">
+                    <DataContainer ID="394520">
                         <Values>
-                            <Value AttributeID="dcAreaCode" Changed="true">555</Value>
-                            <Value AttributeID="dcPhoneNumber" Changed="true">4567890</Value>
-                            <Value AttributeID="dcTypePhone" Changed="true">Work</Value>
+                            <Value AttributeID="dcAreaCode">555</Value>
+                            <Value AttributeID="dcPhoneNumber">4567890</Value>
+                            <Value AttributeID="dcTypePhone">Work</Value>
                         </Values>
                     </DataContainer>
-                    <DataContainer ID="394521" Changed="true">
+                    <DataContainer ID="394521">
                         <Values>
-                            <Value AttributeID="dcAreaCode" Changed="true">555</Value>
-                            <Value AttributeID="dcPhoneNumber" Changed="true">3239897</Value>
-                            <Value AttributeID="dcTypePhone" Changed="true">Mobile</Value>
+                            <Value AttributeID="dcAreaCode">555</Value>
+                            <Value AttributeID="dcPhoneNumber">3239897</Value>
+                            <Value AttributeID="dcTypePhone">Mobile</Value>
                         </Values>
                     </DataContainer>
                 </MultiDataContainer>

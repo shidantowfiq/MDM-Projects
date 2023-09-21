@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
     <Products>
-        <Product ID="377300" UserTypeID="Item" ParentID="127425" Republished="true">
-            <Name Changed="true">Renamed</Name>
+        <Product ID="377300" UserTypeID="Item" ParentID="127425">
+            <Name>Renamed</Name>
             <Values>
                 <Value AttributeID="Calculated" Derived="true">&lt;bolditalic&gt;&lt;/bolditalic&gt; </Value>
                 <Value AttributeID="CalculatedAttribute" Derived="true">5</Value>

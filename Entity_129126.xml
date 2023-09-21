@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
     <Entities>
-        <Entity ID="129126" UserTypeID="Entity" ParentID="CustomerHierarchy" Republished="true">
-            <Name Changed="true">Tom Johnson</Name>
+        <Entity ID="129126" UserTypeID="Entity" ParentID="CustomerHierarchy">
+            <Name>Tom Johnson</Name>
             <DataContainers>
                 <MultiDataContainer Type="CustomerSufficiency">
                     <DataContainer ID="129305">

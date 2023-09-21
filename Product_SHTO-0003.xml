@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
     <Products>
-        <Product ID="SHTO-0003" UserTypeID="Item" ParentID="127425" Republished="true">
-            <Name Changed="true">1666203072571</Name>
-            <AssetCrossReference AssetID="112910" Type="PMDM.IDRT.ProductImages" Changed="true"></AssetCrossReference>
-            <AssetCrossReference AssetID="ColoredPencilsInspiration" Type="PMDM.IDRT.PrimaryProductImage" Changed="true"></AssetCrossReference>
-            <ProductCrossReference ProductID="SHTO-0004" Type="CrossSell" Changed="true">
+        <Product ID="SHTO-0003" UserTypeID="Item" ParentID="127425">
+            <Name>1666203072571</Name>
+            <AssetCrossReference AssetID="112910" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
+            <AssetCrossReference AssetID="ColoredPencilsInspiration" Type="PMDM.IDRT.PrimaryProductImage"></AssetCrossReference>
+            <ProductCrossReference ProductID="SHTO-0004" Type="CrossSell">
                 <MetaData>
-                    <Value AttributeID="EffectiveDate" Changed="true">2022-07-11</Value>
-                    <MultiValue AttributeID="MetadataOnReference" Changed="true">
-                        <Value Changed="true">123</Value>
+                    <Value AttributeID="EffectiveDate">2022-07-11</Value>
+                    <MultiValue AttributeID="MetadataOnReference">
+                        <Value>123</Value>
                     </MultiValue>
                 </MetaData>
             </ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0005" Type="CrossSell" Changed="true"></ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0006" Type="CrossSell" Changed="true"></ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0007" Type="CrossSell" Changed="true"></ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0008" Type="CrossSell" Changed="true"></ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0005" Type="CrossSell"></ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0006" Type="CrossSell"></ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0007" Type="CrossSell"></ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0008" Type="CrossSell"></ProductCrossReference>
             <Values>
                 <Value AttributeID="BestFor" ID="AR">Artificial Turf</Value>
                 <Value AttributeID="Calculated" Derived="true">&lt;bolditalic&gt;wert&lt;/bolditalic&gt; </Value>
@@ -25,39 +25,39 @@
                 <Value AttributeID="CalculatedParent" Derived="true">127425</Value>
                 <Value AttributeID="Category" Derived="true">Full Suspension</Value>
                 <Value AttributeID="DescriptionAttribute">q</Value>
-                <Value AttributeID="LanguageDep2" Changed="true">wert</Value>
-                <Value AttributeID="MktDesc2" Changed="true">Localized value</Value>
+                <Value AttributeID="LanguageDep2">wert</Value>
+                <Value AttributeID="MktDesc2">Localized value</Value>
                 <Value AttributeID="ParentName" Derived="true">Full Suspension</Value>
-                <Value AttributeID="SHTO-BottomBracket" Changed="true">SRAM DUB 73mm BSA</Value>
-                <Value AttributeID="SHTO-Brakes" Changed="true">SRAM G2 RS, 180mm Front, 180mm Rear</Value>
-                <Value AttributeID="SHTO-Brand" Changed="true">Evil</Value>
-                <Value AttributeID="SHTO-Cassette" Changed="true">SRAM XG-1275 Eagle, 10-50T</Value>
-                <Value AttributeID="SHTO-Chain" Changed="true">SRAM GX Eagle w/Powerlock</Value>
-                <Value AttributeID="SHTO-Color" Changed="true">Black</Value>
-                <Value AttributeID="SHTO-Crankset" Changed="true">SRAM GX Eagle DUB, SuperBoost+, 170mm, 32T</Value>
-                <Value AttributeID="SHTO-Fork" Changed="true">RockShox Pike Ultimate Charger 2 RC2, Debonair, 51mm Offset, 130mm</Value>
-                <Value AttributeID="SHTO-Frame" Changed="true">Unidirectional Carbon Fiber</Value>
-                <Value AttributeID="SHTO-FrontDerailleur" Changed="true">-</Value>
-                <Value AttributeID="SHTO-GripsBarTape" Changed="true">Evil Palmela Handerson Lock-On</Value>
-                <Value AttributeID="SHTO-Handlebar" Changed="true">RaceFace Chester 35, 35mm Rise</Value>
-                <Value AttributeID="SHTO-Headset" Changed="true">FSA Integrated Tapered No.57/68</Value>
-                <Value AttributeID="SHTO-IntendedUse" Changed="true">Trail, All-Mountain</Value>
-                <Value AttributeID="SHTO-Model" Changed="true">Following</Value>
-                <Value AttributeID="SHTO-Price" Changed="true">6599</Value>
-                <Value AttributeID="SHTO-RearDerailleur" Changed="true">SRAM GX Eagle</Value>
-                <Value AttributeID="SHTO-RearShock" Changed="true">RockShox Deluxe Ultimate RCT Debonair, Trunnion 165x45mm</Value>
-                <Value AttributeID="SHTO-Saddle" Changed="true">WTB Volt Pro</Value>
-                <Value AttributeID="SHTO-Seatclamp" Changed="true">Nutted</Value>
-                <Value AttributeID="SHTO-Seatpost" Changed="true">RockShox Reverb Stealth 30.9mm, 125mm (S), 150mm (M), 170mm (L/XL)</Value>
-                <Value AttributeID="SHTO-Shifters" Changed="true">SRAM GX Eagle, 12-Speed</Value>
-                <Value AttributeID="SHTO-Stem" Changed="true">RaceFace Aeffect R 35</Value>
-                <Value AttributeID="SHTO-Tires" Changed="true">Maxxis Minion DHF EXO TR, 29 x 2.3", Maxxis Minion DHF EXO TR, 29 x 2.3"</Value>
-                <Value AttributeID="SHTO-WheelSize" Changed="true">29"</Value>
-                <Value AttributeID="SHTO-Wheelset" Changed="true">Industry Nine Enduro S Hydra, 15x110, 12x157mm</Value>
-                <Value AttributeID="TextAttribute" Changed="true">Full Suspension</Value>
+                <Value AttributeID="SHTO-BottomBracket">SRAM DUB 73mm BSA</Value>
+                <Value AttributeID="SHTO-Brakes">SRAM G2 RS, 180mm Front, 180mm Rear</Value>
+                <Value AttributeID="SHTO-Brand">Evil</Value>
+                <Value AttributeID="SHTO-Cassette">SRAM XG-1275 Eagle, 10-50T</Value>
+                <Value AttributeID="SHTO-Chain">SRAM GX Eagle w/Powerlock</Value>
+                <Value AttributeID="SHTO-Color">Black</Value>
+                <Value AttributeID="SHTO-Crankset">SRAM GX Eagle DUB, SuperBoost+, 170mm, 32T</Value>
+                <Value AttributeID="SHTO-Fork">RockShox Pike Ultimate Charger 2 RC2, Debonair, 51mm Offset, 130mm</Value>
+                <Value AttributeID="SHTO-Frame">Unidirectional Carbon Fiber</Value>
+                <Value AttributeID="SHTO-FrontDerailleur">-</Value>
+                <Value AttributeID="SHTO-GripsBarTape">Evil Palmela Handerson Lock-On</Value>
+                <Value AttributeID="SHTO-Handlebar">RaceFace Chester 35, 35mm Rise</Value>
+                <Value AttributeID="SHTO-Headset">FSA Integrated Tapered No.57/68</Value>
+                <Value AttributeID="SHTO-IntendedUse">Trail, All-Mountain</Value>
+                <Value AttributeID="SHTO-Model">Following</Value>
+                <Value AttributeID="SHTO-Price">6599</Value>
+                <Value AttributeID="SHTO-RearDerailleur">SRAM GX Eagle</Value>
+                <Value AttributeID="SHTO-RearShock">RockShox Deluxe Ultimate RCT Debonair, Trunnion 165x45mm</Value>
+                <Value AttributeID="SHTO-Saddle">WTB Volt Pro</Value>
+                <Value AttributeID="SHTO-Seatclamp">Nutted</Value>
+                <Value AttributeID="SHTO-Seatpost">RockShox Reverb Stealth 30.9mm, 125mm (S), 150mm (M), 170mm (L/XL)</Value>
+                <Value AttributeID="SHTO-Shifters">SRAM GX Eagle, 12-Speed</Value>
+                <Value AttributeID="SHTO-Stem">RaceFace Aeffect R 35</Value>
+                <Value AttributeID="SHTO-Tires">Maxxis Minion DHF EXO TR, 29 x 2.3", Maxxis Minion DHF EXO TR, 29 x 2.3"</Value>
+                <Value AttributeID="SHTO-WheelSize">29"</Value>
+                <Value AttributeID="SHTO-Wheelset">Industry Nine Enduro S Hydra, 15x110, 12x157mm</Value>
+                <Value AttributeID="TextAttribute">Full Suspension</Value>
                 <Value AttributeID="Country" ID="DK">Denmark</Value>
-                <Value AttributeID="Vendor" ID="GDE" Changed="true">Good Enough</Value>
-                <Value AttributeID="AttributeLOV" ID="N" Changed="true">No</Value>
+                <Value AttributeID="Vendor" ID="GDE">Good Enough</Value>
+                <Value AttributeID="AttributeLOV" ID="N">No</Value>
             </Values>
             <DataContainers>
                 <MultiDataContainer Type="AggregatedSufficiency">
@@ -138,24 +138,24 @@
                     </DataContainer>
                 </MultiDataContainer>
                 <MultiDataContainer Type="NonTypedData">
-                    <DataContainer ID="128825" Changed="true">
+                    <DataContainer ID="128825">
                         <Values>
-                            <Value AttributeID="Attribute" Changed="true">Blue</Value>
-                            <Value AttributeID="Attribute2" Changed="true">Red</Value>
-                            <Value AttributeID="Attribute3" Changed="true">This is a free-text attribute value</Value>
-                            <Value AttributeID="ISODateTest" Changed="true">2022-04-07</Value>
-                            <Value AttributeID="ISODateTimeTest" Changed="true">2022-04-07 13:26:06</Value>
-                            <MultiValue AttributeID="Value2" Changed="true">
-                                <Value Changed="true">Val1</Value>
-                                <Value Changed="true">Val2</Value>
+                            <Value AttributeID="Attribute">Blue</Value>
+                            <Value AttributeID="Attribute2">Red</Value>
+                            <Value AttributeID="Attribute3">This is a free-text attribute value</Value>
+                            <Value AttributeID="ISODateTest">2022-04-07</Value>
+                            <Value AttributeID="ISODateTimeTest">2022-04-07 13:26:06</Value>
+                            <MultiValue AttributeID="Value2">
+                                <Value>Val1</Value>
+                                <Value>Val2</Value>
                             </MultiValue>
                         </Values>
                         <ProductCrossReference ProductID="SHTO-0004" Type="DCReference"></ProductCrossReference>
                     </DataContainer>
-                    <DataContainer ID="128826" Changed="true">
+                    <DataContainer ID="128826">
                         <Values>
-                            <Value AttributeID="Attribute" Changed="true">Orange</Value>
-                            <Value AttributeID="Attribute2" Changed="true">Yellow</Value>
+                            <Value AttributeID="Attribute">Orange</Value>
+                            <Value AttributeID="Attribute2">Yellow</Value>
                         </Values>
                     </DataContainer>
                 </MultiDataContainer>
