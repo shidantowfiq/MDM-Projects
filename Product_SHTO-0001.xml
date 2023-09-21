@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="SHTO-0001" UserTypeID="Item" ParentID="127425" Changed="true" Republished="true">
+            <Name Changed="true">1666205230717</Name>
+            <Values>
+                <Value AttributeID="Calculated" Derived="true">&lt;bolditalic&gt;&lt;/bolditalic&gt; </Value>
+                <Value AttributeID="CalculatedAttribute" Derived="true">5</Value>
+                <Value AttributeID="CalculatedDescriptionAttribute" Derived="true">err</Value>
+                <Value AttributeID="CalculatedParent" Derived="true">127425</Value>
+                <Value AttributeID="Category" Derived="true">Full Suspension</Value>
+                <Value AttributeID="DescriptionAttribute">err</Value>
+                <Value AttributeID="ParentName" Derived="true">Full Suspension</Value>
+                <Value AttributeID="SHTO-BottomBracket" Changed="true">Shimano Sealed Bearing BSA Threaded</Value>
+                <Value AttributeID="SHTO-Brakes" Changed="true">Shimano Deore BR-MT420 4-Piston</Value>
+                <Value AttributeID="SHTO-Brand" Changed="true">Norco</Value>
+                <Value AttributeID="SHTO-Cassette" Changed="true">Shimano Deore M6100, 10-51T</Value>
+                <Value AttributeID="SHTO-Chain" Changed="true">Shimano Deore M6100</Value>
+                <Value AttributeID="SHTO-Color" Changed="true">White</Value>
+                <Value AttributeID="SHTO-Crankset" Changed="true">Shimano Deore FC-MT6120</Value>
+                <Value AttributeID="SHTO-Empty">Nope</Value>
+                <Value AttributeID="SHTO-Fork" Changed="true">RockShox Yari RC Motion Control, 160mm Travel, 37mm Offset</Value>
+                <Value AttributeID="SHTO-Frame" Changed="true">Aluminum, Ride Aligned</Value>
+                <Value AttributeID="SHTO-FrontDerailleur" Changed="true">hello, this is the pmdmdmdm-usus. Nu er det fredag. Og det virker som det skal - hvilket er på en dum måde.</Value>
+                <Value AttributeID="SHTO-GripsBarTape" Changed="true">SDG Thrice, Lock-On</Value>
+                <Value AttributeID="SHTO-Handlebar" Changed="true">6061 Aluminum 2" Rise</Value>
+                <Value AttributeID="SHTO-Headset" Changed="true">FSA #57 E Sealed Bearing</Value>
+                <Value AttributeID="SHTO-IntendedUse" Changed="true">Trail, All-Mountain, Enduro</Value>
+                <Value AttributeID="SHTO-Model" Changed="true">Sight A3</Value>
+                <Value AttributeID="SHTO-Price" Changed="true">3399</Value>
+                <Value AttributeID="SHTO-RearDerailleur" Changed="true">Shimano Deore M6100</Value>
+                <Value AttributeID="SHTO-RearShock" Changed="true">RockShox Deluxe Select R, 185 x 52.5mm Trunnion</Value>
+                <Value AttributeID="SHTO-Saddle" Changed="true">WTB Volt 250 Sport</Value>
+                <Value AttributeID="SHTO-Seatclamp" Changed="true">Single-Bolt</Value>
+                <Value AttributeID="SHTO-Seatpost" Changed="true">TranzX YS105 Dropper, S:150, M:170, L/XL:200</Value>
+                <Value AttributeID="SHTO-Shifters" Changed="true">Shimano Deore SL-M6100</Value>
+                <Value AttributeID="SHTO-Stem" Changed="true">Alloy, 40mm Length, 35mm Clamp</Value>
+                <Value AttributeID="SHTO-Tires" Changed="true">Maxxis Assegai 27.5x2.5" / Maxxis Dissector 27.5x2.4"</Value>
+                <Value AttributeID="SHTO-WheelSize" Changed="true">27.5"</Value>
+                <Value AttributeID="SHTO-Wheelset" Changed="true">WTB ST i29 TCS 2.0 Rims, Shimano MT410/MT510 Boost Hubs</Value>
+                <Value AttributeID="TextAttribute" Changed="true">Full Suspension</Value>
+                <Value AttributeID="Vendor" ID="GDE" Changed="true">Good Enough</Value>
+                <Value AttributeID="AttributeLOV" ID="N" Changed="true">No</Value>
+            </Values>
+            <DataContainers>
+                <MultiDataContainer Type="AggregatedSufficiency">
+                    <DataContainer ID="523951">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">AggregatedSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">40</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523952">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Aggregate</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">AggregatedSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">40</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523953">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">BrandIsPopulated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523954">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription1</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523955">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription3</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523956">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">ChannelsMetric</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523957">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118857</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">ShortDescriptionPopulated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+                <MultiDataContainer Type="MarketingCopyAggregated">
+                    <DataContainer ID="523948">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118607</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingCopyAggregated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523949">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118607</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription1</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingCopyAggregated</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523950">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689783118607</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription3</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingCopyAggregated</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+            </DataContainers>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

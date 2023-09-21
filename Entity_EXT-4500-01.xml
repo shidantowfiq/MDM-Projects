@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+    <Entities>
+        <Entity ID="EXT-4500-01" UserTypeID="Entity" ParentID="CustomerHierarchy" Republished="true">
+            <Name Changed="true">John Smith</Name>
+            <Values>
+                <Value AttributeID="CustomerStatus" Changed="true">Active</Value>
+            </Values>
+            <DataContainers>
+                <MultiDataContainer Type="CustomerEmail">
+                    <DataContainer ID="394522" Changed="true">
+                        <Values>
+                            <Value AttributeID="dcEmailAddress" Changed="true">john.smith@stibosystems.com</Value>
+                            <Value AttributeID="dcTypeEmail" Changed="true">Work</Value>
+                            <Value AttributeID="dcUnsubscribe" Changed="true">false</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="394523" Changed="true">
+                        <Values>
+                            <Value AttributeID="dcEmailAddress" Changed="true">john.smith@gmail.com</Value>
+                            <Value AttributeID="dcTypeEmail" Changed="true">Personal</Value>
+                            <Value AttributeID="dcUnsubscribe" Changed="true">false</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="394524" Changed="true">
+                        <Values>
+                            <Value AttributeID="dcEmailAddress" Changed="true">jsmith@yahoo.com</Value>
+                            <Value AttributeID="dcTypeEmail" Changed="true">Other</Value>
+                            <Value AttributeID="dcUnsubscribe" Changed="true">true</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+                <MultiDataContainer Type="CustomerPhone">
+                    <DataContainer ID="394520" Changed="true">
+                        <Values>
+                            <Value AttributeID="dcAreaCode" Changed="true">555</Value>
+                            <Value AttributeID="dcPhoneNumber" Changed="true">4567890</Value>
+                            <Value AttributeID="dcTypePhone" Changed="true">Work</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="394521" Changed="true">
+                        <Values>
+                            <Value AttributeID="dcAreaCode" Changed="true">555</Value>
+                            <Value AttributeID="dcPhoneNumber" Changed="true">3239897</Value>
+                            <Value AttributeID="dcTypePhone" Changed="true">Mobile</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+            </DataContainers>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="377300" UserTypeID="Item" ParentID="127425" Republished="true">
+            <Name Changed="true">Renamed</Name>
+            <Values>
+                <Value AttributeID="Calculated" Derived="true">&lt;bolditalic&gt;&lt;/bolditalic&gt; </Value>
+                <Value AttributeID="CalculatedAttribute" Derived="true">5</Value>
+                <Value AttributeID="CalculatedDescriptionAttribute" Derived="true">Create Event</Value>
+                <Value AttributeID="CalculatedParent" Derived="true">127425</Value>
+                <Value AttributeID="Category" Derived="true">Full Suspension</Value>
+                <Value AttributeID="DescriptionAttribute">Create Event</Value>
+                <Value AttributeID="ParentName" Derived="true">Full Suspension</Value>
+            </Values>
+            <DataContainers>
+                <MultiDataContainer Type="AggregatedSufficiency">
+                    <DataContainer ID="523941">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">AggregatedSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">40</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523942">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Aggregate</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">AggregatedSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">40</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523943">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjgVKzgUih8gDro5uIlDbKI9aO/KJRVE/O+eih+DY5KH5M0VfWBZL7FENenKPO9i4L6yuePpuCjGoxFmyGS0vXTJKZa7tySz6A69ycMuInnGfYatqNJJHvCKTaiokbQcP4NUPC3UpOCDwUHEQ7p6diw8hE0jpALEDC/nPFgtsHISKVb1BQawZvHmjqmjoFKZC36It/1v0O9Df2LeJm3fmFPp8tkd6jM1jgIBAAA=</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">BrandIsPopulated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523944">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription1</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523945">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription3</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523946">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAG2PsWrDQAyGX0VoDnEgQ8C0CbRdshXaLWSQfX9iwfnOWHIghLx7z0PaDpl+JH0Sn26ccsD+g2s2x1BX1TDmMLW+0/C63mzWqxUvOIjL93UonHF9eJDiPmozOWb2vZOUEI2PC+5hJmfM7I1jbiWi3OffQSm+EKM0EfTYo04uoJSdGiCRBiTXkyIs6TNCDFTELqVN3qmRppKgNzFtaZ9OeezFNScytHMu+X787/3333Pr+0s/RVfDUG1/AET7hHwUAQAA</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">ChannelsMetric</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523947">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929336</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAH2QQWsCQQyF/0rIWVyLFGGpLRQv3gp6Ew/pbLoTujszTLIHEf97ZxbaevIUXr73CC9XDLHj/Q5bVOPUNk3KsZucvUm3XW8269UKF9iR0fGSik+xPf06ySzL52RcvQcfs+1YXZZkEgOeFziyKvVcM1ccoqOByx38A0XMMbjLgSiMoiqhh5irCtGADAYmNXh6BucpkzPOChLKOvTml/BRORfI7hvMywzNM7yTioN9+Ip5pPmCsqtzibfzfbX/FzwudnsZp8FEOTWvPxsMoHc/AQAA</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">ShortDescriptionPopulated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+                <MultiDataContainer Type="MarketingCopyAggregated">
+                    <DataContainer ID="523938">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929049</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingCopyAggregated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523939">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929049</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription1</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingCopyAggregated</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="523940">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1689782929049</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription3</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingCopyAggregated</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+            </DataContainers>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
