@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Approved" UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <Products>
         <Product ID="SHTO-0003" UserTypeID="Item" ParentID="127425">
-            <Name>1666203072571</Name>
+            <Name>1666204993176</Name>
             <AssetCrossReference AssetID="112910" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
             <AssetCrossReference AssetID="ColoredPencilsInspiration" Type="PMDM.IDRT.PrimaryProductImage"></AssetCrossReference>
             <ProductCrossReference ProductID="SHTO-0004" Type="CrossSell">
@@ -13,10 +13,22 @@
                     </MultiValue>
                 </MetaData>
             </ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0005" Type="CrossSell"></ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0005" Type="CrossSell">
+                <MetaData>
+                    <Value AttributeID="EffectiveDate">2022-07-11</Value>
+                </MetaData>
+            </ProductCrossReference>
             <ProductCrossReference ProductID="SHTO-0006" Type="CrossSell"></ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0007" Type="CrossSell"></ProductCrossReference>
-            <ProductCrossReference ProductID="SHTO-0008" Type="CrossSell"></ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0007" Type="CrossSell">
+                <MetaData>
+                    <Value AttributeID="EffectiveDate">2022-07-11</Value>
+                </MetaData>
+            </ProductCrossReference>
+            <ProductCrossReference ProductID="SHTO-0008" Type="CrossSell">
+                <MetaData>
+                    <Value AttributeID="EffectiveDate">2022-07-11</Value>
+                </MetaData>
+            </ProductCrossReference>
             <Values>
                 <Value AttributeID="BestFor" ID="AR">Artificial Turf</Value>
                 <Value AttributeID="Calculated" Derived="true">&lt;bolditalic&gt;wert&lt;/bolditalic&gt; </Value>
