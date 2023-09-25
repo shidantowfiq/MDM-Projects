@@ -6,11 +6,11 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "Testq",
-  "type" : "BusinessCondition",
-  "setupGroups" : [ "Conditions" ],
-  "name" : "Testq",
-  "description" : "desc",
+  "id" : "catchWithoutRethrow",
+  "type" : "BusinessAction",
+  "setupGroups" : [ "Actions" ],
+  "name" : "catchWithoutRethrow",
+  "description" : null,
   "scope" : "Global",
   "validObjectTypes" : [ ],
   "allObjectTypesValid" : false,
