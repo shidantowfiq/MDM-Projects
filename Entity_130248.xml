@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Entities>
+        <Entity ID="130248" UserTypeID="Entity" ParentID="CustomerHierarchy">
+            <Name>Shidan Towfiq</Name>
+            <Values>
+                <Value AttributeID="EntityMarketingDescription">&lt;lt/&gt; good</Value>
+                <Value AttributeID="Name">Shidan</Value>
+            </Values>
+            <DataContainers>
+                <MultiDataContainer Type="CustomerSufficiency">
+                    <DataContainer ID="130251">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1661978221594</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">CustomerSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="130252">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1661978221594</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAGWOOQsCMRSE/0p49WK8CgkejY2NWNjJFk8zaCCbBPO2WJb972YLD7Ac5pujpxAtDnsylAXJaI0gTrqds5vZYjpfrqgiy8LnLhUsk7m8QRZ5umsrGNkjN6C6ogY58x0j15OPN/Yo1fQxijh5cIZKMbWeBUoeUKHEJzTUv1vfS/9Lw7ppvbiMpLcvglpP9cMAAAA=</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">NameIsPopulated</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">CustomerSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">100</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+                <MultiDataContainer Type="EmployeeSufficiency">
+                    <DataContainer ID="130249">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1661978221523</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">EmployeeSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                    <DataContainer ID="130250">
+                        <Values>
+                            <Value AttributeID="Data Sufficiency Calculation Date">1661978221523</Value>
+                            <Value AttributeID="Data Sufficiency Messages">H4sIAAAAAAAAAG3OuwrDMAwF0F8xmkPd11BM21Do0r1byaBUohjs2MTyEEL+vQ70NXQSQod7NUIXiC9nMJCEo9GaO7Ey1JYOq81yvd1BBYSC1yEWlsDc3hBFettm4dmeiHpOCZoKfJn44JmO4MIdHZd0+BzK8tLK5ySqZRVDzA6FaQFT89v3fetv27T32YlNHPXxCc6OASfKAAAA</Value>
+                            <Value AttributeID="Data Sufficiency Metric ID">AddressCompleteness</Value>
+                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                            <Value AttributeID="Data Sufficiency Parent Metric ID">EmployeeSufficiency</Value>
+                            <Value AttributeID="Data Sufficiency Score">0</Value>
+                        </Values>
+                    </DataContainer>
+                </MultiDataContainer>
+            </DataContainers>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>
