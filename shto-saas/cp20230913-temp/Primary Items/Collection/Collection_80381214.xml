@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation WorkspaceID="Main" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="80381214" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=searchString%3dMTB-0003%0aMTB-0004%0aMTB-0002%0aMTB-0005%0aMTB-0001%0aMTB-0007%0a80001644%0aMTB-0006%0aITEM-244303%0aMTB-0008%0aREACH-00001%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria">
+            <Name>Collection from List Pasted</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>
