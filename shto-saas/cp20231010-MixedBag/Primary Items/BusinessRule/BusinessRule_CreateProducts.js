@@ -35,7 +35,7 @@
 */
 exports.operation0 = function (node) {
 //var children = node.getChildren();
-var iMax = 101;
+var iMax = 104;
 for (var i=0; i<iMax; i++) {
 	node.createProduct("","Item");
 	iCurrent = i + 1;
