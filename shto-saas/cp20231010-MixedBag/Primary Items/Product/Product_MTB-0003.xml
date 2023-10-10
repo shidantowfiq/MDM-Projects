@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="MTB-0003" UserTypeID="Item" ParentID="102606">
+            <Name>EVIL FOLLOWING GX EAGLE BIKE</Name>
+            <Values>
+                <Value AttributeID="BottomBracket">SRAM DUB 73mm BSA</Value>
+                <Value AttributeID="Brakes">SRAM G2 RS, 180mm Front, 180mm Rear</Value>
+                <Value AttributeID="Brand">Evil</Value>
+                <Value AttributeID="Cassette">SRAM XG-1275 Eagle, 10-50T</Value>
+                <Value AttributeID="Chain">SRAM GX Eagle w/Powerlock</Value>
+                <Value AttributeID="Color">Black</Value>
+                <Value AttributeID="Crankset">SRAM GX Eagle DUB, SuperBoost+, 170mm, 32T</Value>
+                <Value AttributeID="Fork">RockShox Pike Ultimate Charger 2 RC2, Debonair, 51mm Offset, 130mm</Value>
+                <Value AttributeID="Frame">Unidirectional Carbon Fiber</Value>
+                <Value AttributeID="FrontDerailleur">Those still exist?</Value>
+                <Value AttributeID="GripsBarTape">Evil Palmela Handerson Lock-On</Value>
+                <Value AttributeID="Handlebar">RaceFace Chester 35, 35mm Rise</Value>
+                <Value AttributeID="Headset">FSA Integrated Tapered No.57/68</Value>
+                <Value AttributeID="IntendedUse">Trail, All-Mountain</Value>
+                <Value AttributeID="Model">Following</Value>
+                <Value AttributeID="Price">6599</Value>
+                <Value AttributeID="RearDerailleur">SRAM GX Eagle</Value>
+                <Value AttributeID="RearShock">RockShox Deluxe Ultimate RCT Debonair, Trunnion 165x45mm</Value>
+                <Value AttributeID="Saddle">WTB Volt Pro</Value>
+                <Value AttributeID="Seatclamp">Nutted</Value>
+                <Value AttributeID="Seatpost">RockShox Reverb Stealth 30.9mm, 125mm (S), 150mm (M), 170mm (L/XL)</Value>
+                <Value AttributeID="Shifters">SRAM GX Eagle, 12-Speed</Value>
+                <Value AttributeID="Stem">RaceFace Aeffect R 35</Value>
+                <Value AttributeID="Tires">Maxxis Minion DHF EXO TR, 29 x 2.3", Maxxis Minion DHF EXO TR, 29 x 2.3"</Value>
+                <Value AttributeID="WheelSize">29"</Value>
+                <Value AttributeID="Wheelset">Industry Nine Enduro S Hydra, 15x110, 12x157mm</Value>
+            </Values>
+            <Tables>
+                <Table ID="23038021">
+          null        </Table>
+                <Table ID="23038021">
+          null        </Table>
+                <Table ID="23038021">
+          null        </Table>
+            </Tables>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

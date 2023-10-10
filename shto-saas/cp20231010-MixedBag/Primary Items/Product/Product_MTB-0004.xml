@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="MTB-0004" UserTypeID="Item" ParentID="102606">
+            <Name>IBIS RIPMO AF SLX BIKE 2022</Name>
+            <Values>
+                <Value AttributeID="BottomBracket">Shimano SM-BB52</Value>
+                <Value AttributeID="Brakes">Shimano SLX M7120 4-Piston</Value>
+                <Value AttributeID="Brand">Ibis</Value>
+                <Value AttributeID="Cassette">Shimano SLX 10-51T, 12-Speed</Value>
+                <Value AttributeID="Chain">Shimano Deore M7100</Value>
+                <Value AttributeID="Color">Orange</Value>
+                <Value AttributeID="Crankset">Shimano SLX M7100, 30T</Value>
+                <Value AttributeID="Fork">DVO Onyx D1, 160mm Travel</Value>
+                <Value AttributeID="Frame">Aluminum</Value>
+                <Value AttributeID="FrontDerailleur">Nah</Value>
+                <Value AttributeID="GripsBarTape">Lizard Skins Charger</Value>
+                <Value AttributeID="Handlebar">Ibis 780mm Alloy</Value>
+                <Value AttributeID="Headset">Cane Creek 40 ZS44/ZS56</Value>
+                <Value AttributeID="IntendedUse">Enduro, All-Mountain, Trail</Value>
+                <Value AttributeID="Model">Ripmo AF</Value>
+                <Value AttributeID="Price">4299</Value>
+                <Value AttributeID="RearDerailleur">Shimano SLX M7100 Shadow Plus</Value>
+                <Value AttributeID="RearShock">DVO Topaz T3 Air, 210 x 55mm</Value>
+                <Value AttributeID="Saddle">WTB Silverado 142</Value>
+                <Value AttributeID="Seatclamp">Single-Bolt</Value>
+                <Value AttributeID="Seatpost">Bike Yoke Revive Dropper, S:125, M:160, L/XL:185mm</Value>
+                <Value AttributeID="Shifters">Shimano SLX M7100</Value>
+                <Value AttributeID="Stem">Ibis 31.8mm</Value>
+                <Value AttributeID="Tires">Maxxis Assegai 29 x 2.5"WT, EXO+ Casing</Value>
+                <Value AttributeID="WheelSize">29"</Value>
+                <Value AttributeID="Wheelset">Ibis S35 Aluminum, Ibis Hubs</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

@@ -1,0 +1,767 @@
+{
+  "id" : "cp20231010-MixedBag",
+  "name" : "cp20231010-MixedBag",
+  "metadata" : { },
+  "uniqueId" : "cpk-f31e7491-d75c-4d04-8a29-2b3388dfc9a0",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://attribute?id=Garbage-59",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-56",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-55",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=itemID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-58",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-57",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ItemUniqueID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-52",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-51",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-54",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-53",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=MTB-0003",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://product?id=MTB-0004",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-50",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Model",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Brakes",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Price",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-49",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-48",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=BottomBracket",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-45",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-44",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-47",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-46",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-41",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-40",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-43",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-42",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Seatpost",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=triggeringAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-78",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-77",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://ListOfValues?id=stibo.derivedEventType",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-79",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-74",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-73",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-76",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-75",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-70",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=SHTO123454",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-72",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-71",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-100",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=RearShock",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Chain",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Accessory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-67",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-66",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-69",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-68",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-63",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-62",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-65",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-64",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-61",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-60",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=3b8d7d7e-9ff9-4b2b-99ca-57a1ba19eb94",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Seatclamp",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=db7ffb34-7fcf-4167-a8c3-1af4ae8d981a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=fed33381-f352-458d-9732-11e1053008c2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=MarketingDescription",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-99",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-96",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-95",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-98",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-97",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-92",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-91",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-94",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=1905c003-bc16-459c-848d-930ce2db71bb",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-93",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Saddle",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Crankset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Tires",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Item2Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=GripsBarTape",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-89",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-88",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-85",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-84",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ItemKey",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-87",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-86",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Cassette",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-81",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-80",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=ItemAttr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-83",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-82",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-90",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Fork",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=CreateProducts",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Stem",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=e78a9b12-e44a-4dd0-9052-e466a3d0249d",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=15271107-6854-40a9-bcd6-b320407d8544",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashLOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=c69c774b-774d-4887-9656-c77807342c64",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Replacement",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-5",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-8",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-9",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-6",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-7",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-0",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=8736c9b6-a1db-4bd9-a9b5-938234b899ec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ConfirmedDuplicateItems",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://matchcode?id=ParentIDMatchCode",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Brand",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Color",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=ConfirmedNonDuplicateItems",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=IntendedUse",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=FrontDerailleur",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Logo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=Generic+Asset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashLOV1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=102606",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=102604",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=102605",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=102603",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Frame",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-16",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-15",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-18",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-17",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-12",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-11",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-14",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-13",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-10",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashText1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://uniquekey?id=SHTO-DELETE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-19",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Headset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=IsActive",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=WheelSize",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashDefault1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=dc178130-aeed-4c0f-9fc4-39521ded5adf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-38",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-37",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=sku",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-39",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Handlebar",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-34",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-33",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-36",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-35",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-30",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-32",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-31",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://referencetype?id=PrimaryProductImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=TrashDefault",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Shifters",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=ProductsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=ITEM-244303",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-27",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-26",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=3acca797-8968-45f5-9b2c-2bcbbe35341a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-28",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-23",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-22",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-25",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-24",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-21",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Garbage-20",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://uniquekey?id=ItemKey2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Wheelset",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=RearDerailleur",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-10 14:39:36\"    UseContextLocale=\"false\">\n\n  <DerivedEventTypes>\n    <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>\n  </DerivedEventTypes>\n\n  <BusinessRules>\n    <BusinessRule ID=\"CreateProducts\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\n//var children = node.getChildren();\nvar iMax = 101;\nfor (var i=0; i<iMax; i++) {\n\tnode.createProduct(\"\",\"Item\");\n\tiCurrent = i + 1;\n\tlog.info(\"Created product \" + iCurrent + \" of \" + iMax);\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">CreateProducts</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTUW+bMBB+Dr/ixEOUihWSt0lAooZuUqdFi9pMe4xcY6grx/aMibpN/e89sEOJqkp92Qucvzt/990Hp0Vbc7knWgvOmj2v9lTJitdZg4Bdapd2WJ6tng4Cjsw0XMk8XMTzEJikquSyzsOfu6+Xn8PVMsjWbcMla5rbVrBlADAA254OxnkH3Vzn4TdyJHfUcG1P+StqsdEvbh/WXJZN2HEh25YYcmAWZThgDEHH5Kph90ezPHxE2lgQWcd31qDQcDkVNj2bZPq7VTbFcVzwOpM794O5cDWtbRp0BF2PDdH9GeCEADplDaEWZbgbRWsMk/bH/SOjtispfIXvdSU4aXytVCXz8DBQIUgz5FshXJQMOpKxkCwZ7r1jzRdjlNmgt6Rm/9ui74oSwf+Se8F8xx07aEEsW7eyFCz5oObXH+N9wUlyJAboAxcl2g05dF7GNbOFh2YXadCV8A15wvRivkiDShmY9WA+T4F3mrs0hlF0Af+CSU9CDUPJW6PKltqZG9I9P7nXjWUHF2GPCfdfHJtwiADbTISqYy4r5S8XPWEJ2lGCtzSC4Wp0wlQ1yqI0bPD8xrAR0G9ElpzvG25kcr6SfrtfAEpvgLH9AwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Tree\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n\n  <Products>\n    <Product ID=\"MTB-0003\" UserTypeID=\"Item\" ParentID=\"102606\">\n      <Name>EVIL FOLLOWING GX EAGLE BIKE</Name>\n      <Values>\n        <Value AttributeID=\"FrontDerailleur\">Those still exist?</Value>\n        <Value AttributeID=\"RearDerailleur\">SRAM GX Eagle</Value>\n        <Value AttributeID=\"Headset\">FSA Integrated Tapered No.57/68</Value>\n        <Value AttributeID=\"Saddle\">WTB Volt Pro</Value>\n        <Value AttributeID=\"IntendedUse\">Trail, All-Mountain</Value>\n        <Value AttributeID=\"Shifters\">SRAM GX Eagle, 12-Speed</Value>\n        <Value AttributeID=\"Fork\">RockShox Pike Ultimate Charger 2 RC2, Debonair, 51mm Offset, 130mm</Value>\n        <Value AttributeID=\"Seatpost\">RockShox Reverb Stealth 30.9mm, 125mm (S), 150mm (M), 170mm (L/XL)</Value>\n        <Value AttributeID=\"RearShock\">RockShox Deluxe Ultimate RCT Debonair, Trunnion 165x45mm</Value>\n        <Value AttributeID=\"Seatclamp\">Nutted</Value>\n        <Value AttributeID=\"Price\">6599</Value>\n        <Value AttributeID=\"Stem\">RaceFace Aeffect R 35</Value>\n        <Value AttributeID=\"Frame\">Unidirectional Carbon Fiber</Value>\n        <Value AttributeID=\"GripsBarTape\">Evil Palmela Handerson Lock-On</Value>\n        <Value AttributeID=\"Color\">Black</Value>\n        <Value AttributeID=\"Tires\">Maxxis Minion DHF EXO TR, 29 x 2.3&quot;, Maxxis Minion DHF EXO TR, 29 x 2.3&quot;</Value>\n        <Value AttributeID=\"Handlebar\">RaceFace Chester 35, 35mm Rise</Value>\n        <Value AttributeID=\"WheelSize\">29&quot;</Value>\n        <Value AttributeID=\"Brakes\">SRAM G2 RS, 180mm Front, 180mm Rear</Value>\n        <Value AttributeID=\"Brand\">Evil</Value>\n        <Value AttributeID=\"Model\">Following</Value>\n        <Value AttributeID=\"Wheelset\">Industry Nine Enduro S Hydra, 15x110, 12x157mm</Value>\n        <Value AttributeID=\"Chain\">SRAM GX Eagle w/Powerlock</Value>\n        <Value AttributeID=\"Cassette\">SRAM XG-1275 Eagle, 10-50T</Value>\n        <Value AttributeID=\"Crankset\">SRAM GX Eagle DUB, SuperBoost+, 170mm, 32T</Value>\n        <Value AttributeID=\"BottomBracket\">SRAM DUB 73mm BSA</Value>\n      </Values>\n      <Tables>\n        <Table ID=\"23038021\">\n          null        </Table>\n        <Table ID=\"23038021\">\n          null        </Table>\n        <Table ID=\"23038021\">\n          null        </Table>\n      </Tables>\n    </Product>\n    <Product ID=\"MTB-0004\" UserTypeID=\"Item\" ParentID=\"102606\">\n      <Name>IBIS RIPMO AF SLX BIKE 2022</Name>\n      <Values>\n        <Value AttributeID=\"FrontDerailleur\">Nah</Value>\n        <Value AttributeID=\"RearDerailleur\">Shimano SLX M7100 Shadow Plus</Value>\n        <Value AttributeID=\"Headset\">Cane Creek 40 ZS44/ZS56</Value>\n        <Value AttributeID=\"Saddle\">WTB Silverado 142</Value>\n        <Value AttributeID=\"IntendedUse\">Enduro, All-Mountain, Trail</Value>\n        <Value AttributeID=\"Shifters\">Shimano SLX M7100</Value>\n        <Value AttributeID=\"Fork\">DVO Onyx D1, 160mm Travel</Value>\n        <Value AttributeID=\"Seatpost\">Bike Yoke Revive Dropper, S:125, M:160, L/XL:185mm</Value>\n        <Value AttributeID=\"RearShock\">DVO Topaz T3 Air, 210 x 55mm</Value>\n        <Value AttributeID=\"Seatclamp\">Single-Bolt</Value>\n        <Value AttributeID=\"Price\">4299</Value>\n        <Value AttributeID=\"Stem\">Ibis 31.8mm</Value>\n        <Value AttributeID=\"Frame\">Aluminum</Value>\n        <Value AttributeID=\"GripsBarTape\">Lizard Skins Charger</Value>\n        <Value AttributeID=\"Color\">Orange</Value>\n        <Value AttributeID=\"Tires\">Maxxis Assegai 29 x 2.5&quot;WT, EXO+ Casing</Value>\n        <Value AttributeID=\"Handlebar\">Ibis 780mm Alloy</Value>\n        <Value AttributeID=\"WheelSize\">29&quot;</Value>\n        <Value AttributeID=\"Brakes\">Shimano SLX M7120 4-Piston</Value>\n        <Value AttributeID=\"Brand\">Ibis</Value>\n        <Value AttributeID=\"Model\">Ripmo AF</Value>\n        <Value AttributeID=\"Wheelset\">Ibis S35 Aluminum, Ibis Hubs</Value>\n        <Value AttributeID=\"Chain\">Shimano Deore M7100</Value>\n        <Value AttributeID=\"Cassette\">Shimano SLX 10-51T, 12-Speed</Value>\n        <Value AttributeID=\"Crankset\">Shimano SLX M7100, 30T</Value>\n        <Value AttributeID=\"BottomBracket\">Shimano SM-BB52</Value>\n      </Values>\n    </Product>\n    <Product ID=\"ITEM-244303\" UserTypeID=\"Item\" ParentID=\"102606\">\n      <Name>Lars3 Huffy 26-inch Rock Creek Men's Mountain Bike, Blue</Name>\n      <Values>\n        <Value AttributeID=\"MarketingDescription\">The Huffy Rock Creek 26-inch Mountain Bike in blue combines a hardtail frame, great style and the right specs to have a blast over bumps on paved trails or rides around the neighborhood. Smooth 18-speed index shifting system with a Shimano rear indexed derailleur consistently shifts between gears for quick adjustments venturing uphill or accelerating on level ground. Plus, the front suspension fork responds as you ride for better control over curbs, potholes, and branches. </Value>\n      </Values>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

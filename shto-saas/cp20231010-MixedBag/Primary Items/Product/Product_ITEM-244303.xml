@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="ITEM-244303" UserTypeID="Item" ParentID="102606">
+            <Name>Lars3 Huffy 26-inch Rock Creek Men's Mountain Bike, Blue</Name>
+            <Values>
+                <Value AttributeID="MarketingDescription">The Huffy Rock Creek 26-inch Mountain Bike in blue combines a hardtail frame, great style and the right specs to have a blast over bumps on paved trails or rides around the neighborhood. Smooth 18-speed index shifting system with a Shimano rear indexed derailleur consistently shifts between gears for quick adjustments venturing uphill or accelerating on level ground. Plus, the front suspension fork responds as you ride for better control over curbs, potholes, and branches. </Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
