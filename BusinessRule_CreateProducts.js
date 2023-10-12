@@ -6,14 +6,14 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "ELFRFalse",
-  "type" : "BusinessCondition",
-  "setupGroups" : [ "Conditions" ],
-  "name" : "ELFRFalse",
+  "id" : "CreateProducts",
+  "type" : "BusinessAction",
+  "setupGroups" : [ "Actions" ],
+  "name" : "CreateProducts",
   "description" : null,
   "scope" : "Global",
-  "validObjectTypes" : [ ],
-  "allObjectTypesValid" : true,
+  "validObjectTypes" : [ "Tree" ],
+  "allObjectTypesValid" : false,
   "runPrivileged" : false,
   "onApprove" : "Never",
   "dependencies" : [ ]
@@ -21,16 +21,10 @@
 */
 /*===== business rule plugin definition =====
 {
-  "pluginId" : "JavaScriptBusinessConditionWithBinds",
+  "pluginId" : "JavaScriptBusinessActionWithBinds",
   "binds" : [ {
     "contract" : "CurrentObjectBindContract",
     "alias" : "node",
-    "parameterClass" : "null",
-    "value" : null,
-    "description" : null
-  }, {
-    "contract" : "LoggerBindContract",
-    "alias" : "logger",
     "parameterClass" : "null",
     "value" : null,
     "description" : null
@@ -39,7 +33,12 @@
   "pluginType" : "Operation"
 }
 */
-exports.operation0 = function (node,logger) {
-logger.info('ELFRFalse : ' + node.getValue('AttributeLOV').getSimpleValue())
-return false
+exports.operation0 = function (node) {
+//var children = node.getChildren();
+var iMax = 104;
+for (var i=0; i<iMax; i++) {
+	node.createProduct("","Item");
+	iCurrent = i + 1;
+	log.info("Created product " + iCurrent + " of " + iMax);
+}
 }
