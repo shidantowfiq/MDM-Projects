@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="SXIEX-870" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="en-US">SXIEX-870</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>
