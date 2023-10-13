@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <ContextList>
+        <Context ID="Context7">
+            <Name QualifierID="Qualifier root">Danish (Denmark)</Name>
+            <DimensionPointLink DimensionPointID="DK"></DimensionPointLink>
+            <DimensionPointLink DimensionPointID="da-Danish"></DimensionPointLink>
+        </Context>
+    </ContextList>
+</STEP-ProductInformation>
