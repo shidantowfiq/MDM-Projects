@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <AssetPushEventQueues>
+        <AssetPushEventQueue ID="newAssetPush42" QueueStatus="Discard" DaysRetained="0">
+            <Name>newAssetPush42</Name>
+        </AssetPushEventQueue>
+    </AssetPushEventQueues>
+</STEP-ProductInformation>
