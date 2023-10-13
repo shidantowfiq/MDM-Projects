@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="PMDM.P2CLT.SupplierLink" Inherited="true" Accumulated="false" DefinesValidAttributes="false" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="false">
+            <Name QualifierID="Qualifier root">Supplier</Name>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerClassify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.EnrichmentView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.ImagesView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.MarketingCopyView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.ProductClassificationLinks"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.QAView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.SupplierClassify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.SupplierView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.TranslationReviewView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.TranslatorView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.WarehouseView"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="BusinessUnitRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="BuySideRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="Case"></UserTypeLink>
+            <UserTypeLink UserTypeID="DimensionDependentItem"></UserTypeLink>
+            <UserTypeLink UserTypeID="DiscontinuedProducts"></UserTypeLink>
+            <UserTypeLink UserTypeID="Each"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level1"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level2"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level3"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level4"></UserTypeLink>
+            <UserTypeLink UserTypeID="ObjectWithDCs"></UserTypeLink>
+            <UserTypeLink UserTypeID="OverrideLevel1"></UserTypeLink>
+            <UserTypeLink UserTypeID="OverrideLevel2"></UserTypeLink>
+            <UserTypeLink UserTypeID="Pack"></UserTypeLink>
+            <UserTypeLink UserTypeID="PackagingHierarchyRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="Pallet"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="ProductOverrides"></UserTypeLink>
+            <UserTypeLink UserTypeID="Products"></UserTypeLink>
+            <UserTypeLink UserTypeID="SellSideRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierProducts"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>
