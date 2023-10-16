@@ -1,0 +1,39 @@
+{
+  "id" : "cp20231016-OIEPTesting",
+  "name" : "cp20231016-OIEPTesting",
+  "metadata" : { },
+  "uniqueId" : "cpk-84e74771-a05b-4f76-a63e-75619e22bf29",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=MessagePrep",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=MEssage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-16 06:48:53\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"MessagePrep\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"logger\" type=\"Logger\" contract=\"LoggerBindContract\"/>\n    <binding alias=\"manager\" type=\"Manager\" contract=\"ManagerBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar startTime = java.lang.System.currentTimeMillis();\nvar attr = manager.getAttributeHome().getAttributeByID(\"Subject\");\nnode.setSimpleValue(attr, java.util.UUID.randomUUID().toString());\nlogger.info(node.getValue(\"Subject\").getValue());\n/*\nvar parent = node.getParent();\nlogger.info(parent.getID());\nvar kids = parent.getChildren();\nfor (var i = 0; i<10; i++) {\n\tparent.createEntity(\"\",\"MEssage\");\n}\nvar parentCount = parent.getChildren().size();\nlogger.info(parentCount);\nparent.getValue(\"MessageCount\").setValue(parentCount);\n*/\nvar endTime = java.lang.System.currentTimeMillis();\nvar attr2 = manager.getAttributeHome().getAttributeByID(\"BodyText\");\nnode.setSimpleValue(attr2, \"Once upon a time there was a guy who said, \" +node.getName()+ \" and he was born on \"+ (startTime/1000) +\" and died on \" + (endTime/1000));\n\nlogger.info(node.getValue(\"BodyText\").getSimpleValue());\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">MessagePrep</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVVTU/bQBA9N79i5QNyCLUDp0r5QCRQlYoU1IT2iDb2xFm63nX3AwhV/3tnvXbiUFBa1F6i9cybN/PGz9mC24yJG1oUnIG+YYubRIoFy/oaA2ZY+LSPDfrHDzknd6A0k2IQHEbdgIBIZMpENgiuZ+/fvguOh63+yGomQOvPlsOwRcg6cFXSkWbeh85PB8FHekeniWKFqfMnicFGX5lZjphIdeC4kO2KKpqDwTF8oBkijsmjyWxVwCC4RdqIU5FFU6Nw0GC4x01vS8nedytND+X4w0aTfy6F+ePxXmZ6LUfgekxoUT4TUkcIbsoomhgcw1eMrVIgzOX8FhLjIOMKUfU64YzqCitkClV4LWjMqV7nLef+FO/seyGzDNSOhrwE/auWEyro7p65R/1NU9cybi68H6/rXrDAmVJSTdBD2Ot/W+FCJpSzRzrnUHWcQV5wamBkRcoh/sOZNx/AywPfUUW0ocrMWA5kQBqIlTaQR4n3m0tPGOdMh+1ey1VRYxQWVOuPMjAnGGFza+CDzCFsb4VGq/PT0Aud2tK7/gHJnEsjDWbKUCR8odxC6MgP/DDWMB5dX5+fRoqKVObuiORGeglhGym87yImFjIs6bC1J3qu5SbrauP9Uk5BnUwUVNdflYHwCbuHubybolrFN5ZqrNzkxkvGU3xw1QupSOhQDCHdHmHuFR+6Q6fTJj9ab6qyRAG+4TNhmFlVY/vfg+prOCutsF7bz8bYY2nL2Z+bINLsEZ6XUZZhZlPWXFrlvRJUb07XkG2C/bgcBkT6KhsdvcpHI5muZvCw20hHB8RjLkUCxBZSEEqMG9QsQQG5pxoDmV2R+6UkmrK0LiCd2g2fqBulU8fRiWTpK+dSCYKUPtMh4fpzig+73W6bdBo1KYN0AyaIrnbmsShip5efyHbppmDH8ea3/4ZGoLzk+vH2FYqXbLx9y1YX9i8WM1tr0AcAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"MEssage\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
