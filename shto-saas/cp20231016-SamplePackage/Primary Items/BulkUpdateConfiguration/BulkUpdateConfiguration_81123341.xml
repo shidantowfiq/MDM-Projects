@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BulkUpdateConfigurations>
+        <BulkUpdateConfiguration ID="81123341"><!-- Definition:
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkUpdate Version="1" AutoApprove="false">
+  <Operations>
+    <BulkUpdateRunBusinessRule>
+      <Parameters>
+        <Parameter ID="businessRuleActionID" Type="java.lang.String">setMessageName</Parameter>
+        <Parameter ID="businessRuleConditionID" Type="java.lang.String"></Parameter>
+      </Parameters>
+    </BulkUpdateRunBusinessRule>
+  </Operations>
+</BulkUpdate>
+ -->
+            <Name>BU-MessageNaming</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">BulkUpdateConfig.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">414</Value>
+                <Value AttributeID="asset.uploaded">2023-10-04 14:08:27</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="ConfigurationsRoot"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAI2Qu67CMAyG9z5F5J0WNoa0qFAhMXARl7P7UFMVQhLlUsHbE4TgZEAcRv/+/DkOH13OgnVkbKtkDoO0D4zkXtWtbHLYbae9IYyKhI+9OO10jY7YzwsGVnqnSq2N6iiHAwpLUCSM8aUmgy5Q9l6G4G9+7eXY21aStWsv6NEPxAoNnskF+TOKQzarcviN5sr9XT+rgG2vOiw/YoepQNmkG2fC46Gw5OYBxoYWwcGzl+sr/0TJuv1vxRtpFD1vzz4ez7P4s2K4SG7gsJuGngEAAA==</Configuration>
+        </BulkUpdateConfiguration>
+    </BulkUpdateConfigurations>
+</STEP-ProductInformation>

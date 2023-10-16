@@ -1,0 +1,702 @@
+{
+  "id" : "cp20231016-SamplePackage",
+  "name" : "cp20231016-SamplePackage",
+  "metadata" : {
+    "Purpose2" : "This does not exist in the target system",
+    "Purpose" : "To deploy changes made to the Message solution"
+  },
+  "uniqueId" : "cpk-e6004265-85e8-4c0f-b60b-e2487375dac9",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81294996",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Subject",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://collectiongroup?id=80593256",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81251902",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81168459",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.BulkUpdateConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://user?id=MESSAGESEVENTPROCESSOR",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81362126",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81236638",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81153006",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81325508",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=MEssage",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81359076",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81395699",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://businessrule?id=MessagePrep",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81221378",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81352972",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://eventqueue?id=MessageOutput",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81208170",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81331611",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81134696",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=80696883",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81328561",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81186858",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81273643",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81264490",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://asset?id=81123341",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=OutboundSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81180758",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81401804",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Entity+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81368229",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81279744",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=OutboundEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Messages",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81298048",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81337714",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://user?id=MESSAGESOUTBOUND",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81310253",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81316355",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.Quark",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://collection?id=81416047",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81215274",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81288895",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81291945",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81383489",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81174560",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81254955",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81143855",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81149957",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81198014",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81233587",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81282794",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81340767",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81322458",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81346869",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://group?id=Messages",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81356024",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81410958",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81119425",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=UserGroupMetadata",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81239690",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81248849",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81131640",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=MyEntities",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Event+Queue+object-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81211221",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=80699932",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81230535",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81227484",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=ArchivedSetup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81276694",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81205119",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81270590",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Asset+Push+EventQueue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81334661",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81171509",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://user?id=SHTO",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81242744",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attributegroup?id=Messages",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81146908",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81380437",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81140806",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81156157",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81377386",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81371282",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81414011",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81218326",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81404855",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81165309",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81125526",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81285846",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81183808",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81349919",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=MessageCount",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=EntityCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=CreateEntities",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81116376",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81343818",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=UserInformation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81137757",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81301100",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81190910",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81245795",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81307203",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://businessrule?id=setMessageName",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=MessageToMessage",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://eventprocessor?id=Messages",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=Operator+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=80702981",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81389594",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81224432",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://OutBoundIntegrationEndpoint?id=MessageOutput",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81162260",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81177709",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.InDesign",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=BodyText",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81122474",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81407907",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81392648",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81128577",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81193961",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81159208",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81201066",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81258391",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81374334",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81398750",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://SetupGroup?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81261440",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81267540",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81304152",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81365179",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://objecttype?id=Reference-Type+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=81386543",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81313305",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://entity?id=81319407",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=80593423",
+    "inclusion" : "Change",
+    "importing" : "Force"
+  }, {
+    "itemURL" : "step://attribute?id=ConfigurationEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore"
+  }, {
+    "itemURL" : "step://entity?id=80593425",
+    "inclusion" : "Derived",
+    "importing" : "Force"
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-16 13:22:11\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"Messages\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" Revisability=\"Global\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Messages</Name>\n      <UserTypeLink UserTypeID=\"Entity user-type root\"/>\n    </UserType>\n    <UserType ID=\"MEssage\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" Revisability=\"Global\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">MEssage</Name>\n      <UserTypeLink UserTypeID=\"Messages\"/>\n    </UserType>\n  </UserTypes>\n\n  <CrossReferenceTypes>\n    <EntityCrossReferenceType ID=\"MessageToMessage\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" ParentChildRelation=\"NONE\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">MessageToMessage</Name>\n      <UserTypeLink UserTypeID=\"MEssage\"/>\n      <TargetUserTypeLink UserTypeID=\"MEssage\"/>\n    </EntityCrossReferenceType>\n  </CrossReferenceTypes>\n\n  <CollectionList>\n    <CollectionGroup ID=\"80593256\" ParentID=\"CollectionGroup root\">\n      <Name>Support</Name>\n    </CollectionGroup>\n    <Collection ID=\"81416047\" ParentID=\"80593256\" QueryURL=\"step://search?args0.0=topnodetype%3dentity%2ctopnodeid%3d80593423&amp;search0.2=ObjectTypeCriteria&amp;args0.2=nodetype%3dentity%2cobjecttype%3dMessages&amp;args0.1=sampleSize%3d100&amp;exclude0.2=true&amp;search0.0=BelowCriteria&amp;search0.1=SampleResult\">\n      <Name>MessageSamples</Name>\n    </Collection>\n  </CollectionList>\n\n  <AttributeList>\n\n    <Attribute ID=\"BodyText\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Body Text</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"500\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Messages\"/>\n      <UserTypeLink UserTypeID=\"MEssage\"/>\n    </Attribute>\n\n    <Attribute ID=\"Subject\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Subject</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Messages\"/>\n      <UserTypeLink UserTypeID=\"MEssage\"/>\n    </Attribute>\n\n    <Attribute ID=\"MessageCount\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Message Count</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Messages\"/>\n      <UserTypeLink UserTypeID=\"Messages\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <BusinessRules>\n    <BusinessRule ID=\"MessagePrep\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"logger\" type=\"Logger\" contract=\"LoggerBindContract\"/>\n    <binding alias=\"manager\" type=\"Manager\" contract=\"ManagerBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar startTime = java.lang.System.currentTimeMillis();\nvar attr = manager.getAttributeHome().getAttributeByID(\"Subject\");\nnode.setSimpleValue(attr, java.util.UUID.randomUUID().toString());\nlogger.info(node.getValue(\"Subject\").getValue());\n/*\nvar parent = node.getParent();\nlogger.info(parent.getID());\nvar kids = parent.getChildren();\nfor (var i = 0; i<10; i++) {\n\tparent.createEntity(\"\",\"MEssage\");\n}\nvar parentCount = parent.getChildren().size();\nlogger.info(parentCount);\nparent.getValue(\"MessageCount\").setValue(parentCount);\n*/\nvar endTime = java.lang.System.currentTimeMillis();\nvar attr2 = manager.getAttributeHome().getAttributeByID(\"BodyText\");\nnode.setSimpleValue(attr2, \"Once upon a time there was a guy who said, \" +node.getName()+ \" and he was born on \"+ (startTime/1000) +\" and died on \" + (endTime/1000));\n\nlogger.info(node.getValue(\"BodyText\").getSimpleValue());\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">MessagePrep</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVVTU/bQBA9N79i5QNyCLUDp0r5QCRQlYoU1IT2iDb2xFm63nX3AwhV/3tnvXbiUFBa1F6i9cybN/PGz9mC24yJG1oUnIG+YYubRIoFy/oaA2ZY+LSPDfrHDzknd6A0k2IQHEbdgIBIZMpENgiuZ+/fvguOh63+yGomQOvPlsOwRcg6cFXSkWbeh85PB8FHekeniWKFqfMnicFGX5lZjphIdeC4kO2KKpqDwTF8oBkijsmjyWxVwCC4RdqIU5FFU6Nw0GC4x01vS8nedytND+X4w0aTfy6F+ePxXmZ6LUfgekxoUT4TUkcIbsoomhgcw1eMrVIgzOX8FhLjIOMKUfU64YzqCitkClV4LWjMqV7nLef+FO/seyGzDNSOhrwE/auWEyro7p65R/1NU9cybi68H6/rXrDAmVJSTdBD2Ot/W+FCJpSzRzrnUHWcQV5wamBkRcoh/sOZNx/AywPfUUW0ocrMWA5kQBqIlTaQR4n3m0tPGOdMh+1ey1VRYxQWVOuPMjAnGGFza+CDzCFsb4VGq/PT0Aud2tK7/gHJnEsjDWbKUCR8odxC6MgP/DDWMB5dX5+fRoqKVObuiORGeglhGym87yImFjIs6bC1J3qu5SbrauP9Uk5BnUwUVNdflYHwCbuHubybolrFN5ZqrNzkxkvGU3xw1QupSOhQDCHdHmHuFR+6Q6fTJj9ab6qyRAG+4TNhmFlVY/vfg+prOCutsF7bz8bYY2nL2Z+bINLsEZ6XUZZhZlPWXFrlvRJUb07XkG2C/bgcBkT6KhsdvcpHI5muZvCw20hHB8RjLkUCxBZSEEqMG9QsQQG5pxoDmV2R+6UkmrK0LiCd2g2fqBulU8fRiWTpK+dSCYKUPtMh4fpzig+73W6bdBo1KYN0AyaIrnbmsShip5efyHbppmDH8ea3/4ZGoLzk+vH2FYqXbLx9y1YX9i8WM1tr0AcAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"MEssage\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"setMessageName\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"logger\" type=\"Logger\" contract=\"LoggerBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar objType = node.getObjectType().getName();\nvar id = node.getID();\nvar staticText = \"My name is \";\nlogger.info(objType);\nlogger.info(id);\nlogger.info(staticText);\nif(objType != null || id  != null || staticText != null){\n\tnode.setName(staticText + \" \"\n\t\t\t+ id + \" \" \n\t\t\t\t+ objType + \" \" \n\t\t\t\t\t+ \"!!!\");\n\n} else {\n\t//do nothing\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">setMessageName</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVUwW7bMAw921/B+BAkKGZvtwG2EzTpBnRotmLNsGOg2IqrQJE8SQ7atf33UZacON2KboedTL1H8T2KBmveVEysSF1zRvWKbVaFFBtWZRoBM6kd7bA8m97tOOyp0kyKPHoXv42AikKWTFR59G358c37aDoJs1mjmaBaf204nYQAB+C6LQd93kGXF3n0iezJTaFYbTr+vDAo9J2Z2xkTpY5sLax2TRTZUYM2HNCHwFZy2bC8r2kebbFszImo4huj0Gg0GXKTnnQy/NFIk2I7Ljj25M5tYy6cDiuThraA1ViQuj0DdAjgSxlFCoM23I15oxQV5st6SwtjU+Y+w2udc0a0zxWypB4+NDTnRB/4hnMXJa/qXsmqouoVQd4m/YukFUz6vWfJ4d4L0/iglFQLHCep6P+eypUsCGc/yZpTr7iku5oTQ2eNKDlN/tLz8V982fCeKJDrraUhBzu7uKJ+0BYcje35M1YdjdPQZrOyl3h50cHaEMOKJb0zSLuOFvcg8CIw7YE0dLOKmdjIkZcdn6KsfAYcCyPBNt01GKALnCs8PlpL/WPPikfHD2HQWta+l17KmTfnP2EQBGe24jMcLIFMJ/9HOujQwWDgAvQcPgHlmgJ6SJJS4tuZW3z78On3EfaAdi1kyenSwbWUnO4lv+J+ASFH+g8CBQAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"MEssage\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"CreateEntities\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar children = node.getChildren();\nvar iMax = 111;\nfor (var i=0; i<iMax; i++) {\n\tnode.createEntity(\"\",\"MEssage\");\n\tiCurrent = i + 1;\n\tlog.info(\"Created entity \" + iCurrent + \" of \" + iMax);\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create Entities</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwY6bMBA9h68YcYiyooXNrRKQaENTqVWjrrqpeoy8YNhZOTY1Jtpt1X/vGDssUbVSL72A/WbmzZsH04q+QXlgbSuQdwesD6WSNTZZR4BZtS7ssDxbPx0FnLjuUMk8XMbXIXBZqgplk4ff9h/evgvXqyDb9B1K3nVfe8FXAcAI3A50MI076OP7PPzETuyu1Niac/ymNNToO5qHDcqqCy0Xsd0yzY7ckAwHTCGwTC4b9s8tz8NHoo0Fk018ZzQJDVdzYdKLSeY/emVSGscdXmZy92Ewd1zPG5MGlsD22LF2uAOcESCnjGalIRmuoui15tJ8uX/kpbEphc/wvW4Ess7nSlVxD48DFYJ1Y7wXwp2SUUcyFZIlY90r1my1VnpH3rKG/2+LPquSCfzJ7gX3Hff82Apm+KaXleDJP2p++TFeF3xiGsoHFBWZDTlYJ+OGm8JDi6s0sCm4Y08UXi6XaVArDYsBzK9TQKvYhukYRVfwK5gNJKXmJHgrDZrnhZvQPd+41247TOYu1GWG/otTG4QIqNFMqCZGWStfXwyUFXloScE7GsFYGZ0xVU+ipI34f//l1wQYFiJLLteNFjK53Ei/3H8ArsyM/vwDAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"EntityCategory\"/>\n        <ValidObjectType ID=\"Messages\"/>\n        <ValidObjectType ID=\"MyEntities\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n\n  <Entities>\n    <Entity ID=\"80593423\" UserTypeID=\"Messages\" ParentID=\"Entity hierarchy root\">\n      <Name>Messages</Name>\n      <Values>\n        <Value AttributeID=\"MessageCount\">304911</Value>\n      </Values>\n      <Entity ID=\"80593425\" UserTypeID=\"MEssage\">\n        <Name>My name is  80593425 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  80593425 MEssage !!! and he was born on 1696945957.591 and died on 1696945957.591</Value>\n          <Value AttributeID=\"Subject\">a1c6c28d-d749-4c23-860d-67d165f8753f</Value>\n        </Values>\n        <DataContainers>\n          <MultiDataContainer Type=\"PhoneNumbers\">\n            <DataContainer ID=\"12334554\">\n              <Values>\n                <Value AttributeID=\"AreaCode\">949</Value>\n                <Value AttributeID=\"PhoneType\">Home</Value>\n                <Value AttributeID=\"PhoneNumber\">5554657</Value>\n              </Values>\n            </DataContainer>\n            <DataContainer ID=\"wf433\">\n              <Values>\n                <Value AttributeID=\"AreaCode\">714</Value>\n                <Value AttributeID=\"PhoneType\">Mobile</Value>\n                <Value AttributeID=\"PhoneNumber\">5556867</Value>\n              </Values>\n            </DataContainer>\n          </MultiDataContainer>\n        </DataContainers>\n      </Entity>\n      <Entity ID=\"80696883\" UserTypeID=\"MEssage\">\n        <Name>My name is  80696883 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  80696883 MEssage !!! and he was born on 1696945052.958 and died on 1696945052.959</Value>\n          <Value AttributeID=\"Subject\">ac41b001-f4bd-40af-888e-12e73748c396</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"80699932\" UserTypeID=\"MEssage\">\n        <Name>My name is  80699932 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  80699932 MEssage !!! and he was born on 1696945762.528 and died on 1696945762.528</Value>\n          <Value AttributeID=\"Subject\">44eb1dee-cf40-448f-9858-20811f6247dd</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"80702981\" UserTypeID=\"MEssage\">\n        <Name>My name is  80702981 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  80702981 MEssage !!! and he was born on 1696945667.174 and died on 1696945667.174</Value>\n          <Value AttributeID=\"Subject\">9e839663-ce42-41a3-908e-cf01b589b2d5</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81116376\" UserTypeID=\"MEssage\">\n        <Name>My name is  81116376 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81116376 MEssage !!! and he was born on 1696945742.999 and died on 1696945743</Value>\n          <Value AttributeID=\"Subject\">9eaa8884-1b5f-4504-867f-4fc96c4d7630</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81119425\" UserTypeID=\"MEssage\">\n        <Name>My name is  81119425 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81119425 MEssage !!! and he was born on 1696945966.332 and died on 1696945966.332</Value>\n          <Value AttributeID=\"Subject\">5b79f161-f9e2-4cfa-8db8-59ae2a0c556f</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81122474\" UserTypeID=\"MEssage\">\n        <Name>My name is  81122474 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81122474 MEssage !!! and he was born on 1696945859.45 and died on 1696945859.451</Value>\n          <Value AttributeID=\"Subject\">76dd304d-9995-4d5b-9a09-3f0e21e392bd</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81125526\" UserTypeID=\"MEssage\">\n        <Name>My name is  81125526 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81125526 MEssage !!! and he was born on 1696946125.461 and died on 1696946125.462</Value>\n          <Value AttributeID=\"Subject\">3e89b7be-b265-4e0b-bd6c-cabb045c15fb</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81128577\" UserTypeID=\"MEssage\">\n        <Name>My name is  81128577 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81128577 MEssage !!! and he was born on 1696945602.569 and died on 1696945602.569</Value>\n          <Value AttributeID=\"Subject\">bfb0d572-b80e-4ec4-8c75-5f06e356ae05</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81131640\" UserTypeID=\"MEssage\">\n        <Name>My name is  81131640 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81131640 MEssage !!! and he was born on 1696945642.826 and died on 1696945642.827</Value>\n          <Value AttributeID=\"Subject\">0be54e62-02b3-450f-8fd3-80c121bdb744</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81134696\" UserTypeID=\"MEssage\">\n        <Name>My name is  81134696 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81134696 MEssage !!! and he was born on 1696946133.049 and died on 1696946133.05</Value>\n          <Value AttributeID=\"Subject\">7cd0c65d-2fa5-4ec4-928d-2267d6001e6e</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81137757\" UserTypeID=\"MEssage\">\n        <Name>My name is  81137757 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81137757 MEssage !!! and he was born on 1696946721.857 and died on 1696946721.857</Value>\n          <Value AttributeID=\"Subject\">48e2b1e3-d73c-46f0-ad81-6c1c047e8e46</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81140806\" UserTypeID=\"MEssage\">\n        <Name>My name is  81140806 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81140806 MEssage !!! and he was born on 1696946140.546 and died on 1696946140.547</Value>\n          <Value AttributeID=\"Subject\">861d55f8-b533-459f-bd7f-aba207675467</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81143855\" UserTypeID=\"MEssage\">\n        <Name>My name is  81143855 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81143855 MEssage !!! and he was born on 1696946014.411 and died on 1696946014.412</Value>\n          <Value AttributeID=\"Subject\">7c5f0021-478f-49f4-b6b1-78c3a92ba613</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81146908\" UserTypeID=\"MEssage\">\n        <Name>My name is  81146908 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81146908 MEssage !!! and he was born on 1696946353.328 and died on 1696946353.328</Value>\n          <Value AttributeID=\"Subject\">e91b438f-6f12-4804-b6f9-ac15b69a86ac</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81149957\" UserTypeID=\"MEssage\">\n        <Name>My name is  81149957 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81149957 MEssage !!! and he was born on 1696946731.143 and died on 1696946731.144</Value>\n          <Value AttributeID=\"Subject\">018b2182-65ce-4758-875e-74630b60ebb3</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81153006\" UserTypeID=\"MEssage\">\n        <Name>My name is  81153006 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81153006 MEssage !!! and he was born on 1696946150.209 and died on 1696946150.21</Value>\n          <Value AttributeID=\"Subject\">1452abd4-f576-4a39-903d-94cf15f5cf14</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81156157\" UserTypeID=\"MEssage\">\n        <Name>My name is  81156157 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81156157 MEssage !!! and he was born on 1696946734.911 and died on 1696946734.912</Value>\n          <Value AttributeID=\"Subject\">9f1987fc-af3b-4697-9975-44f0ad06f1ba</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81159208\" UserTypeID=\"MEssage\">\n        <Name>My name is  81159208 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81159208 MEssage !!! and he was born on 1696946361.084 and died on 1696946361.085</Value>\n          <Value AttributeID=\"Subject\">e5808e6a-68a9-46d8-aa8b-fd35441f4f48</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81162260\" UserTypeID=\"MEssage\">\n        <Name>My name is  81162260 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81162260 MEssage !!! and he was born on 1696945751.747 and died on 1696945751.748</Value>\n          <Value AttributeID=\"Subject\">a90aca6b-bf69-4201-ba83-fd28a8aaa726</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81165309\" UserTypeID=\"MEssage\">\n        <Name>My name is  81165309 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81165309 MEssage !!! and he was born on 1696946533.588 and died on 1696946533.588</Value>\n          <Value AttributeID=\"Subject\">6b4330ff-81f9-430b-ab69-aa834a6191dc</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81168459\" UserTypeID=\"MEssage\">\n        <Name>My name is  81168459 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81168459 MEssage !!! and he was born on 1696946535.471 and died on 1696946535.471</Value>\n          <Value AttributeID=\"Subject\">1bb2cb82-6147-4c48-8bb6-5723417ed4f9</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81171509\" UserTypeID=\"MEssage\">\n        <Name>My name is  81171509 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81171509 MEssage !!! and he was born on 1696946537.413 and died on 1696946537.413</Value>\n          <Value AttributeID=\"Subject\">ae1e2dc8-8f42-499f-b3f1-ebcfdbfb2598</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81174560\" UserTypeID=\"MEssage\">\n        <Name>My name is  81174560 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81174560 MEssage !!! and he was born on 1696945841.291 and died on 1696945841.292</Value>\n          <Value AttributeID=\"Subject\">f4ed32d8-72ad-43b6-8876-ef96aa63fb7b</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81177709\" UserTypeID=\"MEssage\">\n        <Name>My name is  81177709 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81177709 MEssage !!! and he was born on 1696946541.493 and died on 1696946541.493</Value>\n          <Value AttributeID=\"Subject\">45ee41f3-1e84-480e-842e-bda93f740c28</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81180758\" UserTypeID=\"MEssage\">\n        <Name>My name is  81180758 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81180758 MEssage !!! and he was born on 1696946374.879 and died on 1696946374.88</Value>\n          <Value AttributeID=\"Subject\">a4279eae-06fd-468a-bedc-6a8d09553b47</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81183808\" UserTypeID=\"MEssage\">\n        <Name>My name is  81183808 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81183808 MEssage !!! and he was born on 1696946376.783 and died on 1696946376.783</Value>\n          <Value AttributeID=\"Subject\">98bb015e-fd08-4efa-8568-bb1e044510ea</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81186858\" UserTypeID=\"MEssage\">\n        <Name>My name is  81186858 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81186858 MEssage !!! and he was born on 1696946378.683 and died on 1696946378.683</Value>\n          <Value AttributeID=\"Subject\">26ca9906-2640-4199-a619-a0e1bb38550c</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81190910\" UserTypeID=\"MEssage\">\n        <Name>My name is  81190910 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81190910 MEssage !!! and he was born on 1696946052.904 and died on 1696946052.905</Value>\n          <Value AttributeID=\"Subject\">6e38d044-dd07-443f-96b8-277389c8500b</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81193961\" UserTypeID=\"MEssage\">\n        <Name>My name is  81193961 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81193961 MEssage !!! and he was born on 1696945956.501 and died on 1696945956.502</Value>\n          <Value AttributeID=\"Subject\">e3a0300a-c9f4-4290-aa2d-b3e2f8b13a15</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81198014\" UserTypeID=\"MEssage\">\n        <Name>My name is  81198014 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81198014 MEssage !!! and he was born on 1696946465.03 and died on 1696946465.031</Value>\n          <Value AttributeID=\"Subject\">63b111db-4d11-4018-b27a-e23e919d4688</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81201066\" UserTypeID=\"MEssage\">\n        <Name>My name is  81201066 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81201066 MEssage !!! and he was born on 1696946187.592 and died on 1696946187.593</Value>\n          <Value AttributeID=\"Subject\">8f0a8f61-e974-4827-842a-2f0bc392a086</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81205119\" UserTypeID=\"MEssage\">\n        <Name>My name is  81205119 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81205119 MEssage !!! and he was born on 1696946556.516 and died on 1696946556.516</Value>\n          <Value AttributeID=\"Subject\">de2b5f65-f95f-49ea-858c-321eeea99212</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81208170\" UserTypeID=\"MEssage\">\n        <Name>My name is  81208170 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81208170 MEssage !!! and he was born on 1696946274.36 and died on 1696946274.361</Value>\n          <Value AttributeID=\"Subject\">b6810cbf-da4f-4815-9268-2156bfe1de1e</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81211221\" UserTypeID=\"MEssage\">\n        <Name>My name is  81211221 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81211221 MEssage !!! and he was born on 1696946438.679 and died on 1696946438.68</Value>\n          <Value AttributeID=\"Subject\">7c01940a-07f0-4e37-9e42-37f4de03384f</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81215274\" UserTypeID=\"MEssage\">\n        <Name>My name is  81215274 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81215274 MEssage !!! and he was born on 1696946474.481 and died on 1696946474.482</Value>\n          <Value AttributeID=\"Subject\">958b5bd8-2ec8-4687-bc6e-aa5388382939</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81218326\" UserTypeID=\"MEssage\">\n        <Name>My name is  81218326 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81218326 MEssage !!! and he was born on 1696946647.622 and died on 1696946647.623</Value>\n          <Value AttributeID=\"Subject\">77fdfede-476a-4676-ad24-ab01f828437f</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81221378\" UserTypeID=\"MEssage\">\n        <Name>My name is  81221378 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81221378 MEssage !!! and he was born on 1696946933.325 and died on 1696946933.326</Value>\n          <Value AttributeID=\"Subject\">6e66ed57-853f-4250-be24-b2e2b023ed5c</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81224432\" UserTypeID=\"MEssage\">\n        <Name>My name is  81224432 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81224432 MEssage !!! and he was born on 1696946630.762 and died on 1696946630.763</Value>\n          <Value AttributeID=\"Subject\">f9a0afd8-6130-484e-a304-7fd578d0c905</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81227484\" UserTypeID=\"MEssage\">\n        <Name>My name is  81227484 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81227484 MEssage !!! and he was born on 1696946960.073 and died on 1696946960.074</Value>\n          <Value AttributeID=\"Subject\">28ee5898-d99c-4468-93a9-5f79b39d45a4</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81230535\" UserTypeID=\"MEssage\">\n        <Name>My name is  81230535 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81230535 MEssage !!! and he was born on 1696946863.895 and died on 1696946863.895</Value>\n          <Value AttributeID=\"Subject\">bab83c8d-78af-4ae3-ae05-7b21fddd328f</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81233587\" UserTypeID=\"MEssage\">\n        <Name>My name is  81233587 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81233587 MEssage !!! and he was born on 1696946784.426 and died on 1696946784.427</Value>\n          <Value AttributeID=\"Subject\">bbe2a5d5-d664-4dd9-84bf-3a8b7a3e1fff</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81236638\" UserTypeID=\"MEssage\">\n        <Name>My name is  81236638 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81236638 MEssage !!! and he was born on 1696946943.271 and died on 1696946943.271</Value>\n          <Value AttributeID=\"Subject\">5bbbb94f-393f-4f60-8bd7-f766225f6abd</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81239690\" UserTypeID=\"MEssage\">\n        <Name>My name is  81239690 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81239690 MEssage !!! and he was born on 1696946625.029 and died on 1696946625.029</Value>\n          <Value AttributeID=\"Subject\">a01be400-551c-4468-bab7-95790b30f953</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81242744\" UserTypeID=\"MEssage\">\n        <Name>My name is  81242744 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81242744 MEssage !!! and he was born on 1696946970.836 and died on 1696946970.836</Value>\n          <Value AttributeID=\"Subject\">f2966c23-7cb6-4b0d-bd29-5f6c141656f6</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81245795\" UserTypeID=\"MEssage\">\n        <Name>My name is  81245795 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81245795 MEssage !!! and he was born on 1696946873.395 and died on 1696946873.395</Value>\n          <Value AttributeID=\"Subject\">811d9ae2-6718-4c82-97e2-ee94a13233bc</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81248849\" UserTypeID=\"MEssage\">\n        <Name>My name is  81248849 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81248849 MEssage !!! and he was born on 1696947047.752 and died on 1696947047.752</Value>\n          <Value AttributeID=\"Subject\">550050f1-e80a-4f17-b379-af1b96549d5a</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81251902\" UserTypeID=\"MEssage\">\n        <Name>My name is  81251902 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81251902 MEssage !!! and he was born on 1696946924.771 and died on 1696946924.772</Value>\n          <Value AttributeID=\"Subject\">dc7e6d32-b36d-48df-b1a7-b0d585724ef8</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81254955\" UserTypeID=\"MEssage\">\n        <Name>My name is  81254955 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81254955 MEssage !!! and he was born on 1696947062.178 and died on 1696947062.179</Value>\n          <Value AttributeID=\"Subject\">5acc6734-9a69-43a4-bc69-318af2856036</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81258391\" UserTypeID=\"MEssage\">\n        <Name>My name is  81258391 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81258391 MEssage !!! and he was born on 1696947143.964 and died on 1696947143.965</Value>\n          <Value AttributeID=\"Subject\">68b525e2-715e-4493-94fc-682ab9d8cc1b</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81261440\" UserTypeID=\"MEssage\">\n        <Name>My name is  81261440 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81261440 MEssage !!! and he was born on 1696947172.682 and died on 1696947172.683</Value>\n          <Value AttributeID=\"Subject\">b694a3aa-952b-4f16-b3f9-a8a102716971</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81264490\" UserTypeID=\"MEssage\">\n        <Name>My name is  81264490 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81264490 MEssage !!! and he was born on 1696947174.625 and died on 1696947174.625</Value>\n          <Value AttributeID=\"Subject\">c6c8d1b7-aca0-4019-ad68-2a422ebdc1b3</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81267540\" UserTypeID=\"MEssage\">\n        <Name>My name is  81267540 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81267540 MEssage !!! and he was born on 1696947176.476 and died on 1696947176.476</Value>\n          <Value AttributeID=\"Subject\">3d32ece3-4510-4b6d-9839-e234ee3eb3d7</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81270590\" UserTypeID=\"MEssage\">\n        <Name>My name is  81270590 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81270590 MEssage !!! and he was born on 1696947178.503 and died on 1696947178.503</Value>\n          <Value AttributeID=\"Subject\">f7ba1c5b-aaff-4b71-b73b-641a24d5ec4c</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81273643\" UserTypeID=\"MEssage\">\n        <Name>My name is  81273643 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81273643 MEssage !!! and he was born on 1696944416.011 and died on 1696944416.011</Value>\n          <Value AttributeID=\"Subject\">f3b5fe68-3c62-4dc9-8c65-ec230b6e198e</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81276694\" UserTypeID=\"MEssage\">\n        <Name>My name is  81276694 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81276694 MEssage !!! and he was born on 1696947343.639 and died on 1696947343.64</Value>\n          <Value AttributeID=\"Subject\">0aa28d93-25df-4301-8dd2-daa8a8975dcc</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81279744\" UserTypeID=\"MEssage\">\n        <Name>My name is  81279744 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81279744 MEssage !!! and he was born on 1696947345.659 and died on 1696947345.66</Value>\n          <Value AttributeID=\"Subject\">d274437d-2440-4036-ba40-716a5e2e6a44</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81282794\" UserTypeID=\"MEssage\">\n        <Name>My name is  81282794 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81282794 MEssage !!! and he was born on 1696947347.727 and died on 1696947347.727</Value>\n          <Value AttributeID=\"Subject\">8b3c07c9-d55f-474b-acd4-a83155f583fa</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81285846\" UserTypeID=\"MEssage\">\n        <Name>My name is  81285846 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81285846 MEssage !!! and he was born on 1696944361.841 and died on 1696944361.842</Value>\n          <Value AttributeID=\"Subject\">2b944dc0-d0b4-4c0b-94a4-a7284f7287ac</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81288895\" UserTypeID=\"MEssage\">\n        <Name>My name is  81288895 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81288895 MEssage !!! and he was born on 1696944458.39 and died on 1696944458.391</Value>\n          <Value AttributeID=\"Subject\">3f9e44d0-d133-4a57-a9a2-c96440762a76</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81291945\" UserTypeID=\"MEssage\">\n        <Name>My name is  81291945 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81291945 MEssage !!! and he was born on 1696944460.209 and died on 1696944460.21</Value>\n          <Value AttributeID=\"Subject\">09af8611-6624-4ed9-a0c9-9ef8626c3141</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81294996\" UserTypeID=\"MEssage\">\n        <Name>My name is  81294996 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81294996 MEssage !!! and he was born on 1696944367.599 and died on 1696944367.599</Value>\n          <Value AttributeID=\"Subject\">0d242ccc-b16b-4213-8f8b-cd84f1e38738</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81298048\" UserTypeID=\"MEssage\">\n        <Name>My name is  81298048 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81298048 MEssage !!! and he was born on 1696944338.541 and died on 1696944338.542</Value>\n          <Value AttributeID=\"Subject\">f69f8a79-6312-4011-be56-621540a42bb1</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81301100\" UserTypeID=\"MEssage\">\n        <Name>My name is  81301100 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81301100 MEssage !!! and he was born on 1696947233.445 and died on 1696947233.446</Value>\n          <Value AttributeID=\"Subject\">159d0a66-0674-45e5-9c99-ceccf01c9006</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81304152\" UserTypeID=\"MEssage\">\n        <Name>My name is  81304152 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81304152 MEssage !!! and he was born on 1696944748.763 and died on 1696944748.763</Value>\n          <Value AttributeID=\"Subject\">48d83930-6a24-4f53-b9d8-0877254663ec</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81307203\" UserTypeID=\"MEssage\">\n        <Name>My name is  81307203 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81307203 MEssage !!! and he was born on 1696944842.677 and died on 1696944842.677</Value>\n          <Value AttributeID=\"Subject\">00cd1697-646a-4b1f-b22e-577c1c795eec</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81310253\" UserTypeID=\"MEssage\">\n        <Name>My name is  81310253 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81310253 MEssage !!! and he was born on 1696944844.584 and died on 1696944844.585</Value>\n          <Value AttributeID=\"Subject\">5d980dc3-c6e8-4a31-9a53-ebc55f45893e</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81313305\" UserTypeID=\"MEssage\">\n        <Name>My name is  81313305 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81313305 MEssage !!! and he was born on 1696944724.404 and died on 1696944724.404</Value>\n          <Value AttributeID=\"Subject\">962d92d7-fe4a-47e9-8a98-4430f122ceff</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81316355\" UserTypeID=\"MEssage\">\n        <Name>My name is  81316355 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81316355 MEssage !!! and he was born on 1696944726.262 and died on 1696944726.263</Value>\n          <Value AttributeID=\"Subject\">8d4ec19a-a0bc-409c-b54a-a92e02188b7a</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81319407\" UserTypeID=\"MEssage\">\n        <Name>My name is  81319407 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81319407 MEssage !!! and he was born on 1696944945.566 and died on 1696944945.567</Value>\n          <Value AttributeID=\"Subject\">64d6e1b3-7fac-4395-b7c9-42424e03d6b6</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81322458\" UserTypeID=\"MEssage\">\n        <Name>My name is  81322458 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81322458 MEssage !!! and he was born on 1696945010.315 and died on 1696945010.315</Value>\n          <Value AttributeID=\"Subject\">251d48cc-18a8-4d1a-8f83-1476abe1ed6a</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81325508\" UserTypeID=\"MEssage\">\n        <Name>My name is  81325508 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81325508 MEssage !!! and he was born on 1696945012.162 and died on 1696945012.162</Value>\n          <Value AttributeID=\"Subject\">62bc806e-08b3-46b0-ac24-9309c66ab771</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81328561\" UserTypeID=\"MEssage\">\n        <Name>My name is  81328561 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81328561 MEssage !!! and he was born on 1696944661.587 and died on 1696944661.588</Value>\n          <Value AttributeID=\"Subject\">1067fe11-91c4-46c1-888f-407aa70c01d8</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81331611\" UserTypeID=\"MEssage\">\n        <Name>My name is  81331611 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81331611 MEssage !!! and he was born on 1696944663.394 and died on 1696944663.394</Value>\n          <Value AttributeID=\"Subject\">d60f07de-9d31-41dd-abbb-4f5a480ae487</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81334661\" UserTypeID=\"MEssage\">\n        <Name>My name is  81334661 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81334661 MEssage !!! and he was born on 1696944665.265 and died on 1696944665.265</Value>\n          <Value AttributeID=\"Subject\">4b741bdd-4176-4435-854a-e093c43dbab3</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81337714\" UserTypeID=\"MEssage\">\n        <Name>My name is  81337714 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81337714 MEssage !!! and he was born on 1696944636.133 and died on 1696944636.133</Value>\n          <Value AttributeID=\"Subject\">bca15a6f-357c-4e18-9990-c517938c48db</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81340767\" UserTypeID=\"MEssage\">\n        <Name>My name is  81340767 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81340767 MEssage !!! and he was born on 1696944959.122 and died on 1696944959.123</Value>\n          <Value AttributeID=\"Subject\">f2084329-db55-4517-8212-c7c28d0c4a13</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81343818\" UserTypeID=\"MEssage\">\n        <Name>My name is  81343818 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81343818 MEssage !!! and he was born on 1696945023.229 and died on 1696945023.229</Value>\n          <Value AttributeID=\"Subject\">ffcc2cda-c23f-4f23-b30e-ec7063df1914</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81346869\" UserTypeID=\"MEssage\">\n        <Name>My name is  81346869 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81346869 MEssage !!! and he was born on 1696944932.427 and died on 1696944932.427</Value>\n          <Value AttributeID=\"Subject\">ce6bc4dd-d2ab-40f5-8c91-595b0b1140cc</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81349919\" UserTypeID=\"MEssage\">\n        <Name>My name is  81349919 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81349919 MEssage !!! and he was born on 1696945404.295 and died on 1696945404.295</Value>\n          <Value AttributeID=\"Subject\">20e6da8c-e8d3-473f-ab7c-6dbb3e61fabd</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81352972\" UserTypeID=\"MEssage\">\n        <Name>My name is  81352972 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81352972 MEssage !!! and he was born on 1696945223.853 and died on 1696945223.853</Value>\n          <Value AttributeID=\"Subject\">2e045150-7ff1-4537-ac38-58c129a0c865</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81356024\" UserTypeID=\"MEssage\">\n        <Name>My name is  81356024 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81356024 MEssage !!! and he was born on 1696945438.498 and died on 1696945438.498</Value>\n          <Value AttributeID=\"Subject\">24230ee1-9801-458e-bab7-93caa41d0555</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81359076\" UserTypeID=\"MEssage\">\n        <Name>My name is  81359076 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81359076 MEssage !!! and he was born on 1696945256.159 and died on 1696945256.159</Value>\n          <Value AttributeID=\"Subject\">e17bc47c-a552-403f-852d-091b4341db34</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81362126\" UserTypeID=\"MEssage\">\n        <Name>My name is  81362126 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81362126 MEssage !!! and he was born on 1696945259.738 and died on 1696945259.739</Value>\n          <Value AttributeID=\"Subject\">d38b3dc6-d8a7-4794-a9ec-ded282830fd1</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81365179\" UserTypeID=\"MEssage\">\n        <Name>My name is  81365179 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81365179 MEssage !!! and he was born on 1696945415.514 and died on 1696945415.515</Value>\n          <Value AttributeID=\"Subject\">3fa74f7c-4131-426a-a5ca-173b7a28aec6</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81368229\" UserTypeID=\"MEssage\">\n        <Name>My name is  81368229 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81368229 MEssage !!! and he was born on 1696945418.026 and died on 1696945418.027</Value>\n          <Value AttributeID=\"Subject\">43f6fb2e-a6fb-434f-ad0a-ee2140419188</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81371282\" UserTypeID=\"MEssage\">\n        <Name>My name is  81371282 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81371282 MEssage !!! and he was born on 1696945234.798 and died on 1696945234.798</Value>\n          <Value AttributeID=\"Subject\">ed73321b-bd11-4b9f-8948-c94b29631ed1</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81374334\" UserTypeID=\"MEssage\">\n        <Name>My name is  81374334 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81374334 MEssage !!! and he was born on 1696945451.241 and died on 1696945451.241</Value>\n          <Value AttributeID=\"Subject\">9a5af722-9a30-4120-9ea6-f5614c769a6e</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81377386\" UserTypeID=\"MEssage\">\n        <Name>My name is  81377386 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81377386 MEssage !!! and he was born on 1696945299.918 and died on 1696945299.918</Value>\n          <Value AttributeID=\"Subject\">cca11de6-893c-45c3-a9ce-317ad5d4c41d</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81380437\" UserTypeID=\"MEssage\">\n        <Name>My name is  81380437 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81380437 MEssage !!! and he was born on 1696945362.532 and died on 1696945362.533</Value>\n          <Value AttributeID=\"Subject\">67f57405-d2b4-48f8-88be-7d4beabdec48</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81383489\" UserTypeID=\"MEssage\">\n        <Name>My name is  81383489 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81383489 MEssage !!! and he was born on 1696945427.494 and died on 1696945427.495</Value>\n          <Value AttributeID=\"Subject\">21b54719-a5b8-4499-8ac4-f9f40ee1aa26</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81386543\" UserTypeID=\"MEssage\">\n        <Name>My name is  81386543 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81386543 MEssage !!! and he was born on 1696945336.127 and died on 1696945336.127</Value>\n          <Value AttributeID=\"Subject\">bf36ce00-255e-4608-95e0-0c478ef266e1</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81389594\" UserTypeID=\"MEssage\">\n        <Name>My name is  81389594 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81389594 MEssage !!! and he was born on 1696945460.909 and died on 1696945460.91</Value>\n          <Value AttributeID=\"Subject\">b1ab8132-7a9e-4bbe-af4f-57deffa6e8c1</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81392648\" UserTypeID=\"MEssage\">\n        <Name>My name is  81392648 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81392648 MEssage !!! and he was born on 1696945063.604 and died on 1696945063.604</Value>\n          <Value AttributeID=\"Subject\">b7fe1f42-ce19-4e62-a0a5-cf1c7d9f2201</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81395699\" UserTypeID=\"MEssage\">\n        <Name>My name is  81395699 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81395699 MEssage !!! and he was born on 1696945503.04 and died on 1696945503.041</Value>\n          <Value AttributeID=\"Subject\">f2aee8c3-3f0b-478f-8449-5665cb9e8308</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81398750\" UserTypeID=\"MEssage\">\n        <Name>My name is  81398750 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81398750 MEssage !!! and he was born on 1696946333.729 and died on 1696946333.73</Value>\n          <Value AttributeID=\"Subject\">8570460b-ad81-465c-8316-3d992ab63239</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81401804\" UserTypeID=\"MEssage\">\n        <Name>My name is  81401804 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81401804 MEssage !!! and he was born on 1696944671.567 and died on 1696944671.568</Value>\n          <Value AttributeID=\"Subject\">7543dd48-5f56-4600-89e7-178cda184def</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81404855\" UserTypeID=\"MEssage\">\n        <Name>My name is  81404855 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81404855 MEssage !!! and he was born on 1696947131.319 and died on 1696947131.319</Value>\n          <Value AttributeID=\"Subject\">c0b110b0-0b9e-4e47-936a-dc7077bf2455</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81407907\" UserTypeID=\"MEssage\">\n        <Name>My name is  81407907 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81407907 MEssage !!! and he was born on 1696945543.438 and died on 1696945543.439</Value>\n          <Value AttributeID=\"Subject\">384904a8-b48b-47f4-9a1e-def47a359994</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81410958\" UserTypeID=\"MEssage\">\n        <Name>My name is  81410958 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81410958 MEssage !!! and he was born on 1696945553.937 and died on 1696945553.937</Value>\n          <Value AttributeID=\"Subject\">0f6d5353-b992-49fc-a790-f45571e53936</Value>\n        </Values>\n      </Entity>\n      <Entity ID=\"81414011\" UserTypeID=\"MEssage\">\n        <Name>My name is  81414011 MEssage !!!</Name>\n        <Values>\n          <Value AttributeID=\"BodyText\">Once upon a time there was a guy who said, My name is  81414011 MEssage !!! and he was born on 1696947086.787 and died on 1696947086.788</Value>\n          <Value AttributeID=\"Subject\">3115c16c-6865-4fe9-a3e9-9f0d6a649561</Value>\n        </Values>\n      </Entity>\n    </Entity>\n  </Entities>\n\n  <UserGroupList>\n    <UserGroup ID=\"Messages\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">Messages</Name>\n      <PrivilegeRule ActionSetID=\"All setup actions\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" ClassificationID=\"ConfigurationsRoot\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" EntityID=\"80593423\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" CollectionGroupID=\"CollectionGroup root\"/>\n    </UserGroup>\n  </UserGroupList>\n\n  <UserList>\n    <User ID=\"MESSAGESEVENTPROCESSOR\" ForceAuthentication=\"false\">\n      <Name QualifierID=\"Qualifier root\">EP for Messages</Name>\n      <UserGroupLink UserGroupID=\"Messages\"/>\n      <SystemSetup/>\n    </User>\n    <User ID=\"MESSAGESOUTBOUND\" ForceAuthentication=\"false\">\n      <Name QualifierID=\"Qualifier root\">OIEP for Messages</Name>\n      <UserGroupLink UserGroupID=\"Messages\"/>\n      <SystemSetup/>\n    </User>\n  </UserList>\n\n<ImportConfigurations/>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations>\n  <BulkUpdateConfiguration ID=\"81123341\">\n<!-- Definition:\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BulkUpdate Version=\"1\" AutoApprove=\"false\">\n  <Operations>\n    <BulkUpdateRunBusinessRule>\n      <Parameters>\n        <Parameter ID=\"businessRuleActionID\" Type=\"java.lang.String\">setMessageName</Parameter>\n        <Parameter ID=\"businessRuleConditionID\" Type=\"java.lang.String\"></Parameter>\n      </Parameters>\n    </BulkUpdateRunBusinessRule>\n  </Operations>\n</BulkUpdate>\n -->\n    <Name>BU-MessageNaming</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">BulkUpdateConfig.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">414</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-10-04 14:08:27</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"ConfigurationsRoot\"/>\n    <Configuration>H4sIAAAAAAAAAI2Qu67CMAyG9z5F5J0WNoa0qFAhMXARl7P7UFMVQhLlUsHbE4TgZEAcRv/+/DkOH13OgnVkbKtkDoO0D4zkXtWtbHLYbae9IYyKhI+9OO10jY7YzwsGVnqnSq2N6iiHAwpLUCSM8aUmgy5Q9l6G4G9+7eXY21aStWsv6NEPxAoNnskF+TOKQzarcviN5sr9XT+rgG2vOiw/YoepQNmkG2fC46Gw5OYBxoYWwcGzl+sr/0TJuv1vxRtpFD1vzz4ez7P4s2K4SG7gsJuGngEAAA==</Configuration>\n  </BulkUpdateConfiguration>\n</BulkUpdateConfigurations>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations/>\n\n  <IntegrationEndpoints>\n    <OutBoundIntegrationEndpoint ID=\"MessageOutput\" UserTypeID=\"OutboundEndpoint user-type root\" ProcessPluginID=\"Export\" QueueForEndpoint=\"OutboundQueue\" QueueForProcssing=\"Out\" MaxNumberOfActiveBackgroundProcesses=\"1\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"100\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"100\" TransactionType=\"STRICT\" ResponsibleUserID=\"SHTO\" EnableRetry=\"false\" UseCrossContext=\"false\" DataSourcePluginID=\"EventQueueDataSourcePlugin\" DeliveryMethodPluginID=\"com.stibo.configurationmanagement.repository.delivery.ChangePackageGitDeliveryPlugin\" MultiThreadCount=\"1\" RefreshCollections=\"false\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"5\"/>\n</entries>\n\nDataSourcePluginConfiguration:\n<Parameters>\n  <Parameter ID=\"DaysToRetainEvents\" Type=\"java.lang.Integer\">0</Parameter>\n  <Parameter ID=\"eventQueueBatching\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1000</Parameter>\n  <Parameter ID=\"eventQueueBundleMessages\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1</Parameter>\n</Parameters>\n\nDeliveryMethodPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"ContextId\" Type=\"com.stibo.util.integrationendpoints.ContextParameter\">Context1</Parameter>\n  <Parameter ID=\"ConvertBusinessRulesToEditableFormat\" Type=\"java.lang.Boolean\">false</Parameter>\n  <Parameter ID=\"DirectoryTemplate\" Type=\"java.lang.String\">$systemname$</Parameter>\n  <Parameter ID=\"RemoteRepositoryUri\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.RemoteRepoUri._1</Parameter>\n  <Parameter ID=\"RepositoryAccessMethod\" Type=\"com.stibo.configurationmanagement.repository.changepackagedelivery.ChangePackageGitDeliveryPlugin$RepositoryAccessMethod\">HTTPS</Parameter>\n  <Parameter ID=\"RepositoryBranchName\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.Branch._4</Parameter>\n  <Parameter ID=\"RepositorySshUri\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\"/>\n  <Parameter ID=\"RepositoryUsername\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.RemoteRepoUsername._1</Parameter>\n</Parameters>\n\nProcessPluginConfiguration:\n<EventSpecificExportConfiguration>\n  <ExportConfiguration MatchAllTypes=\"false\">\n    <EventType>15</EventType>\n    <EventType>16</EventType>\n    <EventType>17</EventType>\n    <ExportManagerConfig>\n      <ExportManagerConfig ContentMode=\"\" ContextID=\"Context1\" ECatalogID=\"\" EffectiveDate=\"current\" EffectiveDateTimeZoneID=\"America/Los_Angeles\" ExecutionMode=\"\" ExportSelectedProducts=\"false\" InheritProductData=\"true\" LeafProductExport=\"true\" Name=\"\" ProcessTemplate=\"Exporter\" ResolveInlineRefs=\"true\" ScheduleDate=\"\" SelfContainedReferences=\"false\" UseContextLocale=\"false\" Version=\"2\" VersionID=\"\" WorkspaceID=\"Main\" isSorted=\"false\">\n        <Delivery Name=\"File\">\n          <Parameter Name=\"FileNameTemplate\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n        </Delivery>\n        <Format Name=\"STEPXML\">\n          <Parameter Name=\"AssetContentChooser\"/>\n          <Parameter Name=\"Configuration\"/>\n          <Parameter Name=\"CrossContextChooser\"/>\n          <Parameter Name=\"DataObjects\"/>\n          <Parameter Name=\"DefinitionsAsComments\">No</Parameter>\n          <Parameter Name=\"ExportValidAndAbsent\">No</Parameter>\n          <Parameter Name=\"FlattenHierarchy\">No</Parameter>\n          <Parameter Name=\"GlobalSettings\"/>\n          <Parameter Name=\"IncludeActualPageData\">No</Parameter>\n          <Parameter Name=\"IncludeAssetPush\">None</Parameter>\n          <Parameter Name=\"IncludeAssetPushEventQueue\">None</Parameter>\n          <Parameter Name=\"IncludeAssets\">None</Parameter>\n          <Parameter Name=\"IncludeAttributeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeAttributeGroupDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeAttributeTransformations\">No</Parameter>\n          <Parameter Name=\"IncludeAutoPageReferences\">No</Parameter>\n          <Parameter Name=\"IncludeBaskets\">No</Parameter>\n          <Parameter Name=\"IncludeBulkUpdateConfigurations\">No</Parameter>\n          <Parameter Name=\"IncludeBusinessRules\">None</Parameter>\n          <Parameter Name=\"IncludeClassifications\">None</Parameter>\n          <Parameter Name=\"IncludeCollectionDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeComponentModels\">No</Parameter>\n          <Parameter Name=\"IncludeContextDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeContextQualifiers\">No</Parameter>\n          <Parameter Name=\"IncludeDataContainerTypeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeDataContainers\">No</Parameter>\n          <Parameter Name=\"IncludeDerivedEventTypes\">No</Parameter>\n          <Parameter Name=\"IncludeECatalogues\">No</Parameter>\n          <Parameter Name=\"IncludeEntities\">Minimum</Parameter>\n          <Parameter Name=\"IncludeEntityAttributeValues\">Yes</Parameter>\n          <Parameter Name=\"IncludeEventProcessors\">None</Parameter>\n          <Parameter Name=\"IncludeEventQueues\">No</Parameter>\n          <Parameter Name=\"IncludeExportConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeImageConversion\">None</Parameter>\n          <Parameter Name=\"IncludeImportConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeInheritedValues\">No</Parameter>\n          <Parameter Name=\"IncludeIntegrationEndpoints\">None</Parameter>\n          <Parameter Name=\"IncludeKeys\">No</Parameter>\n          <Parameter Name=\"IncludeKeysChooser\"/>\n          <Parameter Name=\"IncludeLOVDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeMatchCodes\">No</Parameter>\n          <Parameter Name=\"IncludeMatchingAlgorithms\">None</Parameter>\n          <Parameter Name=\"IncludeOverriddenProducts\">No</Parameter>\n          <Parameter Name=\"IncludePaginationRules\">No</Parameter>\n          <Parameter Name=\"IncludePlannedPages\">No</Parameter>\n          <Parameter Name=\"IncludePortalConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludePrivilegeDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeProductAttributeValues\">Yes</Parameter>\n          <Parameter Name=\"IncludeProducts\">Minimum</Parameter>\n          <Parameter Name=\"IncludePublication\">No</Parameter>\n          <Parameter Name=\"IncludePublicationGroup\">No</Parameter>\n          <Parameter Name=\"IncludePublicationSections\">No</Parameter>\n          <Parameter Name=\"IncludeSTEPWorkflowProfiles\">None</Parameter>\n          <Parameter Name=\"IncludeSTEPWorkflowTaskInfo\">No</Parameter>\n          <Parameter Name=\"IncludeSTEPWorkflows\">None</Parameter>\n          <Parameter Name=\"IncludeSetupEntities\">None</Parameter>\n          <Parameter Name=\"IncludeSetupGroups\">None</Parameter>\n          <Parameter Name=\"IncludeStatusFlags\">None</Parameter>\n          <Parameter Name=\"IncludeSystemSetup\">No</Parameter>\n          <Parameter Name=\"IncludeTableDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeTableTypeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeTables\">No</Parameter>\n          <Parameter Name=\"IncludeTags\">No</Parameter>\n          <Parameter Name=\"IncludeTransformationLookupTableConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeTranslationConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeTypeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeUnitDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeUserDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeValidation\">No</Parameter>\n          <Parameter Name=\"Publishing\"/>\n        </Format>\n        <ProductMapping SelectedURLType=\"product\"/>\n        <ProductSelection/>\n      </ExportManagerConfig>\n    </ExportManagerConfig>\n    <ObjectType>MEssage</ObjectType>\n  </ExportConfiguration>\n</EventSpecificExportConfiguration>\n\nErrorReporterPluginConfiguration:\n<Parameters/> -->\n      <SetupGroupLink SetupGroupID=\"Outbound Integration Endpoints\"/>\n      <Name QualifierID=\"Qualifier root\">MessageOutput</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1Cyt+OySc0rKcpMLbbjUlAAsysVknMSi4ttlZLzc/WKSzKT8vVKSzJz9IqTM1JTSnNSU1LTMvMyS4Bm6AVDhVzgQiowIVegPZW+mXmlJalKQJOhIBUkaqtkqqQPtFgfbjMAbHz7/JoAAAA=</ScheduleSpecification>\n      <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULlxfmnnOZJL81WnTUWmU4hVhGIIhLUymuUzgW6+kc8myS7LDFhly4yyZCvKLYLFNYYm8LcyCHilcdsbMgiv5KKVywQ6mRa7lhRzW1kEXJbGx/YdHQ33vytEBXnsOMJ6s0jbROnYz0TmmpBmCLLuwmrq4mZCsXxmhCfshGMmRxFP0u9lxp2pK1WJP9j/7D/RbCO+9hpBTugwEAAA==</DataSourcePluginConfiguration>\n      <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAL2S308iMRCA3++v2DS8WjXxwQdYc4CeJnpHYPHVjN1x6dnObNpZI//9FVeQC4g8GB6n7fT75kf34tW77AVDtEw9dapPVIZkuLRU9dS0uDo6V1kUoBIcE/YUsbrIuyMI4FFSWv4jyz7C7GbYU2P0LDjGmqMVDvNpsCor5nXKNux1FPvIuhHrtCXBKoAkNlJZc4qjHjA92WoiISkM2Dk0i/vbP/crisoHM6AKR2CeocJfVobobCpirj/YiaofTrvHq6ytpkvHfgAys9/p7mCqLVI/nO3r+NMYjPEOZcblpqV5c2laRQ+UaB5JdFjla/OmUrcq5dLjM8GRaypLnU/4+XVRjCb7qk8jBjpkc9f24B29uQy7hCdx9v1re7ydOrQhPU7QAn3tQFZd+gsvoF2qULffqrwT51HQL+rp7O590kmNkH4TLaWpjRuHseDL0go8Orzi4EE2OX1mh0AqfwIX8UuC4KvcbNnFnV1aJK2PsD35fzhrQcz/ARkwNHOkBAAA</DeliveryMethodPluginConfiguration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules ConditionID=\"IsMessageReady\">\n    <ObjectType ObjectTypeID=\"MEssage\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattribute=BodyText;Subject\ncontext=Context1\nobjecttype=MEssage -->\n        <Configuration>H4sIAAAAAAAAANVUTXObMBC951cw3FOS6aUH5IxjOy0zdeOxSXqWYU3VCInRCtfur+8CUmgMnbi35ATaL719ertTRLAplJXkFlh8cyhlsAeDQisWXn+4CgNQmc6FKlj4kN5dfgpvJhfxJl2sLldG53VmE7XTpuSWMoI1oJZ7SJQUCtawQxbuuEQIgzstpf51T6WNyGFTb112H7E4VNrYORixh3xqrXl2TS6CIJ42QNFFbcRvYOFSKFHWZRjMtbLdBTPJEcVOZC2eVLdZBAQMtUEp1tRdPV8xaotHXXXqLPpHa5MYKynspAEmtrWFr0I9YWpEURBiVZy63wWlfS/YEPFq8yfsvoMWXyIel4+Tw8vQIFGZrHNYcVKOdcJxYjkpeg5xuqwMYMtPU8mZE5XD4bs2+RcBhpvsx3EgqG+8hIHxfvsTMpseK/hsdF2RA1ncG9e1BGyhntiCmVa5aIAlcxYmuCRIvCDKeX70NPQpQf/bhC8XbbAnYXDd0OTQdhQOmnBsvXkVxT76f3ePyxvbPr7mqMrcQzQvH/lV9ffWiUYF+3yNdw/79R53nBmNOEhrN+G465HLGtCf5txy0pPlRLfB126NI3fs1OM5PWN2euHQpDxhxYnJaVUZTU/lQh6UePs6orYbnOfu2kfXwEd35l4C7FbnxxQO9tRxxQhSM4HOkdHjUBibdd9rZ9ZtjKUpZW6kneMPKBLndgsIAAA=</Configuration>\n      </EventQueue>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAAH1Vx67jRhC8+ysWvvLAnID1AiLFJAYxihRvzEkckhrmr7eeA2zAC89tqhqNRs101XdpLcDsjUXWlE0m7ePwnsUBlE21vJO5GcCPX759+/4T/JuZzFl9eb38Yyzgb7+WyQsWv35Vf9V/Nf0ifuD0d/Sf239Y5n9Z9r/sPW2L7E/AlCBMquI7+i/srxZ/jGsm4EO//5z6h0pB7fL30fGnH9mpVYs8gufb/cpgAj9bJ60d0+RLfTftTwiW/QiuXQB1y6k3qAkNWsLFsURPInK9sR83YZUJdU8M0slMsuUjbe6v7sR2poqTaLAyJXD2/kpG3ghfHbNJ9kM5KCU6CIllrABDoDMpSfx2bpttxy2Vj4sKltOnHaQDb7lTUtDeFunwBcrfykQ6blWdmpri3Nbi4i17bVRhlF04+fq6t0ZEPGXn0dULXx/Vbp3MGWomRlL7XGw5rxdd2YqtbxMmLlJxsRuSdMGW7WZix4B1uNZ9yrdZqrxR9M1D9JXiYvTpVTSvIHVCWuZuXK8z+GD0TDUNQZn0mnTvXKGfIh3Nztgk/LDTZeIp0uRuEk6d731dHUc+BsZTCp4pPHjDQlGXckcYi6oeFL1qlfecp+6tyHixIPSWJxzslq9kffKD6su+1Sp8mBAIuNOclGQfscZeeIY24IIErpIynDWELuaKaar4/MU3XPFqQ57welnWnTs0gFmbZN05fWFiGa5GuIduROpA6ZWj1u7LzLt5P8UFU1JdXdQn3dszUnvv2+wT0GNZnwuwjnLFABqNc6GX1He6wlG9NtffOLz3ywvmSKOINY3Wm62knGwqH3U0tukwOSGazix2GA/rO1AIECFC3sb1ZZ4LbMT3vZITdb5ToFNjEW1y3FWsjD87KSukwgFVox5VPz1PIlRf+SVeQznF/LD1GwmMR6bb0lPC6L4DO6nH6sYslfHqu6HGrczamII2ZIeEHfmG7RR0VI1RKlyG+xaBMZLJcLc9lIbVc2RILUFCrZVnD3DX8nH66hkcc4pWNGHFtWaQ5L3R0D6VA862/EAqjDCGQeJMFWhWh1BvivaQjofInBupJNWIF94eOFUjL2vK2P1il8c5unTEWTWDfD5OutF4Sx9JsNipgzB2xZqBy/iPLCbSeJhPdrgdwTmFHKpCF3xUXgw21/DNTnitiO/yYB4tVmK3wGKCa+T0HD7uREomgGjsRUsDnTPDnEJBRZdmbMCbmnHUXtMKBBX0ukhMX6WMNI84LZaW1N4qUmt56/tmKLp1GDzbK9FU3Mi2c5CgaI5J84wJb/Z9d6YOhCQsVodR5mPg5luRC9RbRDKlEtkAUVmiYaAgGegE+mmzX8N4bt494eC4CEFO0r3RgYuJL/NUvtja2F2ZM3o2Z7RSO6i9CmYjB/sojHaCuS0IuGfweevF3YZUW7aFpnht5YNHnSdFqjw00L4/O0rwF+EsrYyLRo0rPNyPXo6lI931zAx8xz/7gnMnzvNl5cbrsutO5Wnr2yEnakQiFuMWBVke6NxjHLMAj9Z7MDCzsYmzuE0rOzoqHx3I4wEAQq8psUz9KgGGW70oFHKDZBc+xK7SM6poSKrzqMgoJ7K2n2B04H9c9rePff/Eib8CBf1p0vxl9/+XRr8DPZpELbAGAAA=</ProcessPluginConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"Context1\"/>\n      <WorkspaceID>Approved</WorkspaceID>\n    </OutBoundIntegrationEndpoint>\n  </IntegrationEndpoints>\n\n  <EventProcessors>\n    <EventProcessor ID=\"Messages\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"Messages\">\n  <simple id=\"BatchSize\">10000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=MessagePrep</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">false</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n  <simple id=\"WorkspaceTriggering\">Main</simple>\n  <simple id=\"collateNodes\">true</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">Messages</Name>\n      <Configuration>H4sIAAAAAAAAAKVUW2/aMBR+51dE1sTbCNWkqRoQVCBdH2BkQLe9TcY5pEcYO/Olg/76OReyhs6dtOUl9sl3w5zjqRQ7zKyiBqUYDcfHAw8eQeliR656fRKAYDJFkY3I/eb27TUZR51hzm2GIsB0ROJHECZRkoHWUk2ohulzSRJ1gmCo8ZBzKPEr0LkUGrcc7jUoEmkD+YcwtG4zdoD13WY5DCvCJXdCDXtY4xOQ6KrvHh9uRk96I1dgKIoynyaRF5wolArNyWn6IJ8tWOcZf0lWy6kPtKDHJU/rkwBdRvRh76RVTcIL1vtrH2uOAnQCavIxqQ7AB7ylyJ22OsWCunNOSWSUhb+inTRKB37XT33YZW7wgNogm0u2b3vsKNdekz8Qz3Y+ypo9QGo5fFvMv8/iZBVPbzbxjERdbgatPu3+sNIMXLNWi3E3M4NOgXL/vELQ5T4IzpVTwDjVuqYxeei5WFvZswZ5T9emKexQYNHBvXOOWVN6cy655lKnBQproFJzNvUDxadztOoVNsHC58l+//5hWA2WW+mco4lipaRaQS6VAfUv0+kyU8tNe0hbqiRs3JKSN/3fG2FiddGo+oYVCm3ryuLFpdCmNHfCti4rd9TF3bBwa5pBoiD3NY1Lb+BoGglW7Qt2/ck75V+l2uucMmjIP8+V0tyNqo/KJOfUwCeZFiP82rA1JhuFWeYmQGQkek16vcd8BhwMpLX8xZy9aJpfOak+D9MFAAA=</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"MEssage\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Main\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattribute=BodyText;MessageCount;Subject\nobjecttype=MEssage -->\n        <Configuration>H4sIAAAAAAAAANVUwXKbMBC95ysY7gnJ9NIDcsaxnZaZuPHYJDnLsKZqhMRoJdfu11eAZGJDJ+4tuaF92tV7y9sdI4JOoaw41UDi213Jgy0oZFKQ8ObqOgxAZDJnoiDhU3p/+TW8HV3Eq3S2uFwomZtMJ2IjVUm1zQiWgJJvIRGcCVjCBkm4oRwhDO4l5/L3oy2tWA4rs3bZ3Y3ZrpJKT0GxLeRjrdUBGl0EQTyuiaK7tWJ/gIRzJlhpyjCYSqHbByacIrINyxo+qWyyLBFQVoZN0cq09XzFqCketdWtsugf0kYxVpzpUU2MrY2GByZeMVWsKCxjUZzCn6KlnRasG/Gu+JPufgKJx4yH7ePscHw1SETGTQ4Lap2jnXGcWU6KntM4WVYKsOlPXcmFE5HD7kWq/DsDRVX2c98z1A9aQi/4uP4FmU73FXxT0lQWQBJ3waXhgA3VgdhRNOg+k6ntyAyRFgedvex+yBFqu9Tj6Rry4Y0S+9v/u15c3tCC8TUHjeR+RP1zI7+N3i6WaNCTh2c83NfrEXecKInYS2uW3TD0TLkB9Kcp1XRixVPbboXvvRpH7ti6x/f0jPHojGOH4RUrajs5t486+Emwj+8hK7nmee4qfXYCvrgz9b+f3Ml8n8JOnwLXZA7NeE6kET30hljC9Ww6QDYHbQeVuKl2wF9ORDuj8QcAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Entities>
+        <Entity ID="80593423" UserTypeID="Messages" ParentID="Entity hierarchy root">
+            <Name>Messages</Name>
+            <Values>
+                <Value AttributeID="MessageCount">304911</Value>
+            </Values>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>

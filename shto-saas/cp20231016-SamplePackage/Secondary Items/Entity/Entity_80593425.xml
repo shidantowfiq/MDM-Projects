@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Entities>
+        <Entity ID="80593423" UserTypeID="Messages" ParentID="Entity hierarchy root">
+            <Entity ID="80593425" UserTypeID="MEssage">
+                <Name>My name is  80593425 MEssage !!!</Name>
+                <Values>
+                    <Value AttributeID="BodyText">Once upon a time there was a guy who said, My name is  80593425 MEssage !!! and he was born on 1696945957.591 and died on 1696945957.591</Value>
+                    <Value AttributeID="Subject">a1c6c28d-d749-4c23-860d-67d165f8753f</Value>
+                </Values>
+                <DataContainers>
+                    <MultiDataContainer Type="PhoneNumbers">
+                        <DataContainer ID="12334554">
+                            <Values>
+                                <Value AttributeID="AreaCode">949</Value>
+                                <Value AttributeID="PhoneNumber">5554657</Value>
+                                <Value AttributeID="PhoneType">Home</Value>
+                            </Values>
+                        </DataContainer>
+                        <DataContainer ID="wf433">
+                            <Values>
+                                <Value AttributeID="AreaCode">714</Value>
+                                <Value AttributeID="PhoneNumber">5556867</Value>
+                                <Value AttributeID="PhoneType">Mobile</Value>
+                            </Values>
+                        </DataContainer>
+                    </MultiDataContainer>
+                </DataContainers>
+            </Entity>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>

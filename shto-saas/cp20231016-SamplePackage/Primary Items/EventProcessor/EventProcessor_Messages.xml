@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="Messages" UserTypeID="Event Processor user-type root"><!-- Definition:
+Configuration=
+<plugin id="Messages">
+  <simple id="BatchSize">10000</simple>
+  <simple id="DaysToRetainEvents">0</simple>
+  <simple id="FailRetryEnabled">true</simple>
+  <simple id="FailRetryPeriod">30d</simple>
+  <simple id="HoursToRetainOldProcesses">168</simple>
+  <simple id="LinesPerBGP">1000</simple>
+  <simple id="MaxOldProcesses">100</simple>
+  <simple id="OptimisticLockRetryEnabled">false</simple>
+  <simple id="OptimisticLockRetryPeriod"/>
+  <simple id="Priority">1</simple>
+  <simple id="Queue">EVPROC</simple>
+  <simple id="ResponsibleUser">step://user?id=SHTO</simple>
+</plugin>
+PluginConfiguration=
+<plugin id="BusinessActionEventProcessorPlugin">
+  <simple id="BusinessAction">step://businessrule?id=MessagePrep</simple>
+  <simple id="Context">step://context?id=Context1</simple>
+  <simple id="SkipDeletedNodes">false</simple>
+  <simple id="Workspace">step://workspace?id=Main</simple>
+  <simple id="WorkspaceTriggering">Main</simple>
+  <simple id="collateNodes">true</simple>
+</plugin>
+ScheduleSpecification=
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute" every="1"/>
+</entries> -->
+            <SetupGroupLink SetupGroupID="EventProcessors"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Messages</Name>
+            <Configuration>H4sIAAAAAAAAAKVUW2/aMBR+51dE1sTbCNWkqRoQVCBdH2BkQLe9TcY5pEcYO/Olg/76OReyhs6dtOUl9sl3w5zjqRQ7zKyiBqUYDcfHAw8eQeliR656fRKAYDJFkY3I/eb27TUZR51hzm2GIsB0ROJHECZRkoHWUk2ohulzSRJ1gmCo8ZBzKPEr0LkUGrcc7jUoEmkD+YcwtG4zdoD13WY5DCvCJXdCDXtY4xOQ6KrvHh9uRk96I1dgKIoynyaRF5wolArNyWn6IJ8tWOcZf0lWy6kPtKDHJU/rkwBdRvRh76RVTcIL1vtrH2uOAnQCavIxqQ7AB7ylyJ22OsWCunNOSWSUhb+inTRKB37XT33YZW7wgNogm0u2b3vsKNdekz8Qz3Y+ypo9QGo5fFvMv8/iZBVPbzbxjERdbgatPu3+sNIMXLNWi3E3M4NOgXL/vELQ5T4IzpVTwDjVuqYxeei5WFvZswZ5T9emKexQYNHBvXOOWVN6cy655lKnBQproFJzNvUDxadztOoVNsHC58l+//5hWA2WW+mco4lipaRaQS6VAfUv0+kyU8tNe0hbqiRs3JKSN/3fG2FiddGo+oYVCm3ryuLFpdCmNHfCti4rd9TF3bBwa5pBoiD3NY1Lb+BoGglW7Qt2/ck75V+l2uucMmjIP8+V0tyNqo/KJOfUwCeZFiP82rA1JhuFWeYmQGQkek16vcd8BhwMpLX8xZy9aJpfOak+D9MFAAA=</Configuration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+Compression=true
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="MEssage"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Main
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+attribute=BodyText;MessageCount;Subject
+objecttype=MEssage -->
+                <Configuration>H4sIAAAAAAAAANVUwXKbMBC95ysY7gnJ9NIDcsaxnZaZuPHYJDnLsKZqhMRoJdfu11eAZGJDJ+4tuaF92tV7y9sdI4JOoaw41UDi213Jgy0oZFKQ8ObqOgxAZDJnoiDhU3p/+TW8HV3Eq3S2uFwomZtMJ2IjVUm1zQiWgJJvIRGcCVjCBkm4oRwhDO4l5/L3oy2tWA4rs3bZ3Y3ZrpJKT0GxLeRjrdUBGl0EQTyuiaK7tWJ/gIRzJlhpyjCYSqHbByacIrINyxo+qWyyLBFQVoZN0cq09XzFqCketdWtsugf0kYxVpzpUU2MrY2GByZeMVWsKCxjUZzCn6KlnRasG/Gu+JPufgKJx4yH7ePscHw1SETGTQ4Lap2jnXGcWU6KntM4WVYKsOlPXcmFE5HD7kWq/DsDRVX2c98z1A9aQi/4uP4FmU73FXxT0lQWQBJ3waXhgA3VgdhRNOg+k6ntyAyRFgedvex+yBFqu9Tj6Rry4Y0S+9v/u15c3tCC8TUHjeR+RP1zI7+N3i6WaNCTh2c83NfrEXecKInYS2uW3TD0TLkB9Kcp1XRixVPbboXvvRpH7ti6x/f0jPHojGOH4RUrajs5t486+Emwj+8hK7nmee4qfXYCvrgz9b+f3Ml8n8JOnwLXZA7NeE6kET30hljC9Ww6QDYHbQeVuKl2wF9ORDuj8QcAAA==</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

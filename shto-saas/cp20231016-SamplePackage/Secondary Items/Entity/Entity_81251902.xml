@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Entities>
+        <Entity ID="80593423" UserTypeID="Messages" ParentID="Entity hierarchy root">
+            <Entity ID="81251902" UserTypeID="MEssage">
+                <Name>My name is  81251902 MEssage !!!</Name>
+                <Values>
+                    <Value AttributeID="BodyText">Once upon a time there was a guy who said, My name is  81251902 MEssage !!! and he was born on 1696946924.771 and died on 1696946924.772</Value>
+                    <Value AttributeID="Subject">dc7e6d32-b36d-48df-b1a7-b0d585724ef8</Value>
+                </Values>
+            </Entity>
+        </Entity>
+    </Entities>
+</STEP-ProductInformation>

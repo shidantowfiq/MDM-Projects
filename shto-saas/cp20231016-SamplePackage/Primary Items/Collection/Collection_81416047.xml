@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="81416047" ParentID="80593256" QueryURL="step://search?args0.0=topnodetype%3dentity%2ctopnodeid%3d80593423&amp;search0.2=ObjectTypeCriteria&amp;args0.2=nodetype%3dentity%2cobjecttype%3dMessages&amp;args0.1=sampleSize%3d100&amp;exclude0.2=true&amp;search0.0=BelowCriteria&amp;search0.1=SampleResult">
+            <Name>MessageSamples</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>
