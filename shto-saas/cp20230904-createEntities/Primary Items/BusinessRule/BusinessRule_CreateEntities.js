@@ -1,7 +1,7 @@
 /*===== export metadata =====
 {
-  "contextId" : null,
-  "workspaceId" : null
+  "contextId" : "Context1",
+  "workspaceId" : "Main"
 }
 */
 /*===== business rule definition =====
