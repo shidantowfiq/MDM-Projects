@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <DataContainerTypes>
         <DataContainerType ID="CustomerEmail" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="[id]">
             <Name QualifierID="Qualifier root">Customer Emails</Name>
