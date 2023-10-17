@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Keys>
+        <Key ID="DescriptionKey" State="Active">
+            <Name QualifierID="Qualifier root">Description Key</Name>
+            <KeyFormula>value('DescriptionAttribute')</KeyFormula>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <AttributeLink AttributeID="DescriptionAttribute"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

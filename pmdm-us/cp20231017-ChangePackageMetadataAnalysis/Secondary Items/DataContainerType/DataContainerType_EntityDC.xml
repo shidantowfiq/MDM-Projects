@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="EntityDC" MultiValued="false" Inherited="false" Restricted="false" Mandatory="false">
+            <Name QualifierID="Qualifier root">EntityDC</Name>
+            <AttributeGroupLink AttributeGroupID="DataContainers"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Entity"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

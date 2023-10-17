@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="NonTypedData" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="[id]">
+            <Name QualifierID="Qualifier root">Non-Typed Data</Name>
+            <AttributeGroupLink AttributeGroupID="AttributeGroup"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DCSort"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataContainers"></AttributeGroupLink>
+            <AttributeLink AttributeID="Attribute"></AttributeLink>
+            <AttributeLink AttributeID="Attribute2"></AttributeLink>
+            <AttributeLink AttributeID="Attribute3"></AttributeLink>
+            <AttributeLink AttributeID="ISODateTest"></AttributeLink>
+            <AttributeLink AttributeID="ISODateTimeTest"></AttributeLink>
+            <AttributeLink AttributeID="NumberTest"></AttributeLink>
+            <AttributeLink AttributeID="URLAttr"></AttributeLink>
+            <AttributeLink AttributeID="Value"></AttributeLink>
+            <AttributeLink AttributeID="Value2"></AttributeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ObjectWithDCs"></UserTypeLink>
+            <KeyDefinition>
+                <Attribute ID="Attribute"></Attribute>
+                <Attribute ID="Attribute2"></Attribute>
+            </KeyDefinition>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

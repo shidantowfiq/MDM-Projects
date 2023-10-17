@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="DCSort" ShowInWorkbench="true" ManuallySorted="true" ParentID="DataContainers">
+            <Name QualifierID="en-US">DC Sort</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="DC_LicenseType"></AttributeLink>
+                <AttributeLink AttributeID="DC_StartDate"></AttributeLink>
+                <AttributeLink AttributeID="SC_EndDate"></AttributeLink>
+                <AttributeLink AttributeID="ISODateTest"></AttributeLink>
+                <AttributeLink AttributeID="ISODateTimeTest"></AttributeLink>
+                <AttributeLink AttributeID="NumberTest"></AttributeLink>
+                <AttributeLink AttributeID="URLAttr"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

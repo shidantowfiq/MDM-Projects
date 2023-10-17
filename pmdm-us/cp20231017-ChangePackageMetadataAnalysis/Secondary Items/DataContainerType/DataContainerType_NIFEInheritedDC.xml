@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="NIFEInheritedDC" MultiValued="true" Inherited="true" Restricted="false" Mandatory="false" IDPattern="[id]">
+            <Name QualifierID="Qualifier root">NIFE Inherited DC</Name>
+            <AttributeGroupLink AttributeGroupID="DataContainers"></AttributeGroupLink>
+            <AttributeLink AttributeID="Attribute"></AttributeLink>
+            <AttributeLink AttributeID="Compression"></AttributeLink>
+            <AttributeLink AttributeID="FlowRate"></AttributeLink>
+            <AttributeLink AttributeID="NumberTest"></AttributeLink>
+            <AttributeLink AttributeID="TensileStrength"></AttributeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level1"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level2"></UserTypeLink>
+            <UserTypeLink UserTypeID="ObjectWithDCs"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

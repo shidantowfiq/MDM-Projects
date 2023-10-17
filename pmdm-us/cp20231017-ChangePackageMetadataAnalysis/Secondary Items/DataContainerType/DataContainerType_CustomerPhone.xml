@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="CustomerPhone" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="[id]">
+            <Name QualifierID="Qualifier root">Customer Phone</Name>
+            <AttributeGroupLink AttributeGroupID="DataContainers"></AttributeGroupLink>
+            <AttributeLink AttributeID="dcAreaCode"></AttributeLink>
+            <AttributeLink AttributeID="dcPhoneNumber"></AttributeLink>
+            <AttributeLink AttributeID="dcTypePhone"></AttributeLink>
+            <UserTypeLink UserTypeID="Entity"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

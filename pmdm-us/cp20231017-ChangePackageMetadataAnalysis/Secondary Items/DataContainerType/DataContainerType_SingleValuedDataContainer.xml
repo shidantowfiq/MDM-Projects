@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="SingleValuedDataContainer" MultiValued="false" Inherited="false" Restricted="false" Mandatory="false" IDPattern="[id]">
+            <Name QualifierID="Qualifier root">Single Valued Data Container</Name>
+            <AttributeGroupLink AttributeGroupID="DataContainers"></AttributeGroupLink>
+            <AttributeLink AttributeID="Attribute"></AttributeLink>
+            <AttributeLink AttributeID="Attribute3"></AttributeLink>
+            <UserTypeLink UserTypeID="ObjectWithDCs"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>
