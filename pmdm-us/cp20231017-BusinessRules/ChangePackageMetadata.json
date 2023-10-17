@@ -1,0 +1,88 @@
+{
+  "id" : "cp20231017-BusinessRules",
+  "name" : "cp20231017-BusinessRules",
+  "metadata" : {
+    "Purpose" : "Purpose"
+  },
+  "setupGroupId" : "Integrations",
+  "uniqueId" : "cpk-1f1d6ded-7bc3-447b-a176-8be783c74b98",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tree",
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DeleteItems",
+    "itemURL" : "step://businessrule?id=DeleteItems",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "4",
+    "recursive" : false
+  }, {
+    "name" : "Create 10 Leafs",
+    "itemURL" : "step://businessrule?id=Create10Leafs",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "2",
+    "recursive" : false
+  }, {
+    "name" : "Create 10 Items",
+    "itemURL" : "step://businessrule?id=Create10Items",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "1",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CreateProducts",
+    "itemURL" : "step://businessrule?id=CreateProducts",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "3",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-17 16:20:32\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"Create10Items\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar children = node.getChildren();\nif (children==null || children.size()==0) {\n\tlogger.info(\"No Children on \"+node.getID());\n\tfor (var i=0; i<10; i++) {\n\t\tnode.createProduct(\"\",\"Item\");\n\t}\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create 10 Items</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwW7bMAw9x19B+BA4SGentwG2EjTpBmRYt2DNsGOgyoyrQpE8SQ62rv33SZbtJigK7LKLRT1Sj48PZi2aissdrWvB0ez4fseU3POqMA6w8zqkA0aKxa+DgCNqw5Uk8WU6iwElUyWXFYm/bz++ex8v5lGxbAyXaMy3RuA8AhiATUsHp/kAra9J/Ike6S3TvLZ9/opZ1+gHt/dLLksTey7HtqGaHtA6GQE4hcAzhWrY/q6RxA+ONhVUVumt1U5oPB8Lm59NMv7ZKJu7cULwMlO4t4OFcDGubB55At/jhtbtHaBHwDllNWXWyQgvVo3WKO3Xuwdk1pesuoqu15Xg1HS1UpXYwcNAK0HNkG+ECFE26MhOhRTZ8O4Naz5orfSN85ZW+L8t+qwYFfyR3gnsOm7xUAtqcdnIUmD2j5pffoy3BR+pBnbPRenMBgLeybRCu+qgZJJHfA9JX0KI9xKenoZHqeGPmEwImU3gTzQSqqpQp1zuVRLm+qKgZwMlIYDTvtH6Opm4HqO90pB4MZzMcuDehksfTKct7aitZxqdCRutyobZjj58L8KxtngIked8jp5fu3QCtGtQZOdL5tYwO9/DbqX/AmUWHi7yAwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"CreateProducts\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\n//var children = node.getChildren();\nvar iMax = 104;\nfor (var i=0; i<iMax; i++) {\n\tnode.createProduct(\"\",\"Item\");\n\tiCurrent = i + 1;\n\tlog.info(\"Created product \" + iCurrent + \" of \" + iMax);\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">CreateProducts</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwYrbMBA9r79i8CFkcWsn0EPBdsLGbWFLQ0M3pceglWWvFkVSZTlsW/rvHVmK16Es9NKLPXozevPm2aNF33J5IFoLzroDbw5UyYa3RYeAXWmf9lhZrJ+OAk7MdFzJMl6mixiYpKrmsi3jr/sPr9/G61VUbPqOS9Z1X3rBVhHACOwGOpjmPXT7row/khO5o4Zre87fUIuNvnH7sOGy7mLHhWw7YsiRWZThgSkEjslXw/6HZmX8iLSpILJN76xBofFqJmx+Mcnse69sjuP44Hkmfx4G8+F61to8cgSux5bo4QxwRgCdsoZQizL8jao3hkn7+f6RUetKqlARet0ITrpQK1XNAjwOVAnSjfleCB9lo45sKqTIxnsvWPPeGGW26C1p2f+26JOiRPCf5F6w0HHPjloQyza9rAXL/lHz84/xsuAsOxED9IGLGu2GEpyXactsFaD5dR65Er4lT5heLt7kUaMMzAewXOTAnWaXxjBJruFXdDWQUMNQ8s6ouqd27of0z1f+dWvZ0UfY44qHL45NOCSwREioNuWyUeFyNRDWoD0lBEsTGK8mZ0w1kyxKwwa//zJsAgwbUWSX+4YbmV2uZNjuP7x8t/X9AwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Tree\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"Create10Leafs\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar children = node.getChildren();\nif (children==null || children.size()==0) {\n\tfor (var i=0; i<10; i++) {\n\t\tnode.createProduct(\"\",\"Tree\");\n\t}\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create 10 Leafs</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVTXU/CMBR9Zr/iZg9kBN3wzWQrRFATTYxEMD6S2pVRUrrZdsQP+O+265gjBn3Zbs+9Pfees7uClxkTC1wUnFG1YMsFycWSZYkygB4WLu0wlIzeNxy2VCqWC+RfhAMfqCB5ykSG/Of57fmlPxp6ybhUTFClnkpOhx5AA0wrOmjnHXR3jfx7vMUzIlmhD/krok2jF6ZXYyZS5VsuwzbFEm+oNmM4oA2BZXLVMP8oKPLXhjbkWGThTEszqD/sch0fKem+lbmOjRwX/Ghy50qYC0fdTMeeJbA9HnBRnQEOCBintMREmzHcjUkpJRX68XVNibYlk7qi7nXFGVZ1rchTWsONoAnHqsmXnLsoauaI2oMkUXPvhDU3UubywXiLM/qHRf8T/Xyt0yxbLIGsGE+NA4DAygszqic1FPRijy0hOJQgZAXCbtdcChX7pEEPoUEPvrzOMpcQWFKGBjEwK//CBv1+le5UDYikWNOpzNOS6MDZ5Z5n7jWXtHbZ9O/svf1v21pAtWNJdLzBZsej4yWv/5dvs08x208DAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"DeleteItems\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nif (node!=null) {\n\tnode.delete();\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">DeleteItems</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVSTU/DMAw9018Rcpi2Ay3ckPoxbQUkkCYmNsRxCm1aMmVpSNwJhPjvJE3XtUKDm/3sPL/nWPK6ZGJDpOSM6g0rNlklClZG2gCQSFd2WBxNP3Yc7anSrBIxvvIvMaIiq3Imyhg/r+8urvE08aJ5rZmgWj/VnCYeQh2wbOhQv+6g+5sYP5A9WWWKSTjUZxmYQS8M3uZM5BpbLsO2JIrsKBgZDuhDyDK5brT+lDTGW0PrcyJKfwXKCMXJiEM4cDJ6rysIjR0XHD25vDHmwumohNCzBHbGgsgmR+iAILMpUCQDI8O9SGulqIDH1y3NwLakbUc7a8YZ0W2vqHLawp2hlBPd1WvOXRR0OoK+kCjo3p1Yza1SlVqY3ZKS/rGi/4mOv3WahRVobD2dx1b5BH15Zzb1c8oNz3gSet+/BvWA5nujYHg85ryC4X21p/oDB75A9soCAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Item\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : "zlog"
+}
