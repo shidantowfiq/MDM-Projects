@@ -1,0 +1,333 @@
+{
+  "id" : "cp20231018-SetupGroups",
+  "name" : "cp20231018-SetupGroups",
+  "metadata" : {
+    "Purpose" : "Expect Success: Base set of Setup Groups that should exist on every system, however 'Functions' may not exist and will be created upon installation, if it wasn't previously created manually."
+  },
+  "setupGroupId" : "ChangePackage",
+  "uniqueId" : "cpk-71505c4a-e4a8-4f28-957e-052696be1f5b",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Netherlands",
+    "itemURL" : "step://dimensionpoint?id=NL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archive2",
+    "itemURL" : "step://SetupGroup?id=Archive-GBR2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archive1",
+    "itemURL" : "step://SetupGroup?id=Archive-GBR1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Library Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Germany",
+    "itemURL" : "step://dimensionpoint?id=DE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "nl-NL",
+    "itemURL" : "step://dimensionpoint?id=nl-NL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Rule Group",
+    "itemURL" : "step://objecttype?id=BusinessRuleGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Condition Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Auditing",
+    "itemURL" : "step://objecttype?id=Workflow+Auditing",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dimension",
+    "itemURL" : "step://objecttype?id=Dimension+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archive",
+    "itemURL" : "step://SetupGroup?id=Archive-Libraries",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dimension Point",
+    "itemURL" : "step://objecttype?id=Real+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English US",
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "USA",
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Canada",
+    "itemURL" : "step://dimensionpoint?id=CA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "French",
+    "itemURL" : "step://dimensionpoint?id=fr-French",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archive",
+    "itemURL" : "step://SetupGroup?id=Archive-Functions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Functions",
+    "itemURL" : "step://SetupGroup?id=Functions",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://objecttype?id=GlobalBusinessRules",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Danish",
+    "itemURL" : "step://dimensionpoint?id=da-Danish",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archive",
+    "itemURL" : "step://SetupGroup?id=Archive-Actions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SAAS MTLS Actions",
+    "itemURL" : "step://SetupGroup?id=SAASMTLSActions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archive-Conditions",
+    "itemURL" : "step://SetupGroup?id=Archive-Conditions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Conditions",
+    "itemURL" : "step://SetupGroup?id=Conditions",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "German (Germany)",
+    "itemURL" : "step://dimensionpoint?id=de-DE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Context",
+    "itemURL" : "step://objecttype?id=Context+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Function Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Auditing",
+    "itemURL" : "step://SetupGroup?id=Workflow+Auditing",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Libraries",
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "French (France)",
+    "itemURL" : "step://dimensionpoint?id=fr-FR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Denmark",
+    "itemURL" : "step://dimensionpoint?id=DK",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "France",
+    "itemURL" : "step://dimensionpoint?id=FR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LAAL BRGroup",
+    "itemURL" : "step://SetupGroup?id=LAALBRGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 15:47:38\"    UseContextLocale=\"false\">\n\n  <DimensionList>\n    <Dimension ID=\"Language\">\n      <Name QualifierID=\"Qualifier root\">Language</Name>\n      <DimensionPoint ID=\"std.lang.all\" DictionaryID=\"en_US\">\n        <Name QualifierID=\"Qualifier root\">Language Root</Name>\n      </DimensionPoint>\n      <DimensionPoint ID=\"en-US\" DictionaryID=\"en_US\" GDSNLanguageID=\"en\">\n        <Name QualifierID=\"Qualifier root\">English</Name>\n        <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n      </DimensionPoint>\n    </Dimension>\n    <Dimension ID=\"Country\">\n      <Name QualifierID=\"Qualifier root\">Country</Name>\n      <DimensionPoint ID=\"AllCountries\">\n        <Name QualifierID=\"Qualifier root\">Country Root</Name>\n      </DimensionPoint>\n      <DimensionPoint ID=\"US\">\n        <Name QualifierID=\"Qualifier root\">USA</Name>\n        <DimensionPointLink DimensionPointID=\"AllCountries\"/>\n      </DimensionPoint>\n    </Dimension>\n  </DimensionList>\n\n  <ContextList>\n    <Context ID=\"Context1\" Locale=\"en\">\n      <Name QualifierID=\"Qualifier root\">English US</Name>\n      <DimensionPointLink DimensionPointID=\"US\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n  </ContextList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"Functions\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">Functions</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"GlobalBusinessRulesRoot\" UserTypeID=\"GlobalBusinessRules\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Global Business Rules</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Actions\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">Actions</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Conditions\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">Conditions</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Libraries\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">Libraries</Name>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
