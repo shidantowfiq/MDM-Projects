@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ProductsRoot" UserTypeID="Products" ParentID="Product hierarchy root">
+            <Name QualifierID="en-US">Products</Name>
+            <Name QualifierID="std.lang.all">Products</Name>
+            <AttributeLink AttributeID="Attribute">
+                <MetaData>
+                    <Value AttributeID="DisplaySequence">10</Value>
+                    <Value AttributeID="TableDisplay">15</Value>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Attribute2"></AttributeLink>
+            <AttributeLink AttributeID="Attribute3">
+                <MetaData>
+                    <Value AttributeID="DisplaySequence">10</Value>
+                    <Value AttributeID="TableDisplay">15</Value>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="BestFor"></AttributeLink>
+            <AttributeLink AttributeID="Brand"></AttributeLink>
+            <AttributeLink AttributeID="Calculated"></AttributeLink>
+            <AttributeLink AttributeID="CalculatedAttribute"></AttributeLink>
+            <AttributeLink AttributeID="CalculatedParent"></AttributeLink>
+            <AttributeLink AttributeID="Category"></AttributeLink>
+            <AttributeLink AttributeID="Channels"></AttributeLink>
+            <AttributeLink AttributeID="Compression"></AttributeLink>
+            <AttributeLink AttributeID="Country"></AttributeLink>
+            <AttributeLink AttributeID="CountryDepAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Date"></AttributeLink>
+            <AttributeLink AttributeID="Description"></AttributeLink>
+            <AttributeLink AttributeID="DescriptionAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Dimensions"></AttributeLink>
+            <AttributeLink AttributeID="ELFRAttr"></AttributeLink>
+            <AttributeLink AttributeID="ExternallyMaintained"></AttributeLink>
+            <AttributeLink AttributeID="FeaturesBenefits1"></AttributeLink>
+            <AttributeLink AttributeID="FeaturesBenefits2"></AttributeLink>
+            <AttributeLink AttributeID="FeaturesBenefits3"></AttributeLink>
+            <AttributeLink AttributeID="FeaturesBenefits4"></AttributeLink>
+            <AttributeLink AttributeID="FinishedProductCode"></AttributeLink>
+            <AttributeLink AttributeID="FlowRate"></AttributeLink>
+            <AttributeLink AttributeID="HazardousMaterial"></AttributeLink>
+            <AttributeLink AttributeID="HiddenAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ISODate"></AttributeLink>
+            <AttributeLink AttributeID="ISODateTime"></AttributeLink>
+            <AttributeLink AttributeID="LOVAtt2"></AttributeLink>
+            <AttributeLink AttributeID="LanguageDep2"></AttributeLink>
+            <AttributeLink AttributeID="LanguageDependentAttribute"></AttributeLink>
+            <AttributeLink AttributeID="LongDescription"></AttributeLink>
+            <AttributeLink AttributeID="Material"></AttributeLink>
+            <AttributeLink AttributeID="MktDesc1"></AttributeLink>
+            <AttributeLink AttributeID="MktDesc2"></AttributeLink>
+            <AttributeLink AttributeID="MktDesc3"></AttributeLink>
+            <AttributeLink AttributeID="MultiValuedAttribute"></AttributeLink>
+            <AttributeLink AttributeID="MultiValuedDescriptionAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Number"></AttributeLink>
+            <AttributeLink AttributeID="Number2"></AttributeLink>
+            <AttributeLink AttributeID="ParentName"></AttributeLink>
+            <AttributeLink AttributeID="RegEx"></AttributeLink>
+            <AttributeLink AttributeID="RegEx3"></AttributeLink>
+            <AttributeLink AttributeID="ShortDescription"></AttributeLink>
+            <AttributeLink AttributeID="Sport"></AttributeLink>
+            <AttributeLink AttributeID="TensileStrength"></AttributeLink>
+            <AttributeLink AttributeID="TextAttribute"></AttributeLink>
+            <AttributeLink AttributeID="TextValidationExcludeTags"></AttributeLink>
+            <AttributeLink AttributeID="Value"></AttributeLink>
+            <AttributeLink AttributeID="Vendor"></AttributeLink>
+            <Values>
+                <Value AttributeID="NumberWithUnit" UnitID="unece.unit.MTR" QualifierID="en-US">5</Value>
+            </Values>
+            <Tables>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+                <Table ID="105421">
+          null        </Table>
+            </Tables>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

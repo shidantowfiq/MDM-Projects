@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="ProductsRoot" UserTypeID="Products" ParentID="Product hierarchy root">
+            <Product ID="127420" UserTypeID="Level1">
+                <Product ID="127421" UserTypeID="Level2">
+                    <Name>Bicycles</Name>
+                    <AttributeLink AttributeID="ManufacturerDescription"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-BottomBracket"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Brakes"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Brand"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Cassette"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Chain"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Color"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Crankset"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Empty"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Fork"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Frame"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-FrontDerailleur"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-GripsBarTape"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Handlebar"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Headset"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-IntendedUse"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Model"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Price"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-RearDerailleur"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-RearShock"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Saddle"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Seatclamp"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Seatpost"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Shifters"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Stem"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Tires"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-WheelSize"></AttributeLink>
+                    <AttributeLink AttributeID="SHTO-Wheelset"></AttributeLink>
+                    <Tables>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                        <Table ID="105421">
+              null            </Table>
+                    </Tables>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

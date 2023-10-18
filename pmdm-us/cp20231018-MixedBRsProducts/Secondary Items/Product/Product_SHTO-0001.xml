@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="da-Danish">
+            <DimensionPointLink DimensionPointID="da-Danish"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="fr-FR">
+            <DimensionPointLink DimensionPointID="fr-FR"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="fr-French">
+            <DimensionPointLink DimensionPointID="fr-French"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="de-DE">
+            <DimensionPointLink DimensionPointID="de-DE"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="nl-NL">
+            <DimensionPointLink DimensionPointID="nl-NL"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="Belgium">
+            <DimensionPointLink DimensionPointID="Belgium"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="AND1938945">
+            <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ProductsRoot" UserTypeID="Products" ParentID="Product hierarchy root">
+            <Product ID="127420" UserTypeID="Level1">
+                <Product ID="127421" UserTypeID="Level2">
+                    <Product ID="127423" UserTypeID="Level3">
+                        <Product ID="SHTO-0001" UserTypeID="Item" ParentID="127425">
+                            <Name QualifierID="AND1938945">1666205344016</Name>
+                            <Values>
+                                <Value AttributeID="DescriptionAttribute">err</Value>
+                                <Value AttributeID="SHTO-BottomBracket">Shimano Sealed Bearing BSA Threaded</Value>
+                                <Value AttributeID="SHTO-Brakes">Shimano Deore BR-MT420 4-Piston</Value>
+                                <Value AttributeID="SHTO-Brand">Norco</Value>
+                                <Value AttributeID="SHTO-Cassette">Shimano Deore M6100, 10-51T</Value>
+                                <Value AttributeID="SHTO-Chain">Shimano Deore M6100</Value>
+                                <Value AttributeID="SHTO-Color">White</Value>
+                                <Value AttributeID="SHTO-Crankset">Shimano Deore FC-MT6120</Value>
+                                <Value AttributeID="SHTO-Empty">Nope</Value>
+                                <Value AttributeID="SHTO-Fork">RockShox Yari RC Motion Control, 160mm Travel, 37mm Offset</Value>
+                                <Value AttributeID="SHTO-Frame">Aluminum, Ride Aligned</Value>
+                                <Value AttributeID="SHTO-FrontDerailleur">hello, this is the pmdmdmdm-usus. Nu er det fredag. Og det virker som det skal - hvilket er på en dum måde.</Value>
+                                <Value AttributeID="SHTO-GripsBarTape">SDG Thrice, Lock-On</Value>
+                                <Value AttributeID="SHTO-Handlebar">6061 Aluminum 2" Rise</Value>
+                                <Value AttributeID="SHTO-Headset">FSA #57 E Sealed Bearing</Value>
+                                <Value AttributeID="SHTO-IntendedUse">Trail, All-Mountain, Enduro</Value>
+                                <Value AttributeID="SHTO-Model">Sight A3</Value>
+                                <Value AttributeID="SHTO-Price">3399</Value>
+                                <Value AttributeID="SHTO-RearDerailleur">Shimano Deore M6100</Value>
+                                <Value AttributeID="SHTO-RearShock">RockShox Deluxe Select R, 185 x 52.5mm Trunnion</Value>
+                                <Value AttributeID="SHTO-Saddle">WTB Volt 250 Sport</Value>
+                                <Value AttributeID="SHTO-Seatclamp">Single-Bolt</Value>
+                                <Value AttributeID="SHTO-Seatpost">TranzX YS105 Dropper, S:150, M:170, L/XL:200</Value>
+                                <Value AttributeID="SHTO-Shifters">Shimano Deore SL-M6100</Value>
+                                <Value AttributeID="SHTO-Stem">Alloy, 40mm Length, 35mm Clamp</Value>
+                                <Value AttributeID="SHTO-Tires">Maxxis Assegai 27.5x2.5" / Maxxis Dissector 27.5x2.4"</Value>
+                                <Value AttributeID="SHTO-WheelSize">27.5"</Value>
+                                <Value AttributeID="SHTO-Wheelset">WTB ST i29 TCS 2.0 Rims, Shimano MT410/MT510 Boost Hubs</Value>
+                                <Value AttributeID="TextAttribute">Full Suspension</Value>
+                                <Value AttributeID="Vendor" ID="GDE">Good Enough</Value>
+                                <Value AttributeID="AttributeLOV" ID="N">No</Value>
+                            </Values>
+                            <DataContainers>
+                                <MultiDataContainer Type="AggregatedSufficiency">
+                                    <DataContainer ID="523951">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">AggregatedSufficiency</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">40</Value>
+                                                <Value QualifierID="da-Danish">40</Value>
+                                                <Value QualifierID="de-DE">40</Value>
+                                                <Value QualifierID="en-US">40</Value>
+                                                <Value QualifierID="fr-FR">40</Value>
+                                                <Value QualifierID="fr-French">40</Value>
+                                                <Value QualifierID="nl-NL">40</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523952">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">OverallProductScore</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Aggregate</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">AggregatedSufficiency</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">40</Value>
+                                                <Value QualifierID="da-Danish">40</Value>
+                                                <Value QualifierID="de-DE">40</Value>
+                                                <Value QualifierID="en-US">40</Value>
+                                                <Value QualifierID="fr-FR">40</Value>
+                                                <Value QualifierID="fr-French">40</Value>
+                                                <Value QualifierID="nl-NL">40</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523953">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">BrandIsPopulated</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Messages">
+                                                <Value QualifierID="Belgium">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                                <Value QualifierID="da-Danish">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                                <Value QualifierID="de-DE">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                                <Value QualifierID="en-US">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                                <Value QualifierID="fr-FR">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                                <Value QualifierID="fr-French">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                                <Value QualifierID="nl-NL">H4sIAAAAAAAAAG3PPQvCQAwG4L8SMjiprWvxA8RBJwXdxCE20R7Uu3JJBRH/u6fix+CY5CF5c0UfWBYzLFBNmiLLmhi4LW3ieLSeb5a9PM8H2EUmo82lSVSx2L4xmUW3b00efBrJM+66eBJVOsoDXrEOJdWS9uNnkIqnhYoUfDDYi3hIh8+OhfuwqoVUgJjh5ZwHqwTmTiLFsrpABxYs3twhdRRUSnPB9/G2+w36/elPzNvw1NbmVJpsfAcwdYIcBQEAAA==</Value>
+                                            </ValueGroup>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">0</Value>
+                                                <Value QualifierID="da-Danish">0</Value>
+                                                <Value QualifierID="de-DE">0</Value>
+                                                <Value QualifierID="en-US">0</Value>
+                                                <Value QualifierID="fr-FR">0</Value>
+                                                <Value QualifierID="fr-French">0</Value>
+                                                <Value QualifierID="nl-NL">0</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523954">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription1</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">100</Value>
+                                                <Value QualifierID="da-Danish">100</Value>
+                                                <Value QualifierID="de-DE">100</Value>
+                                                <Value QualifierID="en-US">100</Value>
+                                                <Value QualifierID="fr-FR">100</Value>
+                                                <Value QualifierID="fr-French">100</Value>
+                                                <Value QualifierID="nl-NL">100</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523955">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription3</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">100</Value>
+                                                <Value QualifierID="da-Danish">100</Value>
+                                                <Value QualifierID="de-DE">100</Value>
+                                                <Value QualifierID="en-US">100</Value>
+                                                <Value QualifierID="fr-FR">100</Value>
+                                                <Value QualifierID="fr-French">100</Value>
+                                                <Value QualifierID="nl-NL">100</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523956">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">ChannelsMetric</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Messages">
+                                                <Value QualifierID="Belgium">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                                <Value QualifierID="da-Danish">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                                <Value QualifierID="de-DE">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                                <Value QualifierID="en-US">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                                <Value QualifierID="fr-FR">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                                <Value QualifierID="fr-French">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                                <Value QualifierID="nl-NL">H4sIAAAAAAAAAG2PPWvDQAyG/4rQnMTuavoBbYdmaiDZSgbZ96YWnO+MJQdKyH/veUjbodOLpEfo0YVTDti+csPmGJuqGqcc5s6fNDzs3w7v67qu73jFQVwOX2NBjZuPGyzuk7azY8FfekkJ0fi44gFm8omFvXDMnUSUE/wzKMUeMUobQbc96uUMStmpBRJpQHI9KcKGdhFioOJ2Lm3yXo00lQQ9i2lH23TK0yCuOZGhW3LD1+Nf798X/7e+3g9zdDWM1eM3yahJXBcBAAA=</Value>
+                                            </ValueGroup>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">0</Value>
+                                                <Value QualifierID="da-Danish">0</Value>
+                                                <Value QualifierID="de-DE">0</Value>
+                                                <Value QualifierID="en-US">0</Value>
+                                                <Value QualifierID="fr-FR">0</Value>
+                                                <Value QualifierID="fr-French">0</Value>
+                                                <Value QualifierID="nl-NL">0</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523957">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118857</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">ShortDescriptionPopulated</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">OverallProductScore</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Messages">
+                                                <Value QualifierID="Belgium">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                                <Value QualifierID="da-Danish">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                                <Value QualifierID="de-DE">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                                <Value QualifierID="en-US">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                                <Value QualifierID="fr-FR">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                                <Value QualifierID="fr-French">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                                <Value QualifierID="nl-NL">H4sIAAAAAAAAAH2QMW/CQAyF/4rlGUgYWCLaShVDmYoEG2JwL27OIrk7nZ2hQvz3XiK1ZepkPX/vyXq+YYgt73fYoBqnpqpSju3o7EXap+Pb6X1Z1/UaF9iS0ekrFatic/4xk1mWj9F4tvuYbcfqsiSTGPCywIFVqeMpc8M+Ouq5nMJfUMQcg4cciMIgqhI6iHlSIRqQQc+kBusNOE+ZnHFWkFDWoTO/gsPEuUB2VzAvMzTP8EoqDvbhM+aB5gvKbporvF8eq/194f9i9+0w9ibKqXr+BrBwCn5CAQAA</Value>
+                                            </ValueGroup>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">0</Value>
+                                                <Value QualifierID="da-Danish">0</Value>
+                                                <Value QualifierID="de-DE">0</Value>
+                                                <Value QualifierID="en-US">0</Value>
+                                                <Value QualifierID="fr-FR">0</Value>
+                                                <Value QualifierID="fr-French">0</Value>
+                                                <Value QualifierID="nl-NL">0</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                </MultiDataContainer>
+                                <MultiDataContainer Type="MarketingCopyAggregated">
+                                    <DataContainer ID="523948">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118607</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">MarketingCopyAggregated</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Sufficiency</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">100</Value>
+                                                <Value QualifierID="da-Danish">100</Value>
+                                                <Value QualifierID="de-DE">100</Value>
+                                                <Value QualifierID="en-US">100</Value>
+                                                <Value QualifierID="fr-FR">100</Value>
+                                                <Value QualifierID="fr-French">100</Value>
+                                                <Value QualifierID="nl-NL">100</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523949">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118607</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription1</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingCopyAggregated</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">100</Value>
+                                                <Value QualifierID="da-Danish">100</Value>
+                                                <Value QualifierID="de-DE">100</Value>
+                                                <Value QualifierID="en-US">100</Value>
+                                                <Value QualifierID="fr-FR">100</Value>
+                                                <Value QualifierID="fr-French">100</Value>
+                                                <Value QualifierID="nl-NL">100</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                    <DataContainer ID="523950">
+                                        <Values>
+                                            <Value AttributeID="Data Sufficiency Calculation Date" QualifierID="std.lang.all">1689783118607</Value>
+                                            <Value AttributeID="Data Sufficiency Metric ID">MarketingDescription3</Value>
+                                            <Value AttributeID="Data Sufficiency Metric Type">Simple</Value>
+                                            <Value AttributeID="Data Sufficiency Parent Metric ID">MarketingCopyAggregated</Value>
+                                            <ValueGroup AttributeID="Data Sufficiency Score">
+                                                <Value QualifierID="Belgium">100</Value>
+                                                <Value QualifierID="da-Danish">100</Value>
+                                                <Value QualifierID="de-DE">100</Value>
+                                                <Value QualifierID="en-US">100</Value>
+                                                <Value QualifierID="fr-FR">100</Value>
+                                                <Value QualifierID="fr-French">100</Value>
+                                                <Value QualifierID="nl-NL">100</Value>
+                                            </ValueGroup>
+                                        </Values>
+                                    </DataContainer>
+                                </MultiDataContainer>
+                            </DataContainers>
+                            <Tables>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                                <Table ID="105421">
+                  null                </Table>
+                            </Tables>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
