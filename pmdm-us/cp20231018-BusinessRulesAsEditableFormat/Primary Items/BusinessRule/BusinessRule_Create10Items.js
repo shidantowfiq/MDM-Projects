@@ -37,7 +37,7 @@ exports.operation0 = function (node) {
 var children = node.getChildren();
 if (children==null || children.size()==0) {
 	logger.info("No Children on "+node.getID());
-	for (var i=0; i<10; i++) {
+	for (var i=0; i<11; i++) {
 		node.createProduct("","Item");
 	}
 }
