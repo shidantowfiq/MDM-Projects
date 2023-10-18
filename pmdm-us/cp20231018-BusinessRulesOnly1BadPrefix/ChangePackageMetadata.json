@@ -1,0 +1,53 @@
+{
+  "id" : "cp20231018-BusinessRulesOnly1BadPrefix",
+  "name" : "cp20231018-BusinessRulesOnly1BadPrefix",
+  "metadata" : {
+    "Purpose" : "Expect Failure: Only 1 business rule is included and it does not have the correct prefix of BusinessRule_ and the expectation is that execution report as an error and fails, but does not stop the IIEP from running."
+  },
+  "setupGroupId" : "ChangePackage",
+  "uniqueId" : "cpk-386d3aef-1e90-4cc8-85d3-bfd6c3937063",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Library Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "import-utils",
+    "itemURL" : "step://businessrule?id=import-utils",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Libraries",
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 16:00:23\"    UseContextLocale=\"false\">\n\n  <BusinessLibraries>\n    <BusinessRule ID=\"import-utils\" Type=\"Library\">\n\n<!-- Definition:\n<config>\n  <javaScript>\nfunction log(msg) {\n\tlogger.info('LogMe : ' + msg)\n}\n\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Libraries\"/>\n      <Name QualifierID=\"Qualifier root\">import-utils</Name>\n      <Configuration>H4sIAAAAAAAAAFWQQUsDMRCFz+ZXDHNppbirN5FkCyKFSoVi63lJt9kwkk1Cki0W8b+burV0b8P3hjdvnje9JltL7w2pWFNbN862pHnMIFV+kAcm+PyrM3BQIZKzAh+KewRlG7cnqwV+bBd3jzivGH/uI1kV43tvVMUALmD9ZwfX+oCWLwJf5UFumkA+/esr2gUZjnjyyC5rGWSnUj4/gGsEYweE7dErgZ+ZFEZaXWxSyCmxanvbpBwfjNPTLupb+GY3edYqFGRbN52snH5T8AQTmMFpgf0wXl4OnbOU4zC8HL+YSyjHLZwL/QUkPrcpcAEAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\"/>\n    </BusinessRule>\n  </BusinessLibraries>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
