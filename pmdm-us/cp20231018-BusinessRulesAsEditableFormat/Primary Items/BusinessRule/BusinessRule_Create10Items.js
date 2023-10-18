@@ -6,10 +6,10 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "Create10Items",
+  "id" : "Create11Items",
   "type" : "BusinessAction",
   "setupGroups" : [ "Actions" ],
-  "name" : "Create 10 Items",
+  "name" : "Create 11 Items",
   "description" : null,
   "scope" : "Global",
   "validObjectTypes" : [ ],
