@@ -1,0 +1,38 @@
+/*===== export metadata =====
+{
+  "contextId" : "",
+  "workspaceId" : "Main"
+}
+*/
+/*===== business rule definition =====
+{
+  "id" : "getDateCode",
+  "type" : "BusinessFunction",
+  "setupGroups" : [ "Functions" ],
+  "name" : "getDateCode",
+  "description" : null,
+  "scope" : "Global",
+  "validObjectTypes" : [ ],
+  "allObjectTypesValid" : true,
+  "runPrivileged" : false,
+  "onApprove" : "Never",
+  "dependencies" : [ ]
+}
+*/
+/*===== business rule plugin definition =====
+{
+  "pluginId" : "JavaScriptBusinessFunctionWithBinds",
+  "binds" : [ ],
+  "messages" : [ ],
+  "pluginType" : "Operation",
+  "functionReturnType" : "java.lang.String",
+  "functionParameterBinds" : [ ]
+}
+*/
+exports.operation0 = function () {
+var now = new java.util.Date();
+var currentLocale = java.util.Locale.getDefault();
+var dateFormat = java.text.DateFormat.getDateInstance(java.text.DateFormat.DEFAULT, currentLocale);
+var dateString = dateFormat.format(now);
+log.info(dateString);
+}

@@ -1,0 +1,74 @@
+{
+  "id" : "cp20231018-BusinessRulesJsNoContext",
+  "name" : "cp20231018-BusinessRulesJsNoContext",
+  "metadata" : {
+    "Purpose" : "Expect Failure: Context isn't set on the delivery option, so it will be empty string in the BusinessRule_*.js files. If no validation error present, see https://service.stibosystems.com/browse/RD-22857. Assumes you have a folder under Global Business Rules with ID \"Functions\"."
+  },
+  "setupGroupId" : "ChangePackage",
+  "uniqueId" : "cpk-3ae70877-78d7-4122-a9e5-9cb7bd88f2e5",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Functions",
+    "itemURL" : "step://SetupGroup?id=Functions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Function Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "getDateCode",
+    "itemURL" : "step://businessrule?id=getDateCode",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "functionCallExample",
+    "itemURL" : "step://businessrule?id=functionCallExample",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 15:39:18\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"functionCallExample\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"getDateCode\" type=\"BusinessFunctionScriptingProxy\" contract=\"BusinessFunctionBindContract\">\n      <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n      <BusinessFunctionReference>\n        <BusinessFunction>getDateCode</BusinessFunction>\n      </BusinessFunctionReference>\n      \n    </binding>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar params = {};\n\t\nlog.info(getDateCode.evaluate(params));\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">functionCallExample</Name>\n      <FunctionDependency FunctionID=\"getDateCode\"/>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVUy27cIBRd11+BvLCSRXG7q2R7RsmkkVIpapSHuhwxzLVLhIECHrWq+u/FgImnI3d23HOPz7kPg+JDx8SWKMUZmC1rt1SKlnW1cYBdqZAOWFOvf/YcHUAbJkWTf8QfcgSCyj0TXZO/PN++/5SvV1l9PRgmwJjHgcMqQygBD14OzfMBurtp8i/kQJ6oZspO+StqndE3Zr9fM7E3+ajl1B6IJj1YV0YA5hAalQIbPf9S0OSvThZzIjr8ZLUrNF8V3FZHnRQ/Bmkr1044vPUUYt9YOK6LzlbZKDB63BPlY4QmBLlJWU2odWWELzaD1iDs190rUDtSNpERva44IyZyhdxDhFNDG05Myg+ch1N51nea4e0g/BTPWHdgb4iFzZkKqOyxsWwnMZUa8F72hAnMesXxLhpqt1TcRlc8Tt/4pWINLbhRUMD/1vY4Ze6cUDAa+ytIr6qTXY1g2lcKZjtLWNhbCtf+6PcXhRfrSEw34QXuRJkPLlLLJW62yDh1LjzNLa04iqZfri7TfhYuwWetpb53HqSD/1yG80Jv93JZ5UA0UuNXBjXo958qe5dx2WEmWnkxmxCGA+GDCy4C+fKyOvGfAf5+1+Xx6+Hel/L4gYlv1V/dT0tfywQAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"getDateCode\" Scope=\"Global\" Type=\"Function\" RunPrivileged=\"false\">\n\n<!-- Definition:\nFunction #1 (JavaScriptBusinessFunctionWithBinds):\n<config>\n  <bindings/>\n  <functionparameters/>\n  <returntype type=\"java.lang.String\"/>\n  <messages/>\n  <javaScript>\nvar now = new java.util.Date();\nvar currentLocale = java.util.Locale.getDefault();\nvar dateFormat = java.text.DateFormat.getDateInstance(java.text.DateFormat.DEFAULT, currentLocale);\nvar dateString = dateFormat.format(now);\nlog.info(dateString);\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Functions\"/>\n      <Name QualifierID=\"Qualifier root\">getDateCode</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAL1VXW/aMBR951dYfkBU2pLtbVI+UNsUialMVUtV7QlZwck8GTtzrmn37+fYDU4CEWIPfSI555577rGxU3FdMrEhVcUZrTes2ORSFKyMawNAWjnaYUk8f9txtKeqZlIk+GvwBSMqcrllokzw83rx+Ruep/GNrpmgdf2oOU0nCB2AB9sNdXkHLbMEfyd78pQrVkHLL7TIwTi9MPh1w8S2xmn8SEErsf5b0fS3EQSciDJ4AmUmiMMOaWyN8QNRZEfBDOyALoQaU9cWNZIEDxvidMoh6mWe/tESIhPcPfj07t0ugXucT0uIJk2DxmNFqtACcXgYYGSkO6WkWpn4pKTjo4Uj6nbNDuhHJDxpekHkVu/374MG9oaWQqgh++BwgqYiHOgsNtLzfHr/xx9PvScKCfmKEiToK7K8BsaDjACdXUWThs+1UlTAvcwJp6bSVzkoKClktCCaQyvZGvlCqh2Bth7oG9iuDrYa87YUNRCR09nJouxucf18v/7UH6Hj4WIYD28YFPZnZlKZQi7LgIlCznz1VXS0dB3AHujY3R4evLX3lFak2Yh0SPdYxLZHZ40JBgnOfv64Xi1vzRE73+D9dF0u7G765epTB+b/uwzviqNO4Zl1DvsXfDrxiP0GvH9M/gEDAlSGbAYAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
