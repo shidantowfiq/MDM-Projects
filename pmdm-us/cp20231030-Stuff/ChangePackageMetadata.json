@@ -1,0 +1,226 @@
+{
+  "id" : "cp20231030-Stuff",
+  "name" : "cp20231030-Stuff",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-45dfc8a0-6bcf-4a55-9b77-8745bd2b0acd",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Library Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "import-utils",
+    "itemURL" : "step://businessrule?id=import-utils",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Séquence d'affichage",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Basic Information",
+    "itemURL" : "step://attributegroup?id=BasicInformation",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Long Description",
+    "itemURL" : "step://attribute?id=LongDescription",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Zweck",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sellable Channels",
+    "itemURL" : "step://attribute?id=Channels",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Short Description",
+    "itemURL" : "step://attribute?id=ShortDescription",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Descriptions",
+    "itemURL" : "step://attributegroup?id=DescriptionAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Table Sort Order",
+    "itemURL" : "step://attribute?id=TableDisplay",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hazardous Material",
+    "itemURL" : "step://attribute?id=HazardousMaterial",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Editor Section",
+    "itemURL" : "step://attribute?id=AttributeGroupSection",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sellable Channels",
+    "itemURL" : "step://ListOfValues?id=Channels",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "YesNo Revisable",
+    "itemURL" : "step://ListOfValues?id=YesNoRevisable",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DeleteItems",
+    "itemURL" : "step://businessrule?id=DeleteItems",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Libraries",
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-30 15:22:58\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"BasicInformation\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">Basic Information</Name>\n    <MetaData>\n      <Value ID=\"10\" AttributeID=\"AttributeGroupSection\">Product Overview</Value>\n    </MetaData>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"Channels\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Sellable Channels</Name>\n      <ListOfValueLink ListOfValueID=\"Channels\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"AttributeHelpText\">Will the product be sold in stores, online, or both?</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"BasicInformation\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ShortDescription\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Short Description</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"AttributeHelpText\">Enter the short descriptor for the product to be shown on in-store shelving alongside the UPC</Value>\n        <Value AttributeID=\"Completeness Score\">10</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"DescriptionAttributes\"/>\n      <AttributeGroupLink AttributeGroupID=\"BasicInformation\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"HazardousMaterial\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Hazardous Material</Name>\n      <ListOfValueLink ListOfValueID=\"YesNoRevisable\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"AttributeHelpText\">Does the item contain hazardous materials?</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"BasicInformation\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"LongDescription\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Long Description</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"AttributeHelpText\">Enter the complete title for the product</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"DescriptionAttributes\"/>\n      <AttributeGroupLink AttributeGroupID=\"BasicInformation\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <BusinessLibraries>\n    <BusinessRule ID=\"import-utils\" Type=\"Library\">\n\n<!-- Definition:\n<config>\n  <javaScript>\nfunction log(msg) {\n\tlogger.info('LogMe : ' + msg)\n}\n\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Libraries\"/>\n      <Name QualifierID=\"Qualifier root\">import-utils</Name>\n      <Configuration>H4sIAAAAAAAAAFWQQUsDMRCFz+ZXDHNppbirN5FkCyKFSoVi63lJt9kwkk1Cki0W8b+burV0b8P3hjdvnje9JltL7w2pWFNbN862pHnMIFV+kAcm+PyrM3BQIZKzAh+KewRlG7cnqwV+bBd3jzivGH/uI1kV43tvVMUALmD9ZwfX+oCWLwJf5UFumkA+/esr2gUZjnjyyC5rGWSnUj4/gGsEYweE7dErgZ+ZFEZaXWxSyCmxanvbpBwfjNPTLupb+GY3edYqFGRbN52snH5T8AQTmMFpgf0wXl4OnbOU4zC8HL+YSyjHLZwL/QUkPrcpcAEAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\"/>\n    </BusinessRule>\n  </BusinessLibraries>\n\n  <BusinessRules>\n    <BusinessRule ID=\"DeleteItems\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nif (node!=null) {\n\tnode.delete();\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">DeleteItems</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVSTU/DMAw9018Rcpi2Ay3ckPoxbQUkkCYmNsRxCm1aMmVpSNwJhPjvJE3XtUKDm/3sPL/nWPK6ZGJDpOSM6g0rNlklClZG2gCQSFd2WBxNP3Yc7anSrBIxvvIvMaIiq3Imyhg/r+8urvE08aJ5rZmgWj/VnCYeQh2wbOhQv+6g+5sYP5A9WWWKSTjUZxmYQS8M3uZM5BpbLsO2JIrsKBgZDuhDyDK5brT+lDTGW0PrcyJKfwXKCMXJiEM4cDJ6rysIjR0XHD25vDHmwumohNCzBHbGgsgmR+iAILMpUCQDI8O9SGulqIDH1y3NwLakbUc7a8YZ0W2vqHLawp2hlBPd1WvOXRR0OoK+kCjo3p1Yza1SlVqY3ZKS/rGi/4mOv3WahRVobD2dx1b5BH15Zzb1c8oNz3gSet+/BvWA5nujYHg85ryC4X21p/oDB75A9soCAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Item\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

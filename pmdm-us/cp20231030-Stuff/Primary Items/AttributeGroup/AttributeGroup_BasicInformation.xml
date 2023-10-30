@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="BasicInformation" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="en-US">Basic Information</Name>
+            <MetaData>
+                <Value ID="10" AttributeID="AttributeGroupSection">Product Overview</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>
