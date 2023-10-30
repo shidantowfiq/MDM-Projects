@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="Hazmat" Scope="Global" Type="Condition" RunPrivileged="false"><!-- Definition:
+Condition #1 (AttributeComparatorCondition):
+Attribute1=HazardousMaterial
+Attribute2=
+Constant=Yes
+Operator==
+ -->
+            <SetupGroupLink SetupGroupID="Conditions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Hazmat</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIWSPU/DMBCG9/4KyzsJZWKwU9FWCAZEBWVgiq6Nax1yzpY/KuDXYxJUJUJR1ueVH9v3njNJI9XgnEEVajzVR0sn1CJkECvXxz2TYvXZGnZWPqAlyZfFNWeKjrZB0pK/7e+vbvmqWoh1CkgqhJdkVLVg7AJ2nY4N8x49biW/i9HjIUW1sa0DD9H6jaUGY76M/2qyaJd5q2J+QQ+GiI0kS872X05J/gFnKAyQLl5zRJpXD/ANvrEpPEE+hmBEeZHMaW+mtfOW/J0QgeK0412Fec2zU910pjXyn2QAutGJctxJbq0c1/a3AT+qQx2nIQIAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Item"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

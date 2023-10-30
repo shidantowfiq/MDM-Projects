@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="TestApprovalCondition" Scope="Global" Type="Condition" RunPrivileged="false"><!-- Definition:
+Condition #1 (JavaScriptBusinessConditionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="logger" type="Logger" contract="LoggerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+if (node.getID().equals("768631")) return "Prop 65 requirements must be met";
+if (node.getID().equals("6437835")) return "Marketing content must include at least 5 bullets";
+return true;
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Conditions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Test Approval Condition</Name>
+            <OnApprove ApproveSetup="ValidateBefore"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUwY7TMBC99ytGOVTtgYRVabdSkla0gATaioot4li5yTR4cWzXHq9Yvh4nTrutYFk4cBu/mbz3xuOJFq7icsu0Fhztlu+3hZJ7XmXWAzTTIR2wPJt/rwXco7FcyTy6il9GgLJQJZdVHn3evHsxjeazXrZwlku09pMTOOsBnIB1Swfn+QC9f5NHH9g9uy0M13TML5UsOXmtL5y+LrgsbdTQecI1M6xG8k4CcA5BQxaqYfOgMY/uPHMsmKziWzLeazTrC0ovmukfnKLUdxSCx7bCue0thPN+RWmvIWg0Vky3Z4AjAv6yyLCCvI3wxdIZg5I+7u6woKZk2VV0Wq8FZ7arlarEDj41tBTMnvJOiBAlz+reqKpC84ygaIv+RbIRTM57z5LTd09M460xyqz8RFmF/3sqN6pggv9gO4Gd4gZrLRjhwslSYPKXnh+f49OG+R4GzcTiCv21D4YxHhwTdhA8XU+mk9FViIdDMEjOSAjntVEaJmMPHhw3WPv3YaF2lmCH4E2EqrT3Z4XJq9H1dDT+vcSKmW9I3mf7MrxA4OeyEK5EYAQCmQfGsPMTRrJHzY6FjMP0l3s6A9rdy5LL5fbrn1zuf/cr+QnY7sw2agQAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Item"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

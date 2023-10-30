@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="isProductHome" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+if (node!=null && 
+	manager.getProductHome().getProductByID(node.getID())!=null){
+	//node is available to update as it is a Front revision
+	return true;
+  } else {
+	//node is not available to update as it is either in 
+	//the recycle bin or does not exist in the system
+	return false;	
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Conditions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">isProductHome</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUTW/bMAw9x7+C8yFoDou324DECZp0xTosWLBm6DFQbMZTIUueRAXNhv73UpabJii6boddDPqReo8fEhvlK6nXommURLeW23Vh9FZWY8cATZrojlg+nt7VCnZonTQ6T98P36WAujCl1FWefl9dvv2QTifJeOad1OjcN69wkgAcgGVLB8f+CF1d5OlnsRPXhZUNPfrPC2KhG0k/ZlKXLg1czLYUVtRInEYEjiEITDEaVvsG8/SWaYdK6Gp4TZYTTSd9RaOTSvo/vaERlxONp5rif1tYNKf9ikZJIAgaC9G0/wCPCHCnyIqCOI14Yu6tRU1fN7dYUAiZdxGd1rmSwnWx2pTYwYeC5kq4g98rFa3sVd2F0KJC+4piHaP+RTRIZsfVj7PDuRfm8dFaYxc8UNb633P5Ygqh5C+xUdgprrBulCCceV0qzP4y56fb+HLCcgtnYWZv8tAk6Iu6GbUfSHpdZ4cV0tKa0hf0ydR4NjgCZvuri/Z8wNgcDCLR4HfSy7LgAOmAVaUK5QAZ8E3JlYBwIKl1wqXl6YLFnQwtS3oWyVsNZD2GC3IPqBzCCaM29GdW5BfHbeCXGo6xzfzFvuDgDWPGQmkw0uCddBQCQ5DbO8L6kMJWsPKol9w/a/YR0D7hcXa6IHiFZKc7pFtHD9WrVOeuBAAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

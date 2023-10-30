@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="AlwaysFalse" Scope="Global" Type="Condition" RunPrivileged="false"><!-- Definition:
+Condition #1 (AttributeComparatorCondition):
+Attribute1=AttributeX
+Attribute2=
+Constant=a value it will never have
+Operator==
+ -->
+            <SetupGroupLink SetupGroupID="Conditions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Always False</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIWSsU7DMBCG9z7FyTsJZWKwU0ErJCYqKBJbZNqruco5W7ET4O0xCYoSoSjr99uf7f/sbWOIS+29JQwlncuj4zMZGRKIhe/jnim5+aostFgHcqzEOrsWgHx0J2KjxOvh4epWbIqVvG8CMYbw3FgsVgAD2Hc6GOc9etwpcRdjTe9NxK2rvK51dPXW8YliOkz8apJon3iFMd2gB2MEE8lawOHboxIX3erMajbZS4rYiGJY8ybzYfeS72bet2xJ7whRc5x3aGi1bRAowidZC4ypZvjQLS7bnzx2bc3b1T/JCHRVynw6ozTFfDrGvx/xAzFviAwxAgAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
