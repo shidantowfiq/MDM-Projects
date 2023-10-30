@@ -2,7 +2,10 @@
   "id" : "cp20231017-small",
   "name" : "cp20231017-small",
   "metadata" : {
-    "Purpose" : "my purpose"
+    "Purpose" : [ {
+      "value" : "my purpose",
+      "unit" : ""
+    } ]
   },
   "setupGroupId" : "Integrations",
   "uniqueId" : "cpk-c8eeb665-3fe0-44df-9f22-9edda7bf11c9",
