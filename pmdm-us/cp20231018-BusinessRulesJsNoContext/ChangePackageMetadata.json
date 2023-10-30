@@ -2,7 +2,10 @@
   "id" : "cp20231018-BusinessRulesJsNoContext",
   "name" : "cp20231018-BusinessRulesJsNoContext",
   "metadata" : {
-    "Purpose" : "Expect Failure: Context isn't set on the delivery option, so it will be empty string in the BusinessRule_*.js files. If no validation error present, see https://service.stibosystems.com/browse/RD-22857. Assumes you have a folder under Global Business Rules with ID \"Functions\"."
+    "Purpose" : [ {
+      "value" : "Expect Failure: Context isn't set on the delivery option, so it will be empty string in the BusinessRule_*.js files. If no validation error present, see https://service.stibosystems.com/browse/RD-22857. Assumes you have a folder under Global Business Rules with ID \"Functions\".",
+      "unit" : ""
+    } ]
   },
   "setupGroupId" : "ChangePackage",
   "uniqueId" : "cpk-3ae70877-78d7-4122-a9e5-9cb7bd88f2e5",

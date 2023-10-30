@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="getDateCode" Scope="Global" Type="Function" RunPrivileged="false"><!-- Definition:
+Function #1 (JavaScriptBusinessFunctionWithBinds):
+<config>
+  <bindings/>
+  <functionparameters/>
+  <returntype type="java.lang.String"/>
+  <messages/>
+  <javaScript>
+var now = new java.util.Date();
+var currentLocale = java.util.Locale.getDefault();
+var dateFormat = java.text.DateFormat.getDateInstance(java.text.DateFormat.DEFAULT, currentLocale);
+var dateString = dateFormat.format(now);
+log.info(dateString);
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Functions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">getDateCode</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAL1VXW/aMBR951dYfkBU2pLtbVI+UNsUialMVUtV7QlZwck8GTtzrmn37+fYDU4CEWIPfSI555577rGxU3FdMrEhVcUZrTes2ORSFKyMawNAWjnaYUk8f9txtKeqZlIk+GvwBSMqcrllokzw83rx+Ruep/GNrpmgdf2oOU0nCB2AB9sNdXkHLbMEfyd78pQrVkHLL7TIwTi9MPh1w8S2xmn8SEErsf5b0fS3EQSciDJ4AmUmiMMOaWyN8QNRZEfBDOyALoQaU9cWNZIEDxvidMoh6mWe/tESIhPcPfj07t0ugXucT0uIJk2DxmNFqtACcXgYYGSkO6WkWpn4pKTjo4Uj6nbNDuhHJDxpekHkVu/374MG9oaWQqgh++BwgqYiHOgsNtLzfHr/xx9PvScKCfmKEiToK7K8BsaDjACdXUWThs+1UlTAvcwJp6bSVzkoKClktCCaQyvZGvlCqh2Bth7oG9iuDrYa87YUNRCR09nJouxucf18v/7UH6Hj4WIYD28YFPZnZlKZQi7LgIlCznz1VXS0dB3AHujY3R4evLX3lFak2Yh0SPdYxLZHZ40JBgnOfv64Xi1vzRE73+D9dF0u7G765epTB+b/uwzviqNO4Zl1DvsXfDrxiP0GvH9M/gEDAlSGbAYAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

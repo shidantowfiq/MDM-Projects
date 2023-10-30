@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="functionCallExample" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="getDateCode" type="BusinessFunctionScriptingProxy" contract="BusinessFunctionBindContract">
+      <?xml version="1.0" encoding="UTF-8"?>
+      <BusinessFunctionReference>
+        <BusinessFunction>getDateCode</BusinessFunction>
+      </BusinessFunctionReference>
+      
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+var params = {};
+	
+log.info(getDateCode.evaluate(params));
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">functionCallExample</Name>
+            <FunctionDependency FunctionID="getDateCode"></FunctionDependency>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIVUy27cIBRd11+BvLCSRXG7q2R7RsmkkVIpapSHuhwxzLVLhIECHrWq+u/FgImnI3d23HOPz7kPg+JDx8SWKMUZmC1rt1SKlnW1cYBdqZAOWFOvf/YcHUAbJkWTf8QfcgSCyj0TXZO/PN++/5SvV1l9PRgmwJjHgcMqQygBD14OzfMBurtp8i/kQJ6oZspO+StqndE3Zr9fM7E3+ajl1B6IJj1YV0YA5hAalQIbPf9S0OSvThZzIjr8ZLUrNF8V3FZHnRQ/Bmkr1044vPUUYt9YOK6LzlbZKDB63BPlY4QmBLlJWU2odWWELzaD1iDs190rUDtSNpERva44IyZyhdxDhFNDG05Myg+ch1N51nea4e0g/BTPWHdgb4iFzZkKqOyxsWwnMZUa8F72hAnMesXxLhpqt1TcRlc8Tt/4pWINLbhRUMD/1vY4Ze6cUDAa+ytIr6qTXY1g2lcKZjtLWNhbCtf+6PcXhRfrSEw34QXuRJkPLlLLJW62yDh1LjzNLa04iqZfri7TfhYuwWetpb53HqSD/1yG80Jv93JZ5UA0UuNXBjXo958qe5dx2WEmWnkxmxCGA+GDCy4C+fKyOvGfAf5+1+Xx6+Hel/L4gYlv1V/dT0tfywQAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
