@@ -2,7 +2,10 @@
   "id" : "cp20231018-ErrorWhenParentSetupGroupNA",
   "name" : "cp20231018-ErrorWhenParentSetupGroupNA",
   "metadata" : {
-    "Purpose" : "This change package was created under the setup group named 'Integrations', which probably does not exist on your system. Expectation is an error is generated prior to import that states something to the effect of \"Setup Group folder <lt/>setupGroupIdFromChangePackageMetadata.json<gt/> does not exist on this system. Create the setup group prior to import.\""
+    "Purpose" : [ {
+      "value" : "This change package was created under the setup group named 'Integrations', which probably does not exist on your system. Expectation is an error is generated prior to import that states something to the effect of \"Setup Group folder <lt/>setupGroupIdFromChangePackageMetadata.json<gt/> does not exist on this system. Create the setup group prior to import.\"",
+      "unit" : ""
+    } ]
   },
   "setupGroupId" : "Integrations",
   "uniqueId" : "cpk-c389a38d-fced-4b32-8a8d-c5f78611f234",
@@ -89,7 +92,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 15:13:27\"    UseContextLocale=\"false\">\n\n  <Products>\n    <Product ID=\"954808\" UserTypeID=\"Tree\" ParentID=\"ProductsRoot\">\n      <Name>Flat Hiearchy 2</Name>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 15:13:27\"    UseContextLocale=\"false\">\n\n  <Products>\n    <Product ID=\"954808\" UserTypeID=\"Tree\" ParentID=\"ProductsRoot\">\n      <Name>Flat Hiearchy 2</Name>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
