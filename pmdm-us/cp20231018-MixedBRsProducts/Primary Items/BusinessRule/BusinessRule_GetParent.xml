@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="GetParent" Scope="Global" Type="Function" RunPrivileged="false"><!-- Definition:
+Function #1 (JavaScriptBusinessFunctionWithBinds):
+<config>
+  <bindings/>
+  <functionparameters>
+    <functionparameter alias="node" type="Node" contract="NodeBindContract"/>
+  </functionparameters>
+  <returntype type="com.stibo.core.domain.Node"/>
+  <messages/>
+  <javaScript>
+return node.getParent();
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Functions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Get Parent</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVVyW7bMBC9+ysIHoz2ECm9FbCkwEsDuKiDIHFQ9GTQ0kSdgiIFkgqafH1IytbipTbS5Ppm5s2bjSx5laNYsbLkCHqFj6tUikfMI20Bk5S1ucbi6OpvwckTKI1SxPRLcEkJiFRmKPKYPiyvL77SqySaVBoFaH1XcUgGhDTArWcjXXsNzWcx/c6e2H2qsDRb+3UlUmMz/UTze4Ii09SxWb47MJUSy+cSklQWgTa4lkEqFQSZLBiK4EZmEIUdtzrulilWgLH6a6ALEaehzkJcSEz/WEEBZyIP7o2yFdJkyM3onBYMczMaOGfHt2Bl6IEobJIdSf9NKakWtnKWw3vK+CFTxvGFrTls2JdQlJwZmFQi43Cuvu1AGvS9+3UwgW2gdyBk21Ji99Eolhonys3agdMNRsmYI9MxFdZAyQy0XyqfnpKGecqZdk4V5zRsBIT/VHB+h9rV+4DutOSdvvTB42fhq9xh6FW+Yztdc3u4x2tVnpS4kQQ5GEsAwnz6PNpj7wD+SKP6gWjBqX+KKsWc1lZR36vnRDDbOy0UaGI6+3UzXsynNDyfZ7Pxb47vNuvNJIe27L/Jdo/6IKEdz6l5RGH/uU8GLVL/CJu/5RWpuGvUewYAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
