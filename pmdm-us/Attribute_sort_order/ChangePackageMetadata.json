@@ -1,0 +1,184 @@
+{
+  "id" : "Attribute sort order",
+  "name" : "Attribute sort order",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-506b29f2-4b44-4215-ad3f-57762f1473db",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "true",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Start Date",
+    "itemURL" : "step://attribute?id=DC_StartDate",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Standardized Tests",
+    "itemURL" : "step://datacontainertype?id=StandardizedTests",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Containers",
+    "itemURL" : "step://attributegroup?id=DataContainers",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ISO Date",
+    "itemURL" : "step://attribute?id=ISODateTest",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Number",
+    "itemURL" : "step://attribute?id=NumberTest",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Non-Typed Data",
+    "itemURL" : "step://datacontainertype?id=NonTypedData",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Anzeigesequenz",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "License Type",
+    "itemURL" : "step://attribute?id=DC_LicenseType",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "URL",
+    "itemURL" : "step://attribute?id=URLAttr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "End Date",
+    "itemURL" : "step://attribute?id=SC_EndDate",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Zweck",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ISO Date and Time",
+    "itemURL" : "step://attribute?id=ISODateTimeTest",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DC Sort",
+    "itemURL" : "step://attributegroup?id=DCSort",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Table Sort Order",
+    "itemURL" : "step://attribute?id=TableDisplay",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "License",
+    "itemURL" : "step://datacontainertype?id=DC_License",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Editor Section",
+    "itemURL" : "step://attribute?id=AttributeGroupSection",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-03 12:55:25\"    UseContextLocale=\"false\">\n\n  <DimensionList>\n    <Dimension ID=\"Language\">\n      <Name QualifierID=\"Qualifier root\">Language</Name>\n      <DimensionPoint ID=\"std.lang.all\" DictionaryID=\"en_US\">\n        <Name QualifierID=\"Qualifier root\">Language Root</Name>\n      </DimensionPoint>\n    </Dimension>\n  </DimensionList>\n\n  <Qualifiers>\n    <Qualifier ID=\"fr-FR\">\n      <DimensionPointLink DimensionPointID=\"fr-FR\"/>\n    </Qualifier>\n    <Qualifier ID=\"de-DE\">\n      <DimensionPointLink DimensionPointID=\"de-DE\"/>\n    </Qualifier>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"stibo.normalattribute\">\n      <Name QualifierID=\"std.lang.all\">Attribute</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n    </UserType>\n    <UserType ID=\"stibo.grouping attribute\">\n      <Name QualifierID=\"std.lang.all\">Attribute Group</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n    </UserType>\n  </UserTypes>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"DCSort\" ShowInWorkbench=\"true\" ManuallySorted=\"true\" ParentID=\"DataContainers\">\n    <Name QualifierID=\"en-US\">DC Sort</Name>\n    <AttributeSequence>\n      <AttributeLink AttributeID=\"DC_LicenseType\"/>\n      <AttributeLink AttributeID=\"DC_StartDate\"/>\n      <AttributeLink AttributeID=\"SC_EndDate\"/>\n      <AttributeLink AttributeID=\"ISODateTest\"/>\n      <AttributeLink AttributeID=\"ISODateTimeTest\"/>\n      <AttributeLink AttributeID=\"NumberTest\"/>\n      <AttributeLink AttributeID=\"URLAttr\"/>\n    </AttributeSequence>\n  </AttributeGroup>\n  <AttributeGroup ID=\"DataContainers\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">Data Containers</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"PMDM.AT.DisplaySequence\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"fr-FR\">Séquence d'affichage</Name>\n      <Name QualifierID=\"en-US\">Display Sequence</Name>\n      <Name QualifierID=\"de-DE\">Anzeigesequenz</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"PMDM.AT.Purpose\">Used to sequence attributes and attribute groups</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.Metadata\"/>\n      <UserTypeLink UserTypeID=\"stibo.normalattribute\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n      <LinkType LinkTypeID=\"CA\"/>\n      <LinkType LinkTypeID=\"PA\"/>\n    </Attribute>\n\n    <Attribute ID=\"DC_LicenseType\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">License Type</Name>\n      <ListOfValueLink ListOfValueID=\"LicenseType\"/>\n      <AttributeGroupLink AttributeGroupID=\"DCSort\"/>\n    </Attribute>\n\n    <Attribute ID=\"DC_StartDate\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Start Date</Name>\n      <Validation BaseType=\"isodate\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"DCSort\"/>\n    </Attribute>\n\n    <Attribute ID=\"SC_EndDate\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">End Date</Name>\n      <Validation BaseType=\"isodate\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"DCSort\"/>\n    </Attribute>\n\n    <Attribute ID=\"AttributeHelpText\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Attribute Help Text</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"AttributeHelpText\">Hello World</Value>\n        <Value AttributeID=\"Completeness Score\">10</Value>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used to enter mouse-over help into product attributes for display to STEP users</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"Reference-Type user-type root\"/>\n      <UserTypeLink UserTypeID=\"stibo.normalattribute\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n    </Attribute>\n\n    <Attribute ID=\"PMDM.AT.Purpose\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Purpose</Name>\n      <Name QualifierID=\"de-DE\">Zweck</Name>\n      <Name QualifierID=\"fr-FR\">But</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"5000\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"PMDM.AT.Purpose\">Used to provide the purpose for various objects within the system.</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.BuyerView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.BuyerApprove\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslatedInformation\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.Metadata\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.BuyerModify\"/>\n      <UserTypeLink UserTypeID=\"Real qualifier\"/>\n      <UserTypeLink UserTypeID=\"Publication group root\"/>\n      <UserTypeLink UserTypeID=\"VideoRoot\"/>\n      <UserTypeLink UserTypeID=\"Context qualifier\"/>\n      <UserTypeLink UserTypeID=\"AutoClassificationRuleSet\"/>\n      <UserTypeLink UserTypeID=\"stibo.ExportManagerConfig\"/>\n      <UserTypeLink UserTypeID=\"Match Code\"/>\n      <UserTypeLink UserTypeID=\"stibo.ImportManagerConfig\"/>\n      <UserTypeLink UserTypeID=\"Event Processor user-type root\"/>\n      <UserTypeLink UserTypeID=\"Reference-Type user-type root\"/>\n      <UserTypeLink UserTypeID=\"Matching Algorithm Linked Match Code\"/>\n      <UserTypeLink UserTypeID=\"IllustrationRoot\"/>\n      <UserTypeLink UserTypeID=\"Configuration\"/>\n      <UserTypeLink UserTypeID=\"stibo.ImageConversionConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.normalattribute\"/>\n      <UserTypeLink UserTypeID=\"AssetLevel1\"/>\n      <UserTypeLink UserTypeID=\"AssetLevel2\"/>\n      <UserTypeLink UserTypeID=\"stibo.BulkUpdateConfig\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n      <UserTypeLink UserTypeID=\"LogoRoot\"/>\n      <UserTypeLink UserTypeID=\"IconRoot\"/>\n      <UserTypeLink UserTypeID=\"ProductImageRoot\"/>\n      <UserTypeLink UserTypeID=\"OwnersManualRoot\"/>\n      <UserTypeLink UserTypeID=\"InstallationManualRoot\"/>\n      <UserTypeLink UserTypeID=\"MSDSRoot\"/>\n      <UserTypeLink UserTypeID=\"AssetRoot\"/>\n      <UserTypeLink UserTypeID=\"InboundEndpoint user-type root\"/>\n      <UserTypeLink UserTypeID=\"OutboundEndpoint user-type root\"/>\n      <UserTypeLink UserTypeID=\"ConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"CompletenessMetric\"/>\n      <UserTypeLink UserTypeID=\"BusinessRuleExample\"/>\n      <UserTypeLink UserTypeID=\"stibo.STEPWorkflow Type\"/>\n    </Attribute>\n\n    <Attribute ID=\"Purpose\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Purpose</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"500\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"AttributeHelpText\">Origniated in pmdm-us</Value>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used to provide the purpose for various objects within the system</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"Classification 1 user-type root\"/>\n      <UserTypeLink UserTypeID=\"stibo.chgpck.groupvalidity\"/>\n      <UserTypeLink UserTypeID=\"Real qualifier\"/>\n      <UserTypeLink UserTypeID=\"AutoClassificationRuleSetsRoot\"/>\n      <UserTypeLink UserTypeID=\"Publication group root\"/>\n      <UserTypeLink UserTypeID=\"VideoRoot\"/>\n      <UserTypeLink UserTypeID=\"SmartSheetConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"Context qualifier\"/>\n      <UserTypeLink UserTypeID=\"ExportConfigurationsLevel2\"/>\n      <UserTypeLink UserTypeID=\"AssetPushConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"Reference-Type user-type root\"/>\n      <UserTypeLink UserTypeID=\"ImportConfigurationsLevel1\"/>\n      <UserTypeLink UserTypeID=\"ImportConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"PortalConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"ImportConfigurationsLevel2\"/>\n      <UserTypeLink UserTypeID=\"ExportConfigurationsLevel1\"/>\n      <UserTypeLink UserTypeID=\"ExportConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"PortalConfigurationsLevel1\"/>\n      <UserTypeLink UserTypeID=\"IllustrationRoot\"/>\n      <UserTypeLink UserTypeID=\"Configuration\"/>\n      <UserTypeLink UserTypeID=\"stibo.normalattribute\"/>\n      <UserTypeLink UserTypeID=\"AssetLevel1\"/>\n      <UserTypeLink UserTypeID=\"AssetLevel2\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n      <UserTypeLink UserTypeID=\"LogoRoot\"/>\n      <UserTypeLink UserTypeID=\"IconRoot\"/>\n      <UserTypeLink UserTypeID=\"ProductImageRoot\"/>\n      <UserTypeLink UserTypeID=\"OwnersManualRoot\"/>\n      <UserTypeLink UserTypeID=\"InstallationManualRoot\"/>\n      <UserTypeLink UserTypeID=\"MSDSRoot\"/>\n      <UserTypeLink UserTypeID=\"AssetRoot\"/>\n      <UserTypeLink UserTypeID=\"ConfigurationsRoot\"/>\n      <UserTypeLink UserTypeID=\"BusinessRulesDownloadsRoot\"/>\n      <UserTypeLink UserTypeID=\"stibo.chgpck.editing\"/>\n      <UserTypeLink UserTypeID=\"stibo.chgpck.verified\"/>\n      <UserTypeLink UserTypeID=\"stibo.chgpck.importing\"/>\n    </Attribute>\n\n    <Attribute ID=\"DisplaySequence\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Display Sequence</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <MetaData>\n        <Value AttributeID=\"DisplaySequence\">50</Value>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used to sequence attributes and attribute groups</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <AttributeGroupLink AttributeGroupID=\"ETIM_Metadata_Attributes\"/>\n      <UserTypeLink UserTypeID=\"stibo.normalattribute\"/>\n      <UserTypeLink UserTypeID=\"Products\"/>\n      <UserTypeLink UserTypeID=\"Level4\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n      <LinkType LinkTypeID=\"CA\"/>\n      <LinkType LinkTypeID=\"PA\"/>\n    </Attribute>\n\n    <Attribute ID=\"AttributeGroupSection\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Product Editor Section</Name>\n      <ListOfValueLink ListOfValueID=\"AttributeGroupSection\"/>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n    </Attribute>\n\n    <Attribute ID=\"TableDisplay\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Table Sort Order</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <MetaData>\n        <Value AttributeID=\"DisplaySequence\">1</Value>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Used to sequence attributes and attribute groups</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"stibo.normalattribute\"/>\n      <UserTypeLink UserTypeID=\"stibo.grouping attribute\"/>\n      <LinkType LinkTypeID=\"CA\"/>\n      <LinkType LinkTypeID=\"PA\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
