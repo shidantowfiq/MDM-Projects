@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
     <UserList>
         <User ID="SHTO" ForceAuthentication="false" EMail="shto@stibo.com">
             <Name QualifierID="Qualifier root">Shidan Towfiq</Name>
