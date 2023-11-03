@@ -1,0 +1,777 @@
+{
+  "id" : "cp20230608-AnotherTest",
+  "name" : "cp20230608-AnotherTest",
+  "metadata" : {
+    "Purpose" : [ {
+      "value" : "Confirm that Items Required for Transfer is not installed when Handling is Analysis Only",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-54e69412-e4df-447e-988d-a7a24b6752e3",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Event Queue Object Types",
+    "itemURL" : "step://objecttype?id=Event+Queue+object-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 1",
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Matching",
+    "itemURL" : "step://eventprocessor?id=Matching",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Source Record Data Management - Historic Values Cleanup",
+    "itemURL" : "step://eventprocessor?id=SourceRecordDataMgmt",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "generateError",
+    "itemURL" : "step://eventprocessor?id=generateError",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 4",
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 3",
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 2",
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Retry Connection Issues",
+    "itemURL" : "step://eventprocessor?id=retryConnectionIssues",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestingWarningErrorReports",
+    "itemURL" : "step://InboundIntegrationEndpoint?id=TestingWarningErrorReports",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUI Setup Group Category",
+    "itemURL" : "step://objecttype?id=WebUISetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Setup Group Category",
+    "itemURL" : "step://objecttype?id=InboundSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English US",
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bedingungsattribut",
+    "itemURL" : "step://attribute?id=PMDM.AT.ConditionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=PDS+Inbound+Integration+Endpoint+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Sufficiency Calculator",
+    "itemURL" : "step://eventprocessor?id=DataSufficiencyCalculator",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestEQ",
+    "itemURL" : "step://eventqueue?id=TestEQ",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View Asset",
+    "itemURL" : "step://ActionSet?id=ViewAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Name",
+    "itemURL" : "step://attribute?id=DisplayName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AssetPublisher",
+    "itemURL" : "step://eventprocessor?id=AssetPublisher",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Discontinued Products",
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Delete Asset",
+    "itemURL" : "step://ActionSet?id=DeleteAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Vollständigkeit Logistik",
+    "itemURL" : "step://attribute?id=PMDM.AT.LogisticCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Historic Data Analyzer",
+    "itemURL" : "step://eventprocessor?id=HistoricDataAnalyzer",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processors",
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Unit Root",
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://classification?id=AssetsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AdminWebUI",
+    "itemURL" : "step://portal?id=AdminWebUI",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Restricted Users",
+    "itemURL" : "step://group?id=RestrictedUsers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Impersonate",
+    "itemURL" : "step://ActionSet?id=Impersonate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Shidan Towfiq",
+    "itemURL" : "step://user?id=SHTO",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Retry Concurrency Errors",
+    "itemURL" : "step://eventprocessor?id=retryConcurrencyErrors",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Push Event Queue",
+    "itemURL" : "step://objecttype?id=Asset+Push+EventQueue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://attributegroup?id=AttributeGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LOV-Wert-ID in Smartsheet ausblenden",
+    "itemURL" : "step://attribute?id=PMDM.AT.HideLovValueIdFromSmartsheet",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Splitting Processor",
+    "itemURL" : "step://eventprocessor?id=SplittingProcessor",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=PMDM.AT.CompletenessScore",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Users",
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://ListOfValues?id=stibo.derivedEventType",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Admin Web UI",
+    "itemURL" : "step://SetupGroup?id=AdminWebUI",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Image Cache",
+    "itemURL" : "step://eventprocessor?id=ImageCache",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM ID",
+    "itemURL" : "step://attribute?id=ETIM_ID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Description",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All User Actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ViewTasks",
+    "itemURL" : "step://ActionSet?id=ViewTasks",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Abbreviation",
+    "itemURL" : "step://attribute?id=ETIM_Abbreviation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Terms List",
+    "itemURL" : "step://termslist?id=TermsList",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Feature ID",
+    "itemURL" : "step://attribute?id=ETIM_Feature_ID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Privilege Grouping",
+    "itemURL" : "step://objecttype?id=SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Externe Kennung",
+    "itemURL" : "step://attribute?id=PMDM.AT.ExternalIdentifier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Conditional Metadata Attribute",
+    "itemURL" : "step://attribute?id=ConditionalMetadataAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bicycles",
+    "itemURL" : "step://attributegroup?id=Bicycles",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=InboundEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Historic Data Generator",
+    "itemURL" : "step://eventprocessor?id=HistoricDataGenerator",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://ActionSet?id=Edit+product+attribute+values",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Testing Email Reporting",
+    "itemURL" : "step://eventprocessor?id=asdfg",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Elastic Search Configuration",
+    "itemURL" : "step://objecttype?id=ElasticSearchConfiguration",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Context",
+    "itemURL" : "step://objecttype?id=Context+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Description",
+    "itemURL" : "step://attribute?id=ETIM_Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketings Completeness",
+    "itemURL" : "step://attribute?id=PMDM.AT.MarketingsCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Expand LOV Value Changes",
+    "itemURL" : "step://eventprocessor?id=ExpandLovValueChanges",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Execute Business Action",
+    "itemURL" : "step://eventprocessor?id=ExecuteBusinessAction",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View Setup Actions",
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Setup Actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Séquence d'affichage",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processors of All Types",
+    "itemURL" : "step://SetupGroup?id=EventProcessorsAllTypes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processor",
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Change Code",
+    "itemURL" : "step://attribute?id=ETIM_Change_Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Execute Business Action for Event Batch",
+    "itemURL" : "step://eventprocessor?id=ExecuteBusinessActionEventBatch",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tree",
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Externe übergeordnete Kennung",
+    "itemURL" : "step://attribute?id=PMDM.AT.ExternalParentIdentifier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Table Sort Order",
+    "itemURL" : "step://attribute?id=TableDisplay",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Revision Management",
+    "itemURL" : "step://eventprocessor?id=RevisionManagement",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View User Actions",
+    "itemURL" : "step://ActionSet?id=ViewUserActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portal Configuration Type",
+    "itemURL" : "step://objecttype?id=stibo.portal+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "USA",
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=PMDM.AT.AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bottom Bracket",
+    "itemURL" : "step://attribute?id=SHTO-BottomBracket",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attributes",
+    "itemURL" : "step://attributegroup?id=Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ApproveProducts",
+    "itemURL" : "step://ActionSet?id=ApproveProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Translate Item Data",
+    "itemURL" : "step://attribute?id=TranslateItemData",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-03 12:57:46\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"Belgium\">\n      <DimensionPointLink DimensionPointID=\"Belgium\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <ContextList>\n    <Context ID=\"Context1\" Locale=\"en\">\n      <Name QualifierID=\"Qualifier root\">English US</Name>\n      <DimensionPointLink DimensionPointID=\"US\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n  </ContextList>\n\n  <DerivedEventTypes>\n    <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>\n    <DerivedEventType>SHTO-Event</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>\n    <DerivedEventType>AssetDownloadTrigger</DerivedEventType>\n    <DerivedEventType>ThisIsAReallyLongIDThatShouldNotBeAllowed</DerivedEventType>\n    <DerivedEventType>Asset Keywords Event</DerivedEventType>\n    <DerivedEventType>VendorAssignment</DerivedEventType>\n  </DerivedEventTypes>\n\n  <AttributeList>\n\n    <Attribute ID=\"SHTO-BottomBracket\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Belgium\">Bottom Bracket</Name>\n      <Name QualifierID=\"en-US\">BottomBracket</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <MetaData>\n        <Value QualifierID=\"en-US\" AttributeID=\"Purpose\">Who knows...</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Bicycles\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <PortalConfigurations>\n    <PortalConfiguration ID=\"AdminWebUI\">\n\n<!-- Definition:\n<portal-config portalId=\"customerportal\" xmlns=\"http://stibosystems.com/step/portal-config\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <screens>\n    <loginscreen>\n      <parameter id=\"PortalTitle\" value=\"STEP Web UI\"/>\n    </loginscreen>\n    <screen id=\"Name and ID\" type=\"NodeDetails\">\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"IdValue\">\n            <parameter id=\"CssClass\" value=\"stibo-IdValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.IdValue.Label\"/>\n          </component>\n          <component id=\"Rows\" type=\"NameValue\">\n            <parameter id=\"CssClass\" value=\"stibo-NameValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.NameValue.Label\"/>\n            <parameter id=\"Mandatory\" value=\"false\"/>\n            <parameter id=\"ReadOnly\" value=\"false\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Name and ID\"/>\n    </screen>\n    <screen id=\"homepage\" type=\"HomePage\">\n      <parameter id=\"CssClass\" value=\"stibo-HomePage\"/>\n      <parameter id=\"DisableTitle\" value=\"false\"/>\n      <parameter id=\"PagingEnabled\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Welcome to the STEP Web UI\"/>\n      <parameter-list id=\"Content\">\n        <component id=\"Content\" type=\"WidgetGrid\">\n          <parameter-list id=\"Widgets\">\n            <component id=\"Widgets\" type=\"TextWidget\">\n              <parameter id=\"CssClass\" value=\"stb-staticText\"/>\n              <parameter id=\"DoubleWidth\" value=\"false\"/>\n              <parameter id=\"Text\" value=\"Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help.\"/>\n              <parameter id=\"Title\" value=\"Welcome\"/>\n            </component>\n            <component id=\"Widgets\" type=\"UserWidget\">\n              <parameter id=\"Title\" value=\"i18n.stibo.UserWidgetServerComponent.Title\"/>\n              <parameter id=\"UserDetailsScreen\" value=\"userdetails\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"login\" type=\"LoginScreen\"/>\n    <screen id=\"main\" type=\"Main\">\n      <parameter id=\"DefaultSidePanel\" value=\"SHOWN\"/>\n      <parameter id=\"Resizeable\" value=\"true\"/>\n      <parameter-list id=\"Left\">\n        <component id=\"Left\" type=\"PrimaryNavigation\">\n          <parameter-list id=\"MenuItems\">\n            <component id=\"MenuItems\" type=\"GlobalNavigationSearch\">\n              <parameter id=\"Label\" value=\"Global Search\"/>\n              <parameter-list id=\"SearchConfigurations\">\n                <component id=\"SearchConfigurations\" type=\"GlobalNavigationSearchConfiguration\">\n                  <parameter id=\"Title\" value=\"Name/Id/Attributes\"/>\n                  <parameter-list id=\"SearchPlugins\">\n                    <component id=\"SearchPlugins\" type=\"NameOrIdOrAttributes\">\n                      <parameter id=\"ForceIDNameSearch\" value=\"false\"/>\n                      <parameter id=\"SearchInDataContainers\" value=\"false\"/>\n                    </component>\n                  </parameter-list>\n                </component>\n              </parameter-list>\n            </component>\n            <component id=\"MenuItems\" type=\"TreeItem\">\n              <parameter id=\"HideLeaves\" value=\"false\"/>\n              <parameter id=\"Icon\" value=\"account_tree\"/>\n              <parameter id=\"Label\" value=\"i18n.stibo.webui.primarynavigation.TreeItem.Label\"/>\n              <parameter id=\"ShowLeaves\" value=\"false\"/>\n              <parameter id=\"showRecycle\" value=\"false\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n      <parameter-list id=\"Mappings\">\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"userdetails\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"UserCondition\"/>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"Name and ID\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"AlwaysTrueCondition\"/>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"userdetails\" type=\"UserDetails\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component type=\"SaveAction\">\n            <parameter id=\"CssClass\" value=\"SaveButton\"/>\n          </component>\n          <component type=\"ResetAction\">\n            <parameter id=\"CssClass\" value=\"ResetButton\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter-list id=\"Rows\">\n          <component id=\"UserId\" type=\"IdValue\">\n            <parameter id=\"Label\" value=\"User ID\"/>\n          </component>\n          <component id=\"UserEmail\" type=\"UserEmail\">\n            <parameter id=\"Label\" value=\"Email Address\"/>\n            <parameter id=\"Mandatory\" value=\"True\"/>\n          </component>\n          <component id=\"UserPassword\" type=\"UserPassword\">\n            <parameter id=\"NewPasswordLabel\" value=\"New password\"/>\n            <parameter id=\"OldPasswordLabel\" value=\"Old password\"/>\n            <parameter id=\"RepeatPasswordLabel\" value=\"Repeat new password\"/>\n          </component>\n        </parameter-list>\n      </component>\n    </screen>\n  </screens>\n  <theme/>\n</portal-config> -->\n      <SetupGroupLink SetupGroupID=\"AdminWebUI\"/>\n      <Name QualifierID=\"Qualifier root\">AdminWebUI</Name>\n      <Configuration>H4sIAAAAAAAAAMVZS3PbNhA+NzP5DygvvVSk014yHtkZ13YSzci2xpLr3joQuZIwhQAWAC0rv74LvinzaTmNDx4TxPftE7sLOoyWnOkNBGfjT89bTp5AaSbFmfPBPXEICF8GTKzPnIfF59FHh2hDRUC5FHDmCOl8On//bhxKZSgf+VKs2JogidBnzsaY8NTztGFLqffawFa7vtziAoReBeEkkNNnzXLYbrdzd7+7Uq29305OPnh/3Uzn/ga2dMSEVcEH5/07Uv1JSCfBmeNH2sgtqGTl5U6UdKpjuqn0qYnN7a8vqTy5zzpwzhMR459HI7LYME3miCKPsCQPE5Lsi1QsiKwYB4I7mDAgAggI1YQSFBdyaoBIReCZ4gMUWq9wMSPBWOD2VcT5Hn8L33JSnomiAQ0NchpJzAbJdgLUL7pgUvBvxBRsQRjtktEo01v7CkBofCz2jrlco7PjN+dVF45DqugWDCjC0N2z2B8LZjg45InyCHNjvriepVo5Xgk+9qq0pTfJWsy4pUw4xOxDZLqxf7crcA+afQO6LMk3KoKK4BrYFaxoxM2cBTCjAnih/Ne7x9sW9AhPjIkpprAyh8rFezF1QjwkorQttWem2Jaq/S19Yus4JerwTfJuQEQTm5tNoBrhBSbV4AuXS8oLBeZAlb9pY6xx3pQuSx5LKEnKdOi5PpYl0MvyWWk1ssHYWppWuyt7+0iscUY192/xjTcJvAtjFFtGBnSnR7o9M+ORPTd9FWx0TcaT+sTqeqcmwZ0qaTtARo0zPkvlw+TKMqf5kDlmRbl+eSoH0iecE3FFDcXYGSwP2LKOkDH2cj/1jZJXDVOfNO0tZAB5lfSn+Kfr8C+wyNoFJ0d0HG324aNw47bo7mAZMTdMCpjIz5GbcboJ0mum1hu5uwd/75eOSxGxBtAEm1++m/q+jIT526DMNtAcJU2BPkFdajRgvmIn6MBUXd5QuLsj2JwOHeDapkDDEOeC2nN7mA7Z1jQb5nHPTVe7G1Hi2RiTeyjSoALAY8iby1yd1nh2A9ZZ5g/0L4FSCx5QfL7arMAxIfl//GjrJcHhmkyufoQfL/iO7vUCx6bv7M0W8NgrzYX1k+EG5/qQriFT+ys+z+xzx6jHtB0Pq326vlUcDrcU2+X6Wlh4MAxalfYIHF0C2WzeNCDX8FxqfcmpLopSXI1Huel9BlXbKTEWPUpEtjN18CML1mC+KBYMmVMT1JCMzBBZm4JnkywNnEuvJF5oAaFm6NzRJ3qDSdCMnOOSM/+fOPhrnGEIw7aG18B4wZcKpxiyxGXMjyVgzlWufHZPkiwuwfmKbICHcbFYRyyw12Eiq4Bks/6VaIACjbWSTDC8akV90Pguvj8SuUqui4LjLBVzu0MNrcnR5Qhv6ob5sQ/a6PrNRu35Yk17Vb5Y4FXSvl7R2JrCXsmd0gRVqDkH9WQ7V2qTm0COc9MPrMtlZ5VCknr2RXU+7KbFdf9WBnCN/Ueq2lpVU2vu5a6x0BwIsipNgkzUJPjTBqi1SLVNxslxaunW3QF7qd71Fh1WdmGy8FodYzS5CAIFuj2ND2hu7Hc+jMI+p1rUfVI5ytYZFoydVEHZ3Hytv6p3PMhQVePxBQkzvgG238KunhBfvIrwHkKgpp4zeUdEH+qOGbXj6tBydTkIzh+RMaXZMHvseSAv/NZxtCQrHZ7xxpVgBgT9RcOxLImib5OkiW73oMEcr1xMc5R2g4JbrHZ8aI0/xmZhntqHtAnWk9RRlO8tpRreVPm7Ppw1XYEOgNdiZT8zYQFn2Cz2wwZz+23gkSph72odwOMbVVGUp3Qvo2IcnF5/XtQmw5FNLt76Ri2uNLqkVKVvPD0ZG64vmWpv1lHKdttMGmr5PdDgTvCuXHqN73J13sx7hYFH9fR2E79vRSo/Fv96GuNNZAv56+xpXP0fnF3RIWfm/D9JDHdXwBwAAA==</Configuration>\n    </PortalConfiguration>\n  </PortalConfigurations>\n\n  <EventQueues>\n    <EventQueue ID=\"TestEQ\" QueueStatus=\"Discard\" DaysRetained=\"0\">\n      <Name QualifierID=\"Qualifier root\">TestEQ</Name>\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n\n      <Configuration>H4sIAAAAAAAAANVUTU/CQBC9+yua3rEaLx5aDOFDSVQIVDwv7YAr291mZovgr3dLtyC0BrzBcTof+96bN20RgQ4hSQXTEPgPq0Q4S0DiSgbu7fWN64CMVMzlPHDfwl7j3n1oXvnjsDtsDFHFWaT7cqYwYdp0OCMgJZbQl4JLGMGMAnfGBIHr9JQQ6mtgRiOPYZxNbfeuortKFeoOIF9C3NIat6nmleP4rRwo2aox/4bAfeGSJ1niOh0ldfFAWzAiPuPRBk+oNl0GCKChYVo0ZsW8cqK3Ge4V0w0z7w9qTZ9SwXUzB8anmYZnLhcUIp/PDWI5P0xfhKQ7LpQLcZT8gboXQHEfcb19rB32S52+jEQWw5AZ52hrHGuWg6EnCNeXMazeFcZPHJBh9LGuOOeVJVD5OJh+QqTDdQqPqLLUJMhmClyVBgvh7Ffjl9X/PWjbV3fS5cza1dkl5yp75f3/PmWv1gXbZ8p0lW+ZsWEbFVGlbfN7qU9NmMiAyqjDNGsb8szIjXTsVd+zYeHLUtMTDLkzjnHlglJmlGylKSqzKlvyJvn5+8jQznGe+gObWAJ3Nv4B4HfPUf4GAAA=</Configuration>\n    </EventQueue>\n  </EventQueues>\n\n  <IntegrationEndpoints>\n    <InBoundIntegrationEndpoint ID=\"TestingWarningErrorReports\" UserTypeID=\"InboundEndpoint user-type root\" PreProcessorPluginID=\"Default\" ProcessPluginID=\"Import\" PostProcessorPluginID=\"Default\" ErrorReporterPluginID=\"EmailErrorReporter\" QueueForEndpoint=\"InboundQueue\" QueueForProcssing=\"In\" MaxNumberOfActiveBackgroundProcesses=\"1000\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"100\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"100\" TransactionType=\"NONE\" ResponsibleUserID=\"SHTO\" EnableRetry=\"true\" RetryDuration=\"30d\" ReceiverPluginID=\"hotfolder\" MessagesPerBackgroundProcess=\"1\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries>\n\nPreProcessorPluginConfiguration:\n<Parameters/>\n\nPostProcessorPluginConfiguration:\n<Parameters/>\n\nReceiverPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"FileSystemHotFolder\" Type=\"java.lang.String\">TestErrorNotifications</Parameter>\n  <Parameter ID=\"IgnoreSubFolders\" Type=\"java.lang.Boolean\">true</Parameter>\n  <Parameter ID=\"KeepProcessedFiles\" Type=\"java.lang.Boolean\">false</Parameter>\n  <Parameter ID=\"NumberOfFilesToKeep\" Type=\"java.lang.Integer\">1000</Parameter>\n  <Parameter ID=\"NumberOfFilesToKeepInFailed\" Type=\"java.lang.Integer\">1000</Parameter>\n  <Parameter ID=\"TimeToKeep\" Type=\"java.lang.Integer\">365</Parameter>\n</Parameters>\n\nProcessPluginConfiguration:\n<ImportManagerConfig Approver=\"shto\" BatchDirectoryID=\"\" ContextID=\"Context1\" CountUnmapped=\"no\" DefaultProductParentID=\"Product hierarchy root\" DefaultProductTypeID=\"Product user-type root\" ForceDomainImport=\"yes\" MatchUnitsByID=\"no\" Name=\"\" ProcessTemplate=\"Importer\" RejectNewProducts=\"no\" RejectProductUpdates=\"no\" ReplaceTerms=\"CLEAR_ONLY_FOR_IMPORTED_PRODUCTS\" SelectedURLType=\"product\" TestImport=\"no\" Version=\"2\" WorkspaceID=\"Main\">\n  <Format Name=\"STEPXML\">\n    <Parameter Name=\"Validate\">No</Parameter>\n  </Format>\n  <ImportTriggerRules>\n    <TriggerBusinessAction ID=\"dataIssueAddError\"/>\n    <TriggerBusinessAction ID=\"validateCustomerAttributes\"/>\n  </ImportTriggerRules>\n  <ProductMapping/>\n  <ReplacementRules/>\n  <Source Name=\"File\">\n    <Parameter Name=\"Filename\">C:\\Users\\jopi\\AppData\\Local\\Temp\\1979025-1979025.xml</Parameter>\n  </Source>\n</ImportManagerConfig>\n\nErrorReporterPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"emailAddress\" Type=\"java.lang.String\">shto@stibosystems.com</Parameter>\n  <Parameter ID=\"fatalEmailAddress\" Type=\"java.lang.String\">shto@stibosystems.com</Parameter>\n  <Parameter ID=\"includeWarnings\" Type=\"java.lang.Boolean\">true</Parameter>\n</Parameters> -->\n      <SetupGroupLink SetupGroupID=\"Inbound Integration Endpoints\"/>\n      <Name QualifierID=\"Qualifier root\">TestingWarningErrorReports</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>\n      <PreProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PreProcessorPluginConfiguration>\n      <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>\n      <ReceiverPluginConfiguration>H4sIAAAAAAAAAKXR30rDMBQG8Ps9Rcj9asdQvGgzEC0WYQ4aHyBrT0skyRknp2N7+2UK/mFSES8/CL/v5JxidfBO7IGixVDKRZZLAaHFzoahlC+6mt/KlZoVG0PGA6d3aibEZxT1fSkr66A5Rgb/iFyh64Ck0McdlPLV7E3mTBiyhimZUmmI/ECEtEa2vW0Np+ZYXH2QPxQ8Aew2hC3ECN25LV76d4gOTJCqNy7CtLce/RbouX+jNJ75S7AODEP6iVrkeT7taevhV2Z5c/3nqepQmZS6f01XDwEJmnH7fpqp3TGN31f3JaTLnwCHuM1zLgIAAA==</ReceiverPluginConfiguration>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAAIVTbW+bMBD+nl9h+XubptI0dQKqBBIpUkgiAl0nIUUeXBN3YKOz6Zp/3wOcrl077RPn5+65597wbp/rij0BGqmVzyeXV/w2GHnLutFoY6HEATDU6kEe2N056JqztajB55yRy8KzXUY+d+aEs+8af5lGFNDBsZCKs2nToCYVn5uj1Zwl8AiFXcPvLeqyLazxuXqFHZY1pbDgPLGwxTFT0prZqUvbYaFulc1ULZoGygEiagHGpFA3FZF9PjQCyFkKxg6vIXShsYBI11TfGT6B6WogagEpYE3a4Wo+Tfab9erHfrFJ9st4u0nSebTfJpsoC9MdZxE8iLY6F70VCKqfhwPYUQIKLI4nhlrbv+PTUwNvo1sDeGEJdNGzru9IIo1FY985Zzuo6Alllqw6us+bgcyDEWPeTrfUmNvQQlbQw+Sg0gijWbzxKbJ4EH7LM9I1+aNuZE67ioQV+UoXosq7UeaTm683V9dfLtz3km7GG7/m62XHg25v02hrYZ3MLp1v7+PVv6q4E5Xs9syDtf6Qc0jU225AMS1bqsPg/gQbVpmiPNDhJm0Fxuk6aNYaqehCpoWlW2bdQJ9cBWFrrK4Bp9ai/NnS6fFx8B8u8cTSmBamZTlH1NhTvPHnZXjutmo6kT/g+CN6TvDuBwxGLye88m6tAwAA</ProcessPluginConfiguration>\n      <SampleFileConfiguration SampleFileName=\"C:\\Users\\shto\\OneDrive - Stibo\\Customers\\Les Schwab\\Customer STEPXML\\1979025-1979025.xml\">\n        <SampleFileContents>H4sIAAAAAAAAAL1WS3PiOBA+h1+h1WUua2yeMRQwRRGyYTcQCiezs0fFbkA1tkVJcgL/fiX5kTAxwcxWrU/qVr/U/XW3B1/3UYhegAvK4iFu1B2MIPZZQOPNECdybbn466g2+M2yaoMdZzvgkoJQHIglP6AfcBhieFHE7AaPGr3rntPsDGxzWSL0eNgBHjWvex231y4Vi1kA2tQkEZJFwO9YImDLwsC6dtxW0y03rrVS24pJ5eF0BBMORKq3PtJIR+I0upZzbTW7qOH2nV6/1aw7p5VX8EJ1ovCodUIsAiHIBs546TTq7U7jzYD9PrOWleYbTVi8ppuEG0v92uCoVF9Uqb7oyniP06W15CxIfDmL14xHRh5N9zvG5Q1w+gLBWEouhnhNQgG4uApBQnBDJBliyRN1sQLBwheYxSGNYQVrkV/csjBkrw/KOacBeMlz5rAQQN9ISAPjeYi/e6qAtavBVNfCvOkqIw76eDVYkAjs9Kj0EhAZkcpMOBNCeQeukAhI13WICxw8shwa2CjlWqjQCLKg0utjF587yS3/ofxAPI0IDXMrZ918cHQ1sLM3I4RqR5xj5xcHttyyGP6XwGpl4qdfUUjW8mM6K+wTIB3Vpus1+FJBFCnwQB+VtEptEhIh6Jr6RkegcRjWcvwZYiwEZEfTPKdaQvVPrBC7lXLXt+3X19e6kPSZiYOQEIm6zyJbnXY4FezvBT0Sfm3VGd/YTcdp2N/n956/hYhYNBaSqPcrLUH7wjDvmZ+1wjlfaDmb1/ciyJtSD4whLslCLqCGgoS9VJBID+oiO81u3jP/ZvyH2BEfNHtOaIzRk4DsXscXQj4PVJkRetesqswoB5Ux+hF8VtftNBuua4xyjdH3gkYklV6Bz7h63ZJwsyM+EVoxJjHy1FTypcZwNqxKYI3Ml6E6J3MG0rOOPifShLTkWp1DYNzdhmSDR/8MbCN5RlMrLJLoWQ+aTtvtdlrt6oo6JRO1lPDorrrSWG2NVKnTbvyklpF5eYpGO1WsD3uzvFSF2LlyFYKmTAYyWWClYytlfkRP6iCLqY0/Ge5osiXxpqi6fVHZ74mQesng0WrszZ88b7r4j/ksD78spanyuXx+lKqO/1/M/U+de3qzXJbroqE5jQg/eJLxom/cSuA/X63PPev/RadnOerr/o7+HP/18EZ5d4/HVOOIauVUJYfTvQQek7DMcSUDHku4D55ZAuof9/aiZ3qSyESkA2Jcbapw6sOcKM7+aacXbKrsXeQ2/a9Wm0Mkiqqkekt5XtH7h9V0gSaV1BZmab6lNx3XC1a5dSv+dPwLtyhYNfUMAAA=</SampleFileContents>\n      </SampleFileConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALXQPQvCMBSF4b8S7m7VzaFJVVRwE6w4X5trjeRDctNi/72ZpEJXxxcOz3DK6u2s6CmyCV7CsliAIN8EbXwr4VIfZiuolChPGNFRyjslxCjFcSfhjgnt3qGxG60jMYOohxdJeGKPhUXfFucUswiKHymsOZlb4IETOS6a4Mr515vQ6V+w8Y3tNF0x+kxM2NsQLKEHlWJHP9Yo8iEf+HMmb0UBAAA=</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"Context1\"/>\n      <WorkspaceID>Main</WorkspaceID>\n    </InBoundIntegrationEndpoint>\n  </IntegrationEndpoints>\n\n  <EventProcessors>\n    <EventProcessor ID=\"ImageCache\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"ImageCache\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"ImageCacheEventProcessorPlugin\">\n  <simple id=\"Classification\">step://classification?id=PETBAssets</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Image Cache</Name>\n      <Configuration>H4sIAAAAAAAAAKVTTW/bMAy951cYxpDb7PQyFIvjLHHctUC7eI677TaoNuMQkCVPlIqmv37yR7KmhXNYbyTxHj8eyUiKLZZGMY1SzIL5U8WdR1DUeO6FN3EdELksUJQz9z67+njpzsNRUHNTonCwmLnxIwidKJkDkVRLRhC9TOmGI8cJCKuaQ4tPgWopCB843BMoNyQN9WffN9aZW8DmOlsHfkd4zV0yne82+AxueDGZTIZgK7anTKagGYq2PXLDQXCiUCrUe5tyCPLdgLEl4x9Juo6GQHfsac2LXgigtsMh7LU06tjhK9anyyHWLQqgBNTya3J+/k2+g8Jw+HV3+3sVJ2kcLbJ45YZjrqcnCx7/MVJP7ZY7Yz4u9XTUoKxmCoFa33EOkb2Tc0bU03JZeaTxQXpGI/eoL1rAFgU2q/cOfayOoQ+H0DewPXR5/GNV/2XZf8MFfndu1qKaow5jpaRKoZZKg3r/zcYVQ36S883RXjHNeItbFIWyLHu2Oy2/dPNbJYZW8T+cG5FzU8BPpoQdwdK0MnBGjqR1o/c+8k3FSoiYXdCpPF36N5JEzSngFvP+zfs3zk/CzUMncbZc2OPWdGaGvx7oggaHBAAA</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"Matching\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"Matching\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"MatchingEventProcessorPlugin\">\n  <simple id=\"ApplicationStrategy\">bothMatchCodeAndMatchingAlgorithm</simple>\n  <simple id=\"MatchingAlgorithms\" null=\"true\"/>\n  <simple id=\"WorkspaceTriggering\">Approved</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Matching</Name>\n      <Configuration>H4sIAAAAAAAAAKVTzW/aMBS/81dE1sRthF6makAYhHSdVEYGdN1tMvFrsGbs7D0blf31cxJgBRQO6y3P+X28z9joZ5k75FYaPegPXzYq2AJSGbGbTpcFoDMjpM4H7HF59/6WDaNWv1AulzqQYsCSLWibosmAyOCYE8SvJVnUCoI+yU2hoMLPgQqjSa4UPBIgi8hC8TEMnQ+GHrC4X876YU045465zdYL+QdYdNPtdptgE76jpZmD5VJX6RGLGsEpSoPS7rxkE+SbA+ctk+/pfBY3gab8ZabEvhFAVYZN2Hvj8JjhGevDbRPrQWqgFHD8Ob1e/yJbg3AKfkwffk6SdJ7Eo2UyYVFb2d7JgNu/nbE9P+X6Y9jOba9VonzPUAJVcRAcXnZBpjjRnpaZTYesXJmOs1J1aG8q4FlqWY6+c8hjcnx6d3j6Cj6HWic8uoavbf8V1w/rdfNfVChpowTR4BwKgxbw7TubbLhUJ5oXS3vHLVcVbiQEepZf27U1n+r6fSeaRvE/nC86U07AE0ftS/A0iw6utCOtwvithzwtj8v/Pm1OLX7RkFHhrbPKa2G9J+T+gFbGriuV2AgYaXFQHKm8PLF1Y8UXQGKBdkoNWFk6C8/xTwZ/UcEzWKLMc0BPZZFPCc0WxJVO/QXctxhB7QQAAA==</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"DataSufficiencyCalculator\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"DataSufficiencyCalculator\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">4h</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\">30m</simple>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"DataSufficiencyCalculatorProcessorPlugin\">\n  <simple id=\"WorkspaceTriggering\">Main</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Data Sufficiency Calculator</Name>\n      <Configuration>H4sIAAAAAAAAAKVU32/aMBB+56+IrIm3EapNUzUgrISwToKSAV33NrnOEU517OxsV2V//UwCrLQKD+ub7/R9d9/9cqzVGnNH3KJWg/7wqZDBI5DZWeyi02UBKKEzVPmA3a4m7y/ZMGr1S+lyVAFmA5Y8grIpaQHGaBpxA/HzkCxqBUHfYFFKqPALMKVWBu8l3BogFhkL5ecwdN4YesDyejXvhzXhJXfErdgs8Q+w6KLb7TbBxnxrVnoBlqOq5BkWNYJTQk1otz5kE+S7A+dTJj/SxTxuAs3401xm+0aAqRQ2Ya+1o6PCF6xPl02sKSowKdDoa3q+/glH6WPT1oNRZyz6uGmCzkuLBRqLYqrFwwnpQ7doYi3FBjIn4eds+mucpIskvlolYxa1pe2dbFD7t9O259eofgzbue21dig/FEIwlR0EB882EJIbs6cJXXS8snvdcRZlx+yTZrBGhbvd6hx0jI+udwfXDXgNdZzwmDV8nvZfcf2w3mf/MqVEGyVEmhZQarJAbz+KpPADOYn56iom3HJZ4a6yjDzL38XG6i91/b4TTaP4H843JaTL4I6T8iV4miUHZ9qRVmb81p9i7GtcuvUaBXrkNuZSOMmtpmOj6kSvmnOn6cGUXMCKMM/9eqqcRTN/Omc0/wVCuPPP2AQAAA==</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Main\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattributeGroup=Bicycles\nobjecttype=Item -->\n        <Configuration>H4sIAAAAAAAAANVUwXLTMBC99ys0uhfDcOFgpZMmLXiG0kzilrNib4KoLHm0Ukj4emRbqklspuHW3qxd7eq957c7RQSbQ1VLboGlV/tKkh0YFFox+uHde0pAFboUasvoQ357+YleTS7SVX6zuFwYXbrCZmqjTcWtryBLQC13kCkpFCxhg4xuuESg5FZLqX/d+9ZGlLBy61Dd37jZ19rYORixg3JqrXlOTS4ISacNUAy3VuI3MHonlKhcRclcK9s9MJMcUWxE0eLJdVvlgYDxNHyJNa7rFzsmbfOk6+6ZJf+gNkmxlsJOGmBi7Sx8FeoJcyO2W49YbU/Tb0LSngs2QrxI/kTdN0DxGPG4fYIdjq+STBXSlbDg3jk2GCeY5aTpOcLpqjaArT5NpxDOVAn779qUXwQYboofh4GhvvEKBsH79U8obH6o4bPRrvYJZGkfXDoJ2EIdiR1FSf+ZzRnNLFSR5KB0GApoOokGIIMar94labz9v7sl1I1tl9hz1EXhLzR/Nomr6O+tkowa8vmZmB7yjZlwnBmNOChrN9146pFLBxhPc275zJPnXm6DL72aJuHYuSdqesZs9Mbxk/CENfdK3vlHQ/pBidfvIU+5wXnuHn0MBD6GM4+/vx1ndi2KQ+EHLGR1O3bWjx1rBjRE/wDylgJPuQcAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"ExpandLovValueChanges\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"ExpandLovValueChanges\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"ExpandLOVChangesEventProcessorPlugin\"/>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Expand LOV Value Changes</Name>\n      <Configuration>H4sIAAAAAAAAAKVTTW/aQBC98yusVcWtNrlUUTGmwThNJVIcQz5u1cY7MSMtu+7ObgT99V1sICGVc2huO6P35r352FSrJ6yc4Ra1GsXjzVoGz2BoF7GzcMACUKUWqKoRu11efj5n46QX19JVqAIUI5Y9g7K50SUQaTPhBOnrkizpBUFMuK4lNPgCqNaK8FHCLYFhCVmov0aR88HYAxZXy3kctYS33Am35WqBf4AlZ4PBoAs25Vta6gIsR9XYI5Z0gnOD2qDd+pJdkBsHzktmd3kxT7tA13wzl2I/CKDGYRf2SjtzdPiG9eW8izVDBZSDmXzP3+9/Ua5AOAkP17Nf0ywvsvRimU1Z0pd2eLLg/m+n7dBvuX2M+5Ud9nYoPzODQE0cBIfMNiglJ9rTSr0OyeKjDp1FGdJeVMATKtytPjz4mB5Tnw6pn+A9tHWio2r0WvaluThqz82/qJZok8wYbQqotbFgPn6z2ZqjPKn5z9Fecstlg7sQwniWP9uV1d/a/v0kulbxP5wfqpROwD03yrfgadY4eGcceROmH/7Im5orMZvfpSuuKqDTIbUiLDqq/gXw8iA2OQQAAA==</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"retryConnectionIssues\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"retryConnectionIssues\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">4h</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">true</simple>\n  <simple id=\"OptimisticLockRetryPeriod\">1h</simple>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=throwFailAndRetryException</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">false</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n  <simple id=\"WorkspaceTriggering\">MainAndApproved</simple>\n  <simple id=\"collateNodes\">false</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Retry Connection Issues</Name>\n      <Configuration>H4sIAAAAAAAAAKVU30/bMBB+56+Ioom3tUWaJjRKuv4IYxKlWSljb5Oxj9TCtbM7G9r99bObNqMUs0nkJbnL992dz/fd0Og7WTpkVhp92u0tFyp5AKRgpUetTpqA5kZIXZ6m17Oz98dpLzvoVsqVUidSnKb5A2hboOFAZHDACIZPQ6bZQZJ0SS4qBWv8FKgymuStgmsCTDOyUH1qt503eh5wdT6bdNs14Tl3wCyfX8nfkGZHnU4nBhuxFc3MFCyTel0epVkUXKA0KO3Kh4xBvjlwPmX+vZhOhjHQmC0nSmwaAbSuMIY9Nw6bCp+xPh7HWBdSAxWAgy/F6+c/Y1L52LjKNfNtFmlm0cE/0T60NB78YR6DTiorF5Ks5BeG3/9/ihd422RH0WRXfA7CKfgxvvg5yotpPuzP8lGaHSp7sjOmh7+csSd+VuuP3mFpTw4Cyt88SqC1nSRbzyrhihFtaNwsWr6wW9NyVqoWbZIKuJNahgFubesYNa53W5cfLlyNpXYW6mg+zeaB8GtbWv1qN4W1n1b29/zddq0r/0WVkjbLEQ1OoTJoAd8uznzhr3on5p46z5hlao3rC4Ge5fU5t+Zz3SLfrNhtxTi08vpe0GvUr5orJ+CGofYnoeejtNeVYm0O37q4Bo6CoKjPQ4TdTtUp9rqzS2lW1+3GjX4kwgqzczSPQVZ9LWqRLDlUgRJrgT+MhaVtIvLaDsE2v6LL6cbgPVWMQ0N+3HoCfew3TIzKjVLMwqURYfPcMUVRBTdZZijL0mtXl2kWYvsj9qsKzQOIqJDvZTUCBRbEy6n2bvgPv4Dv7ZUGAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=MainAndApproved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nobjecttype=Item -->\n        <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys0ulPT6aUHO4wngdYzpWQSE86KvUlVZMmjlULg1yPbEiaxO6Q3uEn7pfdWbzdFBJNDVQtmIIkv95UgO9DIlUzo1y8XlIAsVMnlNqF3+fX5d3o5OYuX+dX8fK5VaQuTyY3SFTMugywAldhBJgWXsIANJnTDBAIl10oI9XjrSmtewtKufXYfcbWvlTYz0HwHZWqMfnVNzgiJ0wYo+qglf4aE3nDJK1tRMlPSdA9MBUPkG160eHLVZjkgoB0Nl2K07eqFilFbPOqqO2bRP6hNYqwFN5MGGF9bA7+4fMBc8+3WIZbbY/enaGnPBZtGvEv+qLufgOIh4nH5eDkchpJMFsKWMGdOOcYLx4vlqOgJjctkCft7pcufHDTTxZ+ngXJ+swoGxtv1XyhM/lTDD61s7RyYxL1xYQVgi2nEdmAl/TGbJTQzUAU2g9ShyaPpejEA6Wl/eDnEIfp/l4jPG1sjoeaoXPwvND8bhZ3zdn1Eo8p7fSa4h3yDx1+nWiEO0tqVNu5aMWEBw23GDJs68sy1W+N7r8aRv3bqCT09YQh64bhJeMCauU7euEdTWaZ1rZX7MR95J/nHl5Nj3+A8dXeuPIFv/q7aGTNuxpJmGr31Bc5VDsePBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"generateError\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"generateError\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">24h</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">true</simple>\n  <simple id=\"OptimisticLockRetryPeriod\">6h</simple>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=SHTO-JavascriptError</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">true</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n  <simple id=\"WorkspaceTriggering\">Main</simple>\n  <simple id=\"collateNodes\">false</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">generateError</Name>\n      <Configuration>H4sIAAAAAAAAAKVU227aQBB9z1dYVpW3AKmqKCpgGsBpWpHgAmn6Vm3WEzPKetfdWSfQr+/6ghugSyrlzTM+58xtZ0ZKPmCSa2ZQyX5vsEqF9wSaCss/bXV8DyRXMcqk798uLk/O/UFw1MtEnqD0MO774RNIE2nFgUjpISMYvZT0gyPP6xGmmYASPwPKlCS8F3BLoP2ADGQf2+3cGgMLmF8tpr12RdjlDpnhyzn+Bj847XQ6LtiYrWmhZmAYyjI98gMnONKoNJq1lXRBvuWQ25Dh92g2HblA12w1FXHdCKAyQxf2SuW6yXCHdXbuYk1QAkWgh5+jw/VfMhRWW69DyWybYz8wOodX0VYalQW//7B0YaeZwRTJIJ8o/vj/Mf7B20Q7cwab8yXEuYAf15Of4zCahaOLRTj2g2Nhulvv9PhXrkzXPtbqY3CcmO5RgbKj1whU2p638aw9LhhRTeMqbdnE7lUrNyhaVAeN4QElFi+4tclj3LjebVw3YHOodNpN1PbLsH+L67WrrbFflAk0Qai10jPIlDag3756YWoHuaW5t3uXzDBR4i7iWFuW3b6lUZ+q+m0nXKNwcWhttzelQ9Qvkos8hjumpa2Edt/JXlei0hy99SwNcyrWhS54obDdqSrEXne2Kc1huq/d2s57c6BOvrInRlxjZsqOu4q3ZRhYmUaLV3YhU/9yHp07pR8pYxwa8vPGU9Cv7eVwUbkSghm4UXFxUR6YIOdiNlEWGpPErqRM/OCQ9vwRszEIMBDX+q/M8w/Kfyd1YQYAAA==</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Entity\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Main\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattributeGroup=EntityAttributes\nobjecttype=Entity -->\n        <Configuration>H4sIAAAAAAAAANVUTXPaMBC951dodE/cTi452GQYIK1n8sGAk56FvVA1suTRShT66yvbEi7YnZBbcpP2S++t3u4YEUwGZSWYgSS+3ZWCbEEjVzKhX6++UAIyVwWXm4Q+Z3eXN/R2dBEvs9n8cq5VYXOTyrXSJTMugywAldhCKgWXsIA1JnTNBAIld0oI9fvJlda8gKVd+ewuYrarlDZT0HwLxdgYfXCNLgiJxzVQ9FFL/gcS+sAlL21JyVRJ0z4wEQyRr3ne4MlUk+WAgHY0XIrRtq0XKkZN8ait7phF/6E2irES3IxqYHxlDdxz+YqZ5puNQyw3p+5P0dKOC9aNeJP8SXc/AcVjxMPy8XI4DiWpzIUtYM6ccowXjhfLSdEzGpfKAnY/lC6+c9BM5z/3PeU8shJ6xqfVL8hNtq/gm1a2cg5M4s64sAKwwTRgO7KS7phOEzqThpt94NNL7ps8nrYbPZie+IcXRByi37tGfN7QIgk1BwXj/6H+2yhsnX8XSDSovcMzwd3nGzz+OtEKsZfWLLVh1wsTFjDcpsywiSPPXLs1vvVqHPlrq57Q0zPGoBOOm4VXrJjr5IN71LufJf/4GnKUa5znrswXT+Da31n4/magk3YQD5pAH6Wa8TNu/HyEt/8FtqMzzq4HAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"ExecuteBusinessAction\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"ExecuteBusinessAction\">\n  <simple id=\"BatchSize\">10</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">1h</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">true</simple>\n  <simple id=\"OptimisticLockRetryPeriod\">1h</simple>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=isProductHome</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">false</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n  <simple id=\"WorkspaceTriggering\">Main</simple>\n  <simple id=\"collateNodes\">false</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Execute Business Action</Name>\n      <Configuration>H4sIAAAAAAAAAKVUTXPaMBC951d4PB1uheTSyRQwDeCUzpDgAml66wh5Y3aQJVcrJdBfXxmDGyBKOpObd/3e29V+DZR8wMxqZlDJbqe3zkXwCJpKK7xonocBSK5SlFk3vJtff7wMe9FZpxA2Qxlg2g3jR5Am0YoDkdJ9RjB4LhlGZ0HQIcwLAVv8FKhQknAh4I5AhxEZKD63WtYZPQeYjeaTTqsiHHP7zPDlDP9AGF2c+0BDtqG5moJhKLfJURh5wYlGpdFsnKAP8t2CdQHjH8l0MvCBbth6ItJdGYDK/LwxR8rqOsMj1qdLH2uMEigB3f+abNW98tcMhdPWm1gyV+Q0jIy28CbaSaNy4IulDzopDOZIBvlY8dX/h3iB93awGV9CagX8vBn/GsbJNB5czeNhGDWEaR8MaeO3VabtJrX66DUy0z4rUa7zGoG2dhDsPZuAC0a0o3GVN11iC9W0BkWTdkFTeECJ5fg293kMa9eHvesWXA6VTquO2noe9t/jOq1qZdwXFQJNFGut9BQKpQ3o9+9dnLs+HmieLN41M0xscVdpqh3Lrd7SqC/V+10lfK3wcWjjVjen16jfJBc2hXumpXsJHc/JSVWSrTl4703qWyq3ha54qXBYqSrESXUOKfVVWuzc2vW7vE5ITii13IxU7h14l7+BtalFeGWX/N0v77G5V3pFBeNQk5/2npJ+4y6Gj8qVEMzArUrLS/LABHkTrKPMNWaZ20WZhdFr2rMVFkMQYCB9Wf+kk38BLm65jlgGAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Main\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattributeGroup=Bicycles\nobjecttype=Item -->\n        <Configuration>H4sIAAAAAAAAANVUwW7bMAy99ysE3Ttv2GUHK0WatJuBdQ0StzsrNpNplSVDlLJkXz/Zluol9tDs1t4kUiTfox45RQSbQ1VLboGlV/tKkh0YFFox+uHde0pAFboUasvoQ357+YleTS7SVX6zuFwYXbrCZmqjTcWtjyBLQC13kCkpFCxhg4xuuESg5FZLqX/d+9RGlLBy6xDdv7jZ19rYORixg3JqrXl2TS4ISacNUAyvVuI3MHonlKhcRclcK9sVmEmOKDaiaPHkuo3yQMB4Gj7EGtflixmTNnnSZffMkn9Qm6RYS2EnDTCxdha+CvWEuRHbrUestqfuN9HSngs2jXiR/El33wDFY8Tj8glyOH5KMlVIV8KCe+XYIJwglpOkZzQuUyXsv2tTfhFguCl+HAbK+cYrGBjv1z+hsPmhhs9Gu9o7kKW9cekkYItpxHZkJf0xmzOaWagim0Ho0BTQdL0YgAy0X70c0vj6f5dIiBtbIzHnqFzCLzQ/m8Sd8/f6SEaV91wmuod8oydcZ0YjDsLalTbueuTSAcbbnFs+8+S5b7fBl6qmSbh26ok9PWMIeuH4SXjCmvtO3vmiwf2gxOvXkKfc4Dx3YT4GAh/Dncfvb8eZXYviUPgBC17djp31Y8eaAQ3WP7+a7RSiBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"asdfg\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"asdfg\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">3d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">true</simple>\n  <simple id=\"OptimisticLockRetryPeriod\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionWithEventBatchEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=dataIssueAddError</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">false</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Testing Email Reporting</Name>\n      <Configuration>H4sIAAAAAAAAAKVUXY/aMBB851dEUcVbCadK1akHoXyE3klwpMCVvlUmXsDCsVOvfQf99XUSSA+oaaV7yzozs7tj7/alWLG1UUQzKdqtzi7l3jMozCP/ptH0PRCJpEys2/7TfPj+1u+EtVbGzZoJj9G2Hz2D0LGSCSBK1SMI/deSfljzvBayNONQ4KeAmRTIlhyeEJQfoobsUxAYG3QsYHY/n7SCknDO7RGdbGbsF/jhTbPZdMEGZI9zOQVNmCjKQz90gmPFpGJ6byVdkK8GjE0ZfYunk74LNCa7CacHIwCLCl3Ye2lUVeEZ6+OtizViAjAG1fsSX+9/SBi32mofCWJtpn6olYF/oq00kxb8gbqgk0yzlKFmyUgm2/9P8RfeMZmLMks2QA2H7+PRj0EUT6N+dx4N/LDO9d3JI63/NFLf2ZdafnTqa31Xy1H23hUDLGLPO57svYQTxAMtkWnDlrWUDaMZb+AhKYUVEyx/vo1jHYPq6N3x6BFsDaVOUGUNXqf901wrKEfGfmHGmQ4jpaSaQiaVBvX2uYtSe4snmheDNySa8ALXpVRZlh29jZafy/6tE66rcHFwb0c3xWvUB5FwQ2FBlLCd4PkruXAlLsL+W3dSz2A+K9hNcoUF05vCrWJ9nPpWJrzw6lSg2lHLw7Gyt5/vKmotfUA0YN0pzHf5YDvSsNOVUFLGucbhl3P5LKTaYkYSqMgvx5OcPrYbxDlDW5YNgIMG+ihpvl1WhOM1/38DW6knyw4GAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Main\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nobjecttype=Item -->\n        <Configuration>H4sIAAAAAAAAANVUTU/jMBC98yss3yGLuOwhKapaWCItULWhe3aTadfg2JHHLoVfv05ik20TRLnBLZ7P9yZvZowIJoOyEsxAEl/uSkG2oJErmdDzsx+UgMxVweUmoQ/Z9elPejk6iRfZ1ex0plVhc5PKtdIlMy6DzAGV2EIqBZcwhzUmdM0EAiXXSgj1fO9Ka17Awq58dhdxtauUNlPQfAvF2Bj95hqdEBKPa6Dooxb8FRJ6yyUvbUnJVEnTNpgIhsjXPG/wZKrJckBAOxouxWjb1gsVo6Z41FZ3zKJ3qI1irAQ3oxoYX1kDv7l8wkzzzcYhlptD97cYaccF60F8SP5gut+A4j7iYfl4OeyHklTmwhYwY045xgvHi+Wg6BGDS2UBuz9KFzccNNP535eecu5YCT3j/eoRcpO9VPBLK1s5ByZxZ5xbAdhgGrDtWUn3mU4TmhooA5teat/k0bSz6IH0tL+8HOIQ/dkj4vOGzkioOSgX/xfqPxuFm/P/+YgGlffWJrj7fIPHPydaIfbSmpM27FoyYQHDa8oMmzjyzI1b40dd48g/W/WEmR6xBJ1w3CY8YcXcJG9dU+9+kPzra8hRrnEeezCXnsCFf6tmsYxbrKReQW/9B97fs8qEBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"HistoricDataAnalyzer\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"HistoricDataAnalyzer\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"RevisionAnalyzerPlugin\">\n  <simple id=\"Function\">step://businessrule?id=slowItDown</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Historic Data Analyzer</Name>\n      <Configuration>H4sIAAAAAAAAAKVTTW/aQBC98yusVcStNrlUUTEmYDtNpKS4hrS9VYs9gZWWXXdml4T8+q5toPmQOTS3mdF7M2++Yq0exMoiN0KrUTh+2khvC0i1x879AfNAFboUajVi94urTxdsHPXCStqVUJ4oRyzdgjIZ6gKINE45QfwyJYt6nheS2FQSGnwOVGlFYinhngBZRAaqL0FgnTN2gPn1YhYGLeEtd8pNsZ6LZ2DR+WAw6IIlfEcLnYPhQjXyiEWd4AyFRmF2LmUX5LsF60qmP7J8FneB7vjTTJb7QQA1Cruw19riUeEb1ueLLtatUEAZ4PRrdrr/ebGG0kr4dXf7O0mzPI0nizRhUV+a4asF9/9YbYZuy60x7q/MsFej3MxQADW+5x0iO6+QnGhPK/TGJyOW2rdGSJ/2RUt4EErUq/cPOpJj6OwQ+gZOQ5snOFYNXpb911wYtOfmLKqkMFGKqDGHSqMB/PjNphsu5Kuc7472ihsuG9ykLNGx3Nmujb5s+3eT6FrF/3BuVCFtCT85KteCoxm0cGIcWePGH33kHLaiRk8Ul7tnwDbt+1FYVbSPvX/cpaX6MAndWusHJqkfb0yiH9UJzX8B4t9sincEAAA=</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"SourceRecordDataMgmt\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"SourceRecordDataMgmt\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"SourceRecordDataManagementEventProcessorPlugin\">\n  <simple id=\"DaysToKeep\">730</simple>\n  <simple id=\"NumberOfHistoricalValues\">100</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Source Record Data Management - Historic Values Cleanup</Name>\n      <Configuration>H4sIAAAAAAAAAKVTTW/aQBC98yusVcWtNlGlNirGNNhOqRqCa0jaW7WsBzPSetfdjyjk13exgYYg59Dcdlbvzcx7MxNLscbSKmpQilE4fqy49wBK7yJy4Q+IB4LJAkU5InfL6/eXZBz1wprbEoWHxYikDyBMpiQDraWaUA3x85Qk6nleqLGqOTT4HHQthcYVhzsNikTaQP05CKwLxg6wmC7nYdASXnIn1LDNAp+ARBeDwaALltCtXsocDEXRtKdJ1AnOFEqFZutSdkF+WLCuZHqf5fO4CzSjj3Ne7I0A3XTYhZ1Kq44dvmB9vOxi3aAAnYGafM1e179gGygsh1+zm99JmuVpfLVMExL1uRmeDLj/x0ozdFNuH+N+aYa9Hcp5phB0E3ve4WfrMU613tOYrHxtcCV9a5D7el+0gDUK3I3eP/SRHL/eHb5uwfXQ5gmOVYPnZf+JC4N23dxL1xxNlColVQ61VAbU23c2rSjyk5xnS3tNDeUN7qoolGO5td0Y+aXV75zoGsX/cL4Jxm0BP6kSToKjGWXhFTuyJozfesgLt5QMcmBSFYnTO6OCllA5p07tasudWdQe3XeAmkSfPnTu5q2tVqDm6ylq4+6OUX5PuT27lzORfwHDv5Q6qAQAAA==</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"retryConcurrencyErrors\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"retryConcurrencyErrors\">\n  <simple id=\"BatchSize\">1</simple>\n  <simple id=\"DaysToRetainEvents\">7</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">24h</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">true</simple>\n  <simple id=\"OptimisticLockRetryPeriod\">1h</simple>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=setNameWait10</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">false</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n  <simple id=\"WorkspaceTriggering\">Approved</simple>\n  <simple id=\"collateNodes\">false</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Retry Concurrency Errors</Name>\n      <Configuration>H4sIAAAAAAAAAKVU3W/aMBB/718RRVPfRso0bdWgYXyEdRKUDOi6t8l1ruGEY2c+h5b99XMSyEqpu0l9yzm/j/Od74ZK3mFaaGZQyYtu7yET3gY0lZHfbp35HkiuEpTphX+9HL8993vhSTcXRYrSw+TCjzYgTawVByKlB4xg+FjSD088r0uY5QIq/BwoV5LwVsA1gfZDMpB/CoLCBj0LWFwuZ92gJjzlDpjhqwX+Bj9suzAjtqWlmoNhKKvcyA8/usCxRqXRbF/Q+1ZAYf2i7/F8NnSBpuxhJpJdFcA6ts/OXNhLVegmwyesD+cu1gQlUAx68CWu1J3yY4bCauttJJmtceKHRhfwT7SVRmXB796vXNhZbjBDMsgniq//3+MZ3t6t7TRb8BUkhYAf08nPURTPo2F/GY388FSYzsEjPf1VKNOxL7X+6J2mpnNSomzrNQJVseftT7YeF4xoR+Mqa9nEblWrMChatDNN4A4lls+3tc9j1By92R9dgc2h1gka1+Cx7d/LdYN6ZOwX5QJNGGmt9BxypQ3o189dlNlGHmgeDd6YGSYqXD9JtGXZ0VsZ9bm+v62EqxUuDm3t6Gb0EvWr5KJI4IZpaW9CT9/JUVXiKhy+dicNCirHhfq8VDisVG1xVJ1DSrOVbnfH2va73E4E5opl9kJo2s4RtPkbeDCNCK/jkr/75dw2N0qvKWccGvL9/qSkT+3KcFG5EoIZuFJJuUrumCDnRDYuS41pamdRpn7Yz3OtNpA4J3KN+QgEGEie9zjq5h95eQSBXAYAAA==</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"7\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattributeGroup=AttributeGroup;Bicycles\nobjecttype=Item -->\n        <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys0vlPT6aUHK4xJoPUMlExi4KzYm1RFljxaKU366yvbEiaxO6Q3uHk/9d767aaIYHKoasEM0ORyVwmyBY1cSRp9/nQREZCFKrnc0Oghvzn/Gl1OzpJlfj0/n2tV2sJkcq10xYyrIAtAJbaQScElLGCNNFozgRCRGyWE+n3vWmtewtKufHWfcb2rlTYz0HwLZWqMfglNzghJ0gYo+qwl/wM0uuOSV7aKyExJ0z0wFQyRr3nR4slVW+WAgHY0XInRtusXOsZt87jr7pjF/6A2SbAW3EwaYHxlDdxy+Yy55puNQyw3x+EPMdKeCzaDeJP80XQ/AMVDxOPy8XI4TCWZLIQtYc6ccowXjhfLUdMTBpfJEnZPSpffOWimi5/7gXJ+sAoGzvvVLyhMvq/hm1a2dgGkSe9cWAHYYhrxHXhJ/5nNaJQZqAKbQenQ5dF0sxiA9LTfvRySkP2/R8TXjZ2R0HNULv4vNH82Djfn9fmIR5X38kwID/mGiDenWiEOytqTNh56ZMICBmvGDJs68syNW+NbryaxNzv1hJmesAS9cNwmPGPN3CTTutbK/Sqf8iD5+9eRo93gPPVoPnoCX7zNggTalabpgTmac0GveLEv3Cb6sGr307j9pM0me+9fZnTO8MsHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"SplittingProcessor\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"SplittingProcessor\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"SplittingPlugin\">\n  <simple id=\"Distribution\">false</simple>\n  <simplelist id=\"Targets\">\n    <entry>step://OutBoundIntegrationEndpoint?id=STEPXML</entry>\n  </simplelist>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Splitting Processor</Name>\n      <Configuration>H4sIAAAAAAAAAKVUy27bMBC8+ysEIfCtlnMpglqWE0tKEyCpVVlpeytocS0vQJMqlwzifn0pyXaeyqG5ccmZ2TdjJddYWc0MKjkNZw9b4d2DpsbyT0dj3wNZKo6ymvp3xeWnM38WDcJa2Aqlh3zqp/cgTaZVCURKzxlB/FTSjwaeFxJuawEtPgeqlSRcCbgj0H5EBuovQWCdMXOA5VWxCIOO8JI7Z6bcLPEv+NHpeDzugyVsR4XKwTCUbXjkR73gTKPSaHZOsg/y3YJ1LtMfWb6I+0C37GEh+L4QQG2EfdgrZfUxwhesz2d9rBuUQBno+dfs/fyX5Qa4FfDr9uZ3kmZ5Gl8UaeJHQ2Emzxo8/GOVmbgud4fZsDKTQYNyNdMI1Nqed7jZeaVgRHtaqbYjMrhSI2tQjGjvlMMaJTatHx3iSI5XJ4erb+Bi6HSCo9fgqdvH5MKgGzd3olqgiVKtlc6hVtqA/vjMpluG4pnmq6G9ZIaJFnfBuXYsN7Ybo867/F0l+lrxP5xrWQrL4SfT0qXgaEZbeKccWWvGH13kZSNm3Hun96oGCZLrzsp2W71mguCNDIRDtfCC6QqazXNv7rWdn8OuL6yZKyv5tTRQdRGnktcKpWm/gCLN3OyGQUdqxINH9Tcq8A+0JDMAxQQAAA==</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"RevisionManagement\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"RevisionManagement\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"RevisionManagementEventProcessorPlugin\">\n  <simple id=\"AcrossWorkspaces\">true</simple>\n  <simple id=\"KeepFirst\">false</simple>\n  <simple id=\"MaximumAge\">1000</simple>\n  <simple id=\"MaximumAmount\">20</simple>\n  <simple id=\"MaximumProcessingTime\">30</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Revision Management</Name>\n      <Configuration>H4sIAAAAAAAAAKVU72/aMBD93r8iiia+jdBNmqoBYfwI6zQQWaDrvk1ucoRTHTvz2aj0r5+TACtkGdKaL8k57909P995LMUaU6OYRin6vcFTxp0tKCoi97rdcR0QsUxQpH33bjV9e+MO/Ktezk2KwsGk7wZbEDpUMgYiqUaMYPwypetfOU6PMMs5lPgIKJeC8IHDHYFyfdKQf/Q8Y4OBBSxvV4ueVxHOuSOm480Sn8H1rzudThNswna0khFohqKUR67fCA4VSoV6Z1M2Qb4ZMLZk8D2MFuMm0Jw9LXiyNwKoVNiEvZVGHRWesT7cNLFmKIBCUKPP4b/3P2XIbW61CwSzNieur5WBi2ibGqUFv+8kTdhFrjFD0hjPZPx4WmPNODUW+QvxUK6Jsow3kBgOP+azn5MgjILxcBVMXL/FdfekTVu/jNRd26vVx6CV6u5VgbInrxCojB3nsLJzYs6I9rRYZm0r60G2jUbepn3RBNYosGjg9kHH5Lj05rBkm0vt5iiMhiqbLbN/oPh1kFa9vKMw76WyP/vvedVc2S/KOWo/UEqqCHKpNKjXD2eQ2aM+yVmbzinTjJe4YZIoy7LzudHyU2WRNavptP6H80XE3CRwz5SwW6DzNq3ZEZbh+LU3VgRbLNBzJlgKmXXo1KaqTM2aYawk0b1Uj5SzGGpya9cBZiYbphfuqgMuk0Zo1393CbhXaXe3wgyKYW0ifAXIp6hI10azZuxv/mKbfQUGAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nobjecttype=Item -->\n        <Configuration>H4sIAAAAAAAAANVUTU/jMBC98yss39nsiguHpKhqYYm0QNWGcnaTafHi2JHHLoVfv05ik20TRLnBzZ4vvzd+M2NEMBmUlWAGkvhiVwqyBY1cyYT++vGTEpC5KrjcJPQ+uzo9pxejk3iRXc5OZ1oVNjepXCtdMuMyyBxQiS2kUnAJc1hjQtdMIFBypYRQz3eutOYFLOzKZ3cRl7tKaTMFzbdQjI3Rb67RCSHxuAaKPmrBXyGhN1zy0paUTJU07QMTwRD5mucNnkw1WQ4IaEfDpRht23qhYtQUj9rqjln0DrVRjJXgZlQD4ytr4A+XT5hpvtk4xHJz6P4WLe24YN2ID8kfdPcbUNxHPCwfL4f9UJLKXNgCZswpx3jheLEcFD2icaksYPegdHHNQTOdP770lHPLSugZ71Z/ITfZSwW/tbKVc2ASd8a5FYANpgHbnpV0x3Sa0NRAGdj0Uvsmj6btRQ+kp/3l5RCH6M8uEZ83tEZCzUG5+F+ofzYKO+f/9RENKu/tmeDu8w0ef51ohdhLa1basGvJhAUMtykzbOLIM9dujR+9Gkf+2qon9PSIIeiE4ybhCSvmOjmuKq3cV/mQe8m/vo4c7RrnsUtz6Qmc+btqhsu44UrqMfTWf1610viIBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"AssetPublisher\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"AssetPublisher\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"AssetPublisherEventProcessorPlugin\">\n  <simple id=\"ExtendedLogging\">false</simple>\n  <simple id=\"PublishInheritedContent\">DimensionPoints&lt;split&gt;PublishInheritedContent=false&lt;split&gt;</simple>\n  <simple id=\"StorageProvider\"/>\n  <simplelist id=\"ImageConversions\"/>\n  <simplelist id=\"NotificationEventQueues\"/>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">AssetPublisher</Name>\n      <Configuration>H4sIAAAAAAAAAKVUTY/aMBC98ysiq+JWwl6qVYFQPrLdldglBbbtrTLxEEZy7NQeI+ivr5OwFLYNh+4tY7038+bNTCZabTBzhhNqNegP97kMdmBsGbGbTpcFoFItUGUD9ry6e3/LhlGrX0iXoQpQDFi8A0WJ0SlYq82YW5icp2RRKwj6FvNCQoVfgC20sriW8GzBsMgSFB/D0Plg6AHL+9W8H9aE19wxp3S7xF/Aoptut9sEm/KDXekFEEdVybMsagQnBrVBOviUTZAvDpwvGX9NFvNJE+iR7+dSHI0AWylswt5rZ04KX7E+3DaxZqjAJmDGn5Pr/S/TLQgn4fvj7Mc0ThbxZLSKpyxqS+pdDLj902nq+SnXH8N2Rr1WifKeGQRbxUHw8nIIUsmtPdJSnXcs4Vp3HKHs2GNRARtUWI6+86Jjenp69/L0BF5DnSc8VQ3Py/5prh/W6+a/bCGRotgYbRZQaENg3r6zcc5RXuT8a2nvOHFZ4UZCGM/ya7sl/anu3zvRNIr/4TyoVDoB37hRvgVPI+Pgih1JFU7eesgjv4CUuLVEuwVzaVFd4twWj6Jabc6z8uSPtSwL/4V60oQbTCtxVerqpi7B9e6SNj6hr7xDUU6i0dk9gRIgZjrz0jIWbbi00HjldV8PyreGBMIL9nRi0RRzUKXwRKP/UZRrWLla7mADaVBVukBemc5vqIOsM2EFAAA=</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"HistoricDataGenerator\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"HistoricDataGenerator\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\" null=\"true\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"RevisionGeneratorPlugin\">\n  <simple id=\"EndDate\" null=\"true\"/>\n  <simple id=\"RevisionAnalyzer\">step://eventprocessor?id=HistoricDataAnalyzer</simple>\n  <simple id=\"StartDate\" null=\"true\"/>\n  <simplelist id=\"UserIDs\"/>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Historic Data Generator</Name>\n      <Configuration>H4sIAAAAAAAAAKVUTW/iMBC98ysia8VtCb2sqgXCQpKWSu2SDXTb28pNpjCSsbMeG5X++joJYWlROGxvHuu9N28+7FDJZ1xZzQ0qORqOXzbC24KmMmIXvT7zQGYqR7kasfvl1ddLNg46w0LYFUoP8xGLtyBNolUGREpPOUF4LMmCjucNCTeFgAqfAhVKEj4JuCfQLCADxXffty4YO8BitpwP/ZrwkTvlJlsv8BVYcNHv99tgEd/RUqVgOMrKHrGgFZxoVBrNzkm2QX5ZsC5l/DtJ52Eb6I6/zEW+bwRQ5bANO1NWHxx+YH27bGPdogRKQE+vk/P1L7I15FbA493tnyhO0jicLOOIBV1hBu8G3P1rlRm4KdeHcXdlBp0S5XqmEaiKPa+52XmZ4ER7WqY2PTL4pHrWoOjRPmkOzyixHH2v8REdrr40Vz/Beah1/ENW/zjtv+KGfr1u7kSFQBPEWiudQqG0Af35nY03HMU7zZOlveKGiwo3yXPtWG5t10b9qOt3nWgbxf9wbmQmbA4PXEtXgqMZbeFMO5IqDD/7kFPYYom+BglORela96QXC8O1ibgB5kkrxIiV9ph/UrnMz4IEkqmA5S9wE9GpQmNoIrnYvR59FVCOr2jGV34aMyfmXnHmMvIGfqZjb1ziMH71BAAA</Configuration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3 -->\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"ExecuteBusinessActionEventBatch\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"ExecuteBusinessActionEventBatch\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">4h</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">true</simple>\n  <simple id=\"OptimisticLockRetryPeriod\">4h</simple>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=SHTO</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"BusinessActionWithEventBatchEventProcessorPlugin\">\n  <simple id=\"BusinessAction\">step://businessrule?id=validateCustomerAttributes</simple>\n  <simple id=\"Context\">step://context?id=Context1</simple>\n  <simple id=\"SkipDeletedNodes\">false</simple>\n  <simple id=\"Workspace\">step://workspace?id=Main</simple>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessorsAllTypes\"/>\n      <Name QualifierID=\"Qualifier root\">Execute Business Action for Event Batch</Name>\n      <Configuration>H4sIAAAAAAAAAKVU227aQBB95yssq8pbgUhVFTXElItpKkFwCWn6Vi32ACOWXXdnlkK/vmsb3AB1UjVvnvE5Z24709NqjgtrBKNWN632di29DRjKLP+y3vQ9ULFOUC1u/Ifp4O2V3w5qrVTaBSoPkxs/3IDiyOgYiLTpCoLeU0k/qHlei3CdSsjxE6BUK8KZhAcC4wfEkH5oNKwz2g5wfzsdtxoF4ZTbFRwv7/EX+MFls9msgvXFjqZ6AixQ5emRH1SCI4PaIO+cZBXkiwXrQoZfo8m4VwUaie1YJvtGAOUZVmFvtTVlhies91dVrCEqoAhM91P0fP0DgdJpm12ohGtz4gdsLLyIdtKoHfjdsgo6ThnXSIzxUMerfw/xF97Lwe7jJSRWwrfR8Hs/jCZhrzMN+35wIfn66Jle/LCar91bLT7aFwu+rmUoN3mDQLnteQfPzoulINrTYr2uu8Rmum4ZZZ32QROYo8LsAdcPefRL15uD6w5cDoVOo4zaeBr2T3GtRrE07otSiRyExmgzgVQbBvP6zQvXbo5HmmerNxAsZI7rJIlxLLd8S9Yfi/pdJ6pG8T+czyqWNoFHYZQrgU4fyFk7otzsvfYcdS1la0KdOFN4RF7mbcovx3HDioBnTToWKM/TbO82buzZmdoIiYlg6FlivQbTYTf0mWWgqoa40hi2XCrGhZ2J7X9VHqBHbVaUihhK8s+DJ6OP3BWp3KIVpn2QwJDc6SS7MHMh6blB/AYqqdysEgYAAA==</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Entity\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nobjecttype=Entity -->\n        <Configuration>H4sIAAAAAAAAANVUTXPTMBS891dodC+G4cLBTieTpOAZoJnEbc+K/RJEZUmjJ4WEX49sSzWJzTTc2pv1vrS7Xr0pItgCai2YhSy9OdSC7MEgVzKjH969pwRkqSoudxm9L26vP9GbyVW6LhbL66VRlSttLrfK1Mz6DrICVGIPuRRcwgq2mNEtEwiU3Coh1K87P9rwCtZuE7r7isVBK2PnYPgeqqm15jk1uSIknTZAMVSt+W/I6Dcuee1qSuZK2u6CmWCIfMvLFk+h2i4PBIyn4Vuscd28ODFphyfddM8s+Qe1SYpacDtpgPGNs/CVyycsDN/tPGK5O0+/CUl7LtgI8SL5M3XfAMVTxOP2CXY4LSW5LIWrYMm8c2wwTjDL2dBLhFO1NoCtPs2kEM5lBYdHZaovHAwz5Y/jwFDfWQ2D4N3mJ5S2OGr4bJTTPoFZ2gdXTgC2UEdiJ1HSf+bzjC6k5fYYaQ6ah6GApxNpADPo8ep9ksbq/90uoW9sv8SZoz4K/6H5t0lcRn/vlWTUks/XxPSQb8yE48woxEFbu+vGUw9MOMB4mjPLZp4883IbfOnWNAnHzj1R0wteR28c/xaeUDOv5FRro/yvCiX3kr9+H3naDc5Lt+lDIPAxnFX7uKx/XFn3EEP8D+icz3GjBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

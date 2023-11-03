@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="ExpandLovValueChanges" UserTypeID="Event Processor user-type root"><!-- Definition:
+Configuration=
+<plugin id="ExpandLovValueChanges">
+  <simple id="BatchSize">1000</simple>
+  <simple id="DaysToRetainEvents">0</simple>
+  <simple id="FailRetryEnabled">true</simple>
+  <simple id="FailRetryPeriod">30d</simple>
+  <simple id="HoursToRetainOldProcesses">168</simple>
+  <simple id="LinesPerBGP">1000</simple>
+  <simple id="MaxOldProcesses">100</simple>
+  <simple id="OptimisticLockRetryEnabled">false</simple>
+  <simple id="OptimisticLockRetryPeriod" null="true"/>
+  <simple id="Priority">1</simple>
+  <simple id="Queue">EVPROC</simple>
+  <simple id="ResponsibleUser">step://user?id=SHTO</simple>
+</plugin>
+PluginConfiguration=
+<plugin id="ExpandLOVChangesEventProcessorPlugin"/>
+ScheduleSpecification=
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries> -->
+            <SetupGroupLink SetupGroupID="EventProcessorsAllTypes"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Expand LOV Value Changes</Name>
+            <Configuration>H4sIAAAAAAAAAKVTTW/aQBC98yusVcWtNrlUUTGmwThNJVIcQz5u1cY7MSMtu+7ObgT99V1sICGVc2huO6P35r352FSrJ6yc4Ra1GsXjzVoGz2BoF7GzcMACUKUWqKoRu11efj5n46QX19JVqAIUI5Y9g7K50SUQaTPhBOnrkizpBUFMuK4lNPgCqNaK8FHCLYFhCVmov0aR88HYAxZXy3kctYS33Am35WqBf4AlZ4PBoAs25Vta6gIsR9XYI5Z0gnOD2qDd+pJdkBsHzktmd3kxT7tA13wzl2I/CKDGYRf2SjtzdPiG9eW8izVDBZSDmXzP3+9/Ua5AOAkP17Nf0ywvsvRimU1Z0pd2eLLg/m+n7dBvuX2M+5Ud9nYoPzODQE0cBIfMNiglJ9rTSr0OyeKjDp1FGdJeVMATKtytPjz4mB5Tnw6pn+A9tHWio2r0WvaluThqz82/qJZok8wYbQqotbFgPn6z2ZqjPKn5z9Fecstlg7sQwniWP9uV1d/a/v0kulbxP5wfqpROwD03yrfgadY4eGcceROmH/7Im5orMZvfpSuuKqDTIbUiLDqq/gXw8iA2OQQAAA==</Configuration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+Compression=true
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3 -->
+                <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

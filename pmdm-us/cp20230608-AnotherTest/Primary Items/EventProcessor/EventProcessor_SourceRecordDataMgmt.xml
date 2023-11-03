@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="SourceRecordDataMgmt" UserTypeID="Event Processor user-type root"><!-- Definition:
+Configuration=
+<plugin id="SourceRecordDataMgmt">
+  <simple id="BatchSize">1000</simple>
+  <simple id="DaysToRetainEvents">0</simple>
+  <simple id="FailRetryEnabled">true</simple>
+  <simple id="FailRetryPeriod">30d</simple>
+  <simple id="HoursToRetainOldProcesses">168</simple>
+  <simple id="LinesPerBGP">1000</simple>
+  <simple id="MaxOldProcesses">100</simple>
+  <simple id="OptimisticLockRetryEnabled">false</simple>
+  <simple id="OptimisticLockRetryPeriod" null="true"/>
+  <simple id="Priority">1</simple>
+  <simple id="Queue">EVPROC</simple>
+  <simple id="ResponsibleUser">step://user?id=SHTO</simple>
+</plugin>
+PluginConfiguration=
+<plugin id="SourceRecordDataManagementEventProcessorPlugin">
+  <simple id="DaysToKeep">730</simple>
+  <simple id="NumberOfHistoricalValues">100</simple>
+</plugin>
+ScheduleSpecification=
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries> -->
+            <SetupGroupLink SetupGroupID="EventProcessorsAllTypes"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Source Record Data Management - Historic Values Cleanup</Name>
+            <Configuration>H4sIAAAAAAAAAKVTTW/aQBC98yusVcWtNlGlNirGNNhOqRqCa0jaW7WsBzPSetfdjyjk13exgYYg59Dcdlbvzcx7MxNLscbSKmpQilE4fqy49wBK7yJy4Q+IB4LJAkU5InfL6/eXZBz1wprbEoWHxYikDyBMpiQDraWaUA3x85Qk6nleqLGqOTT4HHQthcYVhzsNikTaQP05CKwLxg6wmC7nYdASXnIn1LDNAp+ARBeDwaALltCtXsocDEXRtKdJ1AnOFEqFZutSdkF+WLCuZHqf5fO4CzSjj3Ne7I0A3XTYhZ1Kq44dvmB9vOxi3aAAnYGafM1e179gGygsh1+zm99JmuVpfLVMExL1uRmeDLj/x0ozdFNuH+N+aYa9Hcp5phB0E3ve4WfrMU613tOYrHxtcCV9a5D7el+0gDUK3I3eP/SRHL/eHb5uwfXQ5gmOVYPnZf+JC4N23dxL1xxNlColVQ61VAbU23c2rSjyk5xnS3tNDeUN7qoolGO5td0Y+aXV75zoGsX/cL4Jxm0BP6kSToKjGWXhFTuyJozfesgLt5QMcmBSFYnTO6OCllA5p07tasudWdQe3XeAmkSfPnTu5q2tVqDm6ylq4+6OUX5PuT27lzORfwHDv5Q6qAQAAA==</Configuration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+Compression=true
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3 -->
+                <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgQZUaFkYrn0C4YTZPMbororzdtUxBaR7zBcbMfee/tS7pEYGLItGAGovB6lQlvCUhcyci/ODv3PZCJSrlcRP5zPDi98q87J+EkvhmfjlGleWKGcq4wY8Z2eE9ASixhKAWX8ARzivw5EwS+N1BCqI+RHY08hUk+c92bipuVVmj6gHwJadcYXKc6J54Xdgug5Kom/Asi/4FLnuWZ7/WVNNUFPcGI+JwnJZ5YlV0WCKClYVsM5tW8emJQDg+q6ZZZ8Au1TkhacNMpgPFZbuCey3eKkS8WFrFc7KaPQtINFyqE+JP8jrpHQHEbcbt9nB22S72hTESewphZ5xhnHGeWnaH7CKcyjUClPsUkdzyUKaxeFKZ3HJBh8vrZMNQjy6BxOJq9QWLiTw23qHJtE+QyFdxGg0N28BsL6+r/vnPX1/bS65mtG3W7L1QO6m/h5wsPWs2xvqZON/nWGRf2UBE12spfpz01ZSIHqqM+M6xnyTMrN9Jft4aBCyu71pru4dONcawr30kzq2RXa1R2Va7kWfLD95GlXeDc91+bOgKXLv4G8im/1RUHAAA=</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>
