@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <EventProcessors>
         <EventProcessor ID="RevisionManagement" UserTypeID="Event Processor user-type root"><!-- Definition:
 Configuration=
