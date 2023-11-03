@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="SHTO-test" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">SHTO-test</Name>
+            <ListOfValueLink ListOfValueID="SHTO-test"></ListOfValueLink>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <AttributeGroupLink AttributeGroupID="Messages"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.editing"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.importing"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.chgpck.verified"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
