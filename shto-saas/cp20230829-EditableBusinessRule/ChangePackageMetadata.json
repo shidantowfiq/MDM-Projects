@@ -2,6 +2,7 @@
   "id" : "cp20230829-EditableBusinessRule",
   "name" : "cp20230829-EditableBusinessRule",
   "metadata" : { },
+  "setupGroupId" : "Integrations",
   "uniqueId" : "cpk-410f78c7-4444-4f57-bdf0-58eb13a575cc",
   "origin" : "shto-saas",
   "wasSigned" : "true",
@@ -9,31 +10,49 @@
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
-    "itemURL" : "step://SetupGroup?id=Actions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://businessrule?id=CreateProducts",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
+    "name" : "Business Action Type",
     "itemURL" : "step://objecttype?id=stibo.businessrule.action",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tree",
     "itemURL" : "step://objecttype?id=Tree",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "CreateProducts",
+    "itemURL" : "step://businessrule?id=CreateProducts",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
     "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-10 14:28:58\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"CreateProducts\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\n//var children = node.getChildren();\nvar iMax = 10;\nfor (var i=0; i<iMax; i++) {\n\tnode.createProduct(\"\",\"Item\");\n\tiCurrent = i + 1;\n\tlog.info(\"Created product \" + iCurrent + \" of \" + iMax);\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">CreateProducts</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwY6bMBA9L18x4hBlRQvJrRKQaENbaatGjbqpeoy8xrBeObZrTLRttf/eMXZYomqlXnqB8ZvxmzcPRou+5fJAtBacdQfeHKiSDW+LDgG70j7tsbJYPx0FnJjpuJJlvEwXMTBJVc1lW8bf9h/fvovXq6jY9B2XrOu+9oKtIoAR2A10MM176PZ9GX8iJ3JHDdf2nL+hFht95/Zhw2XdxY4L2XbEkCOzKMMDUwgck6+G/U/NyvgRaVNBZJveWYNC49VM2PxiktmPXtkcx/HBy0z+PAzmw/WstXnkCFyPLdHDGeCMADplDaEWZfgbVW8Mk/bL/SOj1pVUoSL0uhGcdKFWqpoFeByoEqQb870QPspGHdlUSJGN916x5oMxymzRW9Ky/23RZ0WJ4L/IvWCh454dtSCWbXpZC5b9o+aXH+N1wVl2IgboAxc12g0lOC/TltkqQPPrPHIlfEueML1c5FGjDMwHrFzkwJ1kl8UwSa7hd3Q1cFDDUPHOqLqndu5n9M83/nVr2dFH2OKKhw+OPTgksERIqDblslHhcjUQ1qA9JQRHExivJmdMNZMsSsMGz3/5NQGGhSiyy3XDhcwuNzIs9x9g1rqS/AMAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Tree\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-03 10:29:20\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"CreateProducts\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\n//var children = node.getChildren();\nvar iMax = 104;\nfor (var i=0; i<iMax; i++) {\n\tnode.createProduct(\"\",\"Item\");\n\tiCurrent = i + 1;\n\tlog.info(\"Created product \" + iCurrent + \" of \" + iMax);\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">CreateProducts</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwYrbMBA9r79i8CFkcWsn0EPBdsLGbWFLQ0M3pceglWWvFkVSZTlsW/rvHVmK16Es9NKLPXozevPm2aNF33J5IFoLzroDbw5UyYa3RYeAXWmf9lhZrJ+OAk7MdFzJMl6mixiYpKrmsi3jr/sPr9/G61VUbPqOS9Z1X3rBVhHACOwGOpjmPXT7row/khO5o4Zre87fUIuNvnH7sOGy7mLHhWw7YsiRWZThgSkEjslXw/6HZmX8iLSpILJN76xBofFqJmx+Mcnse69sjuP44Hkmfx4G8+F61to8cgSux5bo4QxwRgCdsoZQizL8jao3hkn7+f6RUetKqlARet0ITrpQK1XNAjwOVAnSjfleCB9lo45sKqTIxnsvWPPeGGW26C1p2f+26JOiRPCf5F6w0HHPjloQyza9rAXL/lHz84/xsuAsOxED9IGLGu2GEpyXactsFaD5dR65Er4lT5heLt7kUaMMzAewXOTAnWaXxjBJruFXdDWQUMNQ8s6ouqd27of0z1f+dWvZ0UfY44qHL45NOCSwREioNuWyUeFyNRDWoD0lBEsTGK8mZ0w1kyxKwwa//zJsAgwbUWSX+4YbmV2uZNjuP7x8t/X9AwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Tree\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
