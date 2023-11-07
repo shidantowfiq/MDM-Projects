@@ -1,0 +1,254 @@
+{
+  "id" : "cp20230830-InstructionText",
+  "name" : "cp20230830-InstructionText",
+  "metadata" : { },
+  "setupGroupId" : "Integrations",
+  "uniqueId" : "cpk-395f137a-5120-4df0-9818-c5a014c5fafa",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Entity References",
+    "itemURL" : "step://attribute?id=ConfigurationEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Setup Actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://eventqueue?id=CustomerOIEP",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Enable, set to read events and verify event triggers.",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Customer OIEP User",
+    "itemURL" : "step://user?id=CUSTOMEROIEPUSER",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Setup Group Category",
+    "itemURL" : "step://objecttype?id=OutboundSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User",
+    "itemURL" : "step://objecttype?id=Operator+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archived Setup",
+    "itemURL" : "step://objecttype?id=ArchivedSetup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=OutboundEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BGP_80481504 Scheduled Bulk Update Populate Garbage Attributes",
+    "itemURL" : "step://backgroundprocess?id=BGP_80481504",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Recreate scheduled BGP with relevant settings.",
+    "recursive" : false
+  }, {
+    "name" : "Shidan",
+    "itemURL" : "step://user?id=SHTO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assetpush setup actions",
+    "itemURL" : "step://ActionSet?id=Assetpush+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English US",
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "USA",
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Service Users",
+    "itemURL" : "step://group?id=Service+Users",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=UserInformation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Users",
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Customer OIEP",
+    "itemURL" : "step://OutBoundIntegrationEndpoint?id=CustomerOIEP",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Enable, set to read events and verify event triggers, if queue-based. Verify linked business rules are included.",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MEssage",
+    "itemURL" : "step://objecttype?id=MEssage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  }, {
+    "name" : "Assetpush user actions",
+    "itemURL" : "step://ActionSet?id=Assetpush+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All User Actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-03 10:17:59\"    UseContextLocale=\"false\">\n\n  <UserList>\n    <User ID=\"SHTO\" ForceAuthentication=\"false\" EMail=\"shto@stibosystems.com\">\n      <Name QualifierID=\"Qualifier root\">Shidan</Name>\n      <MetaData>\n        <Value AttributeID=\"UserInformation\">Stibo standard user</Value>\n      </MetaData>\n      <UserGroupLink UserGroupID=\"Stibo\"/>\n      <SystemSetup>\n        <SystemSetupValue Type=\"BasketView\" Name=\"BasketView.Default\">&lt;View Name=&quot;Default&quot;&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;OnPages&quot;/&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"BasketView\" Name=\"BasketView.Student X\">&lt;View Name=&quot;Student X&quot;&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;OnPages&quot;/&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"WB_USERSET\" Name=\"CurrentContext\">Context1</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentContext\">EN All USA</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAssetImpl\">History</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAttributeGroupImpl\">Attribute</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAttributeImpl\">Attribute</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabClassificationImpl\">References</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabDomainImpl\">List of Values</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabGroupImpl\">Group</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiAssetImpl\">Multi Editor</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiClassificationImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiProductImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabProductImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabRecycleBinImpl\">Classification</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabUnitImpl\">Units</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabUserTypeImpl\">Object Type</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentWorkspace\">Main</SystemSetupValue>\n        <SystemSetupValue Type=\"CONFIG\" Name=\"DefaultLoginPublication\">428</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"DownloadDir\">C:\\Documents and Settings\\niwe\\Desktop\\Documentation\\PM\\Images</SystemSetupValue>\n        <SystemSetupValue Type=\"BookMrk\" Name=\"EXE Line of Chairs\">step://search?match_case=FALSE&amp;type_dodocsearch=TRUE&amp;viewing_context=GL&amp;type_isdextype=TRUE&amp;searchbelow=step%3a%2f%2fproduct%3fid%3d4580&amp;searchtype=basic&amp;type_type=Product&amp;searchstring=EXE*&amp;searchimmediately=FALSE&amp;current_workspace=Main</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ExportManagerSaveConfigParentClass\">step://classification?id=Configurations</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedApplied Privileges\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAssetEditorPropertiesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAssetEditorSystemPropertiesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeGroupValuesEditorPropertiesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeRefAttributeGroupsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorAttributeFormattingRulesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorClassificationsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorModulesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorTableTemplatesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorValueReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForAssetFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForClassFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForLinkFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForProductFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedContextValuesEditorContextValuesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExceptionsDialogAdditionalFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExceptionsDialogDetailsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExtraProcessEditorAuditFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedGroups\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedObjectTypeReferencesEditorObjectsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessEditorReportFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessTemplateEditorPropsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessTemplateEditorSummaryFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorAttributeReferencesFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorClassificationFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorDocumentReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorModuleReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorNonApprovedRelinkedChildrenFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorProductReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorReferncedByFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorVisibleElseWhereFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductValuesEditorAttributeGlobal Product Attributes\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductValuesEditorInheritedAttributesFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedQueueReportFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedRevisionHistoryEditorInWorkspacesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedRevisionHistoryEditorRevisionsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedSystemSetupEditorValuesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedTagDefinitionEditorTagDefinitionsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedTranslation\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedUploadWizardDetailsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedafTaskTypeObjectProperties\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedattributeColumnsSubtypeFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"Flippeddetails_flipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedproductLinksFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedrelatedProcessesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"HelpWindowHeight\">906.0</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"HelpWindowWidth\">1185.0</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ImportManagerSaveConfigParentClass\">step://classification?id=stibo.IMConfigFolder</SystemSetupValue>\n        <SystemSetupValue Type=\"CONFIG\" Name=\"LoginViewingPublication\">428</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"MainDividerPosition\">413</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ModeContextFR All All\">GL</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ModeTranslationTarget\">AllLanguages</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ModeWorkspaceMain\">Approved</SystemSetupValue>\n        <SystemSetupValue Type=\"LOCALESETT\" Name=\"ORACLELOCALE\">WEST_EUROPEAN</SystemSetupValue>\n        <SystemSetupValue Type=\"StBookView\" Name=\"StBookView.Default\">&lt;View Name=&quot;Default&quot;&gt;&lt;Plugin ID=&quot;ProductCount&quot;/&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"StBookView\" Name=\"StBookView.Student X\">&lt;View Name=&quot;Student X&quot;&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"CONFIG\" Name=\"StepGUI/ViewSinglyLinkedInItalicsMenuItem\">N</SystemSetupValue>\n        <SystemSetupValue Type=\"SumRolView\" Name=\"SumRolView.Default\">&lt;View Name=&quot;Default&quot;&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"WindowPosSize\">13,77,1216,899</SystemSetupValue>\n      </SystemSetup>\n    </User>\n  </UserList>\n\n  <IntegrationEndpoints>\n    <OutBoundIntegrationEndpoint ID=\"CustomerOIEP\" UserTypeID=\"OutboundEndpoint user-type root\" ProcessPluginID=\"Export\" QueueForEndpoint=\"OutboundQueue\" QueueForProcssing=\"Out\" MaxNumberOfActiveBackgroundProcesses=\"1\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"100\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"100\" TransactionType=\"STRICT\" ResponsibleUserID=\"CUSTOMEROIEPUSER\" EnableRetry=\"false\" UseCrossContext=\"false\" DataSourcePluginID=\"EventQueueDataSourcePlugin\" DeliveryMethodPluginID=\"EmailDeliveryPlugin2\" MultiThreadCount=\"1\" RefreshCollections=\"false\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries>\n\nDataSourcePluginConfiguration:\n<Parameters>\n  <Parameter ID=\"DaysToRetainEvents\" Type=\"java.lang.Integer\">0</Parameter>\n  <Parameter ID=\"eventQueueBatching\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1000</Parameter>\n  <Parameter ID=\"eventQueueBundleMessages\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1</Parameter>\n</Parameters>\n\nDeliveryMethodPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"BodyText\" Type=\"com.stibo.util.integrationendpoints.LongTextParameter\">Please find enclosed the latest Customer data delivery</Parameter>\n  <Parameter ID=\"EmailAddress\" Type=\"java.lang.String\">shto@stibo.com</Parameter>\n  <Parameter ID=\"FileNameTemplate\" Type=\"java.lang.String\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n  <Parameter ID=\"Subject\" Type=\"java.lang.String\">Customer data export</Parameter>\n  <Parameter ID=\"zipContent\" Type=\"java.lang.Boolean\">false</Parameter>\n</Parameters>\n\nProcessPluginConfiguration:\n<EventSpecificExportConfiguration>\n  <ExportConfiguration MatchAllTypes=\"false\">\n    <EventType>15</EventType>\n    <EventType>16</EventType>\n    <ExportManagerConfig>\n      <ExportManagerConfig ContentMode=\"\" ContextID=\"Context1\" ECatalogID=\"\" EffectiveDate=\"current\" EffectiveDateTimeZoneID=\"America/Los_Angeles\" ExecutionMode=\"\" ExportSelectedProducts=\"false\" InheritProductData=\"true\" LeafProductExport=\"true\" Name=\"\" ProcessTemplate=\"Exporter\" ResolveInlineRefs=\"true\" ScheduleDate=\"\" SelfContainedReferences=\"false\" UseContextLocale=\"false\" Version=\"2\" VersionID=\"\" WorkspaceID=\"Main\" isSorted=\"false\">\n        <Delivery Name=\"File\">\n          <Parameter Name=\"FileNameTemplate\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n        </Delivery>\n        <Format Name=\"STEPXML\">\n          <Parameter Name=\"AssetContentChooser\"/>\n          <Parameter Name=\"Configuration\"/>\n          <Parameter Name=\"CrossContextChooser\"/>\n          <Parameter Name=\"DataObjects\"/>\n          <Parameter Name=\"DefinitionsAsComments\">No</Parameter>\n          <Parameter Name=\"ExportValidAndAbsent\">No</Parameter>\n          <Parameter Name=\"FlattenHierarchy\">No</Parameter>\n          <Parameter Name=\"GlobalSettings\"/>\n          <Parameter Name=\"IncludeActualPageData\">No</Parameter>\n          <Parameter Name=\"IncludeAssetPush\">None</Parameter>\n          <Parameter Name=\"IncludeAssetPushEventQueue\">None</Parameter>\n          <Parameter Name=\"IncludeAssets\">None</Parameter>\n          <Parameter Name=\"IncludeAttributeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeAttributeGroupDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeAttributeTransformations\">No</Parameter>\n          <Parameter Name=\"IncludeAutoPageReferences\">No</Parameter>\n          <Parameter Name=\"IncludeBaskets\">No</Parameter>\n          <Parameter Name=\"IncludeBulkUpdateConfigurations\">No</Parameter>\n          <Parameter Name=\"IncludeBusinessRules\">None</Parameter>\n          <Parameter Name=\"IncludeClassifications\">None</Parameter>\n          <Parameter Name=\"IncludeCollectionDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeComponentModels\">No</Parameter>\n          <Parameter Name=\"IncludeContextDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeContextQualifiers\">No</Parameter>\n          <Parameter Name=\"IncludeDataContainerTypeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeDataContainers\">No</Parameter>\n          <Parameter Name=\"IncludeDerivedEventTypes\">No</Parameter>\n          <Parameter Name=\"IncludeECatalogues\">No</Parameter>\n          <Parameter Name=\"IncludeEntities\">Minimum</Parameter>\n          <Parameter Name=\"IncludeEntityAttributeValues\">Yes</Parameter>\n          <Parameter Name=\"IncludeEventProcessors\">None</Parameter>\n          <Parameter Name=\"IncludeEventQueues\">No</Parameter>\n          <Parameter Name=\"IncludeExportConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeImageConversion\">None</Parameter>\n          <Parameter Name=\"IncludeImportConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeInheritedValues\">No</Parameter>\n          <Parameter Name=\"IncludeIntegrationEndpoints\">None</Parameter>\n          <Parameter Name=\"IncludeKeys\">No</Parameter>\n          <Parameter Name=\"IncludeKeysChooser\"/>\n          <Parameter Name=\"IncludeLOVDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeMatchCodes\">No</Parameter>\n          <Parameter Name=\"IncludeMatchingAlgorithms\">None</Parameter>\n          <Parameter Name=\"IncludeOverriddenProducts\">No</Parameter>\n          <Parameter Name=\"IncludePaginationRules\">No</Parameter>\n          <Parameter Name=\"IncludePlannedPages\">No</Parameter>\n          <Parameter Name=\"IncludePortalConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludePrivilegeDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeProductAttributeValues\">Yes</Parameter>\n          <Parameter Name=\"IncludeProducts\">Minimum</Parameter>\n          <Parameter Name=\"IncludePublication\">No</Parameter>\n          <Parameter Name=\"IncludePublicationGroup\">No</Parameter>\n          <Parameter Name=\"IncludePublicationSections\">No</Parameter>\n          <Parameter Name=\"IncludeSTEPWorkflowProfiles\">None</Parameter>\n          <Parameter Name=\"IncludeSTEPWorkflowTaskInfo\">No</Parameter>\n          <Parameter Name=\"IncludeSTEPWorkflows\">None</Parameter>\n          <Parameter Name=\"IncludeSetupEntities\">None</Parameter>\n          <Parameter Name=\"IncludeSetupGroups\">None</Parameter>\n          <Parameter Name=\"IncludeStatusFlags\">None</Parameter>\n          <Parameter Name=\"IncludeSystemSetup\">No</Parameter>\n          <Parameter Name=\"IncludeTableDefinitions\">No</Parameter>\n          <Parameter Name=\"IncludeTableTypeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeTables\">No</Parameter>\n          <Parameter Name=\"IncludeTags\">No</Parameter>\n          <Parameter Name=\"IncludeTransformationLookupTableConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeTranslationConfigurations\">None</Parameter>\n          <Parameter Name=\"IncludeTypeDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeUnitDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeUserDefinitions\">None</Parameter>\n          <Parameter Name=\"IncludeValidation\">No</Parameter>\n          <Parameter Name=\"IncludeWebSites\">No</Parameter>\n          <Parameter Name=\"Publishing\"/>\n        </Format>\n        <ProductMapping SelectedURLType=\"product\"/>\n        <ProductSelection/>\n      </ExportManagerConfig>\n    </ExportManagerConfig>\n    <ObjectType>MEssage</ObjectType>\n  </ExportConfiguration>\n</EventSpecificExportConfiguration>\n\nErrorReporterPluginConfiguration:\n<Parameters/> -->\n      <SetupGroupLink SetupGroupID=\"Outbound Integration Endpoints\"/>\n      <Name QualifierID=\"Qualifier root\">Customer OIEP</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1Cyt+OySc0rKcpMLbbjUlAAsysVknMSi4ttlZLzc/WKSzKT8vVKSzJz9IKTM1JTSnNSXVLTMvMyS4BmqMCEXIGGVvpm5pWWpCoBjYGCVJAo0B4lfaAt+jBrADtwci2GAAAA</ScheduleSpecification>\n      <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULlxfmnnOZJL81WnTUWmU4hVhGIIhLUymuUzgW6+kc8myS7LDFhly4yyZCvKLYLFNYYm8LcyCHilcdsbMgiv5KKVywQ6mRa7lhRzW1kEXJbGx/YdHQ33vytEBXnsOMJ6s0jbROnYz0TmmpBmCLLuwmrq4mZCsXxmhCfshGMmRxFP0u9lxp2pK1WJP9j/7D/RbCO+9hpBTugwEAAA==</DataSourcePluginConfiguration>\n      <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAH2SQU8CMRCF7/yKpuGgh61688AuCkowEUPCejYDHZaStrPZDoT11zsbE5QE6O0lr9+8eZnB8BC82mOTHMVcP5h7rTCuyLpY5fqznGSPelj0BnNoICCLr+gp9SfV20uuXwM4/2xtgylpVbY15noLezAeYmUW3AhMF2nD9JTYLcmsKAzujowzxMVuucUVX4aNd4kpiNsCg8JDTQ1fR47ItiUejkzJYH7T7Nh54yJj1QBLDRhtTaKTeadYdX+OJF3MPUJCtXbRdkV5SmgVb1B5YEysToNZ9E7Kba9H+3b1mGR+PLPwiEgmRl2swSe8zpk4jx+iSwx1F+dyff21WKNYsz67ILkh1DetvGw2y6z9mk5NkHrSrenL+hi76ziZ/U/IRfwAnX1V0kYCAAA=</DeliveryMethodPluginConfiguration>\n      <EventQueue QueueStatus=\"Discard\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nConsumerSuspended=\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"MEssage\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\ncontext=Context1\nobjecttype=MEssage -->\n        <Configuration>H4sIAAAAAAAAANVUTXObMBC951douKc0k0sP4IzHdlJm2sZjk/Qsw5ooERKjlVynv74LCFMbOnFvyQlpv7Tv8XaniGBTKCvJLcTRzb6UbAcGhVZxcPXpc8BAZToXqoiDh/T28ktwM7mI1uliebk0OneZTdRWm5JbymArQC13kCgpFKxgi3Gw5RIhYLdaSv3rnkobkcPabXx2H7HYV9rYORixg3xqrTm4JheMRdO6UfRRa/Eb4uC7UKJ0ZcDmWtn2gZnkiGIrsqafVDdZ1AgYgkEp1ri2XlcxbIqHbXVCFv4D2iTCSgo7qRsTG2fhm1AvmBpRFNSxKk7dH4LSHgvWRLwJ/oTdDwDxuONx+Xg5HIeyRGXS5bDkpBzrhePFclL0HOIozJVg1g4rUDnk3p7Qef9Tm/yrAMNN9vQ6UNQPXsLAeL95hsymrxXcGe0qcmAc9caVk4BNryO2Iyvrj8mcKFkg8uIAdJA9NPmGWpoGfXpG3r1Soi76f/eLzxvbMF3NUSX5H1H/3LBbR39vlnBUlIdnOvcQb+fx15nRiIO0ZtuNux65dIDdbc4tJ+1aTnQbfOvVKPTXVj0dp2fMRy8cGoYXrDgxOa0qo3eHUXlQ4v3riGDXfZ67Tx89gGt/z4hq2Nt41n6vvFk3M2dp5mI/oN7xB0LiFQC9BwAA</Configuration>\n      </EventQueue>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAAH1Vx67cVhTb5ysMb7VQb4BjQL2XURmVneqo9zb6+rwXO0gAG7m7SxIHBM4B+U04imFzpyKryzoTrmlcNm4cyvq1L8lWj8P3P758+fYb/IuRbFnFdJ33nor1z69l0q3F10/1p/5z6CfxHca/gf/+fmGJX1krbYrsB2AI65q8im/gf7CfI/42ZCTDB7388PVdxlaF+edpcHSGempWHA28V0xmweQFIH0MtfHzqdZe8ozWwB1I1+dbf9XMR3WuCjuDIRQqUvMhMLrLHtsXWpM8dojky5BInFra4mIVOH/3OkGC9ZO2yTG6VXyZMsR1nwk31FVM8SqeciXd10kZMCFvCujYYuJg4JQFgfwdxhPll6Oa4Akrwdhb3+yWcUUqJGqDy5TA47j27SEvYdgjlxI6VLDYk3ZG96J75yHFWLhHRmt7BrHCrm2bgBKHlFq46CZhzArd+WI+ANlf3YtjTPngeNaac9Z2YwapM95VhN1reaNq2aPi1Pk8PQNHWnF1QK1U3XpP6msfk12S+6pm+U56xHP3tlEb4dUWjrVX3htrnnlmq6RFrETWGhY+F7CSJKHG8QZLUAjERLec6j0J00WG95Bm/IitrRQ5MR81GUBJqQlloCZCl0DG1xH3G9i99oMVh6pvk2kMxPsCRKTRLra3MJ0X8jbrkOtFPQQCepwobuftWLFJy6ccdkehicWKPtyiaDo46JeU1fsyr6LhmbV0MY8zyqQb0783sgo+LklPR58AEt88xB24C3ETTeHcVE5pWUuvYUi1exYaUZfAEz5ullRO5+q1liUW8Vdwc1710meOw6ZNDTZs4uTVk5KUQNh8gkFmiBDM19Oh03PDj1hkIrzCxFgkOjA5fjp3aWS4Ksqs3auRUlMju/QZ3VVq6EgpXQW5gYw+1ahE1HLNJbM5l04xlr2lGLCWlsOnTlHoDJCw3MzEeUyRJIYDB9Vc/0FQPBT6dqTf1FKnSzKoIYA8BJ9OW7PUDa9GKg+ojhFXG3yOiwM8M1wysF4k78Fpy9us5+Jj5yN3mIsRcKYCP7wLHWNeWCStdrQqj4mUN10/OfRIYx5ODT43Wr5D+SBjf6SWQjrp8hloJlYQDoSbcylvSlnK57PXFFqfdwM3V8rHc0jCNQfVgbBCFBImglKk9zbBhq5oD6PjfCt1CBsTNAnU2Gb2igTBSJHcPNKRQ8Geu0DSd6q8T3/r1w0Rmj7LopNqAu8MJletNmKrwVhbt+PppOuzKaP+4xqnXle1U9csh72dR5GBVzDbJdhjHAIQzBOGhzF3vcVD7PBV8sHlF8h6WAwUVqDEP6rnXDYw7uQBV4sgdKwi6nluvDsQIYay1w8BN41VRo2TdZBifOZMBjsvg/A5WwLdD79Ym51FWcMjOtb6yXJu1OHcMcuTxMHO0vlGPrRezTqpkn2cBYUruH7QjzDIkzztYwVqGs6bLYpx0MyUqGx6U40Lp2HHmCpA3O9Mp0816CN4RVHaDHQ3braLiF6ujo4PdO0mwCOh0FIBIAa2By0SRePiydyOyaaf7405iYWYTpsOXSR8ogNAlymyz/MuhABw1O7EbgoMWnQA3UoUPq4dHepcglGKg1HxlGVNOBnmI8p/k8qf9QH+tld+Rv//dc9fTxahMp4GAAA=</ProcessPluginConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"Context1\"/>\n      <WorkspaceID>Main</WorkspaceID>\n    </OutBoundIntegrationEndpoint>\n  </IntegrationEndpoints>\n\n  <ScheduledProcesses>\n    <ScheduledProcess ID=\"BGP_80481504\">\n      <Configuration>H4sIAAAAAAAAAKVU226jMBB971dY1j5mwSaQZqM4FU1o+tA2UUzUR2TAJSgUImxvm79fm9x2JWi3KuIymplzZpiLhczjyqLJhqeq4Bad3kcPPg2j1fqJOMjpjzAeIWeEvRHSd38sdkUuJ6IDRUN/FQaz6Ha+JPqJhtjFgyHyumHL1WIaUOqv5pTYYsNqntpvVb3VArNjlmyzulJl+nNXVwkXolGfCOwmBHKH2EPuWZsuD67W+2vxadxZQKfkjAS3qtiC9S5lkoNltVOFEeasjlnGgS9lncdKcvEp7ZP/GBBDduD6L/+oyeXbGejGUfLL7XbQTzBbPwRkfKMrBH7zWuRVSSC2ELyZXI15qYNwMbkCoJH3ICmYEAQm1at14FMyLyxxqhp/yctcao5znNlZ9eOkeuZ8W+yhJj1eKduLxYtRRwMdvN3iEXjdbnEIdNstmMB+u8UlcNBu6RPo/WURktXSlwSioY2wbfYAHDcA6Sq1UiACHWjr+tnnAn7QA7MnkX8XBqvLlvVPW4b+AcbZcfatRA+/5GY0DiA0HCHcgDTU6QClXCR1vjPN+OagXzj5O0+UYRS81vNDMLK8gYU9y0HXHRAzEEJHv2T/wcFygelvVmtBh+iqijabdiX6mJCky+k0rITrfPfgsSp7IFS8B555qqWN6oG7Ou8ByqR+qfLcbrCkYe8wEHmZGQzwVQYQBuYnuqIZdya/0NoG8cXaNBiexntC78NFt5NUgryx3OR/dPoDZdIu8PUFAAA=</Configuration>\n    </ScheduledProcess>\n  </ScheduledProcesses>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
