@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <CrossReferenceTypes>
         <ClassificationProductLinkType ID="PMDM.P2CLT.SupplierLink" Inherited="true" Accumulated="false" DefinesValidAttributes="false" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="false">
             <Name QualifierID="Qualifier root">Supplier</Name>
