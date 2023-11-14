@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <ContextList>
+        <Context ID="Context6">
+            <Name QualifierID="Qualifier root">English CA</Name>
+            <DimensionPointLink DimensionPointID="CA"></DimensionPointLink>
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Context>
+    </ContextList>
+</STEP-ProductInformation>

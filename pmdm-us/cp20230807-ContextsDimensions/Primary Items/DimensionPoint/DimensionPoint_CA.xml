@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <DimensionList>
         <Dimension ID="Country">
-            <Name QualifierID="Qualifier root">Country</Name>
-            <DimensionPoint ID="AllCountries">
-                <Name QualifierID="Qualifier root">Country Root</Name>
-            </DimensionPoint>
             <DimensionPoint ID="CA">
                 <Name QualifierID="Qualifier root">Canada</Name>
                 <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
