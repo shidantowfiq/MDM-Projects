@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <IntegrationEndpoints>
         <InBoundIntegrationEndpoint ID="FileLoader" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="Default" ProcessPluginID="Import" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1000" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="NONE" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="WebUIFileLoadingReceiver" MessagesPerBackgroundProcess="1"><!-- Definition:
 ScheduleSpecification:
