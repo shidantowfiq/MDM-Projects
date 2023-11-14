@@ -1,0 +1,129 @@
+{
+  "version" : "2",
+  "id" : "cp20230731-Collections",
+  "name" : "cp20230731-Collections",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-7ee14158-5650-440f-9dcd-9731957fe2ff",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Collection Group",
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Setup Actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Users",
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Read Only",
+    "itemURL" : "step://group?id=ReadOnly",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection created from file",
+    "itemURL" : "step://collection?id=80381210",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection",
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection from List Pasted",
+    "itemURL" : "step://collection?id=80381214",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GIT_UserGroups",
+    "itemURL" : "step://collection?id=106437",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "All User Actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View User Actions",
+    "itemURL" : "step://ActionSet?id=ViewUserActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View Setup Actions",
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-07-31 13:29:41\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <CollectionGroup ID=\"CollectionGroup root\">\n      <Name>Collections</Name>\n      <Collection ID=\"80381210\" ParentID=\"CollectionGroup root\">\n        <Name>Collection created from file</Name>\n      </Collection>\n      <Collection ID=\"80381214\" ParentID=\"CollectionGroup root\" QueryURL=\"step://search?args0.0=searchString%3dDEL002-18931%0aDEL002-20955%0aDEL002-16907%0aDEL002-23991%0aDEL002-15895%0aDEL002-22979%0a80001644%0aDEL002-21967%0aDEL002-19943%0aDEL002-17919%0aREACH-00001%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria\">\n        <Name>Collection from List Pasted</Name>\n      </Collection>\n      <Collection ID=\"106437\" ParentID=\"CollectionGroup root\" QueryURL=\"step://search?args0.0=nodetype%3dgroup%2cobjecttype%3dGroup+user-type+root&amp;args0.1=searchString%3dStibo%0aReadOnly%2cuniqueKey%3dIDKey&amp;search0.0=ObjectTypeCriteria&amp;search0.1=IDListCriteria\">\n        <Name>GIT_UserGroups</Name>\n      </Collection>\n    </CollectionGroup>\n  </CollectionList>\n\n  <UserGroupList>\n    <UserGroup ID=\"ReadOnly\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">Read Only</Name>\n      <PrivilegeRule ActionSetID=\"ViewUserActions\" ProductID=\"Product hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"ViewUserActions\" EntityID=\"Entity hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"ViewUserActions\" PublicationGroupID=\"Publication hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"ViewUserActions\" TradingTermsID=\"eCatalog root\"/>\n      <PrivilegeRule ActionSetID=\"ViewUserActions\" ClassificationID=\"Classification 1 root\"/>\n      <PrivilegeRule ActionSetID=\"ViewUserActions\" CollectionGroupID=\"CollectionGroup root\"/>\n      <PrivilegeRule ActionSetID=\"ViewSetupActions\"/>\n    </UserGroup>\n    <UserGroup ID=\"Stibo\" ReadOnly=\"false\">\n      <Name QualifierID=\"Qualifier root\">Stibo Users</Name>\n      <PrivilegeRule ActionSetID=\"All user actions\" EntityID=\"Entity hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" ProductID=\"Product hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" ClassificationID=\"Classification 1 root\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" TradingTermsID=\"eCatalog root\"/>\n      <PrivilegeRule ActionSetID=\"All setup actions\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" PublicationGroupID=\"Publication hierarchy root\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" CollectionGroupID=\"CollectionGroup root\"/>\n    </UserGroup>\n  </UserGroupList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
