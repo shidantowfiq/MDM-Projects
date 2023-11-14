@@ -21,7 +21,7 @@ jobs:
         echo ${{ steps.dir-name.outputs.dir }}
         cd ${{ vars.REPO_PATH }}
         ls
-        zip -r ${{ steps.dir-name.outputs.dir }}.zip ${{ steps.dir-name.outputs.dir }}
+        zip -r ${{ steps.dir-name.outputs.dir }}.zip ${{ steps.dir-name.outputs.dir }}.zip
     - uses: actions/upload-artifact@v3
       with:
         path: ${{ vars.REPO_PATH }}${{ steps.dir-name.outputs.dir }}.zip
@@ -37,7 +37,7 @@ jobs:
       id: download
       with:
         path: ${{ steps.dir-name.outputs.dir }}.zip
-        name: ${{ steps.dir-name.outputs.dir }}.zip
+        name: ${{ steps.dir-name.outputs.dir }}
     - name: SFTP uploader
       uses: wangyucode/sftp-upload-action@v2.0.2
       with:
