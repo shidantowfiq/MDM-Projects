@@ -1,4 +1,5 @@
 {
+  "version" : "2",
   "id" : "cp20231018-ErrorWhenParentSetupGroupNA",
   "name" : "cp20231018-ErrorWhenParentSetupGroupNA",
   "metadata" : {
@@ -92,7 +93,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 15:13:27\"    UseContextLocale=\"false\">\n\n  <Products>\n    <Product ID=\"954808\" UserTypeID=\"Tree\" ParentID=\"ProductsRoot\">\n      <Name>Flat Hiearchy 2</Name>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-18 15:13:27\"    UseContextLocale=\"false\">\n\n  <Products>\n    <Product ID=\"954808\" UserTypeID=\"Tree\" ParentID=\"ProductsRoot\">\n      <Name>Flat Hiearchy 2</Name>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
