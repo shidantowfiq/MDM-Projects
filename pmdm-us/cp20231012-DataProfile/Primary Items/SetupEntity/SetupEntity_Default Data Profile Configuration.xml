@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="Default Data Profile Configuration" UserTypeID="DataProfileConfigurationType"><!-- Definition:
+PluginConfiguration=
+<plugin id="businessconditionsfilter">
+  <simple id="Condition">ReturnTrue</simple>
+</plugin>;
+<plugin id="datatypefilter">
+  <simple id="ExcludeInclude">exclude</simple>
+  <simplelist id="AttributeGroups">
+    <entry>Identifiers</entry>
+  </simplelist>
+</plugin>;
+<plugin id="businessconditions">
+  <simplelist id="Conditions">
+    <entry>ELFRFalse</entry>
+  </simplelist>
+</plugin>;
+<plugin id="values">
+  <simplelist id="WordCutAttributes"/>
+</plugin> -->
+            <SetupGroupLink SetupGroupID="Data Profile Configurations"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Default Data Profile Configuration</Name>
+            <Configuration>H4sIAAAAAAAAAMWRUWvCMBSF3/0VIe9rt7c9tJVRdRQcDOfYc2xvS0aadMlNcf9+SbVVcYrKYE9JDueefMlJlSx5ZTVDrmQcjde1IC1o40/0IbinBGSuCi6rmL4vZ3ePdJyMoldhKy5NMiJkuyebJZvEdGUNl2BMrmTBfawpuUDQ1Nv9ANOsBieYjbAvER+Q9oOULL8biOkna1kgmKyCN9QOhSYLQKvlUluIwmF4mx8eXuDOHdrvsAVDhu6SKxGn61zYAjLZLac5YeM7gnSBc26wy3pCZ15ZhGetbGMOwixyEXgn7ee2kxlCnWQFSOQld5xROKj9BZ1yy58cF3jmX4ZnpDv35S+YzmeLGRMG/pK/ZcLCRcwfShepxaGBU+jhLRhW8i8LDubfSVhb5apuhLP7Xi9rc+d/AQeVX1PrBEpmBZL9lFsb7ndOjkwjOCY/rXQSLLQEAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

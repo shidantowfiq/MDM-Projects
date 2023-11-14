@@ -1,0 +1,59 @@
+{
+  "version" : "2",
+  "id" : "cp20231012-DataProfile",
+  "name" : "cp20231012-DataProfile",
+  "metadata" : { },
+  "setupGroupId" : "Integrations",
+  "uniqueId" : "cpk-17aaf963-0ebd-498a-bacb-5fa270f7b388",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Data Profile Configurations",
+    "itemURL" : "step://objecttype?id=Data+Profile+Configurations",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Profile Configurations",
+    "itemURL" : "step://SetupGroup?id=Data+Profile+Configurations",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Default Data Profile Configuration",
+    "itemURL" : "step://SetupEntity?id=Default+Data+Profile+Configuration",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Profile Configuration Type",
+    "itemURL" : "step://objecttype?id=DataProfileConfigurationType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-12 11:03:25\"    UseContextLocale=\"false\">\n\n  <SetupEntities>\n    <SetupEntity ID=\"Default Data Profile Configuration\" UserTypeID=\"DataProfileConfigurationType\">\n<!-- Definition:\nPluginConfiguration=\n<plugin id=\"businessconditionsfilter\">\n  <simple id=\"Condition\">ReturnTrue</simple>\n</plugin>;\n<plugin id=\"datatypefilter\">\n  <simple id=\"ExcludeInclude\">exclude</simple>\n  <simplelist id=\"AttributeGroups\">\n    <entry>Identifiers</entry>\n  </simplelist>\n</plugin>;\n<plugin id=\"businessconditions\">\n  <simplelist id=\"Conditions\">\n    <entry>ELFRFalse</entry>\n  </simplelist>\n</plugin>;\n<plugin id=\"values\">\n  <simplelist id=\"WordCutAttributes\"/>\n</plugin> -->\n      <SetupGroupLink SetupGroupID=\"Data Profile Configurations\"/>\n      <Name QualifierID=\"Qualifier root\">Default Data Profile Configuration</Name>\n      <Configuration>H4sIAAAAAAAAAMWRUWvCMBSF3/0VIe9rt7c9tJVRdRQcDOfYc2xvS0aadMlNcf9+SbVVcYrKYE9JDueefMlJlSx5ZTVDrmQcjde1IC1o40/0IbinBGSuCi6rmL4vZ3ePdJyMoldhKy5NMiJkuyebJZvEdGUNl2BMrmTBfawpuUDQ1Nv9ANOsBieYjbAvER+Q9oOULL8biOkna1kgmKyCN9QOhSYLQKvlUluIwmF4mx8eXuDOHdrvsAVDhu6SKxGn61zYAjLZLac5YeM7gnSBc26wy3pCZ15ZhGetbGMOwixyEXgn7ee2kxlCnWQFSOQld5xROKj9BZ1yy58cF3jmX4ZnpDv35S+YzmeLGRMG/pK/ZcLCRcwfShepxaGBU+jhLRhW8i8LDubfSVhb5apuhLP7Xi9rc+d/AQeVX1PrBEpmBZL9lFsb7ndOjkwjOCY/rXQSLLQEAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
