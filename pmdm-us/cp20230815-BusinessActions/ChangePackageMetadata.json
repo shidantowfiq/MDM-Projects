@@ -1,9 +1,14 @@
 {
+  "version" : "2",
   "id" : "cp20230815-BusinessActions",
   "name" : "cp20230815-BusinessActions",
   "metadata" : {
-    "Purpose" : "To setup test data for an issue with delete approval taking too long"
+    "Purpose" : [ {
+      "value" : "To setup test data for an issue with delete approval taking too long",
+      "unit" : ""
+    } ]
   },
+  "setupGroupId" : "ChangePackages",
   "uniqueId" : "cpk-04639c90-adc3-4662-8235-16dbcbaedc40",
   "origin" : "pmdm-us2",
   "wasSigned" : "true",
@@ -11,231 +16,399 @@
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
-    "itemURL" : "step://uniquekey?id=DescriptionKey",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=DisplaySequence",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=TestItem",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=DescriptionAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://businessrule?id=Create10Leafs",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attributegroup?id=Attribute+group+root",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=std.lang.all",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://SetupGroup?id=Actions",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://businessrule?id=Create10Items",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=ETIM_ID",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://businessrule?id=DeleteItems",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.PDS.Description",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.MarketingsCompleteness",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.LogisticCompleteness",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=GarbageAttributes",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=Garbage-41",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=ETIM_Abbreviation",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ETIM_Change_Code",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=ConditionalMetadataAttribute",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.ExternalParentIdentifier",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=AttributeGroup",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimension?id=Language",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.ExternalIdentifier",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Tree",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.ConditionAttribute",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=TableDisplay",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=AllCountries",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.CompletenessScore",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Purpose",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.AttributeHelpText",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimension?id=Country",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Item",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://objecttype?id=Unique+Key",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ValidationErrorMessage",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=DisplayName",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ETIM_Description",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=TranslateItemData",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Product+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://objecttype?id=Level2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
+    "name" : "Level 1",
     "itemURL" : "step://objecttype?id=Level1",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://attribute?id=Completeness+Score",
+    "name" : "ETIM Abbreviation",
+    "itemURL" : "step://attribute?id=ETIM_Abbreviation",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
+    "name" : "Level 4",
     "itemURL" : "step://objecttype?id=Level4",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "ETIM Feature ID",
     "itemURL" : "step://attribute?id=ETIM_Feature_ID",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Level 3",
     "itemURL" : "step://objecttype?id=Level3",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Level 2",
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
     "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
     "inclusion" : "Precondition",
-    "importing" : "Force"
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
     "itemURL" : "step://objecttype?id=stibo.normalattribute",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "name" : "Identifiant externe",
+    "itemURL" : "step://attribute?id=PMDM.AT.ExternalIdentifier",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Products",
     "itemURL" : "step://objecttype?id=Products",
     "inclusion" : "Precondition",
-    "importing" : "Force"
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Conditional Metadata Attribute",
+    "itemURL" : "step://attribute?id=ConditionalMetadataAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribut condition",
+    "itemURL" : "step://attribute?id=PMDM.AT.ConditionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestItem",
+    "itemURL" : "step://objecttype?id=TestItem",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description Attribute",
+    "itemURL" : "step://attribute?id=DescriptionAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Create 10 Leafs",
+    "itemURL" : "step://businessrule?id=Create10Leafs",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "#1 Search Below Deep Hierarchy and run bulk update with Create10Leafs and repeat the search after each time, until the count is 11111",
+    "recursive" : false
+  }, {
+    "name" : "Display Name",
+    "itemURL" : "step://attribute?id=DisplayName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Discontinued Products",
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Description",
+    "itemURL" : "step://attribute?id=ETIM_Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Complétude logistique",
+    "itemURL" : "step://attribute?id=PMDM.AT.LogisticCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketings Completeness",
+    "itemURL" : "step://attribute?id=PMDM.AT.MarketingsCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Séquence d'affichage",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GarbageAttributes",
+    "itemURL" : "step://attributegroup?id=GarbageAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Unit Root",
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Garbage-41",
+    "itemURL" : "step://attribute?id=Garbage-41",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Change Code",
+    "itemURL" : "step://attribute?id=ETIM_Change_Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "But",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tree",
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
     "itemURL" : "step://attribute?id=AttributeHelpText",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Identifiant parent externe",
+    "itemURL" : "step://attribute?id=PMDM.AT.ExternalParentIdentifier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://attributegroup?id=AttributeGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hide LOV Value ID From Smartsheet",
     "itemURL" : "step://attribute?id=PMDM.AT.HideLovValueIdFromSmartsheet",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Table Sort Order",
+    "itemURL" : "step://attribute?id=TableDisplay",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "_LAAL Attributes",
     "itemURL" : "step://attributegroup?id=_LAAL+Attributes",
     "inclusion" : "Precondition",
-    "importing" : "Force"
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description Key",
+    "itemURL" : "step://uniquekey?id=DescriptionKey",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Deactivate before installation and activate after installation.",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Score de complétude",
+    "itemURL" : "step://attribute?id=PMDM.AT.CompletenessScore",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Texte d'aide attribut",
+    "itemURL" : "step://attribute?id=PMDM.AT.AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Key",
+    "itemURL" : "step://objecttype?id=Unique+Key",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM ID",
+    "itemURL" : "step://attribute?id=ETIM_ID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DeleteItems",
+    "itemURL" : "step://businessrule?id=DeleteItems",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "#3 Search below Deep Hiearchy for only Item OTs and run bulk update to move items to recycle bin",
+    "recursive" : false
+  }, {
+    "name" : "Create 10 Items",
+    "itemURL" : "step://businessrule?id=Create10Items",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "#2 with 11111 Tree objects created, run bulk update from search to create 100k products, then Approve Recursively on entire hierarchy",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS : Description",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Translate Item Data",
+    "itemURL" : "step://attribute?id=TranslateItemData",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-08-31 13:20:44\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"stibo.businessrule.action\">\n      <Name QualifierID=\"std.lang.all\">Business Action Type</Name>\n      <UserTypeLink UserTypeID=\"Workflows\"/>\n      <UserTypeLink UserTypeID=\"BusinessRuleGroup\"/>\n      <UserTypeLink UserTypeID=\"InboundSetupGroupCategory\"/>\n      <UserTypeLink UserTypeID=\"Workflow Auditing\"/>\n      <UserTypeLink UserTypeID=\"SetupGroup\"/>\n      <UserTypeLink UserTypeID=\"GlobalBusinessRules\"/>\n      <UserTypeLink UserTypeID=\"AssetAnalyzer.SetupGroup\"/>\n      <UserTypeLink UserTypeID=\"WorkflowSetupGroupCategory\"/>\n      <UserTypeLink UserTypeID=\"OutboundSetupGroupCategory\"/>\n    </UserType>\n    <UserType ID=\"Products\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"ProductsRoot\" NamePattern=\"Product Root\">\n      <Name QualifierID=\"Qualifier root\">Products</Name>\n      <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n      <UserTypeLink UserTypeID=\"BusinessUnitRoot\"/>\n    </UserType>\n    <UserType ID=\"Product user-type root\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Primary Product Classification</Name>\n      <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"Tree\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Tree</Name>\n      <UserTypeLink UserTypeID=\"Products\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n    </UserType>\n    <UserType ID=\"Item\" ManuallySorted=\"false\" AllowInDesignTemplate=\"true\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\" NamePattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Item</Name>\n      <Icon>H4sIAAAAAAAAAH1Tz2sTQRTetlq0UkREiFJw3ApWMLs7SdNk18Y23U3agFtKGjAXsZvdabM0u7PuTsy2CK0VioGCFgTtRdqDV/8APbRFD3oQC3oSDx48CB68F7TOpk0UIR2YH+/xfe+9efNNbWJ8tLvrXBfDMN3ZMSUX7ME81klX98e3u3Q7S9IFMomnSVVzEZMycBGBrKXNoBzSjLnb79Agw3T0mfkCKajXJR1bnBZgON9ymGAMDvmOps8iAopoxrST7M9XmywwjSR7I6YKqiOjkjk276LJ+fG8Pj+riwY7dA0M+hINYCGiAd8q257kJ9l6XImeAzfPgjqEzCbZ/aIK6gSQsYtAjBsI6zCaAHGRgzExEem/AiICHOAFkYf9YQFKgigJEBwMlmZzjWkpp2QOclEryZYIcSSer1arXDXKYXeGh6Io8kKEj0TCFBH25myi+WHb621EUJCnu6ZDTGyDwNaKuEKSLNu4guU0w9reQZtow3hfc3jICfw/QFU9HGpZTbRHcmj6cLSXn3MQn0Merrg6fbjp3oDsSLKLNILdPMblRhcnSphgr4QdIMtB1+KgT9V00w6cl+ssVZWytkc0W0dZJclSD2eahgRhKpHJZCJxRclAmI6n0rGYHE/LsgzhSDSaanAVrFcsZJMG1/jLjbbkBoLYZyPXvIOMjIstUL+4ZLauRWhdyz7XaF0LbMnlaTH8f8/dcFENBcemeKnRlD+yqeZdKu6npx5s0o9Bs6by/ufil4W9vYVOdvF+e0fvyvtPOztbztc2TR2OOa/XttpPjH18Wzp/62R8+8LGvdCTkTJ75tHz2tGb69ttm8vLHYly0TDerGvl3d3a8dDoyvelvY3akbXfDx87Ia1nqufXpYFnoVWVMS9mTg8vtjGrVznzQ0V6GfzMbHpceTEytfQHzbCPOgYEAAA=</Icon>\n      <DimensionLink DimensionID=\"Country\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"DiscontinuedProducts\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n      <UserTypeLink UserTypeID=\"Level3\"/>\n      <UserTypeLink UserTypeID=\"Level4\"/>\n      <UserTypeLink UserTypeID=\"Level2\"/>\n      <UserTypeLink UserTypeID=\"Level1\"/>\n    </UserType>\n  </UserTypes>\n  <Keys>\n    <Key ID=\"DescriptionKey\" State=\"Active\">\n      <Name QualifierID=\"Qualifier root\">Description Key</Name>\n      <KeyFormula>value('DescriptionAttribute')</KeyFormula>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <AttributeLink AttributeID=\"DescriptionAttribute\"/>\n    </Key>\n  </Keys>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"_LAAL Attributes\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">_LAAL Attributes</Name>\n    <Configuration>H4sIAAAAAAAAALNxLCkpykwqLUl1L8ovLQjLTC13SU3LzMssyczPU3DLL8pNLAlLLSoG8myVDPUMlOy4FBRsEEqKFUISi9JTS+DGFDsn5jmluqZklqSm2CqVFJWmKumD9Tjn55Tm5hWD2EAeXD1EWAHO93SxVfKtdE7MSQaLQTXrw3Xb6ONzsR0XAKC7I8PRAAAA</Configuration>\n  </AttributeGroup>\n  <AttributeGroup ID=\"GarbageAttributes\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"_LAAL Attributes\">\n    <Name QualifierID=\"en-US\">GarbageAttributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"Garbage-41\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Garbage-41</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"140\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"GarbageAttributes\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"GlobalBusinessRulesRoot\" UserTypeID=\"GlobalBusinessRules\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Global Business Rules</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Actions\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">Actions</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <BusinessRules>\n    <BusinessRule ID=\"Create10Items\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create 10 Items</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwW7bMAw9x19B+BA4SGentwG2EjTpBmRYt2DNsGOgyoyrQpE8SQ62rv33SZbtJigK7LKLRT1Sj48PZi2aissdrWvB0ez4fseU3POqMA6w8zqkA0aKxa+DgCNqw5Uk8WU6iwElUyWXFYm/bz++ex8v5lGxbAyXaMy3RuA8AhiATUsHp/kAra9J/Ike6S3TvLZ9/opZ1+gHt/dLLksTey7HtqGaHtA6GQE4hcAzhWrY/q6RxA+ONhVUVumt1U5oPB8Lm59NMv7ZKJu7cULwMlO4t4OFcDGubB55At/jhtbtHaBHwDllNWXWyQgvVo3WKO3Xuwdk1pesuoqu15Xg1HS1UpXYwcNAK0HNkG+ECFE26MhOhRTZ8O4Naz5orfSN85ZW+L8t+qwYFfyR3gnsOm7xUAtqcdnIUmD2j5pffoy3BR+pBnbPRenMBgLeybRCu+qgZJJHfA9JX0KI9xKenoZHqeGPmEwImU3gTzQSqqpQp1zuVRLm+qKgZwMlIYDTvtH6Opm4HqO90pB4MZzMcuDehksfTKct7aitZxqdCRutyobZjj58L8KxtngIked8jp5fu3QCtGtQZOdL5tYwO9/DbqX/AmUWHi7yAwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"Create10Leafs\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create 10 Leafs</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVTXU/CMBR9Zr/iZg9kBN3wzWQrRFATTYxEMD6S2pVRUrrZdsQP+O+265gjBn3Zbs+9Pfees7uClxkTC1wUnFG1YMsFycWSZYkygB4WLu0wlIzeNxy2VCqWC+RfhAMfqCB5ykSG/Of57fmlPxp6ybhUTFClnkpOhx5AA0wrOmjnHXR3jfx7vMUzIlmhD/krok2jF6ZXYyZS5VsuwzbFEm+oNmM4oA2BZXLVMP8oKPLXhjbkWGThTEszqD/sch0fKem+lbmOjRwX/Ghy50qYC0fdTMeeJbA9HnBRnQEOCBintMREmzHcjUkpJRX68XVNibYlk7qi7nXFGVZ1rchTWsONoAnHqsmXnLsoauaI2oMkUXPvhDU3UubywXiLM/qHRf8T/Xyt0yxbLIGsGE+NA4DAygszqic1FPRijy0hOJQgZAXCbtdcChX7pEEPoUEPvrzOMpcQWFKGBjEwK//CBv1+le5UDYikWNOpzNOS6MDZ5Z5n7jWXtHbZ9O/svf1v21pAtWNJdLzBZsej4yWv/5dvs08x208DAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"DeleteItems\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">DeleteItems</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVSTU/DMAw9018Rcpi2Ay3ckPoxbQUkkCYmNsRxCm1aMmVpSNwJhPjvJE3XtUKDm/3sPL/nWPK6ZGJDpOSM6g0rNlklClZG2gCQSFd2WBxNP3Yc7anSrBIxvvIvMaIiq3Imyhg/r+8urvE08aJ5rZmgWj/VnCYeQh2wbOhQv+6g+5sYP5A9WWWKSTjUZxmYQS8M3uZM5BpbLsO2JIrsKBgZDuhDyDK5brT+lDTGW0PrcyJKfwXKCMXJiEM4cDJ6rysIjR0XHD25vDHmwumohNCzBHbGgsgmR+iAILMpUCQDI8O9SGulqIDH1y3NwLakbUc7a8YZ0W2vqHLawp2hlBPd1WvOXRR0OoK+kCjo3p1Yza1SlVqY3ZKS/rGi/4mOv3WahRVobD2dx1b5BH15Zzb1c8oNz3gSet+/BvWA5nujYHg85ryC4X21p/oDB75A9soCAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Item\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-08-31 13:20:44\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"stibo.businessrule.action\">\n      <Name QualifierID=\"std.lang.all\">Business Action Type</Name>\n      <UserTypeLink UserTypeID=\"Workflows\"/>\n      <UserTypeLink UserTypeID=\"BusinessRuleGroup\"/>\n      <UserTypeLink UserTypeID=\"InboundSetupGroupCategory\"/>\n      <UserTypeLink UserTypeID=\"Workflow Auditing\"/>\n      <UserTypeLink UserTypeID=\"SetupGroup\"/>\n      <UserTypeLink UserTypeID=\"GlobalBusinessRules\"/>\n      <UserTypeLink UserTypeID=\"AssetAnalyzer.SetupGroup\"/>\n      <UserTypeLink UserTypeID=\"WorkflowSetupGroupCategory\"/>\n      <UserTypeLink UserTypeID=\"OutboundSetupGroupCategory\"/>\n    </UserType>\n    <UserType ID=\"Products\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"ProductsRoot\" NamePattern=\"Product Root\">\n      <Name QualifierID=\"Qualifier root\">Products</Name>\n      <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n      <UserTypeLink UserTypeID=\"BusinessUnitRoot\"/>\n    </UserType>\n    <UserType ID=\"Product user-type root\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Primary Product Classification</Name>\n      <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"Tree\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Tree</Name>\n      <UserTypeLink UserTypeID=\"Products\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n    </UserType>\n    <UserType ID=\"Item\" ManuallySorted=\"false\" AllowInDesignTemplate=\"true\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\" NamePattern=\"[id]\">\n      <Name QualifierID=\"Qualifier root\">Item</Name>\n      <Icon>H4sIAAAAAAAAAH1Tz2sTQRTetlq0UkREiFJw3ApWMLs7SdNk18Y23U3agFtKGjAXsZvdabM0u7PuTsy2CK0VioGCFgTtRdqDV/8APbRFD3oQC3oSDx48CB68F7TOpk0UIR2YH+/xfe+9efNNbWJ8tLvrXBfDMN3ZMSUX7ME81klX98e3u3Q7S9IFMomnSVVzEZMycBGBrKXNoBzSjLnb79Agw3T0mfkCKajXJR1bnBZgON9ymGAMDvmOps8iAopoxrST7M9XmywwjSR7I6YKqiOjkjk276LJ+fG8Pj+riwY7dA0M+hINYCGiAd8q257kJ9l6XImeAzfPgjqEzCbZ/aIK6gSQsYtAjBsI6zCaAHGRgzExEem/AiICHOAFkYf9YQFKgigJEBwMlmZzjWkpp2QOclEryZYIcSSer1arXDXKYXeGh6Io8kKEj0TCFBH25myi+WHb621EUJCnu6ZDTGyDwNaKuEKSLNu4guU0w9reQZtow3hfc3jICfw/QFU9HGpZTbRHcmj6cLSXn3MQn0Merrg6fbjp3oDsSLKLNILdPMblRhcnSphgr4QdIMtB1+KgT9V00w6cl+ssVZWytkc0W0dZJclSD2eahgRhKpHJZCJxRclAmI6n0rGYHE/LsgzhSDSaanAVrFcsZJMG1/jLjbbkBoLYZyPXvIOMjIstUL+4ZLauRWhdyz7XaF0LbMnlaTH8f8/dcFENBcemeKnRlD+yqeZdKu6npx5s0o9Bs6by/ufil4W9vYVOdvF+e0fvyvtPOztbztc2TR2OOa/XttpPjH18Wzp/62R8+8LGvdCTkTJ75tHz2tGb69ttm8vLHYly0TDerGvl3d3a8dDoyvelvY3akbXfDx87Ia1nqufXpYFnoVWVMS9mTg8vtjGrVznzQ0V6GfzMbHpceTEytfQHzbCPOgYEAAA=</Icon>\n      <DimensionLink DimensionID=\"Country\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"DiscontinuedProducts\"/>\n      <UserTypeLink UserTypeID=\"Tree\"/>\n      <UserTypeLink UserTypeID=\"Level3\"/>\n      <UserTypeLink UserTypeID=\"Level4\"/>\n      <UserTypeLink UserTypeID=\"Level2\"/>\n      <UserTypeLink UserTypeID=\"Level1\"/>\n    </UserType>\n  </UserTypes>\n  <Keys>\n    <Key ID=\"DescriptionKey\" State=\"Active\">\n      <Name QualifierID=\"Qualifier root\">Description Key</Name>\n      <KeyFormula>value('DescriptionAttribute')</KeyFormula>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <AttributeLink AttributeID=\"DescriptionAttribute\"/>\n    </Key>\n  </Keys>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"_LAAL Attributes\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">_LAAL Attributes</Name>\n    <Configuration>H4sIAAAAAAAAALNxLCkpykwqLUl1L8ovLQjLTC13SU3LzMssyczPU3DLL8pNLAlLLSoG8myVDPUMlOy4FBRsEEqKFUISi9JTS+DGFDsn5jmluqZklqSm2CqVFJWmKumD9Tjn55Tm5hWD2EAeXD1EWAHO93SxVfKtdE7MSQaLQTXrw3Xb6ONzsR0XAKC7I8PRAAAA</Configuration>\n  </AttributeGroup>\n  <AttributeGroup ID=\"GarbageAttributes\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"_LAAL Attributes\">\n    <Name QualifierID=\"en-US\">GarbageAttributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"Garbage-41\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Garbage-41</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"140\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"GarbageAttributes\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"GlobalBusinessRulesRoot\" UserTypeID=\"GlobalBusinessRules\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Global Business Rules</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Actions\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">Actions</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <BusinessRules>\n    <BusinessRule ID=\"Create10Items\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create 10 Items</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVTwW7bMAw9x19B+BA4SGentwG2EjTpBmRYt2DNsGOgyoyrQpE8SQ62rv33SZbtJigK7LKLRT1Sj48PZi2aissdrWvB0ez4fseU3POqMA6w8zqkA0aKxa+DgCNqw5Uk8WU6iwElUyWXFYm/bz++ex8v5lGxbAyXaMy3RuA8AhiATUsHp/kAra9J/Ike6S3TvLZ9/opZ1+gHt/dLLksTey7HtqGaHtA6GQE4hcAzhWrY/q6RxA+ONhVUVumt1U5oPB8Lm59NMv7ZKJu7cULwMlO4t4OFcDGubB55At/jhtbtHaBHwDllNWXWyQgvVo3WKO3Xuwdk1pesuoqu15Xg1HS1UpXYwcNAK0HNkG+ECFE26MhOhRTZ8O4Naz5orfSN85ZW+L8t+qwYFfyR3gnsOm7xUAtqcdnIUmD2j5pffoy3BR+pBnbPRenMBgLeybRCu+qgZJJHfA9JX0KI9xKenoZHqeGPmEwImU3gTzQSqqpQp1zuVRLm+qKgZwMlIYDTvtH6Opm4HqO90pB4MZzMcuDehksfTKct7aitZxqdCRutyobZjj58L8KxtngIked8jp5fu3QCtGtQZOdL5tYwO9/DbqX/AmUWHi7yAwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"Create10Leafs\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Create 10 Leafs</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVTXU/CMBR9Zr/iZg9kBN3wzWQrRFATTYxEMD6S2pVRUrrZdsQP+O+265gjBn3Zbs+9Pfees7uClxkTC1wUnFG1YMsFycWSZYkygB4WLu0wlIzeNxy2VCqWC+RfhAMfqCB5ykSG/Of57fmlPxp6ybhUTFClnkpOhx5AA0wrOmjnHXR3jfx7vMUzIlmhD/krok2jF6ZXYyZS5VsuwzbFEm+oNmM4oA2BZXLVMP8oKPLXhjbkWGThTEszqD/sch0fKem+lbmOjRwX/Ghy50qYC0fdTMeeJbA9HnBRnQEOCBintMREmzHcjUkpJRX68XVNibYlk7qi7nXFGVZ1rchTWsONoAnHqsmXnLsoauaI2oMkUXPvhDU3UubywXiLM/qHRf8T/Xyt0yxbLIGsGE+NA4DAygszqic1FPRijy0hOJQgZAXCbtdcChX7pEEPoUEPvrzOMpcQWFKGBjEwK//CBv1+le5UDYikWNOpzNOS6MDZ5Z5n7jWXtHbZ9O/svf1v21pAtWNJdLzBZsej4yWv/5dvs08x208DAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"DeleteItems\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">DeleteItems</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAIVSTU/DMAw9018Rcpi2Ay3ckPoxbQUkkCYmNsRxCm1aMmVpSNwJhPjvJE3XtUKDm/3sPL/nWPK6ZGJDpOSM6g0rNlklClZG2gCQSFd2WBxNP3Yc7anSrBIxvvIvMaIiq3Imyhg/r+8urvE08aJ5rZmgWj/VnCYeQh2wbOhQv+6g+5sYP5A9WWWKSTjUZxmYQS8M3uZM5BpbLsO2JIrsKBgZDuhDyDK5brT+lDTGW0PrcyJKfwXKCMXJiEM4cDJ6rysIjR0XHD25vDHmwumohNCzBHbGgsgmR+iAILMpUCQDI8O9SGulqIDH1y3NwLakbUc7a8YZ0W2vqHLawp2hlBPd1WvOXRR0OoK+kCjo3p1Yza1SlVqY3ZKS/rGi/4mOv3WahRVobD2dx1b5BH15Zzb1c8oNz3gSet+/BvWA5nujYHg85ryC4X21p/oDB75A9soCAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"Item\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
