@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <UserList>
         <User ID="DBA" ForceAuthentication="true">
             <Name QualifierID="Qualifier root">DBA</Name>

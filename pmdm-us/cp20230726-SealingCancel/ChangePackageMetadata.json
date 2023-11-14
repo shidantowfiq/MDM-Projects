@@ -1,7 +1,9 @@
 {
+  "version" : "2",
   "id" : "cp20230726-SealingCancel",
   "name" : "cp20230726-SealingCancel",
   "metadata" : { },
+  "setupGroupId" : "ChangePackages",
   "uniqueId" : "cpk-126d9014-34de-4bae-a8c8-15133a912b55",
   "origin" : "pmdm-us",
   "wasSigned" : "true",
@@ -9,551 +11,959 @@
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
-    "itemURL" : "step://attribute?id=DisplaySequence",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=MultiValuedDescriptionAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Country",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=US",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Attribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=CalculatedAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=std.lang.all",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Number",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=HiddenAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=da-Danish",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=ViewAsset",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Attribute3",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=RegEx",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Attribute2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ParentName",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=YesNoRevisable",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FlowRate",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=DK",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=VendorLOV",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Brand",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=DeleteAsset",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Dimensions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
+    "name" : "User Information",
     "itemURL" : "step://attribute?id=LastName",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://attribute?id=Value",
+    "name" : "Dimensions",
+    "itemURL" : "step://attribute?id=Dimensions",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://context?id=Context7",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://referencetype?id=PMDM.IDRT.ProductImages",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=FeaturesAndBenefits",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=TextAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=Impersonate",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ISODate",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Sport",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Tree",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://context?id=Context1",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://ActionSet?id=Edit+product+attribute+values",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=CalculatedParent",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ExternallyMaintained",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Purpose",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=SportLOV",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=BestFor",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://group?id=Stibo",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimension?id=Country",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=Channels",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=HiddenAttributes",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://classification?id=Classification+1+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=ElasticSearchConfiguration",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=CountryLOV",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FinishedProductCode",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=All+user+actions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=Initiate",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=Calculated+Attributes",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=EventProcessors",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=BasicInformation",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://termslist?id=TermsList",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=AddressTypeaheadEntityReferences",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=ViewTasks",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Compression",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Material",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=PETB+Test",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://referencetype?id=PMDM.IDRT.PrimaryProductImage",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FirstName",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Category",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ISODateTime",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://product?id=Product+hierarchy+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ProductDescriptionShort",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=DescriptionAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=ProductSpecifications",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=Attribute+group+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Context+qualifier",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://user?id=DBA",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=UserInformation",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://entity?id=Entity+hierarchy+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ELFRLovAttr",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=BestForLOV",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Calculated",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=HierarchyAndIdentifiers",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://SetupGroup?id=EventProcessors",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://classification?id=AssetsRoot",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=LOVAtt2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=CountryDepAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=LongDescription",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=MktDesc3",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://group?id=RestrictedUsers",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Operator+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=MktDesc2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ShortDescription",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Channels",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=MktDesc1",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=AttributeGroup",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=RegEx3",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimension?id=Language",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=AllCountries",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://user?id=STEPSYS",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=HazardousMaterial",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=LanguageDep2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Vendor",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=ApproveProducts",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FeaturesBenefits4",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Number2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FeaturesBenefits3",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FeaturesBenefits2",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=FeaturesBenefits1",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=ELFRAttr",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=NumberWithUnit",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=Attributes",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://tradingterms?id=eCatalog+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PETBMultiValue",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://product?id=ProductsRoot",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=MultiValuedAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=TextValidationExcludeTags",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=ViewSetupActions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://eventprocessor?id=ewrg",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://objecttype?id=Product+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://dimensionpoint?id=en-US",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=Date",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValues?id=ELFRLov",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=All+setup+actions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=MarketingDescriptions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Level1",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attribute?id=LanguageDependentAttribute",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://eventprocessor?id=Asset+Download",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
-    "itemURL" : "step://attribute?id=TensileStrength",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://objecttype?id=Products",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://attributegroup?id=DescriptionAttributes",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://ActionSet?id=ViewUserActions",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
+    "name" : "Configuration Entity References",
     "itemURL" : "step://attribute?id=ConfigurationEntityReferences",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Level 1",
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Address Typeahead Entity References",
+    "itemURL" : "step://attribute?id=AddressTypeaheadEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Compression",
+    "itemURL" : "step://attribute?id=Compression",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Danish (Denmark)",
+    "itemURL" : "step://context?id=Context7",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Benefits",
+    "itemURL" : "step://attributegroup?id=FeaturesAndBenefits",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sport",
+    "itemURL" : "step://attribute?id=Sport",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PETB Test",
+    "itemURL" : "step://ListOfValues?id=PETB+Test",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English US",
+    "itemURL" : "step://context?id=Context1",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Calculated Attributes",
+    "itemURL" : "step://attributegroup?id=Calculated+Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Material",
+    "itemURL" : "step://attribute?id=Material",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Multi-Valued Description Attribute",
+    "itemURL" : "step://attribute?id=MultiValuedDescriptionAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Externally Maintained",
+    "itemURL" : "step://attribute?id=ExternallyMaintained",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Calculated Attribute",
+    "itemURL" : "step://attribute?id=CalculatedAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Danish",
+    "itemURL" : "step://dimensionpoint?id=da-Danish",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View Asset",
+    "itemURL" : "step://ActionSet?id=ViewAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Number",
+    "itemURL" : "step://attribute?id=Number",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "YesNo Revisable",
+    "itemURL" : "step://ListOfValues?id=YesNoRevisable",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Delete Asset",
+    "itemURL" : "step://ActionSet?id=DeleteAsset",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Multi-Valued Attribute",
+    "itemURL" : "step://attribute?id=MultiValuedAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Value(s)",
+    "itemURL" : "step://attribute?id=Value",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Process Notes",
+    "itemURL" : "step://attribute?id=PETBMultiValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Brand",
+    "itemURL" : "step://attribute?id=Brand",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Identifiers",
+    "itemURL" : "step://attributegroup?id=HierarchyAndIdentifiers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processors",
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Unit Root",
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LOV Attribute",
+    "itemURL" : "step://attribute?id=LOVAtt2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Basic Information",
+    "itemURL" : "step://attributegroup?id=BasicInformation",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://classification?id=AssetsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Restricted Users",
+    "itemURL" : "step://group?id=RestrictedUsers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Images Produits",
+    "itemURL" : "step://referencetype?id=PMDM.IDRT.ProductImages",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Impersonate",
+    "itemURL" : "step://ActionSet?id=Impersonate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Short Description",
+    "itemURL" : "step://attribute?id=ShortDescription",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sellable Channels",
+    "itemURL" : "step://attribute?id=Channels",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ISO Date",
+    "itemURL" : "step://attribute?id=ISODate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Category",
+    "itemURL" : "step://attribute?id=Category",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://attributegroup?id=AttributeGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RegEx3",
+    "itemURL" : "step://attribute?id=RegEx3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ISO Date and Time",
+    "itemURL" : "step://attribute?id=ISODateTime",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stepsys",
+    "itemURL" : "step://user?id=STEPSYS",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Best For",
+    "itemURL" : "step://attribute?id=BestFor",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Parent ID (Calculated)",
+    "itemURL" : "step://attribute?id=CalculatedParent",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://attribute?id=Attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Specifications",
+    "itemURL" : "step://attributegroup?id=ProductSpecifications",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sellable Channels",
+    "itemURL" : "step://ListOfValues?id=Channels",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Users",
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sport LOV",
+    "itemURL" : "step://ListOfValues?id=SportLOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hidden Attributes",
+    "itemURL" : "step://attributegroup?id=HiddenAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Flow Rate",
+    "itemURL" : "step://attribute?id=FlowRate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Parent Name (Calculated)",
+    "itemURL" : "step://attribute?id=ParentName",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All User Actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Initiate",
+    "itemURL" : "step://attributegroup?id=Initiate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRLovAttr",
+    "itemURL" : "step://attribute?id=ELFRLovAttr",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Best For LOV",
+    "itemURL" : "step://ListOfValues?id=BestForLOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Date",
+    "itemURL" : "step://attribute?id=Date",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ViewTasks",
+    "itemURL" : "step://ActionSet?id=ViewTasks",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Calculated",
+    "itemURL" : "step://attribute?id=Calculated",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EventProcessors",
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Terms List",
+    "itemURL" : "step://termslist?id=TermsList",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Dependent Attribute",
+    "itemURL" : "step://attribute?id=CountryDepAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRLov",
+    "itemURL" : "step://ListOfValues?id=ELFRLov",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing Description 3",
+    "itemURL" : "step://attribute?id=MktDesc3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User",
+    "itemURL" : "step://objecttype?id=Operator+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing Description 2",
+    "itemURL" : "step://attribute?id=MktDesc2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Dependent Attribute",
+    "itemURL" : "step://attribute?id=LanguageDependentAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Download",
+    "itemURL" : "step://eventprocessor?id=Asset+Download",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing Description 1",
+    "itemURL" : "step://attribute?id=MktDesc1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=FirstName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Descriptions",
+    "itemURL" : "step://attributegroup?id=DescriptionAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Image principale",
+    "itemURL" : "step://referencetype?id=PMDM.IDRT.PrimaryProductImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hazardous Material",
+    "itemURL" : "step://attribute?id=HazardousMaterial",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://ActionSet?id=Edit+product+attribute+values",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description Attribute",
+    "itemURL" : "step://attribute?id=DescriptionAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Number With Unit",
+    "itemURL" : "step://attribute?id=NumberWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Smartsheet Template Product",
+    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRAttr",
+    "itemURL" : "step://attribute?id=ELFRAttr",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Elastic Search Configuration",
+    "itemURL" : "step://objecttype?id=ElasticSearchConfiguration",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Finished Product Code",
+    "itemURL" : "step://attribute?id=FinishedProductCode",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country LOV",
+    "itemURL" : "step://ListOfValues?id=CountryLOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DBA",
+    "itemURL" : "step://user?id=DBA",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "Context",
+    "itemURL" : "step://objecttype?id=Context+qualifier",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Text Validation (Exclude Tags)",
+    "itemURL" : "step://attribute?id=TextValidationExcludeTags",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View Setup Actions",
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Containers",
     "itemURL" : "step://attributegroup?id=DataContainers",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Marketing Descriptions",
+    "itemURL" : "step://attributegroup?id=MarketingDescriptions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Setup Actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processor",
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Long Description",
+    "itemURL" : "step://attribute?id=LongDescription",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Zweck",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tensile Strength",
+    "itemURL" : "step://attribute?id=TensileStrength",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tree",
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Text Attribute",
+    "itemURL" : "step://attribute?id=TextAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View User Actions",
+    "itemURL" : "step://ActionSet?id=ViewUserActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description",
     "itemURL" : "step://attribute?id=Description",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://attribute?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "USA",
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ewrg",
+    "itemURL" : "step://eventprocessor?id=ewrg",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=UserInformation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Vendor",
+    "itemURL" : "step://attribute?id=Vendor",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Benefits Bullet 4",
+    "itemURL" : "step://attribute?id=FeaturesBenefits4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Another Language Attribute",
+    "itemURL" : "step://attribute?id=LanguageDep2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Benefits Bullet 3",
+    "itemURL" : "step://attribute?id=FeaturesBenefits3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Description, Short",
+    "itemURL" : "step://attribute?id=ProductDescriptionShort",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Benefits Bullet 2",
+    "itemURL" : "step://attribute?id=FeaturesBenefits2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Number 2",
+    "itemURL" : "step://attribute?id=Number2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Benefits Bullet 1",
+    "itemURL" : "step://attribute?id=FeaturesBenefits1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hidden Attribute",
+    "itemURL" : "step://attribute?id=HiddenAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute 2",
+    "itemURL" : "step://attribute?id=Attribute2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RegEx",
+    "itemURL" : "step://attribute?id=RegEx",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Vendor LOV",
+    "itemURL" : "step://ListOfValues?id=VendorLOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attributes",
+    "itemURL" : "step://attributegroup?id=Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://product?id=ProductsRoot",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ApproveProducts",
+    "itemURL" : "step://ActionSet?id=ApproveProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Denmark",
+    "itemURL" : "step://dimensionpoint?id=DK",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Free Text",
+    "itemURL" : "step://attribute?id=Attribute3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-08-07 17:27:51\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <ContextList>\n    <Context ID=\"Context1\" Locale=\"en\">\n      <Name QualifierID=\"Qualifier root\">English US</Name>\n      <DimensionPointLink DimensionPointID=\"US\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n    <Context ID=\"Context7\">\n      <Name QualifierID=\"Qualifier root\">Danish (Denmark)</Name>\n      <DimensionPointLink DimensionPointID=\"da-Danish\"/>\n      <DimensionPointLink DimensionPointID=\"DK\"/>\n    </Context>\n  </ContextList>\n\n  <Products>\n    <Product ID=\"ProductsRoot\" UserTypeID=\"Products\" ParentID=\"Product hierarchy root\">\n      <Name>Products</Name>\n      <AttributeLink AttributeID=\"BestFor\"/>\n      <AttributeLink AttributeID=\"Sport\"/>\n      <AttributeLink AttributeID=\"Number\"/>\n      <AttributeLink AttributeID=\"MktDesc3\"/>\n      <AttributeLink AttributeID=\"ISODateTime\"/>\n      <AttributeLink AttributeID=\"HazardousMaterial\"/>\n      <AttributeLink AttributeID=\"MktDesc2\"/>\n      <AttributeLink AttributeID=\"Attribute3\">\n        <MetaData>\n          <Value AttributeID=\"DisplaySequence\">10</Value>\n          <Value AttributeID=\"TableDisplay\">15</Value>\n        </MetaData>\n      </AttributeLink>\n      <AttributeLink AttributeID=\"RegEx\"/>\n      <AttributeLink AttributeID=\"ELFRAttr\"/>\n      <AttributeLink AttributeID=\"ParentName\"/>\n      <AttributeLink AttributeID=\"Date\"/>\n      <AttributeLink AttributeID=\"Attribute2\"/>\n      <AttributeLink AttributeID=\"ISODate\"/>\n      <AttributeLink AttributeID=\"CalculatedAttribute\"/>\n      <AttributeLink AttributeID=\"MktDesc1\"/>\n      <AttributeLink AttributeID=\"RegEx3\"/>\n      <AttributeLink AttributeID=\"HiddenAttribute\"/>\n      <AttributeLink AttributeID=\"Material\"/>\n      <AttributeLink AttributeID=\"FlowRate\"/>\n      <AttributeLink AttributeID=\"Vendor\"/>\n      <AttributeLink AttributeID=\"LanguageDependentAttribute\"/>\n      <AttributeLink AttributeID=\"Compression\"/>\n      <AttributeLink AttributeID=\"FinishedProductCode\"/>\n      <AttributeLink AttributeID=\"LanguageDep2\"/>\n      <AttributeLink AttributeID=\"TensileStrength\"/>\n      <AttributeLink AttributeID=\"MultiValuedAttribute\"/>\n      <AttributeLink AttributeID=\"Country\"/>\n      <AttributeLink AttributeID=\"Category\"/>\n      <AttributeLink AttributeID=\"Brand\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits2\"/>\n      <AttributeLink AttributeID=\"TextValidationExcludeTags\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits1\"/>\n      <AttributeLink AttributeID=\"LongDescription\"/>\n      <AttributeLink AttributeID=\"ELFRLovAttr\"/>\n      <AttributeLink AttributeID=\"CountryDepAttribute\"/>\n      <AttributeLink AttributeID=\"MultiValuedDescriptionAttribute\"/>\n      <AttributeLink AttributeID=\"ShortDescription\"/>\n      <AttributeLink AttributeID=\"Value\"/>\n      <AttributeLink AttributeID=\"DescriptionAttribute\"/>\n      <AttributeLink AttributeID=\"Number2\"/>\n      <AttributeLink AttributeID=\"Description\"/>\n      <AttributeLink AttributeID=\"ExternallyMaintained\"/>\n      <AttributeLink AttributeID=\"Dimensions\"/>\n      <AttributeLink AttributeID=\"Attribute\">\n        <MetaData>\n          <Value AttributeID=\"DisplaySequence\">10</Value>\n          <Value AttributeID=\"TableDisplay\">15</Value>\n        </MetaData>\n      </AttributeLink>\n      <AttributeLink AttributeID=\"Channels\"/>\n      <AttributeLink AttributeID=\"CalculatedParent\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits4\"/>\n      <AttributeLink AttributeID=\"Calculated\"/>\n      <AttributeLink AttributeID=\"TextAttribute\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits3\"/>\n      <AttributeLink AttributeID=\"LOVAtt2\"/>\n      <Values>\n        <Value AttributeID=\"NumberWithUnit\" UnitID=\"unece.unit.MTR\" QualifierID=\"en-US\">5</Value>\n      </Values>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n    </Product>\n  </Products>\n\n  <UserList>\n    <User ID=\"DBA\" ForceAuthentication=\"true\">\n      <Name QualifierID=\"Qualifier root\">DBA</Name>\n      <MetaData>\n        <Value AttributeID=\"UserInformation\">Stibo standard user</Value>\n      </MetaData>\n      <UserGroupLink UserGroupID=\"Super user\"/>\n      <UserGroupLink UserGroupID=\"Stibo\"/>\n      <SystemSetup>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentWorkspace\">Main</SystemSetupValue>\n        <SystemSetupValue Type=\"WB_USERSET\" Name=\"CurrentContext\">Context1</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"MainDividerPosition\">325</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAttributeImpl\">Validity</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAssetImpl\">Images &amp; Documents</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedproductLinksFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessEditorReportFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"LOCALESETT\" Name=\"ORACLELOCALE\">WEST_EUROPEAN</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"WindowPosSize\">111,71,1088,771</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExceptionsDialogDetailsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiAssetImpl\">Multi Editor</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorClassificationsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"CLASSSET\" Name=\"PRIMCLASS\">Product hierarchy root</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabProductImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabClassificationImpl\">Images &amp; Documents</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExtraProcessEditorAuditFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedQueueReportFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentContext\">GL</SystemSetupValue>\n      </SystemSetup>\n    </User>\n  </UserList>\n\n  <EventProcessors>\n    <EventProcessor ID=\"ewrg\" UserTypeID=\"Event Processor user-type root\">\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">ewrg</Name>\n      <Configuration>H4sIAAAAAAAAAKVTXY/aMBB851dEVsVbCaeT2lOBID5CKxWONHD9eKp8yZJbnWOnXhsd/fV1INAL11CpffNaMzvj9c5EyQ1mVnODSg76w6dceFvQVFbsqtNlHshEpSizAbtbz17fsGHQ6hfCZig9TAcs3II0kVYJECk95gST5y1Z0PK8PmFeCNjjY6BCScJ7AXcEmgVkoHjn+9YVQwdYrcNo9W3V9w+cc/qYm+RhhT+BBVfdbrcJNuU7WqsYDEe5d0gsaARHGpVGs3MtmyCfLFgnGX6O4uWkCbTgT0uRVrMA2jtswn5QVp8cnrHe3DSx5iiBItDj99Hl9884Ctdb70LJ3aRTFhht4a9o1xqVA1930ybssjCYIxlM5ip5rGtsuKBGkT8QKzlPWiEGrHTI/HPaKnmA1Ar4uph/n4ZRHE5G63DKgrYwvdq2tn9YZXpuZQ+HYTszvVaJcr+vEWhfe97xZuclghNVtETlHWftXnWsQdGhSjSFDUos97hz9DE9Xb06Xt2C83Do459U/eeyv2fS9w/ZcScqBJog1FrpGAqlDeh/CaAzxK0w9RzWupZDrdSiPW/yv6GPYYslesElzyB3ynX5g8yL7I8SrYi+KP1IBU/KXb+4MS5PmNt8lLnkvb1u3PUjLFdWmouhq5CVTfe8NeZQbnsT4SNAMUNN5jw/L77xF0HdcS9IBQAA</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgRZcYPRiqeQ7tgNE0yuwmiv960TUFpHfEmt272I++9vG6fCEwKhRbMQBKfrwoRLAGJK5mEJ0fHYQAyUzmXiyR8TIeHZ+F57yCepJfjwzGq3GZmJOcKC2ZcR/AApMQSRlJwCQ8wpyScM0EQBkMlhHq7d6OR5zCxM9+9qbhcaYVmAMiXkPeNwXWqdxAEcb8ESr5qwj8gCW+55IUtwmCgpKkvuBCMiM95VuFJVdXlgAA6Gq7FoK3nNROjanhUT3fMoh+o9WLSgpteCYzPrIEbLl8pRb5YOMRysZ3eC0k3XKgU4lfyW+ruAcXviLvt4+3wvTQYyUzYHMbMOcd443izbA3dRThVaASq9CknrY8l2QJwYkmDzCH35yP3vXpSmF9zQIbZ83vLaHesgNbh/ewFMpO+a7hCZbVLkM/UNFoNHvG/f8m4qf7r/+/7ujZAM7Pzpb0nSpWjZl18/fOjTtOsr2nSbb5NxocXqIhabdU26k5NmbBATTRghjkTGebkRvrt1jjyYW3jRtMd/LsxjnPlK2nmlOxrjWq59uyj5P/fR452iXPXfTf1BE59/AmcTCifLQcAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"Asset Download\" UserTypeID=\"Event Processor user-type root\">\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">Asset Download</Name>\n      <Configuration>H4sIAAAAAAAAALVUTW/aQBC98yssq+JWm1zaqICJAdNWyodLoOmtWuzBrLredWZ2CfTXd22DGxKZHqLePOP33nzvRMk1zwwyzZUcDka7XDhbQCot98LruQ7IRKVcZkN3uZi9v3RHQWdQCJNx6fB06EZbkDpGlQCRwjEjmDyXdIOO4wyI54WACj8HKpQkvhKwJEA3IA3FJ9831hhZwHQcDvwa/5I6ZjrZ3PPf4AYXvV6vDTZle1qoOWjGZZUducHHNnCMXCHXeyvZBvlmwNiQ0fd4fjdpA92w3Z1ID30AqjJsw35RBpsMX7A+XLaxrrkEigHHn+Pz9d8nG0iNgB831z+nUTyPJuEimrpBV+j+yXy7j0bpvh1y/THqZrrfKVG2Z8iBKttxjp69kwhGdKAlKvdI85XyjObCo0PQFNZc8nLy3jGPaeN6d3Tdgs2h1vGbqP7zsH+LG/j1ttkvKgTXQYSocA6FQg349pWNcsbFiearnZ0xzUSFC9MULctu7Uarq6p+2tsNzsmzDek7tOEpk1o9rfnjVVYySn/bpP6D5FeZCJPCA0NpG2BVNRo408y4MidvfQXGhsr1pDApFU4bXId41dRTSvMOrA5utGtSvgeWYIcS2vPQM1T5EkVb6bYIDTvdKCW1XYocfrWe+IPCX1SwBBry09FT0m/snbZREyUE03Cr0vJ+10wQ/DPKAnmWAdp2ukGpHco0LApUW0jPjOoPA/1QaqsFAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"7\">\n        <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys8vlPDjYMdJpDQeqaUTGLoWbE3QUWWVK2UJv31XTtSXGJ3SG9ws/b7Pb/dMSLYAmotmIUsvd7WItqAQa5kFl9+uogjkKWquFxn8WNxd34VX4/O0kUxnZ3PjKpcaXO5UqZmljKiOaASG8il4BLmsMIsXjGBEEd3Sgj164FKG17Bwi19dhcx3Wpl7AQM30A1ttYcXKOzKErHzaDooxb8N2TxPZe8dnUcTZS0+wa3giHyFS/beQrVZtEgYAgGpVjj9vVCxaQtnuyrE7LkH9BGKWrB7agZjC+dha9cvmBh+HpNE8v1sftDUNphwYaIN8EfsfsBIL6eeFg+Xg6vQ6NclsJVMGOkHOuF48VyVPQU4lStDWDLT1PpYJboajALhxpkBZW35/S9/a5M9YWDYaZ83vWE9o3V0DM+LH9AaYudhs9GOU0OzNLOOHcCsIVwZItokIo3A+eTLOZ4A8T6omGKSkx/Oq5rIiEQ1SVH3WeTmFuoA0e9rn2TH3rPcA+LJ/PdiywN0f97mnze0HEKNQdF6P9CI4AkXLK/j1IyqOdDm+Du4w0e/7w1CrGX1h7KYdcTEw4wvCbMMpKVZUS3wbe6pol/7tUTOD1htTrh0MK8oGbE5D01HctqrLVRm8NWPUr+/uVE6Js5T73ITx7ApX+zoIT2AGQ3vNyVtGuD3ossp06c2PBu1S6opQXNmlX21j/U51s1IggAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-08-07 17:27:51\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <ContextList>\n    <Context ID=\"Context1\" Locale=\"en\">\n      <Name QualifierID=\"Qualifier root\">English US</Name>\n      <DimensionPointLink DimensionPointID=\"US\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n    <Context ID=\"Context7\">\n      <Name QualifierID=\"Qualifier root\">Danish (Denmark)</Name>\n      <DimensionPointLink DimensionPointID=\"da-Danish\"/>\n      <DimensionPointLink DimensionPointID=\"DK\"/>\n    </Context>\n  </ContextList>\n\n  <Products>\n    <Product ID=\"ProductsRoot\" UserTypeID=\"Products\" ParentID=\"Product hierarchy root\">\n      <Name>Products</Name>\n      <AttributeLink AttributeID=\"BestFor\"/>\n      <AttributeLink AttributeID=\"Sport\"/>\n      <AttributeLink AttributeID=\"Number\"/>\n      <AttributeLink AttributeID=\"MktDesc3\"/>\n      <AttributeLink AttributeID=\"ISODateTime\"/>\n      <AttributeLink AttributeID=\"HazardousMaterial\"/>\n      <AttributeLink AttributeID=\"MktDesc2\"/>\n      <AttributeLink AttributeID=\"Attribute3\">\n        <MetaData>\n          <Value AttributeID=\"DisplaySequence\">10</Value>\n          <Value AttributeID=\"TableDisplay\">15</Value>\n        </MetaData>\n      </AttributeLink>\n      <AttributeLink AttributeID=\"RegEx\"/>\n      <AttributeLink AttributeID=\"ELFRAttr\"/>\n      <AttributeLink AttributeID=\"ParentName\"/>\n      <AttributeLink AttributeID=\"Date\"/>\n      <AttributeLink AttributeID=\"Attribute2\"/>\n      <AttributeLink AttributeID=\"ISODate\"/>\n      <AttributeLink AttributeID=\"CalculatedAttribute\"/>\n      <AttributeLink AttributeID=\"MktDesc1\"/>\n      <AttributeLink AttributeID=\"RegEx3\"/>\n      <AttributeLink AttributeID=\"HiddenAttribute\"/>\n      <AttributeLink AttributeID=\"Material\"/>\n      <AttributeLink AttributeID=\"FlowRate\"/>\n      <AttributeLink AttributeID=\"Vendor\"/>\n      <AttributeLink AttributeID=\"LanguageDependentAttribute\"/>\n      <AttributeLink AttributeID=\"Compression\"/>\n      <AttributeLink AttributeID=\"FinishedProductCode\"/>\n      <AttributeLink AttributeID=\"LanguageDep2\"/>\n      <AttributeLink AttributeID=\"TensileStrength\"/>\n      <AttributeLink AttributeID=\"MultiValuedAttribute\"/>\n      <AttributeLink AttributeID=\"Country\"/>\n      <AttributeLink AttributeID=\"Category\"/>\n      <AttributeLink AttributeID=\"Brand\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits2\"/>\n      <AttributeLink AttributeID=\"TextValidationExcludeTags\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits1\"/>\n      <AttributeLink AttributeID=\"LongDescription\"/>\n      <AttributeLink AttributeID=\"ELFRLovAttr\"/>\n      <AttributeLink AttributeID=\"CountryDepAttribute\"/>\n      <AttributeLink AttributeID=\"MultiValuedDescriptionAttribute\"/>\n      <AttributeLink AttributeID=\"ShortDescription\"/>\n      <AttributeLink AttributeID=\"Value\"/>\n      <AttributeLink AttributeID=\"DescriptionAttribute\"/>\n      <AttributeLink AttributeID=\"Number2\"/>\n      <AttributeLink AttributeID=\"Description\"/>\n      <AttributeLink AttributeID=\"ExternallyMaintained\"/>\n      <AttributeLink AttributeID=\"Dimensions\"/>\n      <AttributeLink AttributeID=\"Attribute\">\n        <MetaData>\n          <Value AttributeID=\"DisplaySequence\">10</Value>\n          <Value AttributeID=\"TableDisplay\">15</Value>\n        </MetaData>\n      </AttributeLink>\n      <AttributeLink AttributeID=\"Channels\"/>\n      <AttributeLink AttributeID=\"CalculatedParent\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits4\"/>\n      <AttributeLink AttributeID=\"Calculated\"/>\n      <AttributeLink AttributeID=\"TextAttribute\"/>\n      <AttributeLink AttributeID=\"FeaturesBenefits3\"/>\n      <AttributeLink AttributeID=\"LOVAtt2\"/>\n      <Values>\n        <Value AttributeID=\"NumberWithUnit\" UnitID=\"unece.unit.MTR\" QualifierID=\"en-US\">5</Value>\n      </Values>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n    </Product>\n  </Products>\n\n  <UserList>\n    <User ID=\"DBA\" ForceAuthentication=\"true\">\n      <Name QualifierID=\"Qualifier root\">DBA</Name>\n      <MetaData>\n        <Value AttributeID=\"UserInformation\">Stibo standard user</Value>\n      </MetaData>\n      <UserGroupLink UserGroupID=\"Super user\"/>\n      <UserGroupLink UserGroupID=\"Stibo\"/>\n      <SystemSetup>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentWorkspace\">Main</SystemSetupValue>\n        <SystemSetupValue Type=\"WB_USERSET\" Name=\"CurrentContext\">Context1</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"MainDividerPosition\">325</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAttributeImpl\">Validity</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAssetImpl\">Images &amp; Documents</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedproductLinksFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessEditorReportFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"LOCALESETT\" Name=\"ORACLELOCALE\">WEST_EUROPEAN</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"WindowPosSize\">111,71,1088,771</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExceptionsDialogDetailsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiAssetImpl\">Multi Editor</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorClassificationsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"CLASSSET\" Name=\"PRIMCLASS\">Product hierarchy root</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabProductImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabClassificationImpl\">Images &amp; Documents</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExtraProcessEditorAuditFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedQueueReportFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentContext\">GL</SystemSetupValue>\n      </SystemSetup>\n    </User>\n  </UserList>\n\n  <EventProcessors>\n    <EventProcessor ID=\"ewrg\" UserTypeID=\"Event Processor user-type root\">\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">ewrg</Name>\n      <Configuration>H4sIAAAAAAAAAKVTXY/aMBB851dEVsVbCaeT2lOBID5CKxWONHD9eKp8yZJbnWOnXhsd/fV1INAL11CpffNaMzvj9c5EyQ1mVnODSg76w6dceFvQVFbsqtNlHshEpSizAbtbz17fsGHQ6hfCZig9TAcs3II0kVYJECk95gST5y1Z0PK8PmFeCNjjY6BCScJ7AXcEmgVkoHjn+9YVQwdYrcNo9W3V9w+cc/qYm+RhhT+BBVfdbrcJNuU7WqsYDEe5d0gsaARHGpVGs3MtmyCfLFgnGX6O4uWkCbTgT0uRVrMA2jtswn5QVp8cnrHe3DSx5iiBItDj99Hl9884Ctdb70LJ3aRTFhht4a9o1xqVA1930ybssjCYIxlM5ip5rGtsuKBGkT8QKzlPWiEGrHTI/HPaKnmA1Ar4uph/n4ZRHE5G63DKgrYwvdq2tn9YZXpuZQ+HYTszvVaJcr+vEWhfe97xZuclghNVtETlHWftXnWsQdGhSjSFDUos97hz9DE9Xb06Xt2C83Do459U/eeyv2fS9w/ZcScqBJog1FrpGAqlDeh/CaAzxK0w9RzWupZDrdSiPW/yv6GPYYslesElzyB3ynX5g8yL7I8SrYi+KP1IBU/KXb+4MS5PmNt8lLnkvb1u3PUjLFdWmouhq5CVTfe8NeZQbnsT4SNAMUNN5jw/L77xF0HdcS9IBQAA</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n        <Configuration>H4sIAAAAAAAAANVUTVPCMBC9+ys6vWt1vHhocRgRZcYPRiqeQ7tgNE0yuwmiv960TUFpHfEmt272I++9vG6fCEwKhRbMQBKfrwoRLAGJK5mEJ0fHYQAyUzmXiyR8TIeHZ+F57yCepJfjwzGq3GZmJOcKC2ZcR/AApMQSRlJwCQ8wpyScM0EQBkMlhHq7d6OR5zCxM9+9qbhcaYVmAMiXkPeNwXWqdxAEcb8ESr5qwj8gCW+55IUtwmCgpKkvuBCMiM95VuFJVdXlgAA6Gq7FoK3nNROjanhUT3fMoh+o9WLSgpteCYzPrIEbLl8pRb5YOMRysZ3eC0k3XKgU4lfyW+ruAcXviLvt4+3wvTQYyUzYHMbMOcd443izbA3dRThVaASq9CknrY8l2QJwYkmDzCH35yP3vXpSmF9zQIbZ83vLaHesgNbh/ewFMpO+a7hCZbVLkM/UNFoNHvG/f8m4qf7r/+/7ujZAM7Pzpb0nSpWjZl18/fOjTtOsr2nSbb5NxocXqIhabdU26k5NmbBATTRghjkTGebkRvrt1jjyYW3jRtMd/LsxjnPlK2nmlOxrjWq59uyj5P/fR452iXPXfTf1BE59/AmcTCifLQcAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n    <EventProcessor ID=\"Asset Download\" UserTypeID=\"Event Processor user-type root\">\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">Asset Download</Name>\n      <Configuration>H4sIAAAAAAAAALVUTW/aQBC98yssq+JWm1zaqICJAdNWyodLoOmtWuzBrLredWZ2CfTXd22DGxKZHqLePOP33nzvRMk1zwwyzZUcDka7XDhbQCot98LruQ7IRKVcZkN3uZi9v3RHQWdQCJNx6fB06EZbkDpGlQCRwjEjmDyXdIOO4wyI54WACj8HKpQkvhKwJEA3IA3FJ9831hhZwHQcDvwa/5I6ZjrZ3PPf4AYXvV6vDTZle1qoOWjGZZUducHHNnCMXCHXeyvZBvlmwNiQ0fd4fjdpA92w3Z1ID30AqjJsw35RBpsMX7A+XLaxrrkEigHHn+Pz9d8nG0iNgB831z+nUTyPJuEimrpBV+j+yXy7j0bpvh1y/THqZrrfKVG2Z8iBKttxjp69kwhGdKAlKvdI85XyjObCo0PQFNZc8nLy3jGPaeN6d3Tdgs2h1vGbqP7zsH+LG/j1ttkvKgTXQYSocA6FQg349pWNcsbFiearnZ0xzUSFC9MULctu7Uarq6p+2tsNzsmzDek7tOEpk1o9rfnjVVYySn/bpP6D5FeZCJPCA0NpG2BVNRo408y4MidvfQXGhsr1pDApFU4bXId41dRTSvMOrA5utGtSvgeWYIcS2vPQM1T5EkVb6bYIDTvdKCW1XYocfrWe+IPCX1SwBBry09FT0m/snbZREyUE03Cr0vJ+10wQ/DPKAnmWAdp2ukGpHco0LApUW0jPjOoPA/1QaqsFAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"7\">\n        <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys8vlPDjYMdJpDQeqaUTGLoWbE3QUWWVK2UJv31XTtSXGJ3SG9ws/b7Pb/dMSLYAmotmIUsvd7WItqAQa5kFl9+uogjkKWquFxn8WNxd34VX4/O0kUxnZ3PjKpcaXO5UqZmljKiOaASG8il4BLmsMIsXjGBEEd3Sgj164FKG17Bwi19dhcx3Wpl7AQM30A1ttYcXKOzKErHzaDooxb8N2TxPZe8dnUcTZS0+wa3giHyFS/beQrVZtEgYAgGpVjj9vVCxaQtnuyrE7LkH9BGKWrB7agZjC+dha9cvmBh+HpNE8v1sftDUNphwYaIN8EfsfsBIL6eeFg+Xg6vQ6NclsJVMGOkHOuF48VyVPQU4lStDWDLT1PpYJboajALhxpkBZW35/S9/a5M9YWDYaZ83vWE9o3V0DM+LH9AaYudhs9GOU0OzNLOOHcCsIVwZItokIo3A+eTLOZ4A8T6omGKSkx/Oq5rIiEQ1SVH3WeTmFuoA0e9rn2TH3rPcA+LJ/PdiywN0f97mnze0HEKNQdF6P9CI4AkXLK/j1IyqOdDm+Du4w0e/7w1CrGX1h7KYdcTEw4wvCbMMpKVZUS3wbe6pol/7tUTOD1htTrh0MK8oGbE5D01HctqrLVRm8NWPUr+/uVE6Js5T73ITx7ApX+zoIT2AGQ3vNyVtGuD3ossp06c2PBu1S6opQXNmlX21j/U51s1IggAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
