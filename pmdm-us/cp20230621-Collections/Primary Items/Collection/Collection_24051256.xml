@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="24051256" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=IncludeDataContainers%3dno%2csearchString%3dUnapproved%3f%2cRegExp%3dno%2cMatchCase%3dno%2cIncludeInheritedValues%3dno%2cRecycleBinOnly%3dno&amp;args0.1=nodetype%3dproduct%2cobjecttype%3dItem&amp;search0.0=ValueCriteria&amp;search0.1=ObjectTypeCriteria">
+            <Name>UnapprovedItems</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

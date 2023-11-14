@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="24051251" UserTypeID="Leaf" ParentID="106798">
+            <Product ID="24051255" UserTypeID="Item">
+                <Name>UnapprovedB</Name>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
