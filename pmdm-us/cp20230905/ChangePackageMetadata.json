@@ -1,4 +1,5 @@
 {
+  "version" : "2",
   "id" : "cp20230905",
   "name" : "cp20230905",
   "metadata" : { },
@@ -45,7 +46,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-03 13:22:05\"    UseContextLocale=\"false\">\n\n  <SetupGroups>\n    <SetupGroup ID=\"ChangePackage\" UserTypeID=\"ChangePackages\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">ChangePackage</Name>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-03 13:22:05\"    UseContextLocale=\"false\">\n\n  <SetupGroups>\n    <SetupGroup ID=\"ChangePackage\" UserTypeID=\"ChangePackages\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">ChangePackage</Name>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
