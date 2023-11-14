@@ -2,7 +2,7 @@ name: Upload Change Package on change
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "QA-SaaS" ]
     paths:
       - 'pmdm-us/**'
 jobs:
