@@ -1,7 +1,9 @@
 {
+  "version" : "2",
   "id" : "cp20231013-SupportHandover",
   "name" : "cp20231013-SupportHandover",
   "metadata" : { },
+  "setupGroupId" : "ChangePackages",
   "uniqueId" : "cpk-10e30f5f-6754-4829-8f69-562193f9fb56",
   "origin" : "pmdm-us",
   "wasSigned" : "true",
@@ -9,59 +11,98 @@
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
+    "name" : "Canada",
     "itemURL" : "step://dimensionpoint?id=CA",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Purpose",
     "itemURL" : "step://attribute?id=Purpose",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Country",
     "itemURL" : "step://dimension?id=Country",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Language Root",
     "itemURL" : "step://dimensionpoint?id=std.lang.all",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Danish",
     "itemURL" : "step://dimensionpoint?id=da-Danish",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "English CA",
     "itemURL" : "step://context?id=Context6",
     "inclusion" : "Change",
-    "importing" : "Force"
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://objecttype?id=Context+qualifier",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore"
-  }, {
-    "itemURL" : "step://context?id=Context7",
-    "inclusion" : "Change",
-    "importing" : "Force"
-  }, {
+    "name" : "Zweck",
     "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
     "inclusion" : "Impacted",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
-    "itemURL" : "step://dimensionpoint?id=DK",
+    "name" : "Context",
+    "itemURL" : "step://objecttype?id=Context+qualifier",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Danish (Denmark)",
+    "itemURL" : "step://context?id=Context7",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
     "itemURL" : "step://dimension?id=Language",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "Denmark",
+    "itemURL" : "step://dimensionpoint?id=DK",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
     "itemURL" : "step://dimensionpoint?id=AllCountries",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "English",
     "itemURL" : "step://dimensionpoint?id=en-US",
     "inclusion" : "Precondition",
-    "importing" : "Ignore"
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-13 09:30:47\"    UseContextLocale=\"false\">\n\n  <ContextList>\n    <Context ID=\"Context6\">\n      <Name QualifierID=\"Qualifier root\">English CA</Name>\n      <DimensionPointLink DimensionPointID=\"CA\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n    <Context ID=\"Context7\">\n      <Name QualifierID=\"Qualifier root\">Danish (Denmark)</Name>\n      <DimensionPointLink DimensionPointID=\"da-Danish\"/>\n      <DimensionPointLink DimensionPointID=\"DK\"/>\n    </Context>\n  </ContextList>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-13 09:30:47\"    UseContextLocale=\"false\">\n\n  <ContextList>\n    <Context ID=\"Context6\">\n      <Name QualifierID=\"Qualifier root\">English CA</Name>\n      <DimensionPointLink DimensionPointID=\"CA\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Context>\n    <Context ID=\"Context7\">\n      <Name QualifierID=\"Qualifier root\">Danish (Denmark)</Name>\n      <DimensionPointLink DimensionPointID=\"da-Danish\"/>\n      <DimensionPointLink DimensionPointID=\"DK\"/>\n    </Context>\n  </ContextList>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
