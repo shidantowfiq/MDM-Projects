@@ -1,4 +1,5 @@
 {
+  "version" : "2",
   "id" : "cp20231031-CreateNewCP",
   "name" : "cp20231031-CreateNewCP",
   "metadata" : { },
@@ -115,7 +116,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Zweck",
+    "name" : "Purpose",
     "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -136,7 +137,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Identifiant externe",
+    "name" : "External Identifier",
     "itemURL" : "step://attribute?id=PMDM.AT.ExternalIdentifier",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -171,21 +172,21 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "External Parent Identifier",
+    "name" : "Externe übergeordnete Kennung",
     "itemURL" : "step://attribute?id=PMDM.AT.ExternalParentIdentifier",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Hide LOV Value ID From Smartsheet",
+    "name" : "LOV-Wert-ID in Smartsheet ausblenden",
     "itemURL" : "step://attribute?id=PMDM.AT.HideLovValueIdFromSmartsheet",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Attribut condition",
+    "name" : "Bedingungsattribut",
     "itemURL" : "step://attribute?id=PMDM.AT.ConditionAttribute",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -220,7 +221,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Vollständigkeitsindikator",
+    "name" : "Completeness Score",
     "itemURL" : "step://attribute?id=PMDM.AT.CompletenessScore",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -241,7 +242,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Hilfetext Attribut",
+    "name" : "Attribute Help Text",
     "itemURL" : "step://attribute?id=PMDM.AT.AttributeHelpText",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -339,7 +340,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-10-31 15:41:49\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"Customers\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">Customers</Name>\n  </AttributeGroup>\n  <AttributeGroup ID=\"dcEmailAddresses\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Customers\">\n    <Name QualifierID=\"en-US\">Email Addresses</Name>\n  </AttributeGroup>\n  <AttributeGroup ID=\"dcPhoneNumbers\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Customers\">\n    <Name QualifierID=\"en-US\">Phone Numbers</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"dcEmailAddress\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Email Address</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcEmailAddresses\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcUnsubscribe\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Unsubscribe</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcEmailAddresses\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcPhoneNumber\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Phone Number</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcPhoneNumbers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"CustomerStatus\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Status</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Customers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcAreaCode\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Area Code</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcPhoneNumbers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcTypeEmail\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Type</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcEmailAddresses\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcTypePhone\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Type</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcPhoneNumbers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-14 16:33:54\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"Customers\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">Customers</Name>\n  </AttributeGroup>\n  <AttributeGroup ID=\"dcEmailAddresses\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Customers\">\n    <Name QualifierID=\"en-US\">Email Addresses</Name>\n  </AttributeGroup>\n  <AttributeGroup ID=\"dcPhoneNumbers\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Customers\">\n    <Name QualifierID=\"en-US\">Phone Numbers</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"dcEmailAddress\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Email Address</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcEmailAddresses\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcUnsubscribe\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Unsubscribe</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcEmailAddresses\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcPhoneNumber\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Phone Number</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcPhoneNumbers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"CustomerStatus\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Status</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Customers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcAreaCode\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Area Code</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcPhoneNumbers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcTypeEmail\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Type</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcEmailAddresses\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n    <Attribute ID=\"dcTypePhone\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Type</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"dcPhoneNumbers\"/>\n      <UserTypeLink UserTypeID=\"Entity\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
