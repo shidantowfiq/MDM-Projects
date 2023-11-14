@@ -1,7 +1,9 @@
 {
+  "version" : "2",
   "id" : "cp20230727-TagSubGroups",
   "name" : "cp20230727-TagSubGroups",
   "metadata" : { },
+  "setupGroupId" : "ChangePackages",
   "uniqueId" : "cpk-8906164e-c498-4592-9475-6980589e64e7",
   "origin" : "pmdm-us",
   "wasSigned" : "true",
@@ -9,15 +11,21 @@
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
+    "name" : "Another User Created Sub Group",
     "itemURL" : "step://taggroup?id=AnotherUserCreatedSubGroup",
     "inclusion" : "Change",
-    "importing" : "Force"
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
   }, {
+    "name" : "User Created Tags",
     "itemURL" : "step://taggroup?id=UserCreatedTags",
     "inclusion" : "Change",
-    "importing" : "Force"
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ExportTime=\"2023-07-27 14:00:57\"    UseContextLocale=\"false\">\n\n  <TagGroupList>\n    <StyleTagGroup ID=\"Style tag root\">\n      <StyleTagGroup ID=\"AnotherUserCreatedSubGroup\">\n        <Name QualifierID=\"Qualifier root\">Another User Created Sub Group</Name>\n      </StyleTagGroup>\n      <StyleTagGroup ID=\"UserCreatedTags\">\n        <Name QualifierID=\"Qualifier root\">User Created Tags</Name>\n      </StyleTagGroup>\n    </StyleTagGroup>\n  </TagGroupList>\n  <TagList>\n    <Tag Start=\"&lt;eggs&gt;\" Stop=\"&lt;/eggs&gt;\"/>\n    <StyleTag ID=\"eggs\" ParentID=\"UserCreatedTags\" Tag=\"eggs\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;chicken&gt;</FormattingStart>\n        <FormattingStop>&lt;/egg&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n    <Tag Start=\"&lt;This&gt;\" Stop=\"&lt;/This&gt;\"/>\n    <StyleTag ID=\"thisAndThat\" ParentID=\"AnotherUserCreatedSubGroup\" Tag=\"This\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;this&gt;</FormattingStart>\n        <FormattingStop>&lt;/that&gt;</FormattingStop>\n      </TagFormat>\n      <TagFormat Format=\"InDesign\">\n        <FormattingStart>&lt;this&gt;</FormattingStart>\n        <FormattingStop>&lt;that&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n    <Tag Start=\"&lt;bread&gt;\" Stop=\"&lt;/bread&gt;\"/>\n    <StyleTag ID=\"bread\" ParentID=\"UserCreatedTags\" Tag=\"bread\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;bread&gt;</FormattingStart>\n        <FormattingStop>&lt;/bread&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n  </TagList>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-07-27 14:00:57\"    UseContextLocale=\"false\">\n\n  <TagGroupList>\n    <StyleTagGroup ID=\"Style tag root\">\n      <StyleTagGroup ID=\"AnotherUserCreatedSubGroup\">\n        <Name QualifierID=\"Qualifier root\">Another User Created Sub Group</Name>\n      </StyleTagGroup>\n      <StyleTagGroup ID=\"UserCreatedTags\">\n        <Name QualifierID=\"Qualifier root\">User Created Tags</Name>\n      </StyleTagGroup>\n    </StyleTagGroup>\n  </TagGroupList>\n  <TagList>\n    <Tag Start=\"&lt;eggs&gt;\" Stop=\"&lt;/eggs&gt;\"/>\n    <StyleTag ID=\"eggs\" ParentID=\"UserCreatedTags\" Tag=\"eggs\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;chicken&gt;</FormattingStart>\n        <FormattingStop>&lt;/egg&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n    <Tag Start=\"&lt;This&gt;\" Stop=\"&lt;/This&gt;\"/>\n    <StyleTag ID=\"thisAndThat\" ParentID=\"AnotherUserCreatedSubGroup\" Tag=\"This\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;this&gt;</FormattingStart>\n        <FormattingStop>&lt;/that&gt;</FormattingStop>\n      </TagFormat>\n      <TagFormat Format=\"InDesign\">\n        <FormattingStart>&lt;this&gt;</FormattingStart>\n        <FormattingStop>&lt;that&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n    <Tag Start=\"&lt;bread&gt;\" Stop=\"&lt;/bread&gt;\"/>\n    <StyleTag ID=\"bread\" ParentID=\"UserCreatedTags\" Tag=\"bread\">\n      <TagFormat Format=\"HTML3\">\n        <FormattingStart>&lt;bread&gt;</FormattingStart>\n        <FormattingStop>&lt;/bread&gt;</FormattingStop>\n      </TagFormat>\n    </StyleTag>\n  </TagList>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
