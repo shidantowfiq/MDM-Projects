@@ -1,0 +1,304 @@
+{
+  "version" : "2",
+  "id" : "cp20230802-XSLT Stylesheets",
+  "name" : "cp20230802-XSLT Stylesheets",
+  "metadata" : { },
+  "setupGroupId" : "Integrations",
+  "uniqueId" : "cpk-8e21505c-7da9-494c-a3e6-703cc761465f",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Profile Configurations",
+    "itemURL" : "step://objecttype?id=Data+Profile+Configurations",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processors",
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processors",
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sufficiencies",
+    "itemURL" : "step://SetupGroup?id=Sufficiencies",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "Archived Setup",
+    "itemURL" : "step://SetupGroup?id=ArchivedSetup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Profiles",
+    "itemURL" : "step://SetupGroup?id=Workflow+Profiles",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Profiles",
+    "itemURL" : "step://objecttype?id=Workflow+Profiles",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Archived Setup",
+    "itemURL" : "step://objecttype?id=ArchivedSetup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Profile Configurations",
+    "itemURL" : "step://SetupGroup?id=Data+Profile+Configurations",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ValueGenerators",
+    "itemURL" : "step://objecttype?id=ValueGenerators",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status Flags",
+    "itemURL" : "step://SetupGroup?id=StatusFlags",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Centralized Configurations",
+    "itemURL" : "step://SetupGroup?id=CentralizedConfigurations",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Metrics",
+    "itemURL" : "step://SetupGroup?id=Metrics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XSLT Stylesheets",
+    "itemURL" : "step://objecttype?id=XSLTStylesheets",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "Change Packages",
+    "itemURL" : "step://objecttype?id=ChangePackages",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://objecttype?id=GlobalBusinessRules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://SetupGroup?id=WebUIs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Metrics",
+    "itemURL" : "step://objecttype?id=Metrics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Metrics",
+    "itemURL" : "step://objecttype?id=CompletenessMetrics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Match Codes and Matching Algorithms",
+    "itemURL" : "step://objecttype?id=MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Match Codes and Matching Algorithms",
+    "itemURL" : "step://SetupGroup?id=MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ValueGenerators",
+    "itemURL" : "step://SetupGroup?id=ValueGenerators",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Centralized Configurations",
+    "itemURL" : "step://objecttype?id=CentralizedConfigurations",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Gateway+Integration+Endpoints",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "My XSLT",
+    "itemURL" : "step://SetupEntity?id=My+XSLT",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XSLT Stylesheet",
+    "itemURL" : "step://objecttype?id=XSLTStylesheet",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status Flags",
+    "itemURL" : "step://objecttype?id=StatusFlags",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sufficiencies",
+    "itemURL" : "step://objecttype?id=Sufficiencies",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XSLT Stylesheets",
+    "itemURL" : "step://SetupGroup?id=XSLTStylesheets",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Gateway+Integration+Endpoints",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Change Packages",
+    "itemURL" : "step://SetupGroup?id=ChangePackages",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-08-14 14:59:13\"    UseContextLocale=\"false\">\n\n  <UserTypes>\n    <UserType ID=\"XSLTStylesheet\">\n      <Name QualifierID=\"Qualifier root\">XSLT Stylesheet</Name>\n      <UserTypeLink UserTypeID=\"XSLTStylesheets\"/>\n    </UserType>\n    <UserType ID=\"XSLTStylesheets\">\n      <Name QualifierID=\"Qualifier root\">XSLT Stylesheets</Name>\n      <UserTypeLink UserTypeID=\"Setup Group user-type root\"/>\n    </UserType>\n  </UserTypes>\n\n  <SetupGroups>\n    <SetupGroup ID=\"XSLTStylesheets\" UserTypeID=\"XSLTStylesheets\">\n      <Name QualifierID=\"Qualifier root\">XSLT Stylesheets</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <SetupEntities>\n    <SetupEntity ID=\"My XSLT\" UserTypeID=\"XSLTStylesheet\">\n      <SetupGroupLink SetupGroupID=\"XSLTStylesheets\"/>\n      <Name QualifierID=\"Qualifier root\">My XSLT</Name>\n      <Configuration>H4sIAAAAAAAAAHPOz0vLTC8tSizJzM+zLfI3cHSKCHR0NsjISXKvKPN0SylLzq3ItikuyMkssQMAjAg1Xi0AAAA=</Configuration>\n    </SetupEntity>\n  </SetupEntities>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
