@@ -1,0 +1,150 @@
+{
+  "version" : "2",
+  "id" : "cp20230313",
+  "name" : "cp20230313",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-ff35a2e3-ba91-4f7e-befe-6827c22ee16d",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : null,
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Confirmed Duplicates",
+    "itemURL" : "step://attribute?id=ImageDeduplicationConfirmedDuplicates",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bulk Update Configs",
+    "itemURL" : "step://classification?id=BusinessRuleExamples",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configurations",
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description Attribute",
+    "itemURL" : "step://attribute?id=DescriptionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.InDesign",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.InDesign",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Keywords",
+    "itemURL" : "step://attribute?id=AssetAnalyzer.Keywords",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CalculatedDescriptionAttribute",
+    "itemURL" : "step://attribute?id=CalculatedDescriptionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity",
+    "itemURL" : "step://objecttype?id=Entity",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Customer Hierarchy",
+    "itemURL" : "step://entity?id=CustomerHierarchy",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Test",
+    "recursive" : false
+  }, {
+    "name" : "Deduplication Delete Flag",
+    "itemURL" : "step://attribute?id=ImageDeduplicationDeleteFlag",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bulk Update Configuration",
+    "itemURL" : "step://objecttype?id=stibo.BulkUpdateConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity Category",
+    "itemURL" : "step://objecttype?id=EntityCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Confirmed Non-Duplicates",
+    "itemURL" : "step://attribute?id=ImageDeduplicationConfirmedNonDuplicates",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset URL Attribute",
+    "itemURL" : "step://attribute?id=AssetDownload.AssetURLAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Republish",
+    "itemURL" : "step://asset?id=128947",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Business Rule",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.Quark",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.Quark",
+    "inclusion" : "Impacted",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-04-04 09:41:21\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"stibo.BulkUpdateConfig\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Bulk Update Configuration</Name>\n      <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n    </UserType>\n    <UserType ID=\"EntityCategory\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" Revisability=\"Global\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Entity Category</Name>\n      <UserTypeLink UserTypeID=\"Entity user-type root\"/>\n    </UserType>\n  </UserTypes>\n\n  <Classifications>\n    <Classification ID=\"Classification 1 root\" UserTypeID=\"Classification 1 user-type root\">\n      <Name>Classification 1 root</Name>\n      <Classification ID=\"ConfigurationsRoot\" UserTypeID=\"ConfigurationsRoot\">\n        <Name>Configurations</Name>\n        <MetaData>\n          <Value AttributeID=\"Purpose\" QualifierID=\"en-US\">Global area to store configurations by type</Value>\n        </MetaData>\n      </Classification>\n    </Classification>\n  </Classifications>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
