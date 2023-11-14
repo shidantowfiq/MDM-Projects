@@ -37,7 +37,7 @@ jobs:
       id: download
       with:
         path: ${{ steps.dir-name.outputs.dir }}.zip
-        name: ${{ steps.dir-name.outputs.dir }}
+        name: ${{ steps.dir-name.outputs.dir }}.zip
     - name: SFTP uploader
       uses: wangyucode/sftp-upload-action@v2.0.2
       with:
