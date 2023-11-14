@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;bread&gt;" Stop="&lt;/bread&gt;"></Tag>
+        <StyleTag ID="bread" ParentID="UserCreatedTags" Tag="bread">
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;bread&gt;</FormattingStart>
+                <FormattingStop>&lt;/bread&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>
