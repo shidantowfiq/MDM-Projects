@@ -1,0 +1,45 @@
+{
+  "version" : "2",
+  "id" : "cp20230824-CollectionFromFile",
+  "name" : "cp20230824-CollectionFromFile",
+  "metadata" : { },
+  "setupGroupId" : "Integrations",
+  "uniqueId" : "cpk-083adb5a-142b-4cf8-b420-17f9710037b6",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Collection",
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Group",
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection created from file",
+    "itemURL" : "step://collection?id=80381210",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-08-24 13:40:15\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <Collection ID=\"80381210\" ParentID=\"CollectionGroup root\">\n      <Name>Collection created from file</Name>\n    </Collection>\n  </CollectionList>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
