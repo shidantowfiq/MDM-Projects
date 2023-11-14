@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation UseContextLocale="false">
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <IntegrationEndpoints>
         <GatewayIntegrationEndpoint ID="mTLSCertificateValidation" Description="RD-20356 test case for OLH support" UserTypeID="GatewayEndpoint user-type root" Enabled="true">
             <SetupGroupLink SetupGroupID="GatewayEndpoints"></SetupGroupLink>
