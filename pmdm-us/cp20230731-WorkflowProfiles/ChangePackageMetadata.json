@@ -1,0 +1,52 @@
+{
+  "version" : "2",
+  "id" : "cp20230731-WorkflowProfiles",
+  "name" : "cp20230731-WorkflowProfiles",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-451ddb16-0238-4d14-b577-39ac72cb4aa0",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Workflow Profiles",
+    "itemURL" : "step://objecttype?id=Workflow+Profiles",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Profile Setup Group Category",
+    "itemURL" : "step://objecttype?id=WorkflowProfileSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Maintain Item Profile",
+    "itemURL" : "step://stepworkflowprofile?id=MaintainItemProfile",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP Workflow Profile Type",
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflowProfile+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-07-31 13:40:51\"    UseContextLocale=\"false\">\n\n  <STEPWorkflowProfiles>\n    <STEPWorkflowProfile ID=\"MaintainItemProfile\">\n      <SetupGroupLink SetupGroupID=\"Workflow Profiles\"/>\n      <Name>Maintain Item Profile</Name>\n      <Configuration>H4sIAAAAAAAAAG1QTWvDMAy9+1cYei40DVtZmQtdstKODQrJZdCLqbVEzJFCLDP671enhcDYUdL70jszfWFjZmr2waTfotd5prN8nT+tHx71saz1crHMVdXyT8GRxMgQQe0xCA94tr5gHzu6nTL1boO8OhRwLxdTtegsjdRKrMSw87a58dNu0qht+C646z0IMtXYwYRK04ESH/63ToAjDMiuvvRgyu1n9Ve+HTg2bR/v4UvuLJLZhoANAYQRXoJ1HuluMv0xpkkVzBer+VjN6drN6VqOeg69R9n8Aj+LtBFCAQAA</Configuration>\n    </STEPWorkflowProfile>\n  </STEPWorkflowProfiles>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
