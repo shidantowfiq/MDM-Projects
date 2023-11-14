@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="PhoneNumbers" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false">
+            <Name QualifierID="Qualifier root">Phone Numbers</Name>
+            <AttributeGroupLink AttributeGroupID="DataContainerTypes"></AttributeGroupLink>
+            <AttributeLink AttributeID="AreaCode"></AttributeLink>
+            <AttributeLink AttributeID="PhoneNumber"></AttributeLink>
+            <AttributeLink AttributeID="PhoneType"></AttributeLink>
+            <UserTypeLink UserTypeID="MEssage"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>
