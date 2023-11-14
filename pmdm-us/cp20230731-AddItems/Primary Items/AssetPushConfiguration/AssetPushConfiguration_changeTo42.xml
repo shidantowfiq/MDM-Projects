@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AssetPushConfigurations>
+        <AssetPushConfiguration ID="changeTo42" AssetPushEventQueueID="newAssetPush42" WorkspaceID="Approved" RelativePathTemplate="$configID$/$contentdimensionpointsID$/$IDpath$/$assetID$.$autodetected-extension$" AutoCleanup="true" ImageConversion="42percent" ImageConversionType="Conversion">
+            <Name QualifierID="Qualifier root">changeTo42</Name>
+            <AssetPushMIMETypes></AssetPushMIMETypes>
+            <AssetPushAttributes></AssetPushAttributes>
+            <AssetPushClassifications>
+                <AssetPushClassification>ProductImageRoot</AssetPushClassification>
+            </AssetPushClassifications>
+        </AssetPushConfiguration>
+    </AssetPushConfigurations>
+</STEP-ProductInformation>

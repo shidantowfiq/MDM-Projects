@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <ImageConversionConfigurations>
+        <ImageConversionConfiguration ID="42percent">
+            <Name>42percent</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">42percent</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">1605</Value>
+                <Value AttributeID="asset.uploaded">2023-07-31 13:06:27</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="AssetPushConfigurations"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAJ2V30/CMBDH3/krlia+iqIGH6AJICj+wAkoiW91u43Grq1tp5t/vd34YWKMHD5sadf77O57vWs744ylMFDyHYzlSvpRwtPcMOcnwdPqY5ccH54Q2giCTmiUBuPKYMIy6JKBEsoQOlESOs3N2m+GI2Uy5gjVMsUYDlSmDdjKOaHPXGOYsXRgBIsgJvSW4wK6DoeXDzkT3JWEnh9hkHDyTbR3EDP+CSEvQFwBT5de/mkLCSx47JY4+ylY/56XGgiN8hceYZFxQmhPfLDSYolHyb2IA5S5Ermrt6+9Q8MqrTcAuq4mv5pw4bU4k6P2sCLnhkmrmQEZlRiyivGOcen807MaIoenir7KZcxl2lcFoQkTFoGNuBD/4VZ5xwS3YL78M2Zee3GM+v0WmPt074mMfI3Ge0U1q2Wc7WiYrfm9ZlHdYi0sMVXODwnF2ofK8lWBoj3AWw7WQVwlbN2gaEG9yPlTY03txWzOjj12c1ZlT6Z4afUtMCz8TDIxvvjhrNP865agjS8sKEc+RQYAAA==</Configuration>
+        </ImageConversionConfiguration>
+    </ImageConversionConfigurations>
+</STEP-ProductInformation>

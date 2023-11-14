@@ -1,0 +1,115 @@
+{
+  "version" : "2",
+  "id" : "cp20230731-AddItems",
+  "name" : "cp20230731-AddItems",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackages",
+  "uniqueId" : "cpk-24535077-981b-452b-9e3c-2ac0e954268d",
+  "origin" : "shto-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "newAssetPush42",
+    "itemURL" : "step://assetpushqueue?id=newAssetPush42",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configurations",
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Queue Object Types",
+    "itemURL" : "step://objecttype?id=Event+Queue+object-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "42percent",
+    "itemURL" : "step://asset?id=42percent",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Image Conversion Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ImageConversionConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.InDesign",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.InDesign",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Images",
+    "itemURL" : "step://classification?id=ProductImageRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "changeTo42",
+    "itemURL" : "step://assetpushconfiguration?id=changeTo42",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Push Configuration",
+    "itemURL" : "step://objecttype?id=Asset+Push+Configuration",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Push Configurations",
+    "itemURL" : "step://classification?id=AssetPushConfigurations",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Push Event Queue",
+    "itemURL" : "step://objecttype?id=Asset+Push+EventQueue",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.Quark",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.Quark",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2023-07-31 13:10:09\"    UseContextLocale=\"false\">\n\n<ImportConfigurations/>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations/>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations>\n  <ImageConversionConfiguration ID=\"42percent\">\n    <Name>42percent</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">txt</Value>\n      <Value AttributeID=\"asset.filename\">42percent</Value>\n      <Value AttributeID=\"asset.format\">Text (Plain ASCII text)</Value>\n      <Value AttributeID=\"asset.mime-type\">text/plain; charset=us-ascii</Value>\n      <Value AttributeID=\"asset.size\">1605</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-07-31 13:06:27</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"AssetPushConfigurations\"/>\n    <Configuration>H4sIAAAAAAAAAJ2V30/CMBDH3/krlia+iqIGH6AJICj+wAkoiW91u43Grq1tp5t/vd34YWKMHD5sadf77O57vWs744ylMFDyHYzlSvpRwtPcMOcnwdPqY5ccH54Q2giCTmiUBuPKYMIy6JKBEsoQOlESOs3N2m+GI2Uy5gjVMsUYDlSmDdjKOaHPXGOYsXRgBIsgJvSW4wK6DoeXDzkT3JWEnh9hkHDyTbR3EDP+CSEvQFwBT5de/mkLCSx47JY4+ylY/56XGgiN8hceYZFxQmhPfLDSYolHyb2IA5S5Ermrt6+9Q8MqrTcAuq4mv5pw4bU4k6P2sCLnhkmrmQEZlRiyivGOcen807MaIoenir7KZcxl2lcFoQkTFoGNuBD/4VZ5xwS3YL78M2Zee3GM+v0WmPt074mMfI3Ge0U1q2Wc7WiYrfm9ZlHdYi0sMVXODwnF2ofK8lWBoj3AWw7WQVwlbN2gaEG9yPlTY03txWzOjj12c1ZlT6Z4afUtMCz8TDIxvvjhrNP865agjS8sKEc+RQYAAA==</Configuration>\n  </ImageConversionConfiguration>\n</ImageConversionConfigurations>\n\n  <AssetPushEventQueues>\n    <AssetPushEventQueue ID=\"newAssetPush42\" QueueStatus=\"Read\" DaysRetained=\"0\">\n      <Name>newAssetPush42</Name>\n    </AssetPushEventQueue>\n  </AssetPushEventQueues>\n\n  <AssetPushConfigurations>\n    <AssetPushConfiguration ID=\"changeTo42\" AssetPushEventQueueID=\"newAssetPush42\" WorkspaceID=\"Approved\" RelativePathTemplate=\"$configID$/$contentdimensionpointsID$/$IDpath$/$assetID$.$autodetected-extension$\" AutoCleanup=\"true\" ImageConversion=\"42percent\" ImageConversionType=\"Conversion\">\n      <Name QualifierID=\"Qualifier root\">changeTo42</Name>\n      <AssetPushMIMETypes/>\n      <AssetPushAttributes/>\n      <AssetPushClassifications>\n        <AssetPushClassification>ProductImageRoot</AssetPushClassification>\n      </AssetPushClassifications>\n    </AssetPushConfiguration>\n  </AssetPushConfigurations>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}
