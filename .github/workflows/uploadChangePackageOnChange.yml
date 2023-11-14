@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'stibo-user/**'
+      - 'MDM-Projects/pmdm-us/'
 jobs:
   detect-directory-changes:
     name: "Detect Directory Changes"
