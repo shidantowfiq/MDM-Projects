@@ -16,13 +16,6 @@
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
-    "name" : "cl",
-    "itemURL" : "step://unit?id=unece.unit.CLT",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Dimensions",
     "itemURL" : "step://attribute?id=Dimensions",
     "inclusion" : "Impacted",
@@ -30,30 +23,9 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "m³",
-    "itemURL" : "step://unit?id=unece.unit.MTQ",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Level 1",
     "itemURL" : "step://objecttype?id=Level1",
     "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "gal (US)",
-    "itemURL" : "step://unit?id=unece.unit.GLL",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Level 4",
-    "itemURL" : "step://objecttype?id=Level4",
-    "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
@@ -67,7 +39,7 @@
   }, {
     "name" : "Level 3",
     "itemURL" : "step://objecttype?id=Level3",
-    "inclusion" : "Precondition",
+    "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
@@ -81,7 +53,7 @@
   }, {
     "name" : "Capacity",
     "itemURL" : "step://attribute?id=Capacity",
-    "inclusion" : "Precondition",
+    "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
@@ -100,7 +72,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Marketing Description 3",
+    "name" : "Optional Marketing Description",
     "itemURL" : "step://attribute?id=MktDesc3",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -114,7 +86,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Marketing Description 2",
+    "name" : "Market Specific Marketing Description",
     "itemURL" : "step://attribute?id=MktDesc2",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -156,7 +128,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Marketing Description 1",
+    "name" : "Product Marketing Description",
     "itemURL" : "step://attribute?id=MktDesc1",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -219,13 +191,6 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "pt (US)",
-    "itemURL" : "step://unit?id=unece.unit.PT",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Purpose",
     "itemURL" : "step://attribute?id=Purpose",
     "inclusion" : "Impacted",
@@ -254,7 +219,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "ELFRAttr",
+    "name" : "General Marketing Description",
     "itemURL" : "step://attribute?id=ELFRAttr",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -317,13 +282,6 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "l",
-    "itemURL" : "step://unit?id=unece.unit.LTR",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Color",
     "itemURL" : "step://attribute?id=Color",
     "inclusion" : "Impacted",
@@ -331,14 +289,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "qt (US)",
-    "itemURL" : "step://unit?id=unece.unit.QT",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Anzeigesequenz",
+    "name" : "Display Sequence",
     "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -359,7 +310,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Zweck",
+    "name" : "Purpose",
     "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -373,7 +324,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Produkt Bilder",
+    "name" : "Images Produits",
     "itemURL" : "step://referencetype?id=PMDM.IDRT.ProductImages",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -386,20 +337,6 @@
     "importing" : "Force",
     "instruction" : "",
     "recursive" : true
-  }, {
-    "name" : "fl oz (US)",
-    "itemURL" : "step://unit?id=unece.unit.OZA",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Volume",
-    "itemURL" : "step://unitgroup?id=Volume",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
   }, {
     "name" : "Language",
     "itemURL" : "step://dimension?id=Language",
@@ -562,20 +499,6 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Radiators",
-    "itemURL" : "step://product?id=1075483",
-    "inclusion" : "Change",
-    "importing" : "Force",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "ml",
-    "itemURL" : "step://unit?id=unece.unit.MLT",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Length",
     "itemURL" : "step://attribute?id=ETIM_EF001438",
     "inclusion" : "Impacted",
@@ -639,7 +562,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2023-11-15 13:11:21\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"CoolingSystem\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">CoolingSystem</Name>\n  </AttributeGroup>\n  <AttributeGroup ID=\"ProductSpecifications\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">Product Specifications</Name>\n    <MetaData>\n      <Value ID=\"20\" AttributeID=\"AttributeGroupSection\">Product Details</Value>\n      <Value AttributeID=\"DisplaySequence\">3</Value>\n    </MetaData>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"NumberOfCoolingFins\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Number Of Cooling Fins</Name>\n      <Validation BaseType=\"integer\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"CoolingSystem\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"OverflowPressure\" MultiValued=\"false\" DefaultUnitID=\"unece.unit.80\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">OverflowPressure</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\">\n        <UnitLink UnitID=\"unece.unit.80\"/>\n      </Validation>\n      <AttributeGroupLink AttributeGroupID=\"CoolingSystem\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <Products>\n    <Product ID=\"1075479\" UserTypeID=\"Level1\" ParentID=\"ProductsRoot\">\n      <Name>Car Parts</Name>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n      <Product ID=\"1075481\" UserTypeID=\"Level2\">\n        <Name>Cooling System</Name>\n        <AttributeLink AttributeID=\"OverflowPressure\"/>\n        <Tables>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n        </Tables>\n        <Product ID=\"1075483\" UserTypeID=\"Level3\">\n          <Name>Radiators</Name>\n          <AttributeLink AttributeID=\"NumberOfCoolingFins\"/>\n          <AttributeLink AttributeID=\"Capacity\"/>\n          <Tables>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n            <Table ID=\"105421\">\n              null            </Table>\n          </Tables>\n        </Product>\n      </Product>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2024-01-25 15:55:17\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"CoolingSystem\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">CoolingSystem</Name>\n  </AttributeGroup>\n  <AttributeGroup ID=\"ProductSpecifications\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">Product Specifications</Name>\n    <MetaData>\n      <Value ID=\"20\" AttributeID=\"AttributeGroupSection\">Product Details</Value>\n      <Value AttributeID=\"DisplaySequence\">3</Value>\n    </MetaData>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"NumberOfCoolingFins\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Number Of Cooling Fins</Name>\n      <Validation BaseType=\"integer\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"CoolingSystem\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"OverflowPressure\" MultiValued=\"false\" DefaultUnitID=\"unece.unit.80\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">OverflowPressure</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\">\n        <UnitLink UnitID=\"unece.unit.80\"/>\n      </Validation>\n      <AttributeGroupLink AttributeGroupID=\"CoolingSystem\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <Products>\n    <Product ID=\"1075479\" UserTypeID=\"Level1\" ParentID=\"ProductsRoot\">\n      <Name>Car Parts</Name>\n      <Tables>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n        <Table ID=\"105421\">\n          null        </Table>\n      </Tables>\n      <Product ID=\"1075481\" UserTypeID=\"Level2\">\n        <Name>Cooling System</Name>\n        <AttributeLink AttributeID=\"OverflowPressure\"/>\n        <Tables>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n          <Table ID=\"105421\">\n            null          </Table>\n        </Tables>\n      </Product>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
   "signatory" : "SHTO",
   "comment" : ""
 }
