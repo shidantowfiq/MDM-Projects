@@ -1,0 +1,108 @@
+{
+  "version" : "2",
+  "id" : "cp20240125-TransformationLookupTable",
+  "name" : "cp20240125-TransformationLookupTable",
+  "metadata" : { },
+  "setupGroupId" : "Integrations",
+  "uniqueId" : "cpk-19b8471d-8809-4e9c-871e-f017500af91a",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Transformation Lookup Table",
+    "itemURL" : "step://asset?id=TransformationLookupTable",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Confirmed Duplicates",
+    "itemURL" : "step://attribute?id=ImageDeduplicationConfirmedDuplicates",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Transformation Lookup Table",
+    "itemURL" : "step://objecttype?id=stibo.ValueSubstitutionTransConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configurations",
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description Attribute",
+    "itemURL" : "step://attribute?id=DescriptionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CalculatedDescriptionAttribute",
+    "itemURL" : "step://attribute?id=CalculatedDescriptionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Keywords",
+    "itemURL" : "step://attribute?id=AssetAnalyzer.Keywords",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lookup Tables",
+    "itemURL" : "step://classification?id=LookupTables",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Deduplication Delete Flag",
+    "itemURL" : "step://attribute?id=ImageDeduplicationDeleteFlag",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Confirmed Non-Duplicates",
+    "itemURL" : "step://attribute?id=ImageDeduplicationConfirmedNonDuplicates",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset URL Attribute",
+    "itemURL" : "step://attribute?id=AssetDownload.AssetURLAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2024-01-25 16:28:30\"    UseContextLocale=\"false\">\n\n<ImportConfigurations/>\n<ExportConfigurations/>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations/>\n<TransformationLookupTableConfigurations>\n  <TransformationLookupTableConfiguration ID=\"TransformationLookupTable\">\n<!-- Definition:\n<Configuration IgnoreCase=\"true\" ReplaceEmptyWithKey=\"false\">\n  <ValuePair>\n    <FromValue>Here</FromValue>\n    <ToValue>There</ToValue>\n  </ValuePair>\n  <ValuePair>\n    <FromValue>This</FromValue>\n    <ToValue>That</ToValue>\n  </ValuePair>\n  <ValuePair>\n    <FromValue>From</FromValue>\n    <ToValue>To</ToValue>\n  </ValuePair>\n</Configuration>\n -->\n    <Name>Transformation Lookup Table</Name>\n    <MetaData>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.extension\">txt</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.filename\">ValueSubstitutionTransformationConfiguration.xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.format\">Text (Plain ASCII text)</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.mime-type\">text/plain; charset=us-ascii</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.size\">345</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.uploaded\">2024-01-25 16:27:49</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"LookupTables\"/>\n    <Configuration>H4sIAAAAAAAAALNxzs9Ly0wvLUosyczPU/BMz8svSnVOLE61VSopKk1VUghKLchJTE51zS0oqQzPLMnwTq20VUpLzClOVbLjUlCwCUvMKU0NSMwsAvGAfLei/FywmJ1HalGqjT6CD5EPyYfwQjLA0jAuyCh9FLPwmBySkVmMz+TEEjINBrHwGJyP21gbfZSAtOMCAIECMTtZAQAA</Configuration>\n  </TransformationLookupTableConfiguration>\n</TransformationLookupTableConfigurations>\n<ImageConversionConfigurations/>\n</STEP-ProductInformation>\n",
+  "signatory" : "SHTO",
+  "comment" : ""
+}

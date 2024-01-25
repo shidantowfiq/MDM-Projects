@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="TransformationLookupTable"><!-- Definition:
+<Configuration IgnoreCase="true" ReplaceEmptyWithKey="false">
+  <ValuePair>
+    <FromValue>Here</FromValue>
+    <ToValue>There</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>This</FromValue>
+    <ToValue>That</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>From</FromValue>
+    <ToValue>To</ToValue>
+  </ValuePair>
+</Configuration>
+ -->
+            <Name>Transformation Lookup Table</Name>
+            <MetaData>
+                <Value QualifierID="AllCountries" AttributeID="asset.extension">txt</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.size">345</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.uploaded">2024-01-25 16:27:49</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="LookupTables"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAALNxzs9Ly0wvLUosyczPU/BMz8svSnVOLE61VSopKk1VUghKLchJTE51zS0oqQzPLMnwTq20VUpLzClOVbLjUlCwCUvMKU0NSMwsAvGAfLei/FywmJ1HalGqjT6CD5EPyYfwQjLA0jAuyCh9FLPwmBySkVmMz+TEEjINBrHwGJyP21gbfZSAtOMCAIECMTtZAQAA</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>
