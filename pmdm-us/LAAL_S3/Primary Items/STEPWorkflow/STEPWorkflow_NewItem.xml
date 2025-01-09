@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="NewItem"><!-- Definition:
+<scxml name="NewItem" initial="Enrich" version="0.9">
+  <assignee id="$current" type="user"/>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=140.0 h=313.0  </editorLayout>
+  <final id="Final" discontinued="false">
+    <editorLayout>   node-size-and-position x=20.0 y=268.0 w=100.0 h=25.0  </editorLayout>
+  </final>
+  <state id="Approve" discontinued="false">
+    <transition event="submit" target="Final"/>
+    <transition event="reject" target="Enrich">
+      <editorLayout>   edge-path [Enrich]  x=60.0 y=168.0  </editorLayout>
+    </transition>
+    <editorLayout>   node-size-and-position x=20.0 y=193.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Enrich" discontinued="false">
+    <transition event="submit" target="Approve">
+      <editorLayout>   edge-path [Approve]  x=80.0 y=168.0  </editorLayout>
+    </transition>
+    <editorLayout>   node-size-and-position x=20.0 y=118.00000000000003 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml> -->
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name QualifierID="en-US">NewItem</Name>
+            <Configuration>H4sIAAAAAAAA/51T32vbMBB+z1+hir3acuK1S4dlGGODwGgLpU+jD5p9dW7YkpDOcbq/vrLiZFloaZgfdAjpu+/Hyaons9JIqAhu9VcHocon1XoovG2RSthC1RPcVw4t/cAOCeo7hxtsoQEvyfX7my16An2rV501jsA92Pq0ma+2XSuLWBhG2lbyb9phteZMqw4kv4FhRdBxtgHn0WjJs/Sas4DQXvI1kf0sxDAM6ZCnxjVikWWXIvskYlNeFhdJwhjTpobE4x9IlK4Ta3zgMpptZZZm7Dmug5x/HOta5vM8VJYk5YwVyntsNADDWvIPVe8caOKMnm0Q13twgUPsL5WzgPAUfLIafWU0oe4hAKNrHntM9t5VtthJm8+XaXb85aPSbKd0cXkQygpySk9o2ASRkvv+VxhQEKtcA2H/xVpnNnDghrqBxCpas5/T0SMLzMuJ+Wo5dS/E397lrBDR4TleTwnfNXud7ybxf/6+o1bjzP+R+zrUwW+ojqAnUzlKZncSg7k6P5inUcrbweyVnhfLIhK+EkshIk+kHt97Of1YLz/RaWvHAwAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

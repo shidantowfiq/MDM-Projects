@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Classifications>
+        <Classification ID="Suppliers" UserTypeID="Suppliers" ParentID="Classification 1 root">
+            <Classification ID="AcmeSupplier" UserTypeID="Supplier">
+                <Classification ID="AcmeSupplierProducts" UserTypeID="SupplierProducts">
+                    <Name>Products</Name>
+                    <Tables>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                        <Table ID="105421">
+                            <Texts QualifierID="Qualifier root" FormatVersion="1.1"></Texts>
+                        </Table>
+                    </Tables>
+                </Classification>
+            </Classification>
+        </Classification>
+    </Classifications>
+</STEP-ProductInformation>

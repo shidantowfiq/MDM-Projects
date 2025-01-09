@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="1626996"><!-- Definition:
+<?xml version="1.0"?>
+<ImportManagerConfig Version="2" Name="SmartSheetImport" ContextID="Context1" WorkspaceID="Main" Approver="laal" RejectNewProducts="no" RejectProductUpdates="no" MatchUnitsByID="no" CountUnmapped="no" ProcessTemplate="Importer" TestImport="no" AutoIntiate="no" ForceDomainImport="yes" ReplaceTerms="CLEAR_ONLY_FOR_IMPORTED_PRODUCTS" DefaultProductParentID="Product hierarchy root" DefaultProductTypeID="Product user-type root" BatchDirectoryID="" SelectedURLType="product">
+  <Source Name="File">
+    <Parameter Name="Filename">/Users/laal/Downloads/Excel-2025-01-08_13.39.19.xlsm</Parameter>
+  </Source>
+  <Format Name="Smartsheet">
+  </Format>
+  <ProductMapping>
+  </ProductMapping>
+  <ImportValidationRules>
+    <ValidationBusinessCondition ID="LAAL_HasName"/>  </ImportValidationRules>
+  <ReplacementRules>
+  </ReplacementRules>
+</ImportManagerConfig>
+ -->
+            <Name>SmartSheetImport</Name>
+            <MetaData>
+                <Value QualifierID="AllCountries" AttributeID="asset.extension">xml</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.filename">ImportConfig9135255278202950332.xml</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.mime-type">application/xml</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.size">878</Value>
+                <Value QualifierID="AllCountries" AttributeID="asset.uploaded">2025-01-08 13:59:28</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAA/3VTXY/aMBB851dYfocAp0o9iXACAipSAigkV/UpspI9cOuPyHZ68O+7TsId7V3fnNnZ3dnZzezpIgX5DcZyrUI6GY3p03ww28paG5cwxU5gVlq98BN5vpGmlOyYhJAeJTPueAZwHZ8SpDq4uG0U0v45oeS7Nr9szUrwcMK4omRR10Zj15AKxgQlKfyE0u3g9WB01ZTOhlTpG9xjeV0xB30kYa4854o7u7z6sh5b6Ua5XElW11B1EKaWYG0GshaYHNJOKBhKMrC97I66aJzeKsdbmgc22pQQaYmCb7wrWC8Ka5WQgZEoZhWvF2mx38U/is0+LbbJYZ9m66g4pPsoX2VHSiJ4YY24TXFgBlRrUA+QMwfDTHm+EqO1+5efXWu4ZzcWzNAh2LOX3oiIG/RJm9YKSo4g8BOqPI19ekjrLpnOB4TMjrrBwfoVbriAFsYASkMMzbmLKXzReZBjVxv4XQWRflVCs8oG60sJYjgdT78Mx5Ph+GsxeRg9PI4mj6OLsHIWvNVr2wZd3/aN1krm7q/I+ivq9AVdtH33Uye4Uq5OXfgTrNvPMxMcTwRvNG0E2H6qd3TZWK7wGvAyK+4B4u2KF4u4+MasF0ODue/w33KzfvcSV/gOBh/RW42//qD54A81G5/hbgMAAA==</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

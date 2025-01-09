@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_HasName" Scope="Global" Type="Condition" RunPrivileged="false"><!-- Definition:
+Condition #1 (JavaScriptBusinessConditionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+var name = node.getName();
+if (name==null) {
+	return "Name Required on "+node.getID();
+}
+//logger.info("Name: "+name);
+return true;
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_HasName</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAA/7VTUW8TMQx+5n6FdQ9VJ8QdvCGu14p2IA0xmLZOPFbZnRsypcktcSpg4r/jNNdrq2kSEuLN/mx//mzZnQ5SmZXoOq3Qr9R61VizVrKezH5sNGzReWVNnb8pXueAprGtMrLOb5cfX73NZ9NsMg9eGfT+Omgs2fdMRNMu0f4D1zQDGICrHR0cxxN0cV7nn8RW3DROdbSPL6xpFXGvb4q+z5VpfR7pmPBKOLFBYiUJOIYgkqVsWP7ssM7vmbnQwsjihhxrzacjTdXJMKOHYKniiZJxGCv5u9mSORtJqrJIEHtcim7nA+wR4GWREw2xjFSxCM6hoa9399hQTFn0GX2v91oJ3+ca22IPDwMttPBDPGidrHLQUR4LmZRD3TOr+eCcdZe8XiHxf6/os22EVr/Enca+4xI3nRaE82BavrS/1Hy4jecFb4UDwzVQQ9xiIZG+sDs+qzK1hnEM1XXc3xk8Zi8cUnAGkuCYB9f4EJTDFuwefrnnuTiPLL+zstRWSnSFMms7PtS+GwrY4cyenFzA6slwR8Dueifl6XvwA5WnH9Q/4x9lGS4g5AMAAA==</Configuration>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
