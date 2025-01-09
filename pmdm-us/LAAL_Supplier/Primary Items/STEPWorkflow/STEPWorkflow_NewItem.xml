@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
     <STEPWorkflows>
         <STEPWorkflow ID="NewItem"><!-- Definition:
 <scxml name="NewItem" initial="Enrich" version="0.9">
