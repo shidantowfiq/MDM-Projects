@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="AcmeSupplier" ReadOnly="false" VendorRoot="AcmeSupplier">
+            <Name QualifierID="Qualifier root">Acme Supplier</Name>
+            <PrivilegeRule ActionSetID="All setup actions"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" ClassificationID="AcmeSupplier"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" ProductID="ProductsRoot"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="ViewSetupActions"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

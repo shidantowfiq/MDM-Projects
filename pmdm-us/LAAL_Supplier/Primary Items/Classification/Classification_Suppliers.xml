@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Classifications>
+        <Classification ID="Suppliers" UserTypeID="Suppliers" ParentID="Classification 1 root">
+            <Name>Suppliers</Name>
+            <AttributeLink AttributeID="PrimaryContact"></AttributeLink>
+            <MetaData>
+                <Value AttributeID="DescriptionAttribute">Description on Suppliers parental node</Value>
+            </MetaData>
+        </Classification>
+    </Classifications>
+</STEP-ProductInformation>

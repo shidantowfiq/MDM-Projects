@@ -1,0 +1,640 @@
+{
+  "version" : "2.1",
+  "id" : "LAAL_Supplier",
+  "name" : "LAAL_Supplier",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackage",
+  "uniqueId" : "cpk-e9a20e75-b4ce-4774-a9a9-fa356baafd6a",
+  "origin" : "pmdm-us",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "NoValidity",
+  "items" : [ {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=LastName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Entity References",
+    "itemURL" : "step://attribute?id=ConfigurationEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LAAL_SUP",
+    "itemURL" : "step://portal?id=LAAL_SUP",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Impact analysis not available. Verify linked business rules and workflows exist on target system plus everything used for configuration.",
+    "recursive" : false
+  }, {
+    "name" : "Acme Supplier",
+    "itemURL" : "step://classification?id=AcmeSupplier",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Terms List",
+    "itemURL" : "step://termslist?id=TermsList",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Address Typeahead Entity References",
+    "itemURL" : "step://attribute?id=AddressTypeaheadEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lars Albertsen(Supplier)",
+    "itemURL" : "step://user?id=LAAL_SUP",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "User",
+    "itemURL" : "step://objecttype?id=Operator+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUI Setup Group Category",
+    "itemURL" : "step://objecttype?id=WebUISetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Privilege Grouping",
+    "itemURL" : "step://objecttype?id=SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=FirstName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Image",
+    "itemURL" : "step://referencetype?id=PMDM.IDRT.PrimaryProductImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM7 Article Groups Type",
+    "itemURL" : "step://objecttype?id=ETIM7+Article+Groups+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Forms",
+    "itemURL" : "step://objecttype?id=Forms",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Import Manager Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ImportManagerConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description Attribute",
+    "itemURL" : "step://attribute?id=DescriptionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Index",
+    "itemURL" : "step://objecttype?id=stibo.IndexWord",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://SetupGroup?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestClassifications",
+    "itemURL" : "step://objecttype?id=TestClassifications",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Suppliers",
+    "itemURL" : "step://classification?id=Suppliers",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=SupplierAssets",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://classification?id=AcmeSupplierAssets",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PrintModelToVehicleModel",
+    "itemURL" : "step://referencetype?id=PrintModelToVehicleModel",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://objecttype?id=SupplierProducts",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Contact",
+    "itemURL" : "step://attribute?id=PrimaryContact",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Deduplication Delete Flag",
+    "itemURL" : "step://attribute?id=ImageDeduplicationDeleteFlag",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lieferanten Knoten",
+    "itemURL" : "step://objecttype?id=PMDM.CLS.SuppliersRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Confirmed Non-Duplicates",
+    "itemURL" : "step://attribute?id=ImageDeduplicationConfirmedNonDuplicates",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP Workflow Type",
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflow+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity Reference",
+    "itemURL" : "step://referencetype?id=EntityReference",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "View Setup Actions",
+    "itemURL" : "step://ActionSet?id=ViewSetupActions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LAAL BRGroup",
+    "itemURL" : "step://SetupGroup?id=LAALBRGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LAAL_HasName",
+    "itemURL" : "step://businessrule?id=LAAL_HasName",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configurations Root",
+    "itemURL" : "step://objecttype?id=ConfigurationsRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AssetRoot",
+    "itemURL" : "step://objecttype?id=AssetRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Setup Group Category",
+    "itemURL" : "step://objecttype?id=WorkflowSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configurations",
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Setup Actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ship Direct",
+    "itemURL" : "step://attribute?id=ShipDirect",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://objecttype?id=EclassFolder",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Group",
+    "itemURL" : "step://objecttype?id=Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Alternate Classifications",
+    "itemURL" : "step://objecttype?id=Classification+1+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Condition Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CalculatedDescriptionAttribute",
+    "itemURL" : "step://attribute?id=CalculatedDescriptionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Super Users",
+    "itemURL" : "step://group?id=Super+user",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "But",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Produkt Bilder",
+    "itemURL" : "step://referencetype?id=PMDM.IDRT.ProductImages",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Except Password",
+    "itemURL" : "step://ActionSet?id=AllExceptPassword",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Impersonate",
+    "itemURL" : "step://ActionSet?id=Impersonate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset URL Attribute",
+    "itemURL" : "step://attribute?id=AssetDownload.AssetURLAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product to Supplier Link",
+    "itemURL" : "step://cplinktype?id=ProductToSupplierLink",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Merchandising Hierarchy",
+    "itemURL" : "step://objecttype?id=MerchandisingHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portal Configuration Type",
+    "itemURL" : "step://objecttype?id=stibo.portal+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.Quark",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.Quark",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Acme Supplier",
+    "itemURL" : "step://group?id=AcmeSupplier",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Confirmed Duplicates",
+    "itemURL" : "step://attribute?id=ImageDeduplicationConfirmedDuplicates",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ETIM Article Groups Type",
+    "itemURL" : "step://objecttype?id=ETIM+Article+Groups+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Import Configurations",
+    "itemURL" : "step://classification?id=stibo.IMConfigFolder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=UserInformation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Export Manager Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ExportManagerConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Users",
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Container To Classification",
+    "itemURL" : "step://referencetype?id=DataContainerToClassification",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.InDesign",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.InDesign",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://objecttype?id=GPC+Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Keywords",
+    "itemURL" : "step://attribute?id=AssetAnalyzer.Keywords",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SmartSheetImport",
+    "itemURL" : "step://asset?id=1626996",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Suppliers",
+    "itemURL" : "step://objecttype?id=Suppliers",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SmartSheetExport",
+    "itemURL" : "step://asset?id=1626992",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Export Configurations",
+    "itemURL" : "step://classification?id=stibo.EMConfigFolder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://product?id=ProductsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://classification?id=AcmeSupplierProducts",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All User Actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "NewItem",
+    "itemURL" : "step://stepworkflow?id=NewItem",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier",
+    "itemURL" : "step://objecttype?id=Supplier",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2025-01-09 11:04:04\"    UseContextLocale=\"false\">\n\n  <UserTypes>\n    <UserType ID=\"SupplierProducts\" ClassificationOwnsProductLinks=\"false\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Products</Name>\n      <UserTypeLink UserTypeID=\"Supplier\"/>\n    </UserType>\n    <UserType ID=\"SupplierAssets\" ClassificationOwnsProductLinks=\"false\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Assets</Name>\n      <UserTypeLink UserTypeID=\"Supplier\"/>\n    </UserType>\n    <UserType ID=\"Supplier\" ClassificationOwnsProductLinks=\"false\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Supplier</Name>\n      <UserTypeLink UserTypeID=\"Suppliers\"/>\n    </UserType>\n    <UserType ID=\"Suppliers\" ClassificationOwnsProductLinks=\"false\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Suppliers</Name>\n      <UserTypeLink UserTypeID=\"Classification 1 user-type root\"/>\n    </UserType>\n  </UserTypes>\n\n  <BusinessRules>\n    <BusinessRule ID=\"LAAL_HasName\" Scope=\"Global\" Type=\"Condition\" RunPrivileged=\"false\">\n\n<!-- Definition:\nCondition #1 (JavaScriptBusinessConditionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar name = node.getName();\nif (name==null) {\n\treturn \"Name Required on \"+node.getID();\n}\n//logger.info(\"Name: \"+name);\nreturn true;\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"LAALBRGroup\"/>\n      <Name QualifierID=\"Qualifier root\">LAAL_HasName</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/7VTUW8TMQx+5n6FdQ9VJ8QdvCGu14p2IA0xmLZOPFbZnRsypcktcSpg4r/jNNdrq2kSEuLN/mx//mzZnQ5SmZXoOq3Qr9R61VizVrKezH5sNGzReWVNnb8pXueAprGtMrLOb5cfX73NZ9NsMg9eGfT+Omgs2fdMRNMu0f4D1zQDGICrHR0cxxN0cV7nn8RW3DROdbSPL6xpFXGvb4q+z5VpfR7pmPBKOLFBYiUJOIYgkqVsWP7ssM7vmbnQwsjihhxrzacjTdXJMKOHYKniiZJxGCv5u9mSORtJqrJIEHtcim7nA+wR4GWREw2xjFSxCM6hoa9399hQTFn0GX2v91oJ3+ca22IPDwMttPBDPGidrHLQUR4LmZRD3TOr+eCcdZe8XiHxf6/os22EVr/Enca+4xI3nRaE82BavrS/1Hy4jecFb4UDwzVQQ9xiIZG+sDs+qzK1hnEM1XXc3xk8Zi8cUnAGkuCYB9f4EJTDFuwefrnnuTiPLL+zstRWSnSFMms7PtS+GwrY4cyenFzA6slwR8Dueifl6XvwA5WnH9Q/4x9lGS4g5AMAAA==</Configuration>\n    </BusinessRule>\n  </BusinessRules>\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"NewItem\">\n\n<!-- Definition:\n<scxml name=\"NewItem\" initial=\"Enrich\" version=\"0.9\">\n  <assignee id=\"$current\" type=\"user\"/>\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=140.0 h=313.0  </editorLayout>\n  <final id=\"Final\" discontinued=\"false\">\n    <editorLayout>   node-size-and-position x=20.0 y=268.0 w=100.0 h=25.0  </editorLayout>\n  </final>\n  <state id=\"Approve\" discontinued=\"false\">\n    <transition event=\"submit\" target=\"Final\"/>\n    <transition event=\"reject\" target=\"Enrich\">\n      <editorLayout>   edge-path [Enrich]  x=60.0 y=168.0  </editorLayout>\n    </transition>\n    <editorLayout>   node-size-and-position x=20.0 y=193.0 w=100.0 h=25.0  </editorLayout>\n  </state>\n  <state id=\"Enrich\" discontinued=\"false\">\n    <transition event=\"submit\" target=\"Approve\">\n      <editorLayout>   edge-path [Approve]  x=80.0 y=168.0  </editorLayout>\n    </transition>\n    <editorLayout>   node-size-and-position x=20.0 y=118.00000000000003 w=100.0 h=25.0  </editorLayout>\n  </state>\n</scxml> -->\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"en-US\">NewItem</Name>\n      <Configuration>H4sIAAAAAAAA/51T32vbMBB+z1+hir3acuK1S4dlGGODwGgLpU+jD5p9dW7YkpDOcbq/vrLiZFloaZgfdAjpu+/Hyaons9JIqAhu9VcHocon1XoovG2RSthC1RPcVw4t/cAOCeo7hxtsoQEvyfX7my16An2rV501jsA92Pq0ma+2XSuLWBhG2lbyb9phteZMqw4kv4FhRdBxtgHn0WjJs/Sas4DQXvI1kf0sxDAM6ZCnxjVikWWXIvskYlNeFhdJwhjTpobE4x9IlK4Ta3zgMpptZZZm7Dmug5x/HOta5vM8VJYk5YwVyntsNADDWvIPVe8caOKMnm0Q13twgUPsL5WzgPAUfLIafWU0oe4hAKNrHntM9t5VtthJm8+XaXb85aPSbKd0cXkQygpySk9o2ASRkvv+VxhQEKtcA2H/xVpnNnDghrqBxCpas5/T0SMLzMuJ+Wo5dS/E397lrBDR4TleTwnfNXud7ybxf/6+o1bjzP+R+zrUwW+ojqAnUzlKZncSg7k6P5inUcrbweyVnhfLIhK+EkshIk+kHt97Of1YLz/RaWvHAwAA</Configuration>\n    </STEPWorkflow>\n  </STEPWorkflows>\n\n  <Classifications>\n    <Classification ID=\"Suppliers\" UserTypeID=\"Suppliers\" ParentID=\"Classification 1 root\">\n      <Name>Suppliers</Name>\n      <AttributeLink AttributeID=\"PrimaryContact\"/>\n      <MetaData>\n        <Value AttributeID=\"DescriptionAttribute\">Description on Suppliers parental node</Value>\n      </MetaData>\n      <Classification ID=\"AcmeSupplier\" UserTypeID=\"Supplier\">\n        <Name>Acme Supplier</Name>\n        <MetaData>\n          <Value AttributeID=\"PrimaryContact\">James Whitaker</Value>\n          <Value AttributeID=\"ShipDirect\" ID=\"Y\">Yes</Value>\n        </MetaData>\n        <Classification ID=\"AcmeSupplierAssets\" UserTypeID=\"SupplierAssets\">\n          <Name>Assets</Name>\n        </Classification>\n        <Classification ID=\"AcmeSupplierProducts\" UserTypeID=\"SupplierProducts\">\n          <Name>Products</Name>\n          <Tables>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n            <Table ID=\"105421\">\n              <Texts QualifierID=\"Qualifier root\" FormatVersion=\"1.1\"/>\n            </Table>\n          </Tables>\n        </Classification>\n      </Classification>\n    </Classification>\n  </Classifications>\n\n  <UserGroupList>\n    <UserGroup ID=\"AcmeSupplier\" ReadOnly=\"false\" VendorRoot=\"AcmeSupplier\">\n      <Name QualifierID=\"Qualifier root\">Acme Supplier</Name>\n      <PrivilegeRule ActionSetID=\"ViewSetupActions\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" ClassificationID=\"AcmeSupplier\"/>\n      <PrivilegeRule ActionSetID=\"All setup actions\"/>\n      <PrivilegeRule ActionSetID=\"All user actions\" ProductID=\"ProductsRoot\"/>\n    </UserGroup>\n  </UserGroupList>\n\n  <UserList>\n    <User ID=\"LAAL_SUP\" ForceAuthentication=\"false\" EMail=\"laal@stibosystems.com\">\n      <Name QualifierID=\"Qualifier root\">Lars Albertsen(Supplier)</Name>\n      <MetaData>\n        <Value AttributeID=\"FirstName\">Lars</Value>\n        <Value AttributeID=\"LastName\">Albertsen</Value>\n      </MetaData>\n      <UserGroupLink UserGroupID=\"Stibo\"/>\n      <UserGroupLink UserGroupID=\"AcmeSupplier\"/>\n      <SystemSetup>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorValueReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeGroupValuesEditorPropertiesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForClassFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForAssetFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorModulesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorTableTemplatesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorNonApprovedRelinkedChildrenFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"WB_USERSET\" Name=\"CurrentContext\">Context1</SystemSetupValue>\n        <SystemSetupValue Type=\"SumRolView\" Name=\"SumRolView.Default\">&lt;View Name=&quot;Default&quot;&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAssetEditorPropertiesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorAttributeReferencesFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"HelpWindowWidth\">1185.0</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"HelpWindowHeight\">906.0</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorModuleReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedrelatedProcessesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedRevisionHistoryEditorInWorkspacesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedRevisionHistoryEditorRevisionsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorReferncedByFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorClassificationFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"DownloadDir\">C:\\Documents and Settings\\niwe\\Desktop\\Documentation\\PM\\Images</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedQueueReportFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessTemplateEditorPropsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessTemplateEditorSummaryFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ExportManagerSaveConfigParentClass\">step://classification?id=Configurations</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"Flippeddetails_flipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedafTaskTypeObjectProperties\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedGroups\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedContextValuesEditorContextValuesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"StBookView\" Name=\"StBookView.Default\">&lt;View Name=&quot;Default&quot;&gt;&lt;Plugin ID=&quot;ProductCount&quot;/&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"BasketView\" Name=\"BasketView.Default\">&lt;View Name=&quot;Default&quot;&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;OnPages&quot;/&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabUserTypeImpl\">Object Type</SystemSetupValue>\n        <SystemSetupValue Type=\"BookMrk\" Name=\"EXE Line of Chairs\">step://search?match_case=FALSE&amp;type_dodocsearch=TRUE&amp;viewing_context=GL&amp;type_isdextype=TRUE&amp;searchbelow=step%3a%2f%2fproduct%3fid%3d4580&amp;searchtype=basic&amp;type_type=Product&amp;searchstring=EXE*&amp;searchimmediately=FALSE&amp;current_workspace=Main</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAttributeImpl\">Attribute</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedproductLinksFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentWorkspace\">Main</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentContext\">EN All USA</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"WindowPosSize\">13,77,1216,899</SystemSetupValue>\n        <SystemSetupValue Type=\"CONFIG\" Name=\"DefaultLoginPublication\">428</SystemSetupValue>\n        <SystemSetupValue Type=\"CONFIG\" Name=\"LoginViewingPublication\">428</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabProductImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiAssetImpl\">Multi Editor</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAssetImpl\">History</SystemSetupValue>\n        <SystemSetupValue Type=\"StBookView\" Name=\"StBookView.Student X\">&lt;View Name=&quot;Student X&quot;&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"BasketView\" Name=\"BasketView.Student X\">&lt;View Name=&quot;Student X&quot;&gt;&lt;Plugin ID=&quot;TermsList&quot;&gt;&lt;Parameter ID=&quot;termslisttype&quot;&gt;Price&lt;/Parameter&gt;&lt;Parameter ID=&quot;breakno&quot;&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;ID&quot;/&gt;&lt;Plugin ID=&quot;Name&quot;/&gt;&lt;Plugin ID=&quot;Image&quot;&gt;&lt;Parameter ID=&quot;reftype&quot;&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID=&quot;pipeline&quot;&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID=&quot;OnPages&quot;/&gt;&lt;/View&gt;</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedApplied Privileges\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiClassificationImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabDomainImpl\">List of Values</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeRefAttributeGroupsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabRecycleBinImpl\">Classification</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedSystemSetupEditorValuesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabGroupImpl\">Group</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedTranslation\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExtraProcessEditorAuditFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductValuesEditorInheritedAttributesFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProcessEditorReportFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedTagDefinitionEditorTagDefinitionsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabAttributeGroupImpl\">Attribute</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductValuesEditorAttributeGlobal Product Attributes\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"CONFIG\" Name=\"StepGUI/ViewSinglyLinkedInItalicsMenuItem\">N</SystemSetupValue>\n        <SystemSetupValue Type=\"LOCALESETT\" Name=\"ORACLELOCALE\">WEST_EUROPEAN</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ModeTranslationTarget\">AllLanguages</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForProductFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ModeWorkspaceMain\">Approved</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ModeContextFR All All\">GL</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeValidForEditorValidForLinkFlipper\">true</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorAttributeFormattingRulesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorVisibleElseWhereFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorProductReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"ImportManagerSaveConfigParentClass\">step://classification?id=stibo.IMConfigFolder</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedProductReferencesEditorDocumentReferencesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAssetEditorSystemPropertiesFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedattributeColumnsSubtypeFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExceptionsDialogAdditionalFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedUploadWizardDetailsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedObjectTypeReferencesEditorObjectsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabUnitImpl\">Units</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedAttributeReferencesEditorClassificationsFlipper\">false</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"MainDividerPosition\">413</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabClassificationImpl\">References</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"CurrentEditorTabMultiProductImpl\">Product</SystemSetupValue>\n        <SystemSetupValue Type=\"UserSet\" Name=\"FlippedExceptionsDialogDetailsFlipper\">false</SystemSetupValue>\n      </SystemSetup>\n    </User>\n  </UserList>\n\n<ImportConfigurations>\n  <ImportConfiguration ID=\"1626996\">\n<!-- Definition:\n<?xml version=\"1.0\"?>\n<ImportManagerConfig Version=\"2\" Name=\"SmartSheetImport\" ContextID=\"Context1\" WorkspaceID=\"Main\" Approver=\"laal\" RejectNewProducts=\"no\" RejectProductUpdates=\"no\" MatchUnitsByID=\"no\" CountUnmapped=\"no\" ProcessTemplate=\"Importer\" TestImport=\"no\" AutoIntiate=\"no\" ForceDomainImport=\"yes\" ReplaceTerms=\"CLEAR_ONLY_FOR_IMPORTED_PRODUCTS\" DefaultProductParentID=\"Product hierarchy root\" DefaultProductTypeID=\"Product user-type root\" BatchDirectoryID=\"\" SelectedURLType=\"product\">\n  <Source Name=\"File\">\n    <Parameter Name=\"Filename\">/Users/laal/Downloads/Excel-2025-01-08_13.39.19.xlsm</Parameter>\n  </Source>\n  <Format Name=\"Smartsheet\">\n  </Format>\n  <ProductMapping>\n  </ProductMapping>\n  <ImportValidationRules>\n    <ValidationBusinessCondition ID=\"LAAL_HasName\"/>  </ImportValidationRules>\n  <ReplacementRules>\n  </ReplacementRules>\n</ImportManagerConfig>\n -->\n    <Name>SmartSheetImport</Name>\n    <MetaData>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.extension\">xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.filename\">ImportConfig9135255278202950332.xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.size\">878</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.uploaded\">2025-01-08 13:59:28</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"stibo.IMConfigFolder\"/>\n    <Configuration>H4sIAAAAAAAA/3VTXY/aMBB851dYfocAp0o9iXACAipSAigkV/UpspI9cOuPyHZ68O+7TsId7V3fnNnZ3dnZzezpIgX5DcZyrUI6GY3p03ww28paG5cwxU5gVlq98BN5vpGmlOyYhJAeJTPueAZwHZ8SpDq4uG0U0v45oeS7Nr9szUrwcMK4omRR10Zj15AKxgQlKfyE0u3g9WB01ZTOhlTpG9xjeV0xB30kYa4854o7u7z6sh5b6Ua5XElW11B1EKaWYG0GshaYHNJOKBhKMrC97I66aJzeKsdbmgc22pQQaYmCb7wrWC8Ka5WQgZEoZhWvF2mx38U/is0+LbbJYZ9m66g4pPsoX2VHSiJ4YY24TXFgBlRrUA+QMwfDTHm+EqO1+5efXWu4ZzcWzNAh2LOX3oiIG/RJm9YKSo4g8BOqPI19ekjrLpnOB4TMjrrBwfoVbriAFsYASkMMzbmLKXzReZBjVxv4XQWRflVCs8oG60sJYjgdT78Mx5Ph+GsxeRg9PI4mj6OLsHIWvNVr2wZd3/aN1krm7q/I+ivq9AVdtH33Uye4Uq5OXfgTrNvPMxMcTwRvNG0E2H6qd3TZWK7wGvAyK+4B4u2KF4u4+MasF0ODue/w33KzfvcSV/gOBh/RW42//qD54A81G5/hbgMAAA==</Configuration>\n  </ImportConfiguration>\n</ImportConfigurations>\n<ExportConfigurations>\n  <ExportConfiguration ID=\"1626992\">\n<!-- Definition:\n<?xml version=\"1.0\"?>\n<ExportManagerConfig Version=\"2\" Name=\"SmartSheetExport\" ContextID=\"Context1\" WorkspaceID=\"Main\" UseContextLocale=\"false\" ResolveInlineRefs=\"false\" ExportDerivedAttrs=\"false\" EffectiveDate=\"\" EffectiveDateTimeZoneID=\"America/New_York\" ECatalogID=\"\" SelfContainedReferences=\"false\" VersionID=\"\" ScheduleDate=\"\" ProcessTemplate=\"Exporter\" ContentMode=\"\" ExecutionMode=\"\" InheritProductData=\"false\" LeafProductExport=\"true\" ExportSelectedProducts=\"false\" isSorted=\"false\">\n  <ProductSelection>\n    <URL>step://product?id=1626988</URL>\n    <URL>step://product?id=1626990</URL>\n  </ProductSelection>\n  <Format Name=\"Smartsheet\">\n    <Parameter Name=\"ExcelVersion\">ExcelVersion2007</Parameter>\n    <Parameter Name=\"SheetType\">SheetTypeMultiLevel</Parameter>\n    <Parameter Name=\"Template\">TemplateNo</Parameter>\n    <Parameter Name=\"ObjectTypeAtLevelChooser\">Item</Parameter>\n    <Parameter Name=\"CrossContextChooser\">No</Parameter>\n    <Parameter Name=\"ImportConfiguration\">1626996</Parameter>\n    <Parameter Name=\"MandatoryMetadataAttribute\"></Parameter>\n    <Parameter Name=\"UseMandatorySetting\">UseMandatorySettingNo</Parameter>\n    <Parameter Name=\"SortLOVByIDMetadataAttribute\"></Parameter>\n    <Parameter Name=\"HideLOVIDMetadataAttribute\"></Parameter>\n    <Parameter Name=\"PlaceholderAssetObjectType\"></Parameter>\n    <Parameter Name=\"PlaceholderAssetIDPrefix\"></Parameter>\n    <Parameter Name=\"PlaceholderAssetIDSeparator\"></Parameter>\n    <Parameter Name=\"PlaceholderAssetParentClassification\"></Parameter>\n    <Parameter Name=\"AutoSize\">AutoSizeNone</Parameter>\n    <Parameter Name=\"SupplierColumnHeader\"></Parameter>\n    <Parameter Name=\"SupplierColumnTooltip\"></Parameter>\n    <Parameter Name=\"SupplierColumnIndex\"></Parameter>\n    <Parameter Name=\"EnableAutoFilter\">EnableAutoFilterNo</Parameter>\n    <Parameter Name=\"EnableDDR\">EnableDDRNo</Parameter>\n    <Parameter Name=\"AddWorkingColumn\">AddWorkingColumnNo</Parameter>\n    <Parameter Name=\"EnableOpenFormat\">false</Parameter>\n    <Parameter Name=\"ClassificationRootsForInheritedAttributes\"></Parameter>\n    <Parameter Name=\"RuntimeSettings\"></Parameter>\n  </Format>\n  <ProductMapping SelectedURLType=\"product\">\n    <CompositeMap Target=\"Column\">\n      <Trigger><IDSource Aspect=\"ID\"/></Trigger>\n    <Map Target=\"ColumnHeader\">\n      <Expression><ConstantSource Constant=\"&lt;ID&gt;\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnValue\">\n      <Expression><IDSource Aspect=\"ID\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnLevelStart\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnMandatory\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnReadonly\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    </CompositeMap>\n    <CompositeMap Target=\"Column\">\n      <Trigger><NameSource/></Trigger>\n    <Map Target=\"ColumnHeader\">\n      <Expression><ConstantSource Constant=\"&lt;Name&gt;\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnValue\">\n      <Expression><NameSource/></Expression>\n    </Map>\n    <Map Target=\"ColumnLevelStart\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnMandatory\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnReadonly\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    </CompositeMap>\n    <CompositeMap Target=\"Column\">\n      <Trigger><AttributeGroupSource AttributeGroupID=\"MarketingDescriptions\" Aspect=\"ValueAndUnit\" MultiValueSeparator=\";\"/></Trigger>\n    <Map Target=\"ColumnHeader\">\n      <Expression><AttributeGroupSource AttributeGroupID=\"MarketingDescriptions\" Aspect=\"Name\" MultiValueSeparator=\";\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnValue\">\n      <Expression><AttributeGroupSource AttributeGroupID=\"MarketingDescriptions\" Aspect=\"ValueAndUnit\" MultiValueSeparator=\";\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnLevelStart\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnMandatory\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    <Map Target=\"ColumnReadonly\">\n      <Expression><ConstantSource Constant=\"\"/></Expression>\n    </Map>\n    </CompositeMap>\n  </ProductMapping>\n  <Delivery Name=\"File\">\n    <Parameter Name=\"FileNameTemplate\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n  </Delivery>\n</ExportManagerConfig>\n -->\n    <Name>SmartSheetExport</Name>\n    <MetaData>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.extension\">xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.filename\">ExportConfig14741787562289521058.xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.size\">4507</Value>\n      <Value QualifierID=\"AllCountries\" AttributeID=\"asset.uploaded\">2025-01-08 13:48:37</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"stibo.EMConfigFolder\"/>\n    <Configuration>H4sIAAAAAAAA/+1YS2/bOBC+51cIRFDsHhInOWTbxlbgtdJGgJ0EtpNFeykYcWSzpUiBpLz2/voORUlxXmvFmxZ7aE70cL75hqN5kOmeLjMRLEAbrmSPHO4fkNNwp3u2zJW2IyrpDPRAyZTPgpta6YgEFzSDHplkVNvJHMB6fRKgqoWljaMeqZaHJPhL6W8mpwk48YhySYJrA9X+UCVUoK2UCgMkGINRYgGxFFzCGFLT7HiKCDRfAOtbq9e20hQSi/KIWjT1QDDlGXxWsmTvZ4hPaOcC/v7yCd1C1QG1VKiZ2yXBBETqHEMngSE9aJAJ3DFVMaiUkzmwQjSsV1qhrplClotS5F0GXcVF2pFi3r8lJIVFQ7UglnN0zKIFViQWDdKGcgg0reTeXo9YXTQBQY/xqMAqlTtXuZk4clYLwp0g6FZaHoT8Toji6/EwNBby951O7jVOOesdHh8dv3v7tttx2xsV3x00it3OUzzdD0pn1K7njnG5QyrbV1TjDoar0jhbJiCqgJNw/dfRwcEfyFHrP4MvE3O6yvHozXJUCMuHsACxGV9/RxLWqwu1GXV5+xWP7Lj6tiQazJUymANhbCHbjB9oZUxVGw20DXGcuXTwtVpoasuo+S9zvBmNpc6oVXo1AktxRV2F8dvCHX8zGsu5MTABa7mckfAJYZtzuKwdXt78uYqjrXw55wwQvyX6SmCfmivBQPeNAXv3ObdBx9GVhpQvt8NOIEcdDN82cNzHhjMQ1BieYsvz+bDZTr+wasL/wePWqwvsnS0+W5HngrthIYpMngNl0Mrv+7ipUlig+cuBsWTQKsxnkt4KcGf7wIXrzeFDSZsk9ZgoGtdwXLbB9Rlz0xBLwbuNUX4gac9+mYP0LZWEZYtv0VzupcNYKWvQQjV8/FQtK8W0ieS4kBZHa1XajyHdjvduffCMaJ6jclBPLRwYrrZ6pJom9SwYKOxmBn1CQDClegbW3Sh8yEoVVJpqPsPrSdjFUlGFTiDomxzNYi+MSAfdqRW8zcem6iytDeJE1TjA3bxCD6SxVNrKcv2zR94IexJHb2b2pORYw3iaDvI8y3hDRQFPEz53iJcRlCNnYnG2vvBYW3A13f3HU43xSykpXp2ps55oW+WeqwXP+0MzztG8fs7dd/5Xpv2vM63pzh+1KvK6WdwT+geW/gauI0dgEs1z1+kNabpKmQ19ya4lx/daeR8uRc1lo0dO/nPzfB1XXXb+q4uvVgc/ObS/Cu1nFlrzGq0uH6UsAsEXoFfVXQZvfvDcO9TtudXde3A3RZFE0d6uuwGhZ1n+2wr/9kajPca+nJ/vZ9m+Mb/v7+IrDqRz9NHlqPYg3CnP8/DfLeHOd7w500mbEQAA</Configuration>\n  </ExportConfiguration>\n</ExportConfigurations>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations/>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations/>\n\n  <PortalConfigurations>\n    <PortalConfiguration ID=\"LAAL_SUP\">\n\n<!-- Definition:\n<portal-config portalId=\"customerportal\" xmlns=\"http://stibosystems.com/step/portal-config\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <screens>\n    <loginscreen>\n      <parameter id=\"PortalTitle\" value=\"STEP Web UI\"/>\n    </loginscreen>\n    <screen id=\"BGPDetails\" type=\"BackgroundProcessNodeDetails\">\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"ContextHelpMode\" value=\"SHOWBELOWINPUT\"/>\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"BackgroundProcessStartedBy\">\n            <parameter id=\"Label\" value=\"i18n.stibo.BackgroundProcesses.StartedBy\"/>\n          </component>\n          <component id=\"Rows\" type=\"IdValue\">\n            <parameter id=\"CssClass\" value=\"stibo-IdValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.IdValue.Label\"/>\n          </component>\n          <component id=\"Rows\" type=\"BackgroundProcessTemplateID\">\n            <parameter id=\"Label\" value=\"i18n.stibo.BackgroundProcesses.Template\"/>\n          </component>\n          <component id=\"Rows\" type=\"BackgroundProcessStatus\">\n            <parameter id=\"Label\" value=\"i18n.stibo.BackgroundProcesses.Status\"/>\n          </component>\n          <component id=\"Rows\" type=\"BackgroundProcessStartDate\">\n            <parameter id=\"Label\" value=\"i18n.stibo.BackgroundProcesses.Started\"/>\n          </component>\n          <component id=\"Rows\" type=\"BackgroundProcessElapsedTime\">\n            <parameter id=\"Label\" value=\"i18n.stibo.BackgroundProcesses.Elapsed\"/>\n          </component>\n          <component id=\"Rows\" type=\"BackgroundProcessFinishedDate\">\n            <parameter id=\"Label\" value=\"i18n.stibo.BackgroundProcesses.Finished\"/>\n          </component>\n          <component id=\"Rows\" type=\"BackgroundProcessReport\">\n            <component id=\"NodeList\" type=\"NodeList\">\n              <parameter id=\"ClearAllFilters\" value=\"i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters\"/>\n              <parameter id=\"ClearSelection\" value=\"i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection\"/>\n              <parameter id=\"DefaultSortingOrder\" value=\"Ascending\"/>\n              <parameter id=\"EnableDefaultSorting\" value=\"true\"/>\n              <parameter id=\"HideSelectAllButton\" value=\"false\"/>\n              <parameter id=\"HideStandardButtons\" value=\"false\"/>\n              <parameter id=\"ID\" value=\"8bb453de-f3d9-4bac-9266-ccf6f1ce0502\"/>\n              <parameter id=\"IncludeLabels\" value=\"true\"/>\n              <parameter id=\"LookupScreenTypeForNavigation\" value=\"true\"/>\n              <parameter id=\"PageSize\" value=\"50\"/>\n              <parameter id=\"SelectAllLabel\" value=\"i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel\"/>\n              <parameter id=\"ToolbarHeight\" value=\"30\"/>\n              <parameter id=\"UseDetailsOverlay\" value=\"false\"/>\n              <parameter-list id=\"Actions\">\n                <component id=\"Actions\" type=\"DownloadReportAction\">\n                  <parameter id=\"ButtonLabel\" value=\"i18n.stibo.portal.server.components.actions.ExportActionServerComponent.ToolTip\"/>\n                  <parameter id=\"ToolTip\" value=\"i18n.stibo.portal.server.components.actions.ExportActionServerComponent.ActionTitle\"/>\n                </component>\n              </parameter-list>\n              <parameter-list id=\"DisplayModes\">\n                <component id=\"DisplayModes\" type=\"TableDisplayMode\">\n                  <parameter id=\"ColumnsResizable\" value=\"false\"/>\n                  <parameter id=\"ContextHelp\" value=\"i18n.stibo.portal.server.components.masterdetail.TableDisplayMode\"/>\n                  <parameter id=\"DisplayModeHeight\" value=\"600\"/>\n                  <parameter id=\"EnableFiltering\" value=\"false\"/>\n                  <parameter id=\"MinColumnsWidth\" value=\"0\"/>\n                  <parameter id=\"ShowDetails\" value=\"false\"/>\n                  <parameter id=\"Title\" value=\"i18n.stibo.portal.server.components.masterdetail.TableDisplayMode\"/>\n                  <parameter id=\"showTopItemDetailsOnLoad\" value=\"false\"/>\n                  <parameter-list id=\"Headers\">\n                    <component id=\"Headers\" type=\"ReportRowSeqID\"/>\n                    <component id=\"Headers\" type=\"ReportRowType\"/>\n                    <component id=\"Headers\" type=\"ReportRowText\"/>\n                  </parameter-list>\n                </component>\n              </parameter-list>\n            </component>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowTitle\" value=\"true\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"BGP Details\"/>\n    </screen>\n    <screen id=\"EnrichItem\" type=\"NodeDetails\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component id=\"Actions\" type=\"SubmitAction\">\n            <parameter id=\"AssignCaption\" value=\"i18n.stibo.SubmitAction.AssignCaption\"/>\n            <parameter id=\"ButtonLabel\" value=\"Submit\"/>\n            <parameter id=\"ButtonType\" value=\"TEXT\"/>\n            <parameter id=\"CssClass\" value=\"SubmitButton\"/>\n            <parameter id=\"DefaultAssigneeLabel\" value=\"i18n.stibo.SubmitAction.DefaultAssigneeLabel\"/>\n            <parameter id=\"DefaultButtonLabel\" value=\"i18n.stibo.SubmitAction.DefaultLabel\"/>\n            <parameter id=\"EnforceValidity\" value=\"true\"/>\n            <parameter id=\"ExpandGroups\" value=\"false\"/>\n            <parameter id=\"GoToOldStateSelection\" value=\"false\"/>\n            <parameter id=\"GroupEvents\" value=\"false\"/>\n            <parameter id=\"GroupListPrefix\" value=\"i18n.stibo.SubmitAction.GroupListPrefix\"/>\n            <parameter id=\"ProcessNoteCaption\" value=\"i18n.stibo.SubmitAction.ProcessNoteCaption\"/>\n            <parameter id=\"ShowProcessNote\" value=\"true\"/>\n            <parameter id=\"ShowSubmitDialog\" value=\"false\"/>\n            <parameter id=\"SubmitDialogCaption\" value=\"i18n.stibo.SubmitAction.SubmitDialogCaption\"/>\n            <parameter id=\"UserListPrefix\" value=\"i18n.stibo.SubmitAction.UserListPrefix\"/>\n            <parameter-list id=\"Events\">\n              <parameter value=\"submit\"/>\n            </parameter-list>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"TabControl\">\n        <parameter id=\"DirtyWarning\" value=\"false\"/>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowTitle\" value=\"true\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Enrich Item\"/>\n    </screen>\n    <screen id=\"InitiateItem\" type=\"InitiateItem\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component id=\"Actions\" type=\"SubmitAction\">\n            <parameter id=\"AssignCaption\" value=\"i18n.stibo.SubmitAction.AssignCaption\"/>\n            <parameter id=\"ButtonLabel\" value=\"i18n.stibo.SubmitAction.Label\"/>\n            <parameter id=\"ButtonType\" value=\"TEXT\"/>\n            <parameter id=\"CssClass\" value=\"SubmitButton\"/>\n            <parameter id=\"DefaultAssigneeLabel\" value=\"i18n.stibo.SubmitAction.DefaultAssigneeLabel\"/>\n            <parameter id=\"DefaultButtonLabel\" value=\"i18n.stibo.SubmitAction.DefaultLabel\"/>\n            <parameter id=\"EnforceValidity\" value=\"true\"/>\n            <parameter id=\"ExpandGroups\" value=\"false\"/>\n            <parameter id=\"GoToOldStateSelection\" value=\"false\"/>\n            <parameter id=\"GroupEvents\" value=\"false\"/>\n            <parameter id=\"GroupListPrefix\" value=\"i18n.stibo.SubmitAction.GroupListPrefix\"/>\n            <parameter id=\"ProcessNoteCaption\" value=\"i18n.stibo.SubmitAction.ProcessNoteCaption\"/>\n            <parameter id=\"ShowProcessNote\" value=\"true\"/>\n            <parameter id=\"ShowSubmitDialog\" value=\"false\"/>\n            <parameter id=\"SubmitDialogCaption\" value=\"i18n.stibo.SubmitAction.SubmitDialogCaption\"/>\n            <parameter id=\"UserListPrefix\" value=\"i18n.stibo.SubmitAction.UserListPrefix\"/>\n          </component>\n          <component id=\"Actions\" type=\"SaveAction\">\n            <parameter id=\"ButtonLabel\" value=\"i18n.stibo.SaveAction.Label\"/>\n            <parameter id=\"ButtonType\" value=\"TEXT\"/>\n            <parameter id=\"EnforceValidity\" value=\"false\"/>\n            <parameter id=\"ReloadAfterSave\" value=\"true\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"ContextHelpMode\" value=\"SHOWBELOWINPUT\"/>\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"NameValue\">\n            <parameter id=\"CssClass\" value=\"stibo-NameValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.NameValue.Label\"/>\n            <parameter id=\"Mandatory\" value=\"false\"/>\n            <parameter id=\"ReadOnly\" value=\"false\"/>\n          </component>\n          <component id=\"Rows\" type=\"ParentSelector\">\n            <parameter id=\"Label\" value=\"i18n.stibo.ParentSelector.Label\"/>\n            <parameter id=\"Mandatory\" value=\"true\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"CssClass\" value=\"stibo-InitiateItem\"/>\n      <parameter id=\"DisableAutoVendor\" value=\"false\"/>\n      <parameter id=\"ForwardingScreen\" value=\"homepage\"/>\n      <parameter id=\"ObjectTypeID\" value=\"Item\"/>\n      <parameter id=\"Title\" value=\"i18n.stibo.InitiateItem.Title\"/>\n    </screen>\n    <screen id=\"Name and ID\" type=\"NodeDetails\">\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"IdValue\">\n            <parameter id=\"CssClass\" value=\"stibo-IdValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.IdValue.Label\"/>\n          </component>\n          <component id=\"Rows\" type=\"NameValue\">\n            <parameter id=\"CssClass\" value=\"stibo-NameValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.NameValue.Label\"/>\n            <parameter id=\"Mandatory\" value=\"false\"/>\n            <parameter id=\"ReadOnly\" value=\"false\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Name and ID\"/>\n    </screen>\n    <screen id=\"TaskList\" type=\"TaskList\">\n      <component id=\"NodeList\" type=\"NodeList\">\n        <parameter id=\"ClearAllFilters\" value=\"i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters\"/>\n        <parameter id=\"ClearSelection\" value=\"i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection\"/>\n        <parameter id=\"DefaultSortingOrder\" value=\"Ascending\"/>\n        <parameter id=\"EnableDefaultSorting\" value=\"true\"/>\n        <parameter id=\"HideSelectAllButton\" value=\"false\"/>\n        <parameter id=\"HideStandardButtons\" value=\"false\"/>\n        <parameter id=\"ID\" value=\"daffbbcbcebdd\"/>\n        <parameter id=\"IncludeLabels\" value=\"true\"/>\n        <parameter id=\"LookupScreenTypeForNavigation\" value=\"true\"/>\n        <parameter id=\"PageSize\" value=\"50\"/>\n        <parameter id=\"SelectAllLabel\" value=\"i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel\"/>\n        <parameter id=\"ToolbarHeight\" value=\"30\"/>\n        <parameter id=\"UseDetailsOverlay\" value=\"false\"/>\n        <parameter-list id=\"Actions\">\n          <component id=\"Actions\" type=\"SmartSheetExportAction\">\n            <parameter id=\"ActionTitle\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.ActionTitle\"/>\n            <parameter id=\"CancelDownloadButtonText\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.CancelExportButton\"/>\n            <parameter id=\"DialogTitle\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.DialogTitle\"/>\n            <parameter id=\"EnableAllInStateExport\" value=\"false\"/>\n            <parameter id=\"IconStyleClass\" value=\"DownloadButton\"/>\n            <parameter id=\"NoExportConfigurationsMessage\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.NoExportConfigurationsMessage\"/>\n            <parameter id=\"NoSelectionMessage\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.NoSelection\"/>\n            <parameter id=\"ProcessDescription\" value=\"SmartSheet\"/>\n            <parameter id=\"SelectionHeader\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.SelectionHeader\"/>\n            <parameter id=\"StartDownloadButtonText\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.StartExportButton\"/>\n            <parameter id=\"ToolTip\" value=\"i18n.stibo.SmartSheetExportActionServerComponent.ToolTip\"/>\n            <parameter id=\"UseCurrentContext\" value=\"true\"/>\n            <parameter-list id=\"NarrowedExportConfigurations\">\n              <parameter value=\"1626992\"/>\n            </parameter-list>\n          </component>\n          <component id=\"Actions\" type=\"SubmitFromGridAction\">\n            <parameter id=\"AssignCaption\" value=\"i18n.stibo.SubmitAction.AssignCaption\"/>\n            <parameter id=\"ButtonLabel\" value=\"i18n.stibo.SubmitAction.ToolTip\"/>\n            <parameter id=\"CssClass\" value=\"SubmitButton\"/>\n            <parameter id=\"DefaultAssigneeLabel\" value=\"i18n.stibo.SubmitAction.DefaultAssigneeLabel\"/>\n            <parameter id=\"DefaultButtonLabel\" value=\"i18n.stibo.SubmitAction.DefaultLabel\"/>\n            <parameter id=\"ExpandGroups\" value=\"false\"/>\n            <parameter id=\"GoToOldStateSelection\" value=\"false\"/>\n            <parameter id=\"GroupListPrefix\" value=\"i18n.stibo.SubmitAction.GroupListPrefix\"/>\n            <parameter id=\"ProcessNoteCaption\" value=\"i18n.stibo.SubmitAction.ProcessNoteCaption\"/>\n            <parameter id=\"ShowProcessNote\" value=\"true\"/>\n            <parameter id=\"ShowSubmitDialog\" value=\"true\"/>\n            <parameter id=\"SubmitDialogCaption\" value=\"i18n.stibo.SubmitAction.SubmitDialogCaption\"/>\n            <parameter id=\"ToolTip\" value=\"i18n.stibo.SubmitAction.EventCaption\"/>\n            <parameter id=\"UserListPrefix\" value=\"i18n.stibo.SubmitAction.UserListPrefix\"/>\n            <parameter-list id=\"Events\">\n              <parameter value=\"submit\"/>\n            </parameter-list>\n          </component>\n        </parameter-list>\n        <parameter-list id=\"DisplayModes\">\n          <component id=\"DisplayModes\" type=\"MultiEditDisplayMode\">\n            <parameter id=\"ContextHelp\" value=\"i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode\"/>\n            <parameter id=\"DisplayModeHeight\" value=\"600\"/>\n            <parameter id=\"EnableFiltering\" value=\"false\"/>\n            <parameter id=\"EnableFreezePanes\" value=\"false\"/>\n            <parameter id=\"EnableItemSelection\" value=\"false\"/>\n            <parameter id=\"EnableUserConfigurableView\" value=\"false\"/>\n            <parameter id=\"GroupsInitiallyOpen\" value=\"false\"/>\n            <parameter id=\"HideSidePanel\" value=\"false\"/>\n            <parameter id=\"PropertyDirection\" value=\"HORIZONTAL\"/>\n            <parameter id=\"ReloadAfterSave\" value=\"false\"/>\n            <parameter id=\"ShowDetails\" value=\"false\"/>\n            <parameter id=\"ShowEmptyGroupHeaders\" value=\"true\"/>\n            <parameter id=\"ShowGroupHeaders\" value=\"true\"/>\n            <parameter id=\"ShowOnlyValidAttributes\" value=\"false\"/>\n            <parameter id=\"Title\" value=\"i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode\"/>\n            <parameter id=\"UseImmediateSave\" value=\"false\"/>\n            <parameter id=\"showTopItemDetailsOnLoad\" value=\"false\"/>\n            <parameter-list id=\"Headers\">\n              <component id=\"Headers\" type=\"IDHeader\">\n                <parameter id=\"EnableLink\" value=\"true\"/>\n              </component>\n              <component id=\"Headers\" type=\"NameHeader\"/>\n            </parameter-list>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"AutoNavigateOnAssignment\" value=\"false\"/>\n      <parameter id=\"TitleFormatter\" value=\"i18n.stibo.UserTaskList.TitleFormatter\"/>\n    </screen>\n    <screen id=\"UserListScreen\" type=\"UserList\">\n      <parameter id=\"Title\" value=\"i18n.stibo.UserList.Title\"/>\n    </screen>\n    <screen id=\"homepage\" type=\"HomePage\">\n      <parameter id=\"CssClass\" value=\"stibo-HomePage\"/>\n      <parameter id=\"DisableTitle\" value=\"false\"/>\n      <parameter id=\"PagingEnabled\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Welcome to the STEP Web UI\"/>\n      <parameter-list id=\"Content\">\n        <component id=\"Content\" type=\"WidgetGrid\">\n          <parameter-list id=\"Widgets\">\n            <component id=\"Widgets\" type=\"TextWidget\">\n              <parameter id=\"CssClass\" value=\"stb-staticText\"/>\n              <parameter id=\"DoubleWidth\" value=\"false\"/>\n              <parameter id=\"Text\" value=\"Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help.\"/>\n              <parameter id=\"Title\" value=\"Welcome\"/>\n            </component>\n            <component id=\"Widgets\" type=\"UserWidget\">\n              <parameter id=\"Title\" value=\"i18n.stibo.UserWidgetServerComponent.Title\"/>\n              <parameter id=\"UserDetailsScreen\" value=\"userdetails\"/>\n            </component>\n          </parameter-list>\n        </component>\n        <component id=\"Content\" type=\"WidgetGrid\">\n          <parameter-list id=\"Widgets\">\n            <component id=\"Widgets\" type=\"StatusSelectorHomepageWidget\">\n              <parameter id=\"AutoRefreshInterval\" value=\"5\"/>\n              <parameter id=\"ComponentTitle\" value=\"New Item\"/>\n              <parameter id=\"DefaultTaskMode\" value=\"Group\"/>\n              <parameter id=\"DoubleWidth\" value=\"false\"/>\n              <parameter id=\"InitiateLabel\" value=\"Initiate\"/>\n              <parameter id=\"ResultScreen\" value=\"TaskList\"/>\n              <parameter id=\"ShowAll\" value=\"true\"/>\n              <parameter id=\"ShowCollectionFilter\" value=\"false\"/>\n              <parameter id=\"ShowGroup\" value=\"true\"/>\n              <parameter id=\"ShowInitiate\" value=\"true\"/>\n              <parameter id=\"ShowStatusFlagHeaders\" value=\"false\"/>\n              <parameter id=\"ShowTotal\" value=\"false\"/>\n              <parameter id=\"ShowUser\" value=\"true\"/>\n              <parameter id=\"StatusFlagsEnabled\" value=\"false\"/>\n              <parameter id=\"TotalLabel\" value=\"Total\"/>\n              <parameter id=\"UseContentIndicator\" value=\"false\"/>\n              <parameter id=\"Workflow\" value=\"NewItem\"/>\n              <parameter-list id=\"InitiateScreens\">\n                <parameter value=\"InitiateItem\"/>\n              </parameter-list>\n              <parameter-list id=\"States\">\n                <parameter value=\"Enrich\"/>\n                <parameter value=\"Approve\"/>\n                <parameter value=\"Final\"/>\n              </parameter-list>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"login\" type=\"LoginScreen\"/>\n    <screen id=\"main\" type=\"Main\">\n      <parameter id=\"BottomHeight\" value=\"64\"/>\n      <parameter id=\"DefaultSidePanel\" value=\"SHOWN\"/>\n      <parameter id=\"InfoAlertCloseDelay\" value=\"3\"/>\n      <parameter id=\"LeftWidth\" value=\"-1\"/>\n      <parameter id=\"Resizeable\" value=\"true\"/>\n      <parameter id=\"RightWidth\" value=\"120\"/>\n      <parameter id=\"TopHeight\" value=\"64\"/>\n      <parameter-list id=\"Left\">\n        <component id=\"Left\" type=\"PrimaryNavigation\">\n          <parameter-list id=\"MenuItems\">\n            <component id=\"MenuItems\" type=\"GlobalNavigationSearch\">\n              <parameter id=\"Icon\" value=\"search\"/>\n              <parameter id=\"Label\" value=\"Global Search\"/>\n              <parameter-list id=\"SearchConfigurations\">\n                <component id=\"SearchConfigurations\" type=\"GlobalNavigationSearchConfiguration\">\n                  <parameter id=\"Title\" value=\"Name/Id/Attributes\"/>\n                  <parameter-list id=\"SearchPlugins\">\n                    <component id=\"SearchPlugins\" type=\"NameOrIdOrAttributes\">\n                      <parameter id=\"ForceIDNameSearch\" value=\"false\"/>\n                      <parameter id=\"SearchInDataContainers\" value=\"false\"/>\n                    </component>\n                  </parameter-list>\n                </component>\n              </parameter-list>\n            </component>\n            <component id=\"MenuItems\" type=\"TreeItem\">\n              <parameter id=\"HideLeaves\" value=\"false\"/>\n              <parameter id=\"Icon\" value=\"account_tree\"/>\n              <parameter id=\"Label\" value=\"i18n.stibo.webui.primarynavigation.TreeItem.Label\"/>\n              <parameter id=\"ShowLeaves\" value=\"false\"/>\n              <parameter id=\"showRecycle\" value=\"false\"/>\n            </component>\n            <component id=\"MenuItems\" type=\"LinksMenuItemServerComponent\">\n              <parameter id=\"Icon\" value=\"link\"/>\n              <parameter id=\"Label\" value=\"Links\"/>\n              <parameter-list id=\"Children\">\n                <component id=\"Children\" type=\"ScreenNavigation\">\n                  <parameter id=\"Label\" value=\"Users\"/>\n                  <parameter id=\"Screen\" value=\"UserListScreen\"/>\n                </component>\n                <component id=\"Children\" type=\"SmartSheetImportAction\">\n                  <parameter id=\"ActionTitle\" value=\"i18n.stibo.SmartSheetImportActionServerComponent.ActionTitle\"/>\n                  <parameter id=\"CancelImportButtonText\" value=\"i18n.stibo.SmartSheetImportActionServerComponent.CancelImportButton\"/>\n                  <parameter id=\"DialogTitle\" value=\"i18n.stibo.SmartSheetImportActionServerComponent.DialogTitle\"/>\n                  <parameter id=\"SelectionHeader\" value=\"i18n.stibo.SmartSheetImportActionServerComponent.SelectionHeader\"/>\n                  <parameter id=\"StartImportButtonText\" value=\"i18n.stibo.SmartSheetImportActionServerComponent.StartImportButton\"/>\n                </component>\n              </parameter-list>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n      <parameter-list id=\"Mappings\">\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"EnrichItem\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"WorkflowCondition\">\n              <parameter id=\"WorkflowDetails\" value=\"NewItem#PARAMETER_SEPARATOR#Enrich#PARAMETER_SEPARATOR#\"/>\n            </component>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"BGPDetails\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"BackgroundProcessCondition\"/>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"userdetails\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"UserCondition\"/>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"Name and ID\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"AlwaysTrueCondition\"/>\n          </parameter-list>\n        </component>\n      </parameter-list>\n      <parameter-list id=\"RepresentationList\">\n        <component id=\"RepresentationList\" type=\"UserListGlobalRepresentation\">\n          <parameter-list id=\"Actions\">\n            <component id=\"Actions\" type=\"MarkDifferentServerComponent\">\n              <parameter id=\"Label\" value=\"i18n.stibo.portal.server.components.actions.markdifferent.MarkDifferentServerComponent.Label\"/>\n            </component>\n            <component id=\"Actions\" type=\"HideEqualActionServerComponent\">\n              <parameter id=\"Label\" value=\"i18n.stibo.portal.server.components.actions.hideequal.HideEqualActionServerComponent.Label\"/>\n            </component>\n            <component id=\"Actions\" type=\"CreateUserAction\">\n              <parameter id=\"ButtonLabel\" value=\"i18n.stibo.CreateUserAction.Label\"/>\n              <parameter id=\"ToolTip\" value=\"i18n.stibo.CreateUserAction.Tooltip\"/>\n            </component>\n            <component id=\"Actions\" type=\"DuplicateFromGridAction\">\n              <parameter id=\"ButtonLabel\" value=\"i18n.stibo.portal.server.components.actions.DuplicateFromGridActionServerComponent.Label\"/>\n              <parameter id=\"ToolTip\" value=\"i18n.stibo.portal.server.components.actions.DuplicateFromGridActionServerComponent.ToolTip\"/>\n            </component>\n            <component id=\"Actions\" type=\"DeleteFromGridAction\">\n              <parameter id=\"ApproveDeletion\" value=\"false\"/>\n              <parameter id=\"ButtonLabel\" value=\"i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.Label\"/>\n              <parameter id=\"CancelButtonLabel\" value=\"i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.CancelButton.Label\"/>\n              <parameter id=\"ConfirmSelection\" value=\"false\"/>\n              <parameter id=\"CssClass\" value=\"stibo-AssetPort-Toolbar-ActiveIcon-delete\"/>\n              <parameter id=\"DeleteFromWorkflow\" value=\"false\"/>\n              <parameter id=\"DialogTitle\" value=\"i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.Dialog.Title\"/>\n              <parameter id=\"OkButtonLabel\" value=\"i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.OkButton.Label\"/>\n              <parameter id=\"ToolTip\" value=\"i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.ToolTip\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"userdetails\" type=\"UserDetails\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component type=\"SaveAction\">\n            <parameter id=\"CssClass\" value=\"SaveButton\"/>\n          </component>\n          <component type=\"ResetAction\">\n            <parameter id=\"CssClass\" value=\"ResetButton\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter-list id=\"Rows\">\n          <component id=\"UserId\" type=\"IdValue\">\n            <parameter id=\"Label\" value=\"User ID\"/>\n          </component>\n          <component id=\"UserEmail\" type=\"UserEmail\">\n            <parameter id=\"Label\" value=\"Email Address\"/>\n            <parameter id=\"Mandatory\" value=\"True\"/>\n          </component>\n          <component id=\"UserPassword\" type=\"UserPassword\">\n            <parameter id=\"NewPasswordLabel\" value=\"New password\"/>\n            <parameter id=\"OldPasswordLabel\" value=\"Old password\"/>\n            <parameter id=\"RepeatPasswordLabel\" value=\"Repeat new password\"/>\n          </component>\n        </parameter-list>\n      </component>\n    </screen>\n  </screens>\n  <theme/>\n</portal-config> -->\n      <SetupGroupLink SetupGroupID=\"WebUIs\"/>\n      <Name QualifierID=\"Qualifier root\">LAAL_SUP</Name>\n      <Configuration>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</Configuration>\n    </PortalConfiguration>\n  </PortalConfigurations>\n</STEP-ProductInformation>\n",
+  "signatory" : "LAAL",
+  "comment" : ""
+}
